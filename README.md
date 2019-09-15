@@ -1,2 +1,1 @@
-# proj.dewberry.github.io
-Jekyll Project Repository of dewberry.github.io
+# dewberry9.github.io

@@ -1,0 +1,19 @@
+title: 환승역 파도
+description: 생각과 기록과 쓰여진 것. 파도처럼 지나가는 틈새의 모음."
+email: dewberryneun@gmail.com
+author: dewberry9
+url: "https://dewberry9.github.io"
+show_excerpts: true
+# Build settings
+markdown: kramdown
+pagination:
+    enabled: true
+    per_page: 9
+    limit: 0
+    sort_field: "date"
+    sort_reverse: true
+feed:
+    url: "https://dewberry9.github.io"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
