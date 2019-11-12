@@ -284,39 +284,56 @@ a {
 
 blockquote {
     position: relative;
-    font-weight: bold !important;
-    color: $base-color-shade;
-    padding-left: 1rem;
+    color: $text-color;
     margin-left: 1rem;
+    box-sizing: border-box;
 
     &::before {
-        top: 0;
-        left: 0;
         content: '';
         position: absolute;
-        width: 0.25rem;
-        background-color: $base-color-tone;
-        height: 100%;
+        top: 0;
+        width: 32px;
+        height: 4px;
+        background-color: $primary-color;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 32px;
+        height: 4px;
+        background-color: $primary-color;
+    }
+
+    p {
+        text-indent: 0 !important;
     }
 
     * {
-        margin: 0.5rem 0 !important;
+        &:first-child {
+            padding-top: 2rem;
+        }
 
         &:last-child {
-            color: $base-color-tone;
+            color: $primary-color;
+            font-weight: bold;
+            padding-bottom: 2rem;
+            margin-bottom: 4rem !important;
         }
     }
 
     @include media-query($mobile-width) {
-        padding-left: 0.75rem;
-
-        &::before {
-            width: 0.2rem;
-        }
-
         * {
-            margin: 0.25rem 0 !important;
-        }
+            &:first-child {
+                padding-top: 1.5rem !important;
+            }
+    
+            &:last-child {
+                padding-bottom: 1.5rem !important;
+                margin-bottom: 2rem !important;
+            }
+        }    
     }
 }
 
@@ -401,7 +418,7 @@ section {
 
                 &::before,
                 &::after {
-                    content: '생각과 기록과 쓰여진 것 \A 파도처럼 지나가는 틈새의 모음.';
+                    content: '생각과 기록과 써내려간 것 \A 도각도각 쓰여진 틈새의 모음.';
                     white-space: pre;
                     position: absolute;
                     top: 0;
@@ -539,11 +556,11 @@ section {
                 }
             }
 
-            >p.refer,
-            >p.indent,
+            >p,
             h3,
             ul,
-            ol {
+            ol,
+            blockquote {
                 padding: 0 calc((100% - #{$mobile-width}) / 2);
             }
 
@@ -552,13 +569,15 @@ section {
                 margin-top: 4rem;
             }
 
-            >p.indent {
-                text-indent: .5rem;
+            >p.full-size {
+                padding: 0;
+                text-indent: 0;
             }
 
             p {
                 margin: 1rem 0;
                 line-height: 2;
+                text-indent: .5rem;
             }
 
             h3 {
@@ -574,7 +593,7 @@ section {
 
             p,
             li {
-                font-size: 1rem;
+                font-size: 1.125rem;
             }
 
             ul,
@@ -870,11 +889,11 @@ section {
 
             div {
 
-                >p.refer,
-                >p.indent,
+                p,
                 h3,
                 ul,
-                ol {
+                ol,
+                blockquote {
                     padding: 0;
                 }
 
@@ -886,7 +905,7 @@ section {
                     margin-top: 2rem;
                 }
 
-                >p.indent {
+                >p {
                     text-indent: 0.5rem;
                 }
 
