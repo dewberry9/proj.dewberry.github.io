@@ -7,7 +7,7 @@ excerpt: 블러는 아름다운 효과지만 인터랙션 디자인에서 그 �
 thumbnail: /assets/images/04-blur-is-cloudy-after-click/01.jpg
 permalink: /blur-is-cloudy-after-click
 ---
-![My Glasses T.T]({{ "/assets/images/04-blur-is-cloudy-after-click/01.jpg" | absolute_url }} "내 안경 T.T")
+![My Glasses T.T]({{ "/assets/images/04-blur-is-cloudy-after-click/01.jpg" | relative_url }} "내 안경 T.T")
 
 해마다 겨울이 되면 익숙해지지 않는 칼바람도 추위도 문제가 되지만, 필자를 비롯한 안경 착용자들은 다른 문제에 직면하게 됩니다. 추위에 벌벌 떨다가 따뜻한 난방 바람이 가득한 실내로 들어오면 어김없이 시야가 원천봉쇄 되는 일 말입니다. 안경에 뿌연 김이 서려서 눈에 보이는 모든 것이 희끗희끗해지기 일쑤입니다.
 {: .indent }
@@ -18,18 +18,18 @@ permalink: /blur-is-cloudy-after-click
 
 ### 가림의 미학
 
-![The Stage is on the Rise]({{ "/assets/images/04-blur-is-cloudy-after-click/02.jpg" | absolute_url }} "막이 올라가고,")
+![The Stage is on the Rise]({{ "/assets/images/04-blur-is-cloudy-after-click/02.jpg" | relative_url }} "막이 올라가고,")
 
 16세기에 블러라는 단어가 처음 쓰이기 시작한 이후로 이 단어는 다양한 분야에서 다양한 모습을 취했습니다. 대표적인 것이 가우시안(Gaussian) 블러입니다. 가우시안 곡선을 따라 상을 흐리는 효과입니다. 이처럼 쓰임은 제각각이라도 블러의 본질은 동일합니다. 어떤 모습을 흐려서 알아볼 수 없게 하는 겁니다. 이는 초점을 맞추는 행위(Focusing)와 대비되는 개념입니다. 한 요소에 집중하게 되면, 다시 말해 유일한 포그라운드가 된다면 자연히 다른 요소는 백그라운드로 밀려난다는 의미입니다.
 {: .indent}
 이러한 블러의 조건은 인터랙션 디자인에서도 유효합니다. 포그라운드와 백그라운드라는 이분법적 계층 구조를 형성하는 경우입니다. 페이지의 교체 없이 심층 요소를 노출할 때, 특정 요소를 강조할 때, 텍스트와 배경의 대비를 높이고자 할 때 이런 분리가 발생합니다. 가로축과 세로축, 즉 평면 내에서의 이동이 아닌 3차원 공간에서 일어나는 시선의 이동이 이러한 과정의 기반 개념입니다. 시선 이동을 강제한다고 볼 수 있습니다. 하지만 결국 필요에 의한 일입니다. 심층 요소를 보여주는데 화면이 번잡할 대로 번잡하다면 잠깐 가릴 수 있고, 그만큼 강조가 절실할 수 있고, 배경 때문에 텍스트가 보이지 않을 수도 있는 법입니다.
 {: .indent}
-이쯤 읽으셨다면 블러가 상당히 강력한 효과라는 것을 알 수 있습니다. 어떤 [명료한 구분성을 가지고 있는 요소]({{ "/build-house-with-cards#clear-dividerness" | absolute_url }})도, 아예 [요소와 콘텐츠의 구분만을 위해 작동하는 요소]({{ "/divider-and-whitespace" | absolute_url }})도 블러 앞에서는 맥을 추릴 수가 없으니까요. 블러는 흐리고 뭉갭니다. 완성도 높은 레이아웃은 블러 앞에서 무력합니다. 블러가 끼얹어지는 순간 물러터진 토마토처럼 형체를 잃을 수밖에 없습니다. 블러의 숙달된 사용이 중요함을 깨달을 수 있는 대목입니다. 블러의 사용에 어리숙한 디자이너는 이를 의도적인 혼돈이라고 착각하기 쉽습니다. 그러나 숙련되었다면 시나리오에 맞춰 적재적소에 블러를 사용할 수 있을 겁니다. 마치 막과 막 사이에 무대를 가리는 그곳의 커튼처럼 말입니다. 그럼 위에서 세 가지로 요약되었던 블러의 사용과 그 이점을 자세히 알아보도록 합시다.
+이쯤 읽으셨다면 블러가 상당히 강력한 효과라는 것을 알 수 있습니다. 어떤 [명료한 구분성을 가지고 있는 요소]({{ "/build-house-with-cards#clear-dividerness" | relative_url }})도, 아예 [요소와 콘텐츠의 구분만을 위해 작동하는 요소]({{ "/divider-and-whitespace" | relative_url }})도 블러 앞에서는 맥을 추릴 수가 없으니까요. 블러는 흐리고 뭉갭니다. 완성도 높은 레이아웃은 블러 앞에서 무력합니다. 블러가 끼얹어지는 순간 물러터진 토마토처럼 형체를 잃을 수밖에 없습니다. 블러의 숙달된 사용이 중요함을 깨달을 수 있는 대목입니다. 블러의 사용에 어리숙한 디자이너는 이를 의도적인 혼돈이라고 착각하기 쉽습니다. 그러나 숙련되었다면 시나리오에 맞춰 적재적소에 블러를 사용할 수 있을 겁니다. 마치 막과 막 사이에 무대를 가리는 그곳의 커튼처럼 말입니다. 그럼 위에서 세 가지로 요약되었던 블러의 사용과 그 이점을 자세히 알아보도록 합시다.
 {: .indent}
 
 ### 스포트라이트
 
-![Pro, Apple.]({{ "/assets/images/04-blur-is-cloudy-after-click/03.jpg" | absolute_url }} "어느 순간부터 애플과 신출내기는 어울리지 않는 조합이 되었다")
+![Pro, Apple.]({{ "/assets/images/04-blur-is-cloudy-after-click/03.jpg" | relative_url }} "어느 순간부터 애플과 신출내기는 어울리지 않는 조합이 되었다")
 
 심층 요소의 노출, 특성 요소의 강조, 텍스트와 배경의 대비. 앞선 두 가지 경우는 공통점이 있습니다. 표현하고자 하는 요소를 제외한 모든 것들을 블러로 가려버린다는 점입니다. 이를 배타적 블러라고 합니다. 배타적 블러의 본질은 부각입니다. 화면에서 단 하나의 가시적 요소를 남김으로써 다른 요소에 대한 집중의 여지를 막는 겁니다. 화면 전역, 선택한 요소를 제외한 백그라운드에 작용하는 이 블러는 기능적인 블러라고 할 수 있습니다.
 {: .indent}
@@ -40,7 +40,7 @@ permalink: /blur-is-cloudy-after-click
 
 ### 무대 건너편
 
-![Rookie, Microsoft.]({{ "/assets/images/04-blur-is-cloudy-after-click/04.jpg" | absolute_url }} "마이크로소프트의 UX 개발은 완성을 향해 다가가고 있다")
+![Rookie, Microsoft.]({{ "/assets/images/04-blur-is-cloudy-after-click/04.jpg" | relative_url }} "마이크로소프트의 UX 개발은 완성을 향해 다가가고 있다")
 
 텍스트는 사용자가 읽는 콘텐츠입니다. 다른 요소에 비해 주의력을 요구하는 정도가 큽니다. 따라서 디자이너는 더 읽기 편한 텍스트, 더 읽기 쉬운 텍스트를 디자인할 필요가 있습니다. 텍스트와 그 배경의 관계는 매우 긴밀합니다. 하얀 바탕에서는 하얀 글씨를 읽을 수 없고, 복잡한 이미지 위에서는 작은 글씨를 읽을 수 없습니다. [W3C의 웹 콘텐츠 접근성 가이드라인 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)에 따르면, 일반적인 상황에서 텍스트와 그 배경 간의 명도 차이는 아무리 적어도 4.5:1보다 커야 합니다. 이런 텍스트와 배경이 엮인 상황에서, 블러의 사용은 구체적으로 어떤 걸 의미할까요?
 {: .indent}
@@ -51,7 +51,7 @@ permalink: /blur-is-cloudy-after-click
 
 ### 솜사탕 가리기
 
-![Second Best, Blur.]({{ "/assets/images/04-blur-is-cloudy-after-click/05.jpg" | absolute_url }} "결국 블러는 차선책")
+![Second Best, Blur.]({{ "/assets/images/04-blur-is-cloudy-after-click/05.jpg" | relative_url }} "결국 블러는 차선책")
 
 일상에서 초점을 의식하는 일은 힘듭니다. 한순간에 움직이면서도 자연스러움을 잃지 않기 때문입니다. 이러한 현실적이고 자연스러운 초점이동의 특징을 블러의 이상으로 삼는 것이 좋습니다. 좋은 블러는 자신의 존재감을 감춰야 합니다. 어려운 일입니다. 디스플레이 속 블러는 비현실적입니다. 환상적이기까지 합니다. 블러의 정도와 더불어 명도의 조절을 세밀하게 저울질 하지 않으면 강조하려는 요소보다 블러가 부각되는 역기능이 작용하여버립니다. 이것이 블러의 첫 번째 문제점입니다.
 {: .indent}
@@ -62,7 +62,7 @@ permalink: /blur-is-cloudy-after-click
 
 ### 초점 밖에서
 
-![Do not close]({{ "/assets/images/04-blur-is-cloudy-after-click/06.jpg" | absolute_url }} "자세히 보지 않아도")
+![Do not close]({{ "/assets/images/04-blur-is-cloudy-after-click/06.jpg" | relative_url }} "자세히 보지 않아도")
 
 블러는 참 흥미로운 효과입니다. 시인성과 명료함을 추구하는 인터랙션 디자인의 기본 목적과 정반대되는 특성을 가지고 있을 뿐만 아니라, 확고한 대안이 있는데도 사장될 기미가 보이지 않는다는 점에 그러합니다. 본질 자체가 두루뭉실한 이 효과는 인터랙션 디자인에서 가장 시적인 요소라고 할 수 있습니다.
 {: .indent}

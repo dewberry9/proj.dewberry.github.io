@@ -8,7 +8,7 @@ thumbnail: /assets/images/story/01-tuna-moon.jpg
 permalink: /the-tuna-and-the-moon
 ---
 
-![The Seaside]({{ '/assets/images/story/01-tuna-moon.jpg' | absolute_url }} "조류")
+![The Seaside]({{ '/assets/images/story/01-tuna-moon.jpg' | relative_url }} "조류")
 {: .full-size}
 ### 1
 동서울 터미널부터 날은 흐렸다. 조류의 선두에서 버스는 비구름을 끌고 갔다. 젖은 풍경에 낯선 짠 내가 훅 올라왔다. 나는 속초에 가까워졌음을 다소 뒤늦게 느꼈다. 휑한 바닷길을 줄곧 지났는데도 도착을 눈치채지 못한 건 거리 차이라고 밖에 생각되지 않았다. 서울 언저리의 대학에 간신히 붙었을 때도, 공모를 넣은 출판사로 헛걸음을 하러 갔을 때도, 복학해서 다시 자취를 시작할 때도, 내 차표의 목적지는 서울이었다. 서울은 멀고 속초는 달보다 가까웠다. 나는 원래 달에 가려고 했다.

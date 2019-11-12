@@ -23,16 +23,16 @@
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:description" content="{{ page.excerpt }}">
-    <meta property="og:image" content='{{ page.thumbnail  | absolute_url }}'>
+    <meta property="og:image" content='{{ page.thumbnail  | relative_url }}'>
     <meta name="twitter:title" content='{{ page.title }}&nbsp;|&nbsp;{{ site.title }}'>
     <meta name="twitter:description" content="{{ page.excerpt }}">
-    <meta name="twitter:image" content='{{ page.thumbnail  | absolute_url }}'>
+    <meta name="twitter:image" content='{{ page.thumbnail  | relative_url }}'>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="https://dewberry9.github.io{{ page.url | escape }}">
 
     <meta itemprop="name" content='{{ page.title }}&nbsp;|&nbsp;{{ site.title }}'>
     <meta itemprop="description" content="{{ page.excerpt }}">
-    <meta itemprop="image" content='{{ page.thumbnail  | absolute_url }}'>
+    <meta itemprop="image" content='{{ page.thumbnail  | relative_url }}'>
     <meta name="subject" content="{% if page.title == 'intro' %}{{ site.description }}{% else  %}{{ page.excerpt }}{% endif %}">
 
     <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
@@ -40,7 +40,7 @@
     <link rel="stylesheet" href='{{ "assets/dist/aos.css" | relative_url }}'>
     <link rel="shortcut icon" href='{{ "assets" | relative_url }}/favicon.ico'>
     <link href="https://fonts.googleapis.com/css?family=Fira+Mono:500|Nanum+Myeongjo:400,800&display=swap&subset=korean" rel="stylesheet">
-    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="canonical" href="https://dewberry9.github.io">
     <title>{{ page.title }} | {{ site.title }}</title>

@@ -13,7 +13,7 @@ thumbnail: /assets/images/ogimage.jpg
 <section class="recent-story post-list">
         {% for post in site.categories.story limit:3 %}
             <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
-                <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | absolute_url }}')"></div></div>
+                <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div></div>
                 <div class="post-description">
                     <time datetime="{{ post.date }}">{{ post.date | date : "%b %d %Y"}}</time>
                     <div class="post-intro">
@@ -30,7 +30,7 @@ thumbnail: /assets/images/ogimage.jpg
 <section class="recent-article post-list">
     {% for post in site.categories.design-teatime limit:3 %}
         <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
-            <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | absolute_url }}')"></div></div>
+            <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div></div>
             <div class="post-description">
                 <time datetime="{{ post.date }}">{{ post.date | date : "%b %d %Y"}}</time>
                 <div class="post-intro">

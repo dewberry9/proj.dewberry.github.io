@@ -7,7 +7,7 @@ excerpt: 인터랙션 디자인에서 구분선과 공백은 요소와 요소, �
 thumbnail: /assets/images/03-divider-and-whitespace/01.jpg
 permalink: /divider-and-whitespace
 ---
-![Something Sweet]({{ "/assets/images/03-divider-and-whitespace/01.jpg" | absolute_url }} "깜빡이 잊은 저녁열람금지 이미지")
+![Something Sweet]({{ "/assets/images/03-divider-and-whitespace/01.jpg" | relative_url }} "깜빡이 잊은 저녁열람금지 이미지")
 
 잘 설계한 디자인은 잘 내놓은 디저트와 같습니다. 둘 다 번듯하고, 둘 다 손이 많이 갑니다. 달콤한 사탕, 바삭한 스콘, 그리고 시큼한 시럽이 버튼, 카드, 그리고 CTA로 바뀐 것일 뿐입니다. 아무리 맛있는 디저트라도 해괴하면 안 되고, 아무리 아름다운 것이라도 맛이 써서는 안 됩니다. 심미적이면서 기능적인 디자인, 잘 만든 디자인은 그런 것입니다. 디저트와 다를 것 없이, 한 가지만 지키면 그 두 조건을 모두 충족할 수 있습니다. 각 요소를 적절하게 구분해서 조화로이 만드는 일이 그것입니다.
 {: .indent}
@@ -16,7 +16,7 @@ permalink: /divider-and-whitespace
 
 ### 커팅식의 우아한 순간
 
-![Down down down with Concentration Ratio]({{ "/assets/images/03-divider-and-whitespace/02.jpg" | absolute_url }} "네 번째 줄부터 수직하락하는 노출률. 3줄 요약은 근거가 있다!")
+![Down down down with Concentration Ratio]({{ "/assets/images/03-divider-and-whitespace/02.jpg" | relative_url }} "네 번째 줄부터 수직하락하는 노출률. 3줄 요약은 근거가 있다!")
 
 구분된 상태와 조각난 상태에는 무슨 차이가 있을까요? 같은 책이라도 이리저리 내던져진 모습과 책장에 가지런히 꽂힌 모습은 다른 것처럼, 요소의 구분에는 일정한 규칙이 필요합니다. 인터랙션 디자인에서 이런 규칙의 존재는 단순히 정돈된 모습의 디자인을 만들기 위함이 아닙니다. 각 요소는 개별적으로 보면 역할이 작아보일지 모릅니다. 내비게이션의 링크는 어느 폼에 연결되고, 파란 버튼은 어느 모달에 연결되고, 어떤 입력값은 어느 토스트와 연결됩니다. 많은 콘텐츠, 다양한 경험을 디자인에 녹여낼수록 디자인은 커지고 복잡해집니다. 그런 디자인은 디자이너를 지치게 만듭니다. 그런 디자인을 경험하는 사용자도 마찬가지입니다. 구분된 요소는 그 복잡한 연결고리를 일정한 모습으로 통일시킵니다. 그렇게 형태를 학습하는 수고는 덜고, 본질적인 콘텐츠를 받아들이는데 집중할 수 있습니다.
 {: .indent}
@@ -32,7 +32,7 @@ permalink: /divider-and-whitespace
 
 ### 짧지도 굵지도 않은 구분선
 
-![Between Elements and Cool]({{ "/assets/images/03-divider-and-whitespace/03.jpg" | absolute_url }} "멋과 요소의 경계에서")
+![Between Elements and Cool]({{ "/assets/images/03-divider-and-whitespace/03.jpg" | relative_url }} "멋과 요소의 경계에서")
 
 구분이 얼마나 중요한지는 알겠습니다. 이제 구현을 해야 할 때입니다. 이를 위한 도구는 크게 두 가지가 있습니다. 일단 구분선(Divider)에 대해 알아봅시다. 구분선은 굉장히 오래된 요소입니다. 경계의 개념이 투사된 원시적인 모습의 요소입니다. 현실에서 다양한 모습을 가지고 있던 그것은 인터랙션 디자인에서 가장 단순한 형태로 남게 되었습니다. 길고 얇은 선의 형태가 그것입니다. 구분선은 콘텐츠와 콘텐츠, 요소와 요소 사이에 위치해서 그 둘을 분리합니다. 앞서 언급한 텍스트와 같이 경계가 모호한 요소 사이에서 경계선의 역할을 맡는 방식으로 작동합니다.
 {: .indent}
@@ -54,7 +54,7 @@ permalink: /divider-and-whitespace
 
 ### 수평선 VS 공백
 
-![Beauty of White Space]({{ "/assets/images/03-divider-and-whitespace/04.jpg" | absolute_url }} "정적이고, 차분하며, 일관되고, 고고하다. 공백은 아름답다")
+![Beauty of White Space]({{ "/assets/images/03-divider-and-whitespace/04.jpg" | relative_url }} "정적이고, 차분하며, 일관되고, 고고하다. 공백은 아름답다")
 
 이제 정리해봅시다. 수평선은 다음과 같은 특징을 가지고 있습니다 :
 {: .indent}
@@ -73,7 +73,7 @@ permalink: /divider-and-whitespace
 
 ### 성공적인 밀당을 기원하며
 
-![Simple and Wonderful]({{ "/assets/images/03-divider-and-whitespace/05.jpg" | absolute_url }} "단순하고 화려하게")
+![Simple and Wonderful]({{ "/assets/images/03-divider-and-whitespace/05.jpg" | relative_url }} "단순하고 화려하게")
 
 대부분의 경우에 수평선은 차선책이고 공백은 최선책입니다. 불필요한 밀집을 막고 자연스러운 디자인의 조화를 유도하면서 그 범용성을 증명하고 있습니다. 하지만 마냥 공백만이 좋았다면 수평선이 남아있을 까닭이 없죠. 수평선도 두각을 나타내는 부분이 있습니다. 공백보다 구분이 명확하다는 점입니다. 시각적 긴장을 동반하는 것이기에 가능하면 공백을 사용하지만, 가끔 최선책이 힘들 때가 있습니다. 가령 모바일 화면이나 모달처럼 작은 캔버스만이 주어진 경우나, 상단 내비게이션 바처럼 항시 존재하면서 다른 요소를 가릴 수도 있는 요소 같은 경우 말입니다. 최선책이 힘들 때 차선책이 쓰이는 법입니다. 공백은 그 크기로 구분의 역할을 수행하는 도구입니다. 좁아터진 공간에서는 무작정 스크롤을 믿을 것이 아니라 수평선 도입을 따져봐야 합니다.
 {: .indent}
