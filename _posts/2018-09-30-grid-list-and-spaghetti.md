@@ -9,6 +9,7 @@ permalink: /grid-list-and-spaghetti
 ---
 
 ![Let's Cook the Layout]({{ '/assets/images/10-grid-list-and-spaghetti/01.jpg' | relative_url }} "레이아웃 요리, 시작")
+{: .full-size}
 
 '각 잡는 일'에 병적으로 신경을 곤두세운 사람들이 있습니다. 사무실 책상 위 노트북, 도서, 케이블은 나란히 놓여있고, 현관의 신발은 짝을 맞추어 횡대를 이뤄야 비로소 마음이 놓이는 이들입니다. 이런 일상을 살아가는 이들은 현대의 디자이너와 같은 고민을 안고 있다고 말할 수 있을 겁니다. 더 정돈된 상태, 접근하기 쉬운 조합을 고민하는 것입니다. 두말할 나위 없이, 저도 같은 증상을 가지고 있습니다.
 {: .indent}
@@ -20,6 +21,7 @@ permalink: /grid-list-and-spaghetti
 ### 오래된 고민
 
 ![Pieter Cornelis Mondrian - 「Composition No. 10」]({{ '/assets/images/10-grid-list-and-spaghetti/02.jpg' | relative_url }} "피트 몬드리안 - 「작품 10번」")
+{: .full-size}
 
 디자인에서 어떤 목적을 달성하기 위해 요소를 특정하게 배치한 모습을 레이아웃, 더 정확히는 페이지 레이아웃이라고 합니다. 레리아웃의 역사는 피라미드 안의 벽화에서도 찾아볼 수 있지만, 근대적인 의미의 레이아웃이라고 한다면 활판 인쇄의 부흥부터 시작했다고 할 수 있습니다. 한정된 매수에 최대한 많은 정보를 인쇄하는 것이 경제적이었기 때문입니다. 이는 인쇄물의 구성을 개선하고 글 일부를 편집하는 등, 여러 개선안이 탄생하는 주된 이유가 되었습니다.
 {: .indent}
@@ -31,6 +33,7 @@ permalink: /grid-list-and-spaghetti
 ### 사과와 사과잼
 
 ![The Rival]({{ '/assets/images/10-grid-list-and-spaghetti/03.jpg' | relative_url }} "라이벌")
+{: .full-size}
 
 그리드 레이아웃과 리스트 레이아웃은 인터랙션 디자인에서 레이아웃을 논할 때 빼놓을 수 없는 명작입니다. 오래되었지만 여전히 현대적입니다. 이 늙지 않는 레이아웃 둘은 대부분의 경우에서 효과적이며 범용적입니다. 어떤 콘텐츠이든 선뜻 받아들입니다. 이런 공통점에도 불구하고, 이 둘은 상당히 달리 보입니다. 부각하는 콘텐츠가 다르기 때문입니다.
 {: .indent}
@@ -42,6 +45,7 @@ permalink: /grid-list-and-spaghetti
 ### 레이아웃 뷔페
 
 ![Anyway, Microinteraction isn't a Bubble]({{ '/assets/images/10-grid-list-and-spaghetti/04.jpg' | relative_url }} "여느 새로운 것들처럼 마이크로인터랙션도 거품이라는 의심을 받은 때가 있었다. 완전히 무산되었지만")
+{: .full-size}
 
 주소, 도서명, 방명록처럼 듣기만 해도 텍스트 가득할 것 같은 콘텐츠에 그리드 레이아웃을 강요하는 게 말이 될까요? 그리드 레이아웃과 리스트 레이아웃은 둘 다 비슷한 양식을 가진 많은 항목을 효과적으로 나타낼 수 있는 도구입니다. 만능 도구가 없듯, 이 둘에게도 각자의 전문이 있습니다. 이렇게 항목의 구성에 따라 적합한 레이아웃을 고르는 것이 디자이너에게는 중요한 일입니다.
 {: .indent}
@@ -53,6 +57,7 @@ permalink: /grid-list-and-spaghetti
 ### 트로피는 누구에게?
 
 ![The Summary of Three Lines, Again?]({{ '/assets/images/10-grid-list-and-spaghetti/05.jpg' | relative_url }} "3줄 요약이 또…")
+{: .full-size}
 
 이번에는 디스플레이를 생각해봅시다. 오늘날 많은 디지털 콘텐츠는 모바일 플랫폼에서 소비됩니다. 불행하게도 모바일의 좁은 너비는 그리드 레이아웃에 치명적입니다. 모바일에서 그리드 레이아웃의 항목은 가로로 2~3개밖에 놓이지 못합니다. 그리드 레이아웃이 지닌 큰 장점인 이미지의 시각적 부각이 힘을 잃는 대목입니다. 그렇다면 실제로는 어떨까요? [Moovweb의 조사결과](https://www.moovweb.com/list-view-vs-grid-view-best-option-for-mobile/)에 따르면 500개의 쇼핑몰 페이지 중 54%가 모바일에서 리스트 레이아웃을 활용하고 있습니다. 디스플레이의 너비에 비례하여 항목 배치의 변화폭이 큰 그리드 레이아웃에 비해 리스트 레이아웃의 일관성이 높다는 점을 생각해보면, 의외의 결과입니다. 쇼핑몰처럼 사용자에게 특정 시나리오를 강요하는 것이 아닌, 둘러보고 항목을 선택할 여지를 최대한 많이 만들려는 목적을 지닌 페이지에서는 이와 같은 결과가 나올 확률이 높습니다. 앞서 언급했듯, 그리드 레이아웃은 주의력을 효과적으로 분산시킵니다.
 {: .indent}
@@ -62,6 +67,7 @@ permalink: /grid-list-and-spaghetti
 ### 토마토맛 레이아웃
 
 ![Ridiculous Answer]({{ '/assets/images/10-grid-list-and-spaghetti/06.jpg' | relative_url }} "어이없는 대답")
+{: .full-size}
 
 고양이가 헝큰 실타래에 질서가 있을까요? 막 팬 위에서 섞은 스파게티에는요? 두 질문의 답은 '예'입니다. 모두 무질서라는 질서를 가지고 있습니다. 어처구니 없을지도 모르지만, 사실입니다. 토마토 파스타에서 토마토소스라는 레이아웃을 뺄 수는 없습니다.
 {: .indent}

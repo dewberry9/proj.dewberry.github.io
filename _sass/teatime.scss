@@ -96,7 +96,7 @@ $wave-background: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     @for $i from 0 through ($steps) {
         #{percentage($i*(1/$steps))} {
             -webkit-clip-path: inset(percentage(random(100) / 100) 0 percentage(random(100) / 100) 0);
-                    clip-path: inset(percentage(random(100) / 100) 0 percentage(random(100) / 100) 0);
+            clip-path: inset(percentage(random(100) / 100) 0 percentage(random(100) / 100) 0);
         }
     }
 
@@ -127,7 +127,7 @@ $wave-background: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     @for $i from 0 through ($steps) {
         #{percentage($i*(1/$steps))} {
             -webkit-clip-path: inset(percentage(random(100) / 100) 0 percentage(random(100) / 100) 0);
-                    clip-path: inset(percentage(random(100) / 100) 0 percentage(random(100) / 100) 0);
+            clip-path: inset(percentage(random(100) / 100) 0 percentage(random(100) / 100) 0);
         }
     }
 
@@ -328,12 +328,12 @@ blockquote {
             &:first-child {
                 padding-top: 1.5rem !important;
             }
-    
+
             &:last-child {
                 padding-bottom: 1.5rem !important;
                 margin-bottom: 2rem !important;
             }
-        }    
+        }
     }
 }
 
@@ -402,15 +402,25 @@ section {
     padding-left: calc((100vw - #{$wide-width}) / 2);
     padding-right: calc((100vw - #{$wide-width}) / 2);
 
+    .numbering {
+        font-size: .75rem;
+        padding-left: 1.5rem;
+        margin-bottom: .75rem;
+        color: $base-color-tone;
+    }
+
     &.starting-point {
-        padding-top: 120px;
+        padding-top: 7.5rem;
+        padding-bottom: 3.5rem;
+        flex-flow: column;
 
         .title {
             width: 100%;
             font-family: $title-font-family;
             line-height: 1.5 !important;
             color: $primary-color;
-            padding-left: 1.25rem;
+            font-size: 3rem;
+            margin-top: 2rem;
 
             span {
                 position: relative;
@@ -418,7 +428,7 @@ section {
 
                 &::before,
                 &::after {
-                    content: '생각과 기록과 써내려간 것 \A 도각도각 쓴 틈새의 모음.';
+                    content: '도-각도각. 도각-도각. \A 도각도-각. Enter.';
                     white-space: pre;
                     position: absolute;
                     top: 0;
@@ -440,39 +450,74 @@ section {
                     animation: glitch-anim 3s infinite linear alternate-reverse;
                 }
             }
+        }
 
-            svg {
-                fill: $primary-color;
-                width: 44px;
-            }
+        .title,
+        .description {
+            padding-left: 1.25rem;
+        }
+
+        .description {
+            margin-top: 2rem;
         }
     }
 
     &.btn-point {
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        padding-top: 5rem;
+        flex-flow: column;
 
-        .btn-list {
-            font-weight: bold;
-            color: $text-color;
-            border-bottom: 2px solid $text-color;
+        .text-content {
+            display: flex;
+            justify-content: space-between;
 
-            &:hover {
-                color: $base-color-tone;
-                border-color: $base-color-tone;
+            h3 {
+                padding-left: 1.25rem;
+            }
+
+            .btn-list {
+                padding-right: 1.25rem;
+                color: $text-color;
+                font-size: .75rem;
+                font-family: $title-font-family;
+
+                span {
+                    border-bottom: 1px solid $text-color;
+                    vertical-align: text-bottom;
+                }
+
+                svg {
+                    -webkit-transition: all .3s ease;
+                    transition: all .3s ease;
+                    margin-left: .5rem;
+                    width: 1rem;
+                    fill: $text-color;
+                }
+
+                &:hover {
+                    color: $base-color-tone;
+
+                    span {
+                        border-color: $base-color-tone;
+                    }
+
+                    svg {
+                        margin-left: 1rem;
+                        fill: $base-color-tone;
+                    }
+                }
             }
         }
+
     }
 
     &.about-point {
         background-color: $primary-color;
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
         margin-top: 56px;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
 
         h2 {
             color: $background-color !important;
@@ -501,8 +546,13 @@ section {
 
     &.post-list,
     &.post-content {
-        margin-top: 56px;
+        margin-top: 3.5rem;
         padding-top: 1.5rem;
+    }
+
+    &.post-list.recent-article,
+    &.post-list.recent-story {
+        margin-top: 0;
     }
 
     &.post-content {
@@ -579,6 +629,10 @@ section {
                 text-indent: .5rem;
             }
 
+            a {
+                text-decoration: underline;
+            }
+
             h3 {
                 margin: 6rem 0 4rem;
                 text-align: center;
@@ -640,13 +694,13 @@ section {
 
             time {
                 -webkit-box-sizing: border-box;
-                        box-sizing: border-box;
+                box-sizing: border-box;
                 padding-top: .5rem;
                 letter-spacing: 1px;
                 color: $base-color-tone;
                 -webkit-writing-mode: vertical-lr;
-                    -ms-writing-mode: tb-lr;
-                        writing-mode: vertical-lr;
+                -ms-writing-mode: tb-lr;
+                writing-mode: vertical-lr;
                 font-size: .5rem;
             }
 
@@ -713,7 +767,7 @@ section {
 
             .post-thumbnail .img-source {
                 -webkit-transform: scale(1.1);
-                        transform: scale(1.1);
+                transform: scale(1.1);
 
                 &::before {
                     opacity: .25;
@@ -728,8 +782,8 @@ section {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -787,23 +841,29 @@ section {
         justify-content: center;
 
         &.starting-point {
-            padding-top: 56px;
+            padding: 3.5rem 1.5rem 1.5rem;
 
-            .title svg {
-                width: 32px;
+            .title {
+                font-size: 2.25rem;
+            }
+
+            .description {
+                font-size: .75rem;
             }
         }
 
-        &.starting-point {
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-
         &.about-point {
-            padding: 56px 1.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
             -webkit-box-pack: justify;
             -ms-flex-pack: justify;
             justify-content: space-between;
+        }
+
+        &.btn-point {
+            padding-top: 3.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
         }
 
         &.post-content {
@@ -832,31 +892,55 @@ section {
     }
 
     @include media-query($mobile-width) {
-        &.starting-point .title {
+        .numbering {
             padding-left: .5rem;
+            margin-bottom: .5rem;
+        }
+
+        &.starting-point {
+
+            .title,
+            .description {
+                padding-left: .5rem;
+            }
+
+            .title {
+                font-size: 1.5rem;
+                margin-top: 1rem;
+            }
+        }
+
+        &.btn-point .text-content {
+            h3 {
+                padding-left: .5rem;
+            }
+
+            .btn-list {
+                padding-right: .5rem;
+            }
         }
 
         &.about-point {
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
 
             .left-script {
                 -ms-flex-item-align: start;
-                    align-self: flex-start;
+                align-self: flex-start;
 
                 p {
                     font-size: .75rem;
                 }
-
-                margin-bottom: 1rem;
             }
 
             a {
                 font-size: .875rem;
                 -ms-flex-item-align: end;
-                    align-self: flex-end;
+                align-self: flex-end;
             }
         }
 
@@ -864,6 +948,7 @@ section {
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
+            margin: 1rem 0;
         }
 
         &.post-content {
@@ -951,7 +1036,7 @@ section {
     position: fixed;
     background-color: rgba(255, 255, 255, .95);
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
-            box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
@@ -987,14 +1072,14 @@ section {
             display: -ms-flexbox;
             display: flex;
             -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
 
             font: 800 1.125rem/1 $title-font-family;
             color: $primary-color;
 
             svg {
-                width: 1.125rem;
+                width: 1.5rem;
                 margin: 0 4px;
                 fill: $primary-color;
                 -webkit-transition: all .3s ease;
@@ -1042,7 +1127,7 @@ section {
                     text-align: center;
                     line-height: 0.875rem;
                     -webkit-box-sizing: border-box;
-                            box-sizing: border-box;
+                    box-sizing: border-box;
                     -webkit-transition: all .3s ease;
                     transition: all .3s ease;
                 }
