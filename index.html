@@ -38,6 +38,7 @@ thumbnail: /assets/images/ogimage.jpg
     </a>
     {% endfor %}
 </section>
+
 <section class="btn-point" data-aos="fade-in">
     <p class="numbering">03</p>
     <div class="text-content">
@@ -50,6 +51,34 @@ thumbnail: /assets/images/ogimage.jpg
 </section>
 <section class="recent-article post-list" data-aos="fade-in">
     {% for post in site.categories.design-teatime limit:3 %}
+    <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
+        title="{{ post.title | prepend : 'Read' }}">
+        <div class="post-thumbnail">
+            <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+        </div>
+        <div class="post-description">
+            <time datetime="{{ post.date }}">{{ post.date | date : "%b %d %Y"}}</time>
+            <div class="post-intro">
+                <h2>{{ post.title }}</h2>
+                <p class="post-excerpt">{{ post.excerpt }}</p>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</section>
+
+<section class="btn-point" data-aos="fade-in">
+    <p class="numbering">04</p>
+    <div class="text-content">
+        <h3>일일</h3>
+        <a href="{{ 'daily' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
+                viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+                </svg></a>
+    </div>
+</section>
+<section class="recent-article post-list" data-aos="fade-in">
+    {% for post in site.categories.daily limit:3 %}
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">

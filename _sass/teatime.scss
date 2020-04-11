@@ -377,7 +377,8 @@ span.block {
 }
 
 #article-page section,
-.recent-article {
+.recent-article,
+.recent-story {
     -webkit-box-align: start !important;
     -ms-flex-align: start !important;
     align-items: flex-start !important;
@@ -544,6 +545,10 @@ section {
 
     }
 
+    &.post-list {
+        justify-content: flex-start;
+    }
+
     &.post-list,
     &.post-content {
         margin-top: 3.5rem;
@@ -641,7 +646,7 @@ section {
             img {
                 width: 100%;
                 height: auto;
-                margin-bottom: 1rem;
+                margin-top: 1rem;
             }
 
             p,
@@ -814,12 +819,6 @@ section {
     @include media-query($wide-width) {
         padding-left: calc((100vw - #{$normal-width}) / 2);
         padding-right: calc((100vw - #{$normal-width}) / 2);
-
-        &.post-list {
-            -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-            justify-content: space-between;
-        }
 
         .post-list-item {
             width: 312px;
