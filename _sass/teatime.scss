@@ -32,44 +32,6 @@ $wave-background: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     }
 }
 
-@-webkit-keyframes animated-bubble {
-    0% {
-        z-index: 10;
-        -webkit-transform: translate(-50%, -50%) scale(0);
-        transform: translate(-50%, -50%) scale(0);
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        -webkit-transform: translate(-50%, -50%) scale(1);
-        transform: translate(-50%, -50%) scale(1);
-        opacity: 0;
-    }
-}
-
-@keyframes animated-bubble {
-    0% {
-        z-index: 10;
-        -webkit-transform: translate(-50%, -50%) scale(0);
-        transform: translate(-50%, -50%) scale(0);
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        -webkit-transform: translate(-50%, -50%) scale(1);
-        transform: translate(-50%, -50%) scale(1);
-        opacity: 0;
-    }
-}
-
 @-webkit-keyframes fade-in {
     from {
         opacity: 0;
@@ -173,18 +135,6 @@ $wave-background: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
     top: 0 !important;
 }
 
-#bubble {
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    z-index: 10;
-    height: 300%;
-    -webkit-animation: animated-bubble 0.8s ease forwards;
-    animation: animated-bubble 0.8s ease forwards;
-}
-
 body,
 h1,
 h2,
@@ -244,6 +194,11 @@ strong {
     font-weight: bold;
 }
 
+::-moz-selection {
+    background: $primary-color;
+    color: #fff;
+}
+
 ::selection {
     background: $primary-color;
     color: #fff;
@@ -254,17 +209,14 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern"1;
     -o-font-feature-settings: "kern"1;
     font-feature-settings: "kern"1;
     -webkit-font-kerning: normal;
     font-kerning: normal;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 100vw;
     overflow-x: hidden;
@@ -380,25 +332,19 @@ span.block {
 .recent-article,
 .recent-story {
     -webkit-box-align: start !important;
-    -ms-flex-align: start !important;
     align-items: flex-start !important;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 section {
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: calc((100vw - #{$wide-width}) / 2);
     padding-right: calc((100vw - #{$wide-width}) / 2);
@@ -413,7 +359,9 @@ section {
     &.starting-point {
         padding-top: 7.5rem;
         padding-bottom: 3.5rem;
-        flex-flow: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-flow: column;
 
         .title {
             width: 100%;
@@ -465,11 +413,15 @@ section {
 
     &.btn-point {
         padding-top: 5rem;
-        flex-flow: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-flow: column;
 
         .text-content {
+            display: -webkit-box;
             display: flex;
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                    justify-content: space-between;
 
             h3 {
                 padding-left: 1.25rem;
@@ -517,7 +469,6 @@ section {
         padding-bottom: 7.5rem;
         margin-top: 56px;
         -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
 
         h2 {
@@ -546,7 +497,8 @@ section {
     }
 
     &.post-list {
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+                justify-content: flex-start;
     }
 
     &.post-list,
@@ -563,12 +515,9 @@ section {
     &.post-content {
         margin-bottom: 4rem;
         -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
         -webkit-box-align: start;
-        -ms-flex-align: start;
         align-items: flex-start;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         padding-left: calc((100vw - #{$normal-width}) / 2);
         padding-right: calc((100vw - #{$normal-width}) / 2);
@@ -582,6 +531,7 @@ section {
             h1 {
                 -webkit-animation: fade-in 0.4s ease;
                 animation: fade-in 0.4s ease;
+
             }
         }
 
@@ -595,6 +545,18 @@ section {
             margin-bottom: 4rem;
             color: $base-color-tone;
             font-size: 0.75rem;
+            position: relative;
+
+            .script-font {
+                position: absolute;
+                top: -220%;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                opacity: .6;
+                width: 400%;
+                fill: #ff1c51;
+            }
         }
 
         div {
@@ -663,7 +625,6 @@ section {
 
     .post-list-item {
         color: $text-color;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box;
         padding: 1.5rem;
         width: 376px;
@@ -681,7 +642,6 @@ section {
             font-size: .875rem;
             color: $base-color-shade;
             display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
             padding-left: .25rem;
 
@@ -698,7 +658,6 @@ section {
             }
 
             time {
-                -webkit-box-sizing: border-box;
                 box-sizing: border-box;
                 padding-top: .5rem;
                 letter-spacing: 1px;
@@ -784,13 +743,10 @@ section {
     .pagination {
         width: 100%;
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
         margin: 2rem auto 4rem;
         font-weight: bold;
@@ -836,7 +792,6 @@ section {
     @include media-query($normal-width) {
         padding: 0;
         -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
 
         &.starting-point {
@@ -855,7 +810,6 @@ section {
             padding-left: 1.5rem;
             padding-right: 1.5rem;
             -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
             justify-content: space-between;
         }
 
@@ -872,7 +826,6 @@ section {
         &.post-list {
             padding: 1.5rem 1.5rem 0 1.5rem;
             -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
             justify-content: space-between;
         }
 
@@ -924,11 +877,9 @@ section {
             padding-bottom: 3.5rem;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
-            -ms-flex-direction: column;
             flex-direction: column;
 
             .left-script {
-                -ms-flex-item-align: start;
                 align-self: flex-start;
 
                 p {
@@ -938,14 +889,12 @@ section {
 
             a {
                 font-size: .875rem;
-                -ms-flex-item-align: end;
                 align-self: flex-end;
             }
         }
 
         &.post-list {
             -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
             margin: 1rem 0;
         }
@@ -968,6 +917,10 @@ section {
 
             .post-date {
                 margin-bottom: 1rem;
+
+                .script-font {
+                    width: 300%;
+                }
             }
 
             div {
@@ -1034,9 +987,7 @@ section {
 .top-nav {
     position: fixed;
     background-color: rgba(255, 255, 255, .95);
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
     box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     height: 56px;
@@ -1051,27 +1002,20 @@ section {
         width: 100%;
         height: 100%;
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
         justify-content: space-between;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
 
         .logo {
             display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
             -webkit-box-align: center;
-            -ms-flex-align: center;
             align-items: center;
 
             font: 800 1.125rem/1 $title-font-family;
@@ -1125,7 +1069,6 @@ section {
                     font-size: .75rem;
                     text-align: center;
                     line-height: 0.875rem;
-                    -webkit-box-sizing: border-box;
                     box-sizing: border-box;
                     -webkit-transition: all .3s ease;
                     transition: all .3s ease;
@@ -1169,19 +1112,15 @@ section {
 footer {
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     height: 64px;
     background-color: $base-color-tint;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     font-size: 0.875rem;
     padding-left: calc((100vw - #{$wide-width}) / 2);
