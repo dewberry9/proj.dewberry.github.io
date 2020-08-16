@@ -220,6 +220,8 @@ body {
     flex-direction: column;
     width: 100vw;
     overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
 }
 
 a {
@@ -325,7 +327,7 @@ span.block {
 #article-page {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 #article-page section,
@@ -467,6 +469,7 @@ section {
         background-color: $primary-color;
         padding-top: 7.5rem;
         padding-bottom: 7.5rem;
+        margin-bottom: 64px;
         margin-top: 56px;
         -webkit-box-align: center;
         align-items: center;
@@ -513,7 +516,7 @@ section {
     }
 
     &.post-content {
-        margin-bottom: 4rem;
+        margin-bottom: calc(4rem + 64px);
         -webkit-box-pack: center;
         justify-content: center;
         -webkit-box-align: start;
@@ -540,21 +543,20 @@ section {
             animation: fade-in 0.8s ease;
         }
 
-        .post-date {
+        .post-category {
             display: block;
+            width: 100%;
             margin-bottom: 4rem;
             color: $base-color-tone;
-            font-size: 0.75rem;
             position: relative;
 
             .script-font {
+                display: block;
                 position: absolute;
-                top: -220%;
                 left: 50%;
-                -webkit-transform: translateX(-50%);
-                        transform: translateX(-50%);
+                transform: translate(-50%, -70%);
                 opacity: .6;
-                width: 400%;
+                width: 300px;
                 fill: #ff1c51;
             }
         }
@@ -901,7 +903,7 @@ section {
 
         &.post-content {
             padding: 0 1.5rem;
-            margin-bottom: 2rem;
+            margin-bottom: calc(2rem + 64px);
 
             p {
                 margin: 1rem 0;
@@ -915,11 +917,11 @@ section {
                 margin-top: 1.5rem;
             }
 
-            .post-date {
+            .post-category {
                 margin-bottom: 1rem;
 
                 .script-font {
-                    width: 300%;
+                    width: 200px;
                 }
             }
 
@@ -1054,46 +1056,24 @@ section {
             display: inline-block;
 
             a {
-                padding: 4px 12px;
+                padding: 4px;
+                margin: 0 12px;
                 font: 800 .875rem/1 $title-font-family;
                 color: $text-color;
 
-                .num-square {
-                    display: inline-block;
-                    margin-left: 4px;
-                    background-color: $text-color;
-                    color: $background-color;
-                    width: .875rem;
-                    height: .875rem;
-                    border-radius: 1px;
-                    font-size: .75rem;
-                    text-align: center;
-                    line-height: 0.875rem;
-                    box-sizing: border-box;
-                    -webkit-transition: all .3s ease;
-                    transition: all .3s ease;
-                }
-
                 &:hover {
                     color: $base-color-tone;
+                }
 
-                    .num-square {
-                        background-color: $base-color-tone;
-                    }
+                &.nav-item-act {
+                    background-color: $primary-color;
+                    color: $background-color;
                 }
 
                 @include media-query($mobile-width) {
                     padding: 4px 6px;
                     font-size: .75rem;
                     vertical-align: middle;
-
-                    .num-square {
-                        vertical-align: middle;
-                        margin-left: 2px;
-                        width: .75rem;
-                        font-size: .5rem;
-                        line-height: .75rem;
-                    }
                 }
             }
         }
@@ -1125,6 +1105,8 @@ footer {
     font-size: 0.875rem;
     padding-left: calc((100vw - #{$wide-width}) / 2);
     padding-right: calc((100vw - #{$wide-width}) / 2);
+    position: absolute;
+    bottom: 0;
 
     span a {
         margin-right: 1.5rem;
