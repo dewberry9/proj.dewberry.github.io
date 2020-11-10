@@ -23,12 +23,12 @@
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:description" content="{{ page.excerpt }}">
-    <meta property="og:image" content='{{ page.thumbnail  | relative_url }}'>
+    <meta property="og:image" content='{{ page.thumbnail | relative_url }}'>
     <meta name="by" content="{{ site.author }}">
     <!-- Twitter -->
     <meta name="twitter:title" content="{% if page.title == 'intro' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{ page.excerpt }}">
-    <meta name="twitter:image" content='{{ page.thumbnail  | relative_url }}'>
+    <meta name="twitter:image" content='{{ page.thumbnail | relative_url }}'>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url | escape }}">
     <!-- Other Basic Meta Tag -->
@@ -73,12 +73,16 @@
             "name":"{{ site.author }}"
           },
           "publisher":{
-            "@type":"Person",
-            "name":"{{ site.author }}"
+            "@type":"Organization",
+            "name":"{{ site.title }}",
+            "logo":{
+              "@type":"ImageObject",
+              "url":"{{ site.url }}/assets/images/logo.png"
+            }
           },
           "image":{
             "@type":"ImageObject",
-            "url":"{{ page.thumbnail  | absolute_url }}"
+            "url":"{{ page.thumbnail | absolute_url }}"
           },
           "datePublished":"{{ page.date | date: '%FT%X' }}",
           "dateModified":"{{ page.date | date: '%FT%X' }}"
