@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "ko" }}" itemscope itemtype="https://schema.org/Article">
+<html lang="{{ page.lang | default: site.lang | default: 'ko' }}">
 {%- include head.html -%}
 <body>
     {% if page.title != "error" and page.title != "about" %}
         {%- include nav.html -%}
     {% endif %}
-    <div id="content" vocab="http://schema.org/" typeof="Blog">
+    <div id="content">
         {{ content }}
     </div>
     {% if page.title != "error" and page.title != "about" %}
