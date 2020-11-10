@@ -1,9 +1,10 @@
 title: "도각도각"
 description: 도각도각은 에이마이너스급 감성을 지향하는 사적인 글공간입니다."
 email: dewberryneun@gmail.com
-author: dewberry9
+author: "이준환"
 url: "https://dewberry9.github.io"
 show_excerpts: true
+timezone: Asia/Seoul
 # Build settings
 markdown: kramdown
 pagination:

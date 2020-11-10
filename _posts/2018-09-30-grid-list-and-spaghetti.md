@@ -18,7 +18,7 @@ permalink: /grid-list-and-spaghetti
 디자인 티타임의 열 번째 이야기는 이 고민에 대한 것입니다. 바로 레이아웃입니다. 레이아웃이 러시아 미술부터 근대 디자인의 확립까지 어떤 모습으로 변해왔는지, 왜 고민해야 하는지, 어떻게 써야 되는지, 그리고 도대체 그리드 레이아웃과 리스트 레이아웃 중 무얼 선택해야 하는지를 알아볼 겁니다.
 {: .indent}
 
-### 오래된 고민
+## 오래된 고민
 
 ![Pieter Cornelis Mondrian - 「Composition No. 10」]({{ '/assets/images/10-grid-list-and-spaghetti/02.jpg' | relative_url }} "피트 몬드리안 - 「작품 10번」")
 {: .full-size}
@@ -30,7 +30,7 @@ permalink: /grid-list-and-spaghetti
 포스트 모더니즘이 들어서고 오랜 시간이 지났지만 레이아웃은 건재했습니다. 편집 디자인도 건축도 아닌 인터랙션 디자인에서 거대한 부흥이 시작되었습니다. 디스플레이 속 세상에는 책 몇 권도, 우주비행선의 계기판도, 바다가 보이는 창문도 들어설 수 있었습니다. 많은 브랜드가 인터랙션 디자인에 둥지를 틀었습니다. 기획 단계부터 서비스 공개 단계까지 복합적인 레이아웃이 요구되는 시대가 온 것입니다. 이런 혼란스러운 상황에서 역설적이게도, 고전이 정답이 되었습니다.
 {: .indent}
 
-### 사과와 사과잼
+## 사과와 사과잼
 
 ![The Rival]({{ '/assets/images/10-grid-list-and-spaghetti/03.jpg' | relative_url }} "라이벌")
 {: .full-size}
@@ -42,7 +42,7 @@ permalink: /grid-list-and-spaghetti
 리스트 레이아웃은 상대적으로 텍스트의 강조가 강합니다. 각 항목은 비교적 낮은 높이를 가지고 있어 수직으로 쌓이기 용이합니다. 그렇기에 글을 읽는 것처럼 자연스러운 시선 이동을 유도할 수 있습니다. 수평 정렬이 필요하지 않아 신경 쓸 속성도 적습니다. 한 번에 보여줄 수 있는 항목의 수도 많습니다. 항목은 서로 수직적으로 연결되어 있을 뿐이니 그 수를 제어하기도 한결 쉽습니다. 간단한 형태이니 만큼 시각적 안정감도 좋습니다.
 {: .indent}
 
-### 레이아웃 뷔페
+## 레이아웃 뷔페
 
 ![Anyway, Microinteraction isn't a Bubble]({{ '/assets/images/10-grid-list-and-spaghetti/04.jpg' | relative_url }} "여느 새로운 것들처럼 마이크로인터랙션도 거품이라는 의심을 받은 때가 있었다. 완전히 무산되었지만")
 {: .full-size}
@@ -54,7 +54,7 @@ permalink: /grid-list-and-spaghetti
 마이크로인터랙션 같은 경우는 어떨까요? UX 기반의 서비스 설계가 주류가 되면서 함께 부흥한 이것은 작지만 큰 힘을 발휘하는 요소입니다. 단출한 구성을 가진 버튼 등의 모습으로, 필요할 때 필요한 곳에서 나타납니다. 큰 불편으로 이어질 수 있는 사소한 결점을 지워버리는 것이 마이크로인터랙션이 가진 장점입니다. 특유의 앙증맞은 크기 덕에 피드백을 입력받는 요소치고는 활용이 편합니다. 추가와 이식이 쉬운 편에 속합니다. 그리드 레이아웃은 물론이고 리스트 레이아웃에도 어울립니다. 다만 후자의 경우에는 주의가 필요한데요, 이미지에 몇 가지 위계의 텍스트까지 묶여 있는 상황에 마이크로인터랙션까지 욱여넣는다면 제어하기도 어려울뿐더러 시각적인 긴장까지도 유발할 수 있습니다. 과감하게 높이를 늘리든지 이미지를 제거하는 등 항목의 구성요소를 줄이는 시도가 필요합니다.
 {: .indent}
 
-### 트로피는 누구에게?
+## 트로피는 누구에게?
 
 ![The Summary of Three Lines, Again?]({{ '/assets/images/10-grid-list-and-spaghetti/05.jpg' | relative_url }} "3줄 요약이 또…")
 {: .full-size}
@@ -64,7 +64,7 @@ permalink: /grid-list-and-spaghetti
 글처럼 읽히는 리스트 레이아웃의 특징도 고려할 필요가 있습니다. [디지털에서 구현된 줄글은 잘 읽히지 않습니다](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/). 이 특성은 리스트 레이아웃에서도 똑같이 작용합니다. [SLI 시스템즈의 연구결과](https://blog.sli-systems.com/blog/2006/09/grid-vs-list-view-for-search-results.html)에 따르면, 리스트 레이아웃의 첫 번째 항목을 향해 50%에 달하는 클릭이 이뤄졌습니다. 같은 상황에서 그리드 레이아웃의 첫 번째 항목은 20%를 조금 넘는 클릭을 받았습니다. 이는 서열 위치 효(Serial-Position Effect)에서 최초의 항목이 다른 항목보다 더 자주 회상된다는 초두 효과로 설명할 수 있습니다. 마냥 단점으로 볼 수 없는 것이, 사용자에게 필요한 기능을 리스트 레이아웃의 초반에 배치하여 제시한다면 사용자는 빠르게 기능을 사용할 수 있을 겁니다. 결국, 그리드 레이아웃과 리스트 레이아웃의 선택은 콘텐츠를 기반으로 한 치밀한 설계를 배경으로 이뤄져야 하는 겁니다.
 {: .indent}
 
-### 토마토맛 레이아웃
+## 토마토맛 레이아웃
 
 ![Ridiculous Answer]({{ '/assets/images/10-grid-list-and-spaghetti/06.jpg' | relative_url }} "어이없는 대답")
 {: .full-size}

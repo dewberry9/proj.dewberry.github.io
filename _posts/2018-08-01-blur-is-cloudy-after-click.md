@@ -17,7 +17,7 @@ permalink: /blur-is-cloudy-after-click
 디자인 티타임의 네 번째 이야기는 블러에 관한 이야기입니다. 이게 도대체 무엇인지, 왜 쓰는지, 어떻게 써야 하는 지, 그에 대한 이야기가 될 겁니다.
 {: .indent }
 
-### 가림의 미학
+## 가림의 미학
 
 ![The Stage is on the Rise]({{ "/assets/images/04-blur-is-cloudy-after-click/02.jpg" | relative_url }} "막이 올라가고,")
 {: .full-size}
@@ -29,7 +29,7 @@ permalink: /blur-is-cloudy-after-click
 이쯤 읽으셨다면 블러가 상당히 강력한 효과라는 것을 알 수 있습니다. 어떤 [명료한 구분성을 가지고 있는 요소]({{ "/build-house-with-cards#clear-dividerness" | relative_url }})도, 아예 [요소와 콘텐츠의 구분만을 위해 작동하는 요소]({{ "/divider-and-whitespace" | relative_url }})도 블러 앞에서는 맥을 추릴 수가 없으니까요. 블러는 흐리고 뭉갭니다. 완성도 높은 레이아웃은 블러 앞에서 무력합니다. 블러가 끼얹어지는 순간 물러터진 토마토처럼 형체를 잃을 수밖에 없습니다. 블러의 숙달된 사용이 중요함을 깨달을 수 있는 대목입니다. 블러의 사용에 어리숙한 디자이너는 이를 의도적인 혼돈이라고 착각하기 쉽습니다. 그러나 숙련되었다면 시나리오에 맞춰 적재적소에 블러를 사용할 수 있을 겁니다. 마치 막과 막 사이에 무대를 가리는 그곳의 커튼처럼 말입니다. 그럼 위에서 세 가지로 요약되었던 블러의 사용과 그 이점을 자세히 알아보도록 합시다.
 {: .indent}
 
-### 스포트라이트
+## 스포트라이트
 
 ![Pro, Apple.]({{ "/assets/images/04-blur-is-cloudy-after-click/03.jpg" | relative_url }} "어느 순간부터 애플과 신출내기는 어울리지 않는 조합이 되었다")
 {: .full-size}
@@ -41,7 +41,7 @@ permalink: /blur-is-cloudy-after-click
 이 배타적 블러는 결국 의도하는 바가 선택적인 강조입니다. 따라서 포그라운드로 선별된 요소 외에 다른 요소, 백그라운드에 가는 주의를 방지하기만 하면 되는 일입니다. 이는 블러가 아닌 불투명도를 조절한 암막을 사용해도 같은 효과를 낼 수 있습니다. 암막도 블러처럼 그 양을 조절할 수 있고, 적정한 정도가 있다는 사실도 유사합니다. 배타적 블러는 기능적인 특징을 공유하고 있는 대안이 있는 겁니다.
 {: .indent}
 
-### 무대 건너편
+## 무대 건너편
 
 ![Rookie, Microsoft.]({{ "/assets/images/04-blur-is-cloudy-after-click/04.jpg" | relative_url }} "마이크로소프트의 UX 개발은 완성을 향해 다가가고 있다")
 {: .full-size}
@@ -53,7 +53,7 @@ permalink: /blur-is-cloudy-after-click
 위의 Fluent Design System의 예시를 보면 알 수 있듯, 배경 블러는 배타적 블러에 비해 기능적인 성향보다는 장식적인 성향이 강합니다. 필수적인 게 아니라, 사용자가 흥미를 느끼고 텍스트 콘텐츠를 접할 수 있게 하는 도구에 불과하다는 의미입니다. 따라서 배경 블러는 디자인하는 서비스의 브랜드 특징을 잘 이해한 후에 선택적으로 도입하는 것이 적당합니다.
 {: .indent}
 
-### 솜사탕 가리기
+## 솜사탕 가리기
 
 ![Second Best, Blur.]({{ "/assets/images/04-blur-is-cloudy-after-click/05.jpg" | relative_url }} "결국 블러는 차선책")
 {: .full-size}
@@ -65,7 +65,7 @@ permalink: /blur-is-cloudy-after-click
 블러의 마지막 문제점 역시 배경 블러의 문제입니다. 블러는 동적일 때 그 효과가 뚜렷해집니다. 3차원 공간에서 일어나는 시선의 이동이 블러의 핵심인데, 이는 블러가 정적으로 동작하고 있을 때는 쉽게 눈치채기가 힘듭니다. 눈에 보여 인식이 빠른 가로축 및 세로축의 변화에 비해 깊이의 변화는 사용자의 상상에 꽤 의존하고 있기 때문입니다. 그러므로 대부분의 경우에 동적으로 작동하는 배타적 블러와는 달리 정적으로 지속하는 경우가 잦은 배경 블러의 경우에는 블러의 인지, 나아가 그것이 의도했던 포그라운드와 백그라운드의 분리가 저해될 수 있습니다.
 {: .indent}
 
-### 초점 밖에서
+## 초점 밖에서
 
 ![Do not close]({{ "/assets/images/04-blur-is-cloudy-after-click/06.jpg" | relative_url }} "자세히 보지 않아도")
 {: .full-size}

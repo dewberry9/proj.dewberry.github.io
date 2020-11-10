@@ -5,8 +5,6 @@ layout: base
     document.getElementById('nav').classList.add('show')
 </script>
 <section class="post-content">
-    <meta property="author" content="dewberry9" />
-    <meta property="datePublished dateModified dateCreated" content="{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}">
     <h1 class="post-title" property="name">{{ page.title | escape }}</h1>
     <span class="post-category">
         {% if page.category == 'design-teatime' %}
