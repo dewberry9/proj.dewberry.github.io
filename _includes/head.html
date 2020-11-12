@@ -19,7 +19,7 @@
     <meta name="referrer" content="always">
     <!-- Open Graph -->
     <meta property="og:title" content="{% if page.title == 'intro' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:description" content="{{ page.excerpt }}">
@@ -30,17 +30,17 @@
     <meta name="twitter:description" content="{{ page.excerpt }}">
     <meta name="twitter:image" content='{{ page.thumbnail | relative_url }}'>
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url | escape }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
     <!-- Other Basic Meta Tag -->
     <meta name="title" content="{% if page.title == 'intro' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
     <meta name="description" content="{{ page.excerpt }}">
     <meta name="author" content="{{ site.author }}">
     <meta name="article:media_name" content="{{ site.title }}">
-    <meta property="article:mobile_url" content="{{ site.url }}{{ page.url | escape }}">
-    <meta property="article:pc_url" content="{{ site.url }}{{ page.url | escape }}">
-    <meta property="article:mobile_view_url" content="{{ site.url }}{{ page.url | escape }}">
-    <meta property="article:pc_view_url" content="{{ site.url }}{{ page.url | escape }}">
-    <meta property="article:talk_channel_view_url" content="{{ site.url }}{{ page.url | escape }}">
+    <meta property="article:mobile_url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
+    <meta property="article:pc_url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
+    <meta property="article:mobile_view_url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
+    <meta property="article:pc_view_url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
+    <meta property="article:talk_channel_view_url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
     <meta property="article:pc_service_home" content="{{ site.url }}">
     <meta property="article:mobile_service_home" content="{{ site.url }}">
     <!-- Post Date Tag -->
@@ -63,9 +63,9 @@
           "@context":"https://schema.org/",
           "@type":"BlogPosting",
           "mainEntityOfPage":{
-            "@id":"{{ site.url }}{{ page.url | escape }}"
+            "@id":"{{ site.url }}{{ page.url | remove: 'index.html' }}"
           },
-          "url":"{{ site.url }}{{ page.url | escape }}",
+          "url":"{{ site.url }}{{ page.url | remove: 'index.html' }}",
           "headline":"{{ page.title }} | {{ site.title }}",
           "description":"{{ page.excerpt }}",
           "author":{
@@ -90,7 +90,7 @@
       {% endif %}
     </script>
     <!-- Links -->
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | remove: 'index.html' }}">
     <link rel="alternate" href="{{ site.url }}/feed.xml" type="application/atom+xml" title="Atom 0.3">
     <link rel="stylesheet" href='{{ "assets/style.css" | relative_url }}'>
     <link rel="stylesheet" href='{{ "assets/dist/aos.css" | relative_url }}'>
