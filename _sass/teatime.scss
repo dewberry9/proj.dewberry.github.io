@@ -1281,8 +1281,7 @@ footer {
             font-size: 1rem !important;
         }
 
-        &#rss-link {
-            margin-left: 1.5rem;
+        &:last-child {
             margin-right: 0;
         }
     }

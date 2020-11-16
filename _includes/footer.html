@@ -1,13 +1,15 @@
 <footer id="footer">
     <span>
         <a id="home-page" href='{{ "/" | relative_url }}' title="Main">글공간 도각도각</a>
-        <a href="{{ 'article' | relative_url }}" title="Articles">디자인 티타임</a>
+        <a href="{{ 'article' | relative_url }}" title="Articles">디자인</a>
         <a href="{{ 'story' | relative_url }}" title="Stories">이야기</a>
         <a href="{{ 'daily' | relative_url }}" title="Alcohol">술</a>
         <!-- <a href="{{ 'about' | relative_url }}" title="About Me">쓰는 사람</a> -->
     </span>
     <span>
-        <a id="mail-link" href="mailto:{{ site.email }}" title="Email"><i class='bx bx-envelope'></i><span class="link-copy"> {{ site.email }}</span></a>
-        <a id="rss-link" href="{{ '/feed.xml' | relative_url }}"><i class='bx bx-rss'></i><span class="link-copy"> RSS</span></a>
+        <a id="fb-link" href="https://www.facebook.com/dogak2" title="Facebook"><i class='bx bxl-facebook'></i></a>
+        <a id="insta-link" href="https://www.instagram.com/dogak_dogak/" title="Instagram Link"><i class='bx bxl-instagram' ></i></a>
+        <a id="mail-link" href="mailto:{{ site.email }}" title="Email"><i class='bx bx-envelope'></i><span class="link-copy"></span></a>
+        <a id="rss-link" href="{{ '/feed.xml' | relative_url }}"><i class='bx bx-rss'></i><span class="link-copy"></span></a>
     </span>
 </footer>
