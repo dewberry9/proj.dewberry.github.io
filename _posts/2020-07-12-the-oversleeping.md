@@ -8,7 +8,7 @@ thumbnail: /assets/images/story/02-the-oversleeping(1).png
 permalink: /the-oversleeping
 ---
 
-![The Way to a Oversleeping]({{ '/assets/images/story/02-the-oversleeping(2).png' | relative_url }} "강변 가는 길")
+![The Way to a Oversleeping]({{ '/assets/images/story/02-the-oversleeping(2).jpg' | relative_url }} "강변 가는 길")
 {: .full-size}
 
 유월 삼십일
