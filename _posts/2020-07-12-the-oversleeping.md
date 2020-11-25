@@ -4,7 +4,7 @@ layout: post
 category: story
 date: 2020-07-11 00:20:00
 excerpt: 뜨겁게 부푼 살덩이 사이에 내가 박혀 있었다. 그래 내가 창밖을 보지 못하는 이유도 그와 같은 것이다.
-thumbnail: /assets/images/story/02-the-oversleeping(1).png
+thumbnail: /assets/images/story/02-the-oversleeping(1).jpg
 permalink: /the-oversleeping
 ---
 
