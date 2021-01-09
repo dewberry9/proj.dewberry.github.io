@@ -5,7 +5,7 @@ category: category-list
 <div id="article-page">
     <section class="post-list">
             {% for post in paginator.posts %}
-                <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}" data-aos="fade-in">
+                <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
                     <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | absolute_url }}')"></div></div>
                     <div class="post-description">
                         <time datetime="{{ post.date }}">{{ post.date | date : "%b %d %Y"}}</time>
@@ -18,7 +18,7 @@ category: category-list
             {% endfor %}
 
             {% if paginator.total_pages > 1 %}
-                <div class="pagination" data-aos="fade-in">
+                <div class="pagination">
                 {% if paginator.previous_page %}
                     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous"><i class='bx bx-chevron-left'></i> 이전</a>
                 {% else %}
