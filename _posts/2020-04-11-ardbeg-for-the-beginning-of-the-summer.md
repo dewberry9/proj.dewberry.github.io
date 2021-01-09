@@ -1,7 +1,7 @@
 ---
 title: 한참 이른 여름맛. 아드벡 10년
 layout: post
-category: daily
+category: review
 date: 2020-04-11 00:00:00
 excerpt: 피트향 가득, 쾌청한 풍미의 아일라 싱글 몰트 위스키 아드벡 10년 리뷰.
 thumbnail: /assets/images/story/02-ardbeg-for-the-beginning-of-the-summer/01.png

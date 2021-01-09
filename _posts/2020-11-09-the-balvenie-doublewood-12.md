@@ -1,7 +1,7 @@
 ---
 title: 한겨울의 과수원. 발베니 더블우드 12년
 layout: post
-category: daily
+category: review
 date: 2020-11-09 00:00:00
 excerpt: 과즙 풀장에서 헤엄치고 싶다면. 싱글 몰트 스카치 위스키 발베니 더블우드 12년 리뷰.
 thumbnail: /assets/images/daily/balvenie-doublewood-12/00.jpg
