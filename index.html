@@ -17,95 +17,97 @@ thumbnail: /assets/images/ogimage.jpg
         </p>
     </div>
 </section>
-<div>
-    <section class="btn-point">
-        <p class="numbering">02</p>
-        <div class="text-content">
-            <h3>입맛리뷰 - 책과 술과 담배</h3>
-            <a href="{{ 'review' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
-                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
-                    </svg></a>
-        </div>
-    </section>
-    <section class="recent-article post-list">
-        {% for post in site.categories.review limit:3 %}
-        <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
-            title="{{ post.title | prepend : 'Read' }}">
-            <div class="post-thumbnail">
-                <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
-            </div>
-            <div class="post-description">
-                <span class="post-topic">{{ post.topic }}</span>
-                <div class="post-intro">
-                    <h2>{{ post.title }}</h2>
-                    <p class="post-excerpt">{{ post.excerpt }}</p>
-                </div>
-            </div>
-        </a>
-        {% endfor %}
-    </section>
-</div>
 
-<div>
-    <section class="btn-point">
-        <p class="numbering">03</p>
-        <div class="text-content">
-            <h3>UX 디자인 - 인사이트, 가이드</h3>
-            <a href="{{ 'article' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
-                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
-                    </svg></a>
-        </div>
-    </section>
-    <section class="recent-article post-list">
-        {% for post in site.categories.design-teatime limit:3 %}
-        <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
-            title="{{ post.title | prepend : 'Read' }}">
-            <div class="post-thumbnail">
-                <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
-            </div>
-            <div class="post-description">
-                <span class="post-topic">{{ post.topic }}</span>
-                <div class="post-intro">
-                    <h2>{{ post.title }}</h2>
-                    <p class="post-excerpt">{{ post.excerpt }}</p>
-                </div>
-            </div>
-        </a>
-        {% endfor %}
-    </section>
-</div>
+<section class="subscribe">
+    <div class="subscribe-container">
+        <p class="subscribe-description">매거진 입맛의 취향들을 더 편하게, 더 빠르게 받아보세요.</p>
+        <a class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
+    </div>
+</section>
 
-<div>
-    <section class="btn-point">
-        <p class="numbering">04</p>
-        <div class="text-content">
-            <h3>소설 - 판매용, 팔아본 적은 없음</h3>
-            <a href="{{ 'story' | relative_url }}" title="Story" class="btn-list"><span>더보기</span><svg viewbox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
-                    </svg></a>
+<section class="btn-point">
+    <p class="numbering">02</p>
+    <div class="text-content">
+        <h3>입맛리뷰 - 책과 술과 담배</h3>
+        <a href="{{ 'review' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
+                viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+                </svg></a>
+    </div>
+</section>
+<section class="recent-article post-list">
+    {% for post in site.categories.review limit:3 %}
+    <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
+        title="{{ post.title | prepend : 'Read' }}">
+        <div class="post-thumbnail">
+            <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
         </div>
-    </section>
-    <section class="recent-article post-list">
-        {% for post in site.categories.story limit:3 %}
-        <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
-            title="{{ post.title | prepend : 'Read' }}">
-            <div class="post-thumbnail">
-                <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+        <div class="post-description">
+            <span class="post-topic">{{ post.topic }}</span>
+            <div class="post-intro">
+                <h2>{{ post.title }}</h2>
+                <p class="post-excerpt">{{ post.excerpt }}</p>
             </div>
-            <div class="post-description">
-                <span class="post-topic">{{ post.topic }}</span>
-                <div class="post-intro">
-                    <h2>{{ post.title }}</h2>
-                    <p class="post-excerpt">{{ post.excerpt }}</p>
-                </div>
+        </div>
+    </a>
+    {% endfor %}
+</section>
+
+<section class="btn-point">
+    <p class="numbering">03</p>
+    <div class="text-content">
+        <h3>UX 디자인 - 인사이트, 가이드</h3>
+        <a href="{{ 'article' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
+                viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+                </svg></a>
+    </div>
+</section>
+<section class="recent-article post-list">
+    {% for post in site.categories.design-teatime limit:3 %}
+    <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
+        title="{{ post.title | prepend : 'Read' }}">
+        <div class="post-thumbnail">
+            <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+        </div>
+        <div class="post-description">
+            <span class="post-topic">{{ post.topic }}</span>
+            <div class="post-intro">
+                <h2>{{ post.title }}</h2>
+                <p class="post-excerpt">{{ post.excerpt }}</p>
             </div>
-        </a>
-        {% endfor %}
-    </section>
-</div>
+        </div>
+    </a>
+    {% endfor %}
+</section>
+
+<section class="btn-point">
+    <p class="numbering">04</p>
+    <div class="text-content">
+        <h3>소설 - 판매용, 팔아본 적은 없음</h3>
+        <a href="{{ 'story' | relative_url }}" title="Story" class="btn-list"><span>더보기</span><svg viewbox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+                </svg></a>
+    </div>
+</section>
+<section class="recent-article post-list">
+    {% for post in site.categories.story limit:3 %}
+    <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
+        title="{{ post.title | prepend : 'Read' }}">
+        <div class="post-thumbnail">
+            <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+        </div>
+        <div class="post-description">
+            <span class="post-topic">{{ post.topic }}</span>
+            <div class="post-intro">
+                <h2>{{ post.title }}</h2>
+                <p class="post-excerpt">{{ post.excerpt }}</p>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</section>
 
 <section class="about-point">
     <div class="left-script">
