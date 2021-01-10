@@ -6,6 +6,7 @@ date: 2020-07-11 00:20:00
 excerpt: 이 육중한 무리는 도대체 무엇인가? 뜨겁게 부푼 살덩이 사이에 내가 박혀 꾸물대고 있었다.
 thumbnail: /assets/images/story/02-the-oversleeping(1).jpg
 permalink: /the-oversleeping
+topic: Essay
 ---
 
 ![The Way to a Oversleeping]({{ '/assets/images/story/02-the-oversleeping(2).jpg' | relative_url }} "강변 가는 길")

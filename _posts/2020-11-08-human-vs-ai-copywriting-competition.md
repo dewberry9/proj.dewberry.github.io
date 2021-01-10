@@ -6,6 +6,7 @@ date: 2020-11-08 00:00:00
 excerpt: 인간의 카피와 GPT-3의 카피라이팅 대결. 누가 승리했을까요?
 thumbnail: /assets/images/design/human-vs-ai-copywriting-competition/01.jpg
 permalink: /human-vs-ai-copywriting-competition
+topic: AB Test
 ---
 
 알파고와 이세돌의 바둑 대결도 2016년이니까 벌써 4년도 더 된 일입니다. 당시 알파고가 4승을 거둠으로써 최종적으로 승리했을 때만 해도 인간 시대의 끝이 도래한 듯 당혹스럽다는 분위기였는데, 지금 와서야 말하는 것이지만 세상이 크게 바뀌는 일은 없었습니다. 그럼에도 알파고의 승리는 여전히 강한 인상으로 남아 있습니다.

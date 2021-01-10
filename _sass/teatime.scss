@@ -11,7 +11,7 @@ $text-color: #514f59 !default;
 $background-color: #fff !default;
 $primary-color: #363059 !default;
 $title-color: #484657 !default;
-$dark-color: #1F193B !default;
+$dark-color: #1f193b !default;
 
 $base-color-tint: #f2f2f2 !default;
 $base-color-tone: #c2c2c2 !default;
@@ -91,7 +91,7 @@ figure {
 }
 
 body {
-    animation: fade-in .5s;
+    animation: fade-in 0.5s;
 }
 
 h1,
@@ -320,7 +320,7 @@ section {
             .page-slide-cover {
                 z-index: 1;
                 height: 160px;
-                background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+                background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
                 position: absolute;
                 width: 100%;
             }
@@ -590,7 +590,8 @@ section {
                 transition: all 0.3s ease;
             }
 
-            time {
+            time,
+            .post-topic {
                 box-sizing: border-box;
                 padding-top: 0.5rem;
                 letter-spacing: 1px;
@@ -646,7 +647,8 @@ section {
                     height: 36px;
                 }
 
-                time {
+                time,
+                .post-topic {
                     padding: 0;
                 }
 
@@ -803,16 +805,16 @@ section {
 
             .title-space {
                 flex-wrap: wrap;
-    
+
                 .title-space-title {
                     font-size: 2rem;
                 }
-    
+
                 .title-space-description {
                     font-size: 0.75rem;
                     text-align: left;
-                    margin-top: .5rem;
-                    padding-left: .25rem;
+                    margin-top: 0.5rem;
+                    padding-left: 0.25rem;
                 }
             }
         }
@@ -1006,7 +1008,6 @@ section {
     }
 
     .dynamic-nav {
-
         ul {
             display: flex;
             list-style-type: none;

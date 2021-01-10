@@ -6,6 +6,7 @@ date: 2020-09-11 00:00:00
 excerpt: 달은 속초보다 멀었다. 나는 원래 달에 가려고 했다.
 thumbnail: /assets/images/story/01-tuna-moon(1).jpg
 permalink: /the-tuna-and-the-moon
+topic: Short Story
 ---
 
 ![The Seaside]({{ '/assets/images/story/01-tuna-moon(2).jpg' | relative_url }} "조류")

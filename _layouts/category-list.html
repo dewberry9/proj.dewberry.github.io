@@ -8,7 +8,7 @@ category: category-list
                 <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
                     <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | absolute_url }}')"></div></div>
                     <div class="post-description">
-                        <time datetime="{{ post.date }}">{{ post.date | date : "%b %d %Y"}}</time>
+                        <span class="post-topic">{{ post.topic }}</span>
                         <div class="post-intro">
                             <h2>{{ post.title }}</h2>
                             <p class="post-excerpt">{{ post.excerpt }}</p>

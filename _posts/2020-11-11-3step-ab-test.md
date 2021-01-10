@@ -6,6 +6,7 @@ date: 2020-11-11 00:00:00
 excerpt: AB 테스트가 좋은 건 알겠는데 막막하지 않나요? 가설 수립부터 결과 분석까지 3단계로 살펴봅니다.
 thumbnail: /assets/images/design/3step-ab-test/01.jpg
 permalink: /3step-ab-test
+topic: AB Test
 ---
 
 ![AB Test in Many Apps]({{ '/assets/images/design/3step-ab-test/02.jpg' | relative_url }} "이미 많은 기업에서 활용 중인 AB 테스트")

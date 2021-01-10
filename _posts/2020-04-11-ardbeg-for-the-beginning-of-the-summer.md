@@ -6,6 +6,7 @@ date: 2020-04-11 00:00:00
 excerpt: 피트향 가득, 쾌청한 풍미의 아일라 싱글 몰트 위스키 아드벡 10년 리뷰.
 thumbnail: /assets/images/story/02-ardbeg-for-the-beginning-of-the-summer/01.png
 permalink: /ardbeg-for-the-beginning-of-the-summer
+topic: Whisky
 ---
 
 ![The Ardbeg 10 Years Old]({{ '/assets/images/story/02-ardbeg-for-the-beginning-of-the-summer/01.png' | relative_url }} "아드벡 10년")
