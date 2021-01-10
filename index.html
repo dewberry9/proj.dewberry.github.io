@@ -88,7 +88,7 @@ thumbnail: /assets/images/ogimage.jpg
                     </svg></a>
         </div>
     </section>
-    <section class="recent-story post-list">
+    <section class="recent-article post-list">
         {% for post in site.categories.story limit:3 %}
         <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
             title="{{ post.title | prepend : 'Read' }}">

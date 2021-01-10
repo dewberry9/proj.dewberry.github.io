@@ -20,6 +20,89 @@ layout: base
         {{ page.content }}
     </div>
 </section>
+<section class="post-list related-post-list">
+    <div class="related-post-list-top-border"></div>
+    {% assign same_category_posts = site.posts | where: "category", page.category | reverse %}
+    {% assign count_same_category_posts = 3 %}
+    {% for post in same_category_posts %}
+        {% if post.date > page.date %}
+            {% if count_same_category_posts <= 0 %}
+                {% break %}
+            {% endif %}
+            {% assign count_same_category_posts = count_same_category_posts | minus: 1 %}
+            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">{{ post.topic }}</span>
+                    <div class="post-intro">
+                        <h2>{{ post.title }}</h2>
+                        <p class="post-excerpt">{{ post.excerpt }}</p>
+                    </div>
+                </div>
+            </a>
+        {% endif %}
+    {% endfor %}
+    {% for post in same_category_posts limit: count_same_category_posts %}
+        <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">{{ post.topic }}</span>
+                    <div class="post-intro">
+                        <h2>{{ post.title }}</h2>
+                        <p class="post-excerpt">{{ post.excerpt }}</p>
+                    </div>
+                </div>
+        </a>
+    {% endfor %}
+
+    {% assign reverse_posts = site.posts | reverse %}
+    {% assign count_another_category_posts = 3 %}
+    {% for post in reverse_posts %}
+        {% if post.date > page.date and post.category != page.category %}
+            {% if count_another_category_posts <= 0 %}
+                {% break %}
+            {% endif %}
+            {% assign count_another_category_posts = count_another_category_posts | minus: 1 %}
+            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
+            <div class="post-thumbnail">
+                <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+            </div>
+            <div class="post-description">
+                <span class="post-topic">{{ post.topic }}</span>
+                <div class="post-intro">
+                    <h2>{{ post.title }}</h2>
+                    <p class="post-excerpt">{{ post.excerpt }}</p>
+                </div>
+            </div>
+            </a>
+        {% endif %}
+    {% endfor %}
+    {% for post in reverse_posts %}
+        {% if post.category != page.category %}    
+            {% if count_another_category_posts <= 0 %}
+                {% break %}
+            {% endif %}
+            {% assign count_another_category_posts = count_another_category_posts | minus: 1 %}
+            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+                    </div>
+                    <div class="post-description">
+                        <span class="post-topic">{{ post.topic }}</span>
+                        <div class="post-intro">
+                            <h2>{{ post.title }}</h2>
+                            <p class="post-excerpt">{{ post.excerpt }}</p>
+                        </div>
+                    </div>
+            </a>
+        {% endif %}
+    {% endfor %}
+</section>
+
 {% if page.category == 'design-teatime' %}
 <script>document.getElementById('btn-article').classList.remove('op75');
 document.getElementById('btn-article').classList.add('nav-item-act');</script>
