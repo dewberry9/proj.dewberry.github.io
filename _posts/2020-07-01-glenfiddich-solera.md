@@ -4,43 +4,43 @@ layout: post
 category: review
 date: 2020-07-02 00:00:00
 excerpt: 여전히 발랄한 향, 한층 느긋해진 맛. 스페이사이드 싱글 몰트 위스키 글렌피딕 15년 리뷰.
-thumbnail: /assets/images/daily/02-glenfiddich-solera/01.png
+thumbnail: /assets/images/daily/02-glenfiddich-solera/01.jpg
 permalink: /glenfiddich-solera
 topic: Whisky
 ---
 
 지난해 한창 위스키를 골라 먹던 저는 연말쯤 돼서 제임슨 스탠더드라는 지뢰를 만나고 작은 결심을 했습니다. 빈 병도 꽤 쌓였으니 싱글 몰트 위스키를 도전해보자는 것이었습니다. 지금까지 마셨던 잭 다니엘, 짐빔, 발렌타인, 산토리는 모두 블렌디드 위스키였습니다. 갖가지 원료를 기분 좋은 비율에 맞춰 섞어 만든 술이었습니다. 싱글 몰트 위스키는 원료 그 자체였습니다. 블렌디드 위스키가 여러 원료의 균형을 맞춰 가장 마시기 좋은 술을 만든 것이라면 싱글 몰트 위스키는 순도 100% 개성이 꽉 찬 위스키였던 셈입니다. 인생 첫 싱글 몰트 위스키를 위해서 고심을 거듭했습니다. 인터넷에서 남대문 시세를 적어놓은 스프레드시트를 찾기도 하고, 블로그이며 유튜브며 성공적인 선택을 위해 아낌없이 정보를 모았습니다. 그렇게 저는 처음으로 남대문을 갔고 한참 빙빙 돌다가 주류 상가에 도착했습니다. 그렇게 행복한 도전은 다시 만나보기 어려울 겁니다. 글렌피딕 12년은 제 첫 싱글 몰트 위스키가 되었습니다.
 
-![The Glenfiddich]({{ '/assets/images/daily/02-glenfiddich-solera/01.png' | relative_url }} "글렌피딕")
+![The Glenfiddich]({{ site.cdn_url | append: '/assets/images/daily/02-glenfiddich-solera/01.jpg' }} "글렌피딕")
 {: .full-size}
 
 반년이 지났고 다시 글렌피딕을 샀습니다. 용량은 250mL 줄었지만 숙성 연수는 3년 늘었습니다. 12년의 신비로운 녹색은 15년의 그윽한 자색으로 돌아왔습니다. 글렌피딕은 대표적인 상큼 달큼한 싱글 몰트 위스키입니다. 그간 탈리스커, 아드벡처럼 피트 맛이 짜릿한 위스키만 마시다가 글렌피딕으로 돌아온 데는 그 풍성한 달콤함을 잊지 못한 데 이유가 있었습니다.
 
-![Renewed Package]({{ '/assets/images/daily/02-glenfiddich-solera/02.png' | relative_url }} "리뉴얼된 패키지")
+![Renewed Package]({{ site.cdn_url | append: '/assets/images/daily/02-glenfiddich-solera/02.jpg' }} "리뉴얼된 패키지")
 
 글렌피딕 특유의 둥근 삼각기둥 형태 패키지에 사슴 로고가 큼직했습니다. 올해 4월에 있었던 패키지 디자인 리뉴얼로 색상 톤 자체가 좀 더 밝아졌고 레이아웃도 현대적이고 세련되게 바뀌었습니다. 글렌피딕의 환한 분위기에 더 어울리는 것 같아 패키지부터 기분이 좋았습니다.
 
-![Malt Master]({{ '/assets/images/daily/02-glenfiddich-solera/03.png' | relative_url }} "몰트 마스터")
+![Malt Master]({{ site.cdn_url | append: '/assets/images/daily/02-glenfiddich-solera/03.jpg' }} "몰트 마스터")
 
 몰트 마스터, 즉 글렌피딕 위스키의 제조 총 책임자 서명이 선명한 붉은색으로 쓰여 있었습니다. 글렌피딕 15년은 솔레라 시스템으로도 유명합니다. 위스키의 맛, 향, 색, 가격까지 모든 것을 결정하는 요소는 숙성입니다. 글렌피딕의 경우는 오크통과 쉐리 통을 사용해서 숙성을 진행합니다. 한 통이 숙성에 많이 사용될수록 향이 통에 배게 되고 다음 원액이 들어왔을 때 더 강한 향을 내게 합니다. 이런 숙성 기간의 차이 때문에 숙성하는 통마다 나오는 위스키의 향에 차이가 생기게 됩니다. 솔레라 시스템은 이렇게 제각각인 위스키를 평준화하는 기법으로 각기 다른 통에서 숙성된 위스키를 섞은 후 다시 짧게 숙성 시켜 일정한 맛과 향을 유지합니다.
 
-![Inside]({{ '/assets/images/daily/02-glenfiddich-solera/04.png' | relative_url }} "Inside")
+![Inside]({{ site.cdn_url | append: '/assets/images/daily/02-glenfiddich-solera/04.jpg' }} "Inside")
 
 패키지 상단 금속 뚜껑은 글렌피딕 사슴 로고가 양각으로 새겨져 있었습니다. 앞서 언급했던 디자인 리뉴얼로 로고와 이름은 더 크고 당당해졌습니다. 병은 완전히 투명해져 내용물의 색을 여실히 드러내고 있었습니다.
 
-![The Glenfiddich]({{ '/assets/images/daily/02-glenfiddich-solera/01.png' | relative_url }} "글렌피딕")
+![The Glenfiddich]({{ site.cdn_url | append: '/assets/images/daily/02-glenfiddich-solera/01.jpg' }} "글렌피딕")
 
 하얗고 말끔한 라벨에 찰랑거리는 구리색 위스키로 투명한 병, 금빛, 붉은빛으로 디테일을 챙긴 디자인은 부담 없이 즐겁고 세련된 느낌을 무척이나 잘 살린 것 같아 감히 손댈 곳이 없었습니다.
 
-![Open]({{ '/assets/images/daily/02-glenfiddich-solera/05.png' | relative_url }} "open")
+![Open]({{ site.cdn_url | append: '/assets/images/daily/02-glenfiddich-solera/05.jpg' }} "open")
 
 폭, 하고 코르크 뚜껑이 열렸습니다. 밝은 갈색 위스키는 잔에 옮겨 담아도 그대로였습니다. 조심스럽게 따르는 동안 새콤하고 발랄한 향기가 방안 가득 퍼졌습니다. 글렌피딕의 기대를 무너뜨리지 않는 상쾌한 향이었습니다. 싱글 몰트 위스키를 마실 때 느끼는 기쁨 중 상당 부분은 코르크를 여는 첫 순간에서 나옵니다. 항상 기대 이상의 향이 터져 나오는데 비할 수 없이 강렬해서 냄새만으로 취할 수 있을 것 같은 흐뭇함을 줍니다. 특히 이번 글렌피딕 15년을 열었을 때는 12년을 마셨던 기억에 단계를 차례로 밟아 나가는 듯한 뿌듯함을 느꼈습니다.
 
-![Sweet]({{ '/assets/images/daily/02-glenfiddich-solera/06.png' | relative_url }} "Sweet")
+![Sweet]({{ site.cdn_url | append: '/assets/images/daily/02-glenfiddich-solera/06.jpg' }} "Sweet")
 
 첫맛은 기대와 달라 당황스러웠습니다. 글렌피딕 12년에서 느꼈던 새콤달콤함은 어디 가고 좋게 말하면 담백하고 나쁘게 말하면 심심한 바닐라 맛이 강했습니다. 딱 괜찮은 정도의 스파이시함. 기름기 있는 느낌이 초반-중반을 지배하다가 끝에 아리송한 맛으로 사라졌습니다. 잠잠한 호박 맛으로 생각보다 약간 단맛에 실망하기도 잠시, 오기를 부려 몇 잔 더 마시고 나니 그제야 산뜻하게 다가오는 맛이 있었습니다. 막 딴 열대과일을 손으로 비틀어 즙을 마시는 듯한 상큼함. 글렌피딕은 몇 잔에 걸쳐 점잔을 빼고는 마침내 바라던 과일 향을 아낌없이 드러냈습니다.
 
-![12 and 15]({{ '/assets/images/daily/02-glenfiddich-solera/07.png' | relative_url }} "12 and 15")
+![12 and 15]({{ site.cdn_url | append: '/assets/images/daily/02-glenfiddich-solera/07.jpg' }} "12 and 15")
 
 생각해보면 한 잔에 솔직한 위스키보다는 이렇게 몇 잔 지나가면서 새 맛과 향을 조금씩 보여주는 위스키가 저한테는 더 잘 맞는 것 같습니다. 탐험하는 재미가 있다고나 할까요. 오래된 추리소설을 다시 읽는 기분이라 느긋해서 좋습니다.
 

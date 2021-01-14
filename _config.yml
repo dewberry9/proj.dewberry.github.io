@@ -3,6 +3,7 @@ description: "읽을 만한 취향들. 매거진 입맛 - 책, 술, 담배 리�
 email: dewberryneun@gmail.com
 author: "이준환"
 url: "https://dewberry9.github.io"
+cdn_url: "https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io"
 show_excerpts: true
 timezone: Asia/Seoul
 # Build settings

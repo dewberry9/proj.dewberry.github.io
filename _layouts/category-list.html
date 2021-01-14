@@ -6,7 +6,7 @@ category: category-list
     <section class="post-list">
             {% for post in paginator.posts %}
                 <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
-                    <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | absolute_url }}')"></div></div>
+                    <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div></div>
                     <div class="post-description">
                         <span class="post-topic">{{ post.topic }}</span>
                         <div class="post-intro">

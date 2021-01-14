@@ -21,7 +21,7 @@ thumbnail: /assets/images/ogimage.jpg
 <section class="subscribe">
     <div class="subscribe-container">
         <p class="subscribe-description">매거진 입맛의 취향들을 더 편하게, 더 빠르게 받아보세요.</p>
-        <a class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
+        <a rel="noreferrer" class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
     </div>
 </section>
 
@@ -40,7 +40,7 @@ thumbnail: /assets/images/ogimage.jpg
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">
-            <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+            <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
         </div>
         <div class="post-description">
             <span class="post-topic">{{ post.topic }}</span>
@@ -68,7 +68,7 @@ thumbnail: /assets/images/ogimage.jpg
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">
-            <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+            <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
         </div>
         <div class="post-description">
             <span class="post-topic">{{ post.topic }}</span>
@@ -96,7 +96,7 @@ thumbnail: /assets/images/ogimage.jpg
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">
-            <div class="img-source" style="background-image: url('{{ post.thumbnail | relative_url }}')"></div>
+            <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
         </div>
         <div class="post-description">
             <span class="post-topic">{{ post.topic }}</span>

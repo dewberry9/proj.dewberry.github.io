@@ -8,7 +8,7 @@ thumbnail: /assets/images/01-build-house-with-cards/02.jpg
 permalink: /build-house-with-cards
 topic: UI Design
 ---
-![Three Awesome Characteristics of Clients]({{ "/assets/images/01-build-house-with-cards/01.jpg" | relative_url }} "삼대장")
+![Three Awesome Characteristics of Clients]({{ site.cdn_url | append: "/assets/images/01-build-house-with-cards/01.jpg" }} "삼대장")
 {: .full-size}
 
 아웃소싱을 하다 보면 클라이언트 측이 보내주는 시안에서는 유난히 카드가 많이 보이는 원인불명의 현상을 경험할 수 있습니다. 여기에 유난히 강렬한 배지, 알록달록한 아이콘까지 맞물리면 완벽한 클라이언트 디자인이 완성됩니다. 시안인 점은 고려 해야겠지만, 카드가 많이 사용되는 이유는 아리송하기만 합니다. 어쩌면 인터랙션 디자인 초심자에게 카드는 가장 디자이너스러운 요소로 보일지도 모릅니다. 아닌 게 아니라, 카드는 상당히 눈에 띄는 요소입니다. 디자이너라면 누구든 카드를 앞에 놓고 고민한 적이 있을 겁니다.
@@ -31,7 +31,7 @@ topic: UI Design
 
 ## 활용법 1. 디자인을 하자. 카드게임 말고.
 
-![Do not play card games when designing]({{ "/assets/images/01-build-house-with-cards/02.jpg" | relative_url }} "음… 마운틴?")
+![Do not play card games when designing]({{ site.cdn_url | append: "/assets/images/01-build-house-with-cards/02.jpg" }} "음… 마운틴?")
 
 카드에는 이미지, 텍스트, 마이크로인터랙션 등 여러 요소가 한데 묶인 형태를 가지고 있습니다. 상품을 표현하는 카드 한 장에는 상품의 이미지와 그 이름, 설명란과 더불어 장바구니에 담는 버튼까지 달려있습니다. 해당 상품을 주제로 하는, 큰 구심력의 UI가 탄생하는 것입니다. 콘텐츠와 액션의 결합, 이것이 카드의 특성이자 가장 큰 장점입니다.
 {: .indent}
@@ -45,7 +45,7 @@ topic: UI Design
 ## 활용법 2. 카드를 카드답게
 {: #clear-dividerness}
 
-![Shadow and Round]({{ "/assets/images/01-build-house-with-cards/03.jpg" | relative_url }} "현실에 가까이")
+![Shadow and Round]({{ site.cdn_url | append: "/assets/images/01-build-house-with-cards/03.jpg" }} "현실에 가까이")
 
 가장 중요한 위의 활용법 1만 지킨다면 카드를 쓸 때 큰 문제는 생기지 않을 겁니다. 사실 활용법 2부터는 선택사항에 가까운 이야기들이긴 하지만, 유용할 테니 들어보시죠.
 {: .indent}
@@ -58,7 +58,7 @@ topic: UI Design
 
 ## 활용법 3. 다시 한번 생각하기
 
-![Take off One Post-it]({{ "/assets/images/01-build-house-with-cards/04.jpg" | relative_url }} "9 - 1 = 8")
+![Take off One Post-it]({{ site.cdn_url | append: "/assets/images/01-build-house-with-cards/04.jpg" }} "9 - 1 = 8")
 
 마지막은 활용법이라고 하기에도 그렇고, 김이 새는 이야기가 될 수도 있습니다. 그렇지만 그저 지나갈 수는 없는 이야기입니다. 카드 도입의 난해함에 대한 설명이자 주의입니다. 간소하게 꾸린 카드도 결국 복수의 콘텐츠가 포함되어있습니다. 이미지, 제목, 설명의 3단 구성에 버튼, 마이크로인터랙션과 같은 갖가지 CTA(Call To Action)를 꽁꽁 싸서 한없이 복잡하게 만들 수도 있습니다. 카드가 비대해지는 것은 한순간입니다. 당연한 이야기지만 이런 무익한 혼잡은 인터랙션 디자인에서 금기시됩니다. 사용자의 집중을 흐리는 치명적인 독입니다. 카드를 활용하려 마음먹은 순간, 어찌어찌 넘겨보려는 생각은 그만두어야 합니다. 만만하게 생각하는 순간 카드는 훌륭한 도구가 아닌 폭탄이 되어있을 겁니다.
 {: .indent}
@@ -69,7 +69,7 @@ topic: UI Design
 
 ## 오밀조밀 모여 기둥 하나, 지붕 하나
 
-![Card of NICE WORK]({{ "/assets/images/01-build-house-with-cards/05.jpg" | relative_url }} "Nice Work")
+![Card of NICE WORK]({{ site.cdn_url | append: "/assets/images/01-build-house-with-cards/05.jpg" }} "Nice Work")
 
 이렇게 써놓고 보니 카드를 다소 성가신 요소로 볼 수도 있겠다는 생각이 듭니다. 어느 정도는 맞는 말입니다. 우연인 듯 설계한 듯 다양한 특성이 다채로운 효과를 유도하고 있으니까요. 그 사실은 카드가 가지고 있는 매력이라고 봐야 할 것 같습니다. 다른 요소들처럼 카드 역시 계속해서 발전해나가고 있으니 말입니다. 칙칙한 색상의 그림자에도 변화의 바람이 불어 네온사인을 연상시키는 색색의 그림자가 등장하고 있습니다. 의도적으로 경계선을 넘는 콘텐츠가 포함된 카드도 최근 새로이 설계되었습니다. 이처럼 카드는 필요와 심미성을 모두 놓지 않는 발전을 지속하고 있습니다.
 {: .indent}
