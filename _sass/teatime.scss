@@ -493,9 +493,10 @@ section {
         .post-title {
             width: 100%;
             text-align: center;
-            margin: 4rem 0;
+            margin-top: 4rem;
             position: relative;
             line-height: 1.2;
+            color: $primary-color;
 
             h1 {
                 -webkit-animation: fade-in 0.4s ease;
@@ -519,10 +520,9 @@ section {
                 display: block;
                 position: absolute;
                 left: 50%;
-                transform: translate(-50%, -70%);
-                opacity: 0.6;
-                width: 300px;
-                fill: #ff1c51;
+                transform: translate(-50%, -50%);
+                width: 250px;
+                fill: #ff1c73;
             }
         }
 
@@ -557,9 +557,13 @@ section {
                 margin-top: 4rem;
             }
 
+            > p.full-size,
+            > p.normal-size {
+                text-indent: 0;
+            }
+
             > p.full-size {
                 padding: 0;
-                text-indent: 0;
             }
 
             p {
@@ -933,7 +937,7 @@ section {
             }
 
             .post-title {
-                margin: 1.5rem 0 1rem;
+                margin-top: 2rem;
             }
 
             .post-category {

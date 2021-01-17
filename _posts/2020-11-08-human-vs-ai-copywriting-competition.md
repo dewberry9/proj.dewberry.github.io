@@ -18,6 +18,7 @@ AI 기술은 하루가 갈수록 발전하고 있으며 이제 막 초등학교�
 ## AI가 카피를 쓴다고요? 🤔
 
 ![Writing AI?]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/02.jpg' }} "Writing AI?")
+{: .normal-size}
 
 AI는 [머핀과 치와와 사진을 구별](https://www.google.com/search?q=Chihuahua+or+muffin&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwidrNzqwevsAhU0y4sBHbxtCaUQ_AUoAXoECAwQAw&biw=771&bih=731&dpr=1.25)하고, 도로의 신호등과 사물을 파악해서 [혼자 차를 굴리기도](https://media.giphy.com/media/H7rpSYHRyYgamxQNqw/giphy.gif) 합니다. 요즘 번역기는 번역체 문장을 매끄럽게 만들기 위해 AI 처리를 거치지 않은 경우가 드물 정도입니다. 페이스북, 구글 등에서는 적합한 광고 타깃을 찾기 위해 머신러닝 분석을 사용합니다. 이렇듯 경우의 수를 분석해서 최선의 답을 내놓는 AI는 익숙합니다. 하지만 창작하는 AI는? 고개가 갸우뚱합니다. 서비스 이름을 정할 때, 랜딩 페이지 메인 카피를 뽑을 때 쏟았던 창작 능력을 생각하면 감히 기계가 따라 할 수 있는 일인가 싶습니다.
 
