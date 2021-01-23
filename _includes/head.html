@@ -45,8 +45,8 @@
     <meta property="article:mobile_service_home" content="{{ site.url }}">
     <!-- Post Date Tag -->
     {% if page.title != 'intro' %}
-    <meta property="article:published_time" content="{{ page.date | date: '%FT%X' }}">
-    <meta property="article:modified_time" content="{{ page.date | date: '%FT%X' }}">
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}">
     <meta property="og:regDate" content="{{ page.date | date: '%Y%m%d%H%M%S' }}">
     {% endif %}
     <!-- JSON-LD -->
@@ -55,7 +55,7 @@
         {
           "@context":"https://schema.org/",
           "@type":"WebSite",
-          "url":"{{ stie.url }}",
+          "url":"{{ site.url }}",
           "name":"{{ site.title }}"
         }
       {% else %}
@@ -84,8 +84,8 @@
             "@type":"ImageObject",
             "url":"{{ page.thumbnail | absolute_url }}"
           },
-          "datePublished":"{{ page.date | date: '%FT%X' }}",
-          "dateModified":"{{ page.date | date: '%FT%X' }}"
+          "datePublished":"{{ page.date | date_to_xmlschema }}",
+          "dateModified":"{{ page.date | date_to_xmlschema }}"
         }
       {% endif %}
     </script>
