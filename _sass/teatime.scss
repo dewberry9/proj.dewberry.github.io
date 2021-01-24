@@ -355,6 +355,14 @@ code {
     }
 }
 
+.ads-container-mobile-feedcard {
+    display: none;
+
+    .infeed {
+        height: 48vw;
+    }
+}
+
 span.block {
     background-color: $primary-color;
     width: 8px;
@@ -1096,6 +1104,10 @@ section {
     }
 
     @include media-query($mobile-width) {
+        .ads-container-mobile-feedcard {
+            display: block;
+        }
+
         .numbering {
             padding-left: 0.5rem;
             margin-bottom: 0.5rem;
