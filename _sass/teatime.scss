@@ -1106,6 +1106,7 @@ section {
     @include media-query($mobile-width) {
         .ads-container-mobile-feedcard {
             display: block;
+            width: 100%;
         }
 
         .numbering {
