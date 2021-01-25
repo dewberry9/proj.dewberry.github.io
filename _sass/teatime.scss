@@ -357,10 +357,6 @@ code {
 
 .ads-container-mobile-feedcard {
     display: none;
-
-    .infeed {
-        height: 48vw;
-    }
 }
 
 span.block {
@@ -1107,6 +1103,7 @@ section {
         .ads-container-mobile-feedcard {
             display: block;
             width: 100%;
+            padding: 0.5rem;
         }
 
         .numbering {
