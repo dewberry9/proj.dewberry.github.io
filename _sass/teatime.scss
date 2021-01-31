@@ -633,6 +633,7 @@ section {
             }
 
             .btn-list {
+                min-width: 4rem;
                 padding-right: 1.25rem;
                 color: $text-color;
                 font-size: 0.75rem;
@@ -850,17 +851,21 @@ section {
         }
     }
 
-    .post-list-item {
+    .post-list-item,
+    .ads-container-relative-feedcard {
         color: $text-color;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
         padding: 1.5rem;
         width: 384px;
+        margin-bottom: 1rem;
+    }
+
+    .post-list-item {
         -webkit-transition: 0.3s ease;
         -webkit-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
-        margin-bottom: 1rem;
 
         * {
             -webkit-transition: all 0.3s ease;
@@ -1015,10 +1020,13 @@ section {
     @include media-query($wide-width) {
         padding-left: calc((100vw - #{$normal-width}) / 2);
         padding-right: calc((100vw - #{$normal-width}) / 2);
+        
+        .post-list-item,
+        .ads-container-relative-feedcard {
+            width: 320px;
+        }
 
         .post-list-item {
-            width: 320px;
-
             .post-description h2 {
                 margin-bottom: 0.5rem;
             }
@@ -1086,9 +1094,12 @@ section {
                 justify-content: space-between;
         }
 
-        .post-list-item {
+        .post-list-item,
+        .ads-container-relative-feedcard {
             width: 49%;
+        }
 
+        .post-list-item {
             .post-description h2 {
                 margin-bottom: 0.5rem;
             }
@@ -1291,11 +1302,14 @@ section {
             }
         }
 
-        .post-list-item {
+        .post-list-item,
+        .ads-container-relative-feedcard {
             width: 100%;
             padding: 0.5rem;
             margin-bottom: 1rem;
+        }
 
+        .post-list-item {
             .post-thumbnail {
                 height: 48vw;
                 margin-bottom: 1rem;
