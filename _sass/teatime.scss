@@ -805,6 +805,7 @@ section {
             }
 
             > p,
+            table,
             h2,
             ul,
             ol,
@@ -847,6 +848,26 @@ section {
             ul,
             ol {
                 padding-left: calc((100% - #{$mobile-width}) / 2 + 1rem);
+            }
+
+            table {
+                line-height: 2;
+
+                tbody, thead {
+                    vertical-align: top;
+                }
+
+                tr {
+                    th:last-child {
+                        font-weight: normal;
+                    }
+
+                    td:first-child {
+                        font-weight: bold;
+                        padding-right: 1rem;
+                        white-space: nowrap;
+                    }
+                }
             }
         }
     }
@@ -1085,6 +1106,10 @@ section {
 
         &.post-content {
             padding: 0 1.5rem;
+
+            table td:first-child {
+                padding-right: .5rem;
+            }
         }
 
         &.post-list {
@@ -1248,7 +1273,7 @@ section {
             margin-bottom: 1.5rem;
 
             div {
-                p {
+                p, table {
                     margin: 1rem 0;
                 }
 
