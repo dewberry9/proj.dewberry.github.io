@@ -3,7 +3,7 @@ title: 한참 이른 여름맛. 아드벡 10년
 layout: post
 category: review
 date: 2020-04-11 00:00:00
-excerpt: 피트향 가득, 쾌청한 풍미의 아일라 싱글 몰트 위스키 아드벡 10년 리뷰.
+excerpt: 피트향 가득, 쾌청한 풍미의 싱글 몰트 아일라 위스키 아드벡 10년 리뷰.
 thumbnail: /assets/images/daily/01-ardbeg/01.jpg
 permalink: /ardbeg-for-the-beginning-of-the-summer
 topic: Whisky
@@ -28,6 +28,12 @@ topic: Whisky
 
 ![The Package]({{ site.cdn_url | append: '/assets/images/daily/01-ardbeg/04.jpg' }} " 아드벡 패키지")
 {: .normal-size}
+
+|이름|아드벡 10년|
+|:---|:---|
+|분류|싱글 몰트 스카치 위스키|
+|생산지|스코틀랜드 아일라|
+|알코올|46도|
 
 패키지를 받아보았을 때 가장 먼저 눈에 띄는 것은 두 면에 걸쳐 크게 박힌 아드벡의 심볼입니다. 아드벡은 피트로 유명한 아일라섬의 위스키입니다. 피트는 석탄으로 완전히 바뀌기 전 상태의 연료입니다. 발아하여 맥아가 된 보리를 건조할 때 피트를 사용하면 익숙해지기 힘든 향을 풍기는 위스키가 만들어집니다. 때문에 아일라에서는 라프로익, 부나하벤처럼 매니악한 위스키가 위스키가 많습니다. 이 사실이 아드벡 심볼의 신비스러운 분위기를 더하면서 기대를 품게 만듭니다.
 

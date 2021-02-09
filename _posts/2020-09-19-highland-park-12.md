@@ -3,7 +3,7 @@ title: 한 모음에 꽉 찬 화려함. 하이랜드 파크 12년
 layout: post
 category: review
 date: 2020-09-19 00:00:00
-excerpt: 푹 익은 과일을 베어무는 듯한 풍부함. 오크니 싱글 몰트 위스키 하이랜드 파크 12년 리뷰.
+excerpt: 푹 익은 과일을 베어무는 듯한 풍부함. 싱글 몰트 위스키 스카치 하이랜드 파크 12년 리뷰.
 thumbnail: /assets/images/daily/03-highland-park-12/01.jpg
 permalink: /highland-park-12
 topic: Whisky
@@ -11,6 +11,12 @@ topic: Whisky
 
 ![Package 1]({{ site.cdn_url | append: '/assets/images/daily/03-highland-park-12/02.jpg' }} "Package-1")
 {: .normal-size}
+
+|이름|하이랜드 파크 12년|
+|:---|:---|
+|분류|싱글 몰트 스카치 위스키|
+|생산지|스코틀랜드 하이랜드 오크니|
+|알코올|40도|
 
 몇 해 전 리뉴얼된 하이랜드 파크의 패키지는 화려한 편입니다. 뱀과 개가 서로를 물고 있는 켈트 스타일 일러스트가 인상적입니다. 그러면서도 새까만 검정 바탕에 절제된 오렌지색이 조합된 모습은 모던한 느낌입니다.
 
