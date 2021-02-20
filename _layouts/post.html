@@ -77,7 +77,7 @@ layout: base
     </div>
 
     {% assign reverse_posts = site.posts | reverse %}
-    {% assign count_another_category_posts = 3 %}
+    {% assign count_another_category_posts = 2 %}
     {% for post in reverse_posts %}
         {% if post.date > page.date and post.category != page.category %}
             {% if count_another_category_posts <= 0 %}
@@ -118,7 +118,7 @@ layout: base
             </a>
         {% endif %}
     {% endfor %}
-    <div class="ads-container ads-container-mobile-feedcard">
+    <div class="ads-container ads-container-relative-feedcard">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle infeed"
             style="display:block"
