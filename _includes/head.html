@@ -94,15 +94,16 @@
     <link rel="alternate" href="{{ site.url }}/feed.xml" type="application/atom+xml" title="Atom 0.3">
     <link rel="stylesheet" href='{{ "assets/style.css" | relative_url }}'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap" rel="stylesheet">
     <link href='https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "assets" | relative_url }}/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "assets" | relative_url }}/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ "assets" | relative_url }}/favicons/favicon-16x16.png">
-    <link rel="manifest" href="{{ "assets" | relative_url }}/favicons/site.webmanifest">
-    <link rel="mask-icon" href="{{ "assets" | relative_url }}/favicons/safari-pinned-tab.svg" color="#363059">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.cdn_url }}{{ "assets" | relative_url }}/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.cdn_url }}{{ "assets" | relative_url }}/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.cdn_url }}{{ "assets" | relative_url }}/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="{{ site.cdn_url }}{{ "assets" | relative_url }}/favicons/safari-pinned-tab.svg" color="#363059">
+    <link rel="manifest" href="{{ "assets" | relative_url }}/site.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="msapplication-TileColor" content="#da532c">
     <title>{% if page.title == 'intro' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
 
