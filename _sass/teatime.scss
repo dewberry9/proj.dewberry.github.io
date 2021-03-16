@@ -804,13 +804,20 @@ section {
             }
 
             > p.infor {
-                color: $base-color-shade;
-                font-size: 0.875rem;
-                line-height: 2;
-
                 &::before {
                     content: "*";
                 }
+            }
+
+            > p.right-infor {
+                text-align: right;
+            }
+
+            > p.infor,
+            > p.right-infor {
+                color: $base-color-shade;
+                font-size: 0.875rem;
+                line-height: 2;
             }
 
             > p,

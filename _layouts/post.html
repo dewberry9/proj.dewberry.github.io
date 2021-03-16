@@ -39,7 +39,7 @@ layout: base
             {% assign count_same_category_posts = count_same_category_posts | minus: 1 %}
             <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
                 <div class="post-thumbnail">
-                    <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
+                    <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
                 </div>
                 <div class="post-description">
                     <span class="post-topic">{{ post.topic }}</span>
@@ -54,7 +54,7 @@ layout: base
     {% for post in same_category_posts limit: count_same_category_posts %}
         <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
                 <div class="post-thumbnail">
-                    <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
+                    <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
                 </div>
                 <div class="post-description">
                     <span class="post-topic">{{ post.topic }}</span>
@@ -86,7 +86,7 @@ layout: base
             {% assign count_another_category_posts = count_another_category_posts | minus: 1 %}
             <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
             <div class="post-thumbnail">
-                <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
+                <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
             </div>
             <div class="post-description">
                 <span class="post-topic">{{ post.topic }}</span>
@@ -106,7 +106,7 @@ layout: base
             {% assign count_another_category_posts = count_another_category_posts | minus: 1 %}
             <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
                     <div class="post-thumbnail">
-                        <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
+                        <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
                     </div>
                     <div class="post-description">
                         <span class="post-topic">{{ post.topic }}</span>

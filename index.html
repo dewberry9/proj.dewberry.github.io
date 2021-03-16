@@ -51,7 +51,7 @@ thumbnail: /assets/images/ogimage.jpg
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">
-            <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
+            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
         </div>
         <div class="post-description">
             <span class="post-topic">{{ post.topic }}</span>
@@ -89,7 +89,7 @@ thumbnail: /assets/images/ogimage.jpg
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">
-            <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
+            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
         </div>
         <div class="post-description">
             <span class="post-topic">{{ post.topic }}</span>
@@ -127,7 +127,7 @@ thumbnail: /assets/images/ogimage.jpg
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">
-            <div class="img-source" style="background-image: url('{{ site.cdn_url | append: post.thumbnail }}')"></div>
+            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
         </div>
         <div class="post-description">
             <span class="post-topic">{{ post.topic }}</span>
