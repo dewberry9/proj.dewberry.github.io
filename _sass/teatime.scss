@@ -864,6 +864,7 @@ section {
             ul,
             ol {
                 padding-left: calc((100% - #{$mobile-width}) / 2 + 1rem);
+                line-height: 2.5;
             }
 
             table {
