@@ -12,7 +12,7 @@ topic: Whisky
 ![Package 1]({{ site.cdn_url | append: '/assets/images/daily/03-highland-park-12/02.jpg' }} "Package-1")
 {: .normal-size}
 
-|이름|하이랜드 파크 12년|
+|제품|하이랜드 파크 12년(750mL)|
 |:---|:---|
 |분류|싱글 몰트 스카치 위스키|
 |생산지|스코틀랜드 하이랜드 오크니|

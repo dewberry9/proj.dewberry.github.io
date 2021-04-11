@@ -16,7 +16,7 @@ topic: Gin
 ![Bottle 1]({{ '/assets/images/daily/gordons-london-dry-gin/01.jpg' | relative_url }} 'Bottle 1')
 {: .full-size}
 
-|이름|고든스 런던 드라이 진|
+|제품|고든스 런던 드라이 진(750mL)|
 |:---|:---|
 |분류|런던 진|
 |생산지|영국|

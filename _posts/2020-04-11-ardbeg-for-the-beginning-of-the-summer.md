@@ -29,7 +29,7 @@ topic: Whisky
 ![The Package]({{ site.cdn_url | append: '/assets/images/daily/01-ardbeg/04.jpg' }} " 아드벡 패키지")
 {: .normal-size}
 
-|이름|아드벡 10년|
+|제품|아드벡 10년(750mL)|
 |:---|:---|
 |분류|싱글 몰트 스카치 위스키|
 |생산지|스코틀랜드 아일라|
