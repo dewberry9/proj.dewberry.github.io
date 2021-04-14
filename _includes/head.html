@@ -23,14 +23,15 @@
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:description" content="{{ page.excerpt }}">
-    <meta property="og:image" content='{{ page.thumbnail | relative_url }}'>
+    <meta property="og:image" content='{{ page.thumbnail | absolute_url }}'>
     <meta name="by" content="{{ site.author }}">
     <!-- Twitter -->
     <meta name="twitter:title" content="{% if page.title == 'intro' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{ page.excerpt }}">
-    <meta name="twitter:image" content='{{ page.thumbnail | relative_url }}'>
+    <meta name="twitter:image" content='{{ page.thumbnail | absolute_url }}'>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
+    <meta name="twitter:site" content="{{ site.title }}">
     <!-- Other Basic Meta Tag -->
     <meta name="title" content="{% if page.title == 'intro' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
     <meta name="description" content="{{ page.excerpt }}">

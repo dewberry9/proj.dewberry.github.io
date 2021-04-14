@@ -9,7 +9,7 @@ permalink: /starting-google-optimize
 topic: AB Test
 ---
 
-[저번 가이드](https://dewberry9.github.io/3step-ab-test "3 Step of AB Test")에서는 AB 테스트를 시작할 때 알아두어야 할 핵심적인 과정,
+<a title='매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드' href='/3step-ab-test' target='_blank'>저번 가이드(먼저 읽어보시는 것을 추천)</a>에서는 AB 테스트를 시작할 때 알아두어야 할 핵심적인 과정,
 
 1. 가설 수립
 2. 실험 진행
