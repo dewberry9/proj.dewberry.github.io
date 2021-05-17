@@ -1,0 +1,96 @@
+---
+title: 홈텐딩의 완벽한 시작. 봄베이 사파이어와 아트 오브 칵테일
+layout: post
+category: review
+date: 2021-05-15 00:00:00
+excerpt: 이 각진 파란 병 진이 뭐가 그렇게 특이할까요? 아트 오브 칵테일의 홈텐딩 키트와 함께 알아봅니다. 런던 드라이 진 봄베이 사파이어 리뷰.
+thumbnail: /assets/images/daily/bombay-sapphire/00.jpg
+permalink: /bombay-sapphire
+topic: Gin
+---
+
+![Bottle 1]({{ '/assets/images/daily/bombay-sapphire/01.jpg' | relative_url }} 'Bottle 1')
+{: .full-size}
+
+각진 파란 병. 이 술의 이미지는 워낙 강해서 양주를 즐기지 않더라도 한 번쯤은 본 적 있을 겁니다. 그런가 하면 술을 좀 아는 사람에게는 익숙해지기 힘든 개성을 가진 진으로 여겨집니다. 어디서든 이 술은 항상 튑니다.
+
+이번 입맛리뷰의 주제는 항상 눈에 띄는 이 술, 봄베이 사파이어와 아트 오브 칵테일 홈텐딩 키트입니다.
+
+![Pack]({{ '/assets/images/daily/bombay-sapphire/02.jpg' | relative_url }} 'Pack')
+{: .normal-size}
+
+|제품|봄베이 사파이어(750mL)|
+|:---|:---|
+|분류|런던 진|
+|생산지|영국|
+|알코올|47%|
+|가격|37,500원(이마트, Gin & Tonic Special Pack)|
+
+## 봄베이 사파이어
+
+![Bottle and Highball Glass]({{ '/assets/images/daily/bombay-sapphire/03.jpg' | relative_url }} 'Bottle and Highball Glass')
+{: .normal-size}
+
+봄베이 사파이어 Gin & Tonic Special Pack에는 750mL 봄베이 사파이어와 하이볼 잔이 들어있습니다. 잔이 묵직한 게 그럴듯합니다.
+
+![Year 1761]({{ '/assets/images/daily/bombay-sapphire/04.jpg' | relative_url }} 'Year 1761')
+{: .normal-size}
+
+봄베이 사파이어의 역사는 라벨에도 적혀 있는 1761년부터 시작합니다. 토마스 다킨(Thomas Dakin)이 영국 리버풀과 맨체스터 사이에 있는 지역 워링턴에 증류소를 세우고 워링턴 진을 생산했습니다. 몇 가지 개량을 거쳤지만 현재의 봄베이도 그때의 레시피를 시초로 하고 있습니다.
+
+![Victoria]({{ '/assets/images/daily/bombay-sapphire/05.jpg' | relative_url }} 'Victoria')
+{: .normal-size}
+
+워링턴 진이 봄베이의 이름을 갖게된 것은 라벨에 빅토리아 여왕의 초상이 붙은 일과 같은 때 일어났습니다. 씨그램의 직원이었던 앨런 수빈(Allan Subin)은 워링턴 진 증류소의 제품으로 프리미엄 진 브랜드를 론칭합니다. 과거 영국 식민지였던 인도의 대도시 봄베이(현재는 뭄바이) 이름을 가져다 쓰고 여왕의 얼굴을 붙이면서, 빅토리아 시대를 기리는 노스탤지어 분위기로 브랜드를 형성합니다. 1960년대 봄베이 드라이 진이 탄생하면서 봄베이라는 이름이 처음으로 진 시장에 등장합니다. 이후 봄베이는 IDV 산하로 들어가면서, 1986년 기존의 드라이 진 레시피에 멜레게타, 큐베브라는 두 후추 비슷한 향신료를 첨가한 봄베이 사파이어를 내놓게 됩니다.
+
+![Recipe]({{ '/assets/images/daily/bombay-sapphire/06.jpg' | relative_url }} 'Recipe')
+{: .normal-size}
+
+멜레게타와 큐베브를 포함한 봄베이 사파이어의 재료는 10가지로 나머지는 주니퍼 베리, 아몬드, 레몬 필, 감초, 오리스, 안젤리카, 고수, 중국 계피입니다. 경쟁 브랜드에 비해 젊은 축에 속하는 봄베이 사파이어는 다른 진과는 다르게 레시피에 쓰인 재료를 투명하게 공개하며 차별화 마케팅을 하고 있습니다.
+
+![Bottle and Nosing Glass]({{ '/assets/images/daily/bombay-sapphire/07.jpg' | relative_url }} 'Bottle and Nosing Glass')
+{: .normal-size}
+
+**향** 레몬 껍질을 비틀었을 때 풍기는 오일 향이 선명합니다. 라임, 오렌지와 같은 시트러스한 향을 바탕으로 꿉꿉한 느낌의 고수, 쑥, 냄새가 달큰한 계피, 감초 냄새와 함께 안쪽에 응어리져 있습니다. 신선하고 깨끗한 분위기가 향의 전반을 지배합니다. 알코올 냄새가 튀지만 시원한 향기의 일부로 묻히는 경향이 있어 거슬릴 정도는 아닙니다. 개성 있는 향이지만 사람들이 말하는 것처럼 그렇게 호불호가 갈릴 만한 향인지는 잘 모르겠습니다.
+
+**맛** 향의 시트러스함이 솔직하게 혀에 닿습니다. 청포도, 앵두. 과일 분위기도 있습니다. 가벼운 무게에 47도의 알코올이 탄산음료를 마실 때처럼 입안을 슬쩍 건들고 갑니다.
+
+**피니쉬** 입안에서 느꼈던 무게감만큼이나 짧은 피니쉬가 지나갑니다. 뱅쇼처럼 시큼한 과일을 보글보글 끓인 후의 눅진한 쌉싸름함이 스멀스멀 피어오릅니다.
+
+## 아트 오브 칵테일
+
+이번에 봄베이 사파이어를 구한 이유는 다름이 아니라 <a title='Art of Cocktail Instagram' href='https://www.instagram.com/aoc_art.of.cocktail/' target='_blank'>아트 오브 칵테일</a>에서 주관하는 칵테일 클래스에 참여하기 위해서였습니다. 아트 오브 칵테일은 바카디, 예거 마이스터, 그레이 구스 등을 수입하는 FJ Korea의 후원으로 무료 홈텐딩 강좌를 개최하고 있는 곳입니다.
+
+단지 강좌만 보는 게 아니라, 필요한 재료를 한 박스 보내주기까지 합니다. 불시에(보통 금요일에) 인스타그램에 다음 클래스에 쓰일 술을 공지하는데, 최대한 빨리 사서 구매를 인증하는 신청서를 작성하면 됩니다. 이렇게 신청한 선착순 100명에게(신규 신청자 우대) 홈텐딩 키트를 보내줍니다.
+
+![Package]({{ '/assets/images/daily/bombay-sapphire/08.jpg' | relative_url }} 'Package')
+{: .normal-size}
+
+홈텐딩 키트의 구성은 각 클래스의 기주가 되는 술마다 약간씩 달라집니다. 이번에는 레몬, 오렌지, 라임, 올리브, 진저 에일과 탄산수와 같은 재료는 물론 여러 종류의 잔, 스퀴저, 잔 밑에 붙이는 LED, 붓과 식용 페인트, The Art of Cocktail DIY라는 레시피 도서까지 넉넉한 구성입니다.
+
+이제 미리 공지된 강좌일까지 기다리면 됩니다. 온라인 강좌는 예전에는 인스타그램 라이브로 진행하다가 최근에는 유튜브 라이브로 진행합니다.
+
+## 진 피즈
+
+![Gin Fizz with AOC]({{ '/assets/images/daily/bombay-sapphire/11.jpg' | relative_url }} 'Gin Fizz with AOC')
+{: .normal-size}
+
+이번 온라인 강좌는 약 1시간 반 동안 진토닉, 네그로니, 마티니 등 다양한 칵테일을 함께 만들고 마시며 진행됐습니다. 여러 칵테일이 있었지만 진 피즈(Gin Fizz)를 특히나 맛있게 마셨습니다.
+
+**진 피즈 만드는 법**
+
+1. 셰이커에 3/2oz(약 45mL), 레몬즙 1oz(약 30mL), 설탕 한 티스푼을 넣고 얼음을 채운 뒤 섞습니다.
+2. 칠링한 하이볼 잔, 혹은 올드패션드 잔에 얼음을 넣고 섞은 내용물을 붓습니다.
+3. 소다수 필업(Fill-up) : 소다수로 나머지 부분을 채웁니다.
+
+![Paint]({{ '/assets/images/daily/bombay-sapphire/10.jpg' | relative_url }} 'Paint')
+{: .normal-size}
+
+함께 온 식용 페인트를 잔에 발라보았습니다. 물엿으로 만든 페인트인데 상큼한 레몬 향이 납니다. 진 피즈의 탄산과 뒤섞인 파란 물감이 보기만 해도 상쾌한 느낌을 줍니다. 새콤달콤한 맛은 시각적 비주얼에서 온 기대감을 여지없이 만족시킵니다.
+
+## 홈텐딩의 완벽한 시작
+
+![Gin Fizz]({{ '/assets/images/daily/bombay-sapphire/09.jpg' | relative_url }} 'Gin Fizz')
+{: .normal-size}
+
+국내에서 바텐딩은 물론 칵테일 자체가 아직 마이너한 위치에 있다는 건 부정할 수 없는 사실입니다. 하지만 그래서 더 매력적인지도 모르겠습니다. 어렵게 찾아내고 배운 만큼 그 결과물은 달게 느껴질 테니까요.
