@@ -59,7 +59,7 @@ topic: Gin
 
 ## 아트 오브 칵테일
 
-이번에 봄베이 사파이어를 구한 이유는 다름이 아니라 <a title='Art of Cocktail Instagram' href='https://www.instagram.com/aoc_art.of.cocktail/' target='_blank'>아트 오브 칵테일</a>에서 주관하는 칵테일 클래스에 참여하기 위해서였습니다. 아트 오브 칵테일은 바카디, 예거 마이스터, 그레이 구스 등을 수입하는 FJ Korea의 후원으로 무료 홈텐딩 강좌를 개최하고 있는 곳입니다.
+이번에 봄베이 사파이어를 구한 이유는 다름이 아니라 <a title='Art of Cocktail Instagram' href='https://www.instagram.com/aoc_art.of.cocktail/' target='_blank' rel='noopener'>아트 오브 칵테일</a>에서 주관하는 칵테일 클래스에 참여하기 위해서였습니다. 아트 오브 칵테일은 바카디, 예거 마이스터, 그레이 구스 등을 수입하는 FJ Korea의 후원으로 무료 홈텐딩 강좌를 개최하고 있는 곳입니다.
 
 단지 강좌만 보는 게 아니라, 필요한 재료를 한 박스 보내주기까지 합니다. 불시에(보통 금요일에) 인스타그램에 다음 클래스에 쓰일 술을 공지하는데, 최대한 빨리 사서 구매를 인증하는 신청서를 작성하면 됩니다. 이렇게 신청한 선착순 100명에게(신규 신청자 우대) 홈텐딩 키트를 보내줍니다.
 
