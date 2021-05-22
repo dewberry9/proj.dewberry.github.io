@@ -9,7 +9,7 @@ permalink: /talk-with-microcopy
 topic: UX Design
 ---
 
-![Guerrilla Copy]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/01.jpg'}} "게릴라 카피")
+![Guerrilla Copy]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/01.jpg'}} "게릴라 카피"){: loading='lazy'}
 {: .full-size}
 
 자그마해서, 아니 자그맣기에 신경 쓰이는 것들이 있습니다. 주름진 셀로판테이프, 새로 난 뾰루지, 잘못 붙인 액정 필름이 거기에 속하죠.😵 마이크로카피(Microcopy)도 그렇습니다.
@@ -34,7 +34,7 @@ topic: UX Design
 
 ## 설계된 몰입, 피드백 루프
 
-![Infinite Loop of Action and Feedback]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/02.jpg'}} "액션과 피드백의 무한루프")
+![Infinite Loop of Action and Feedback]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/02.jpg'}} "액션과 피드백의 무한루프"){: loading='lazy'}
 {: .normal-size}
 
 이메일 앱에서는 메일을 보고, 삭제하고, 작성해야 합니다. 쇼핑 앱에서는 제품을 보고, 선택하고, 구매해야 합니다. 단순하다 못해 당연하게 들리는 '역할'은 어떤 서비스가 제공하는 기본적인 기능으로 구성됩니다. 사용자가 서비스를 사용하는 이유입니다. 그렇지만 전부는 아닙니다. 사용자는 본질적인 기능만을 제공하는 서비스는 따르지 않습니다. 어떻게 기능을 써야 하는지 설명해줘야 하고, 적절한 보상을 쥐여줘야 하며, 이 모든 것을 포괄하는 동기도 필요합니다. 까칠한 고양이를 구슬리는 것과 같습니다. 이 과정의 총체를 피드백 루프(Feedback Loop)라고 합니다. 사용자는 피드백 루프를 계속하게 됩니다. 서비스 위에서 무한히 움직이는 이 열차의 승차감을 위해서는 다음과 같은 네 가지 주안점이 있습니다 :
@@ -52,7 +52,7 @@ topic: UX Design
 
 ## 습관을 만드는 Hook 모델
 
-![Just Hook]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/03.jpg'}} "훅 들어온다")
+![Just Hook]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/03.jpg'}} "훅 들어온다"){: loading='lazy'}
 {: .normal-size}
 
 Hook 모델은 스탠퍼드 경영대학원의 강사 니르 에얄(Nir Eyal)이 Hooked: How to Build Habit-Forming Products라는 저서에서 밝힌 디지털 프로덕트 개발·운용 방법론입니다. 에얄은 설령 최고의 프로덕트가 아니더라도 인기 있는 제품이 될 수 있다며 사용자가 프로덕트를 사용하는 네 단계의 반복 과정을 밝혔습니다 :
@@ -67,12 +67,12 @@ Hook 모델은 스탠퍼드 경영대학원의 강사 니르 에얄(Nir Eyal)이
 {: .indent}
 계기가 마련되어 모델이 돌아가기 시작하면, 액션이 비집고 들어옵니다. 액션은 사용자가 무의식적으로 서비스를 사용하도록 유도하는 장치입니다. Google의 메인 페이지에 놓여있는 심플한 검색바에 무엇이든 쓰고 싶어지는 건 액션 덕분입니다. 보상은 그렇게 서비스를 사용한 사용자에게 주어지는 당근입니다. 필수적인 요소는 아닙니다. 택시 서비스를 이용하는 사용자는 택시를 타고 싶어 서비스를 사용하는 거지, 택시 이용 후 서비스에서 제공하는 포인트를 위해 사용하는 건 아니니 말입니다. 그렇지만 부가적인 효과를 더하고 싶을 때 유용한 과정인 건 사실입니다. 다음 단계인 투자도 비슷한 맥락에서 효과를 내고 있습니다. 트위터에서 트위터 공식 계정을 팔로우하면 업데이트 소식 등 트위터 사용자에게 쓸만한 정보를 받을 수 있습니다. 이런 식으로 사용자가 예측되는 장점을 취하기 위해 행동하는 것이 사용자의 투자입니다.
 {: .indent}
-사용자의 투자는 서비스의 피드백을 낳고, 이는 내부 계기가 되어 모델의 지속적인 운용을 유도합니다. 모델에서의 마이크로카피 활용을 제처놓고서도 유용한 방법론입니다.
+사용자의 투자는 서비스의 피드백을 낳고, 이는 내부 계기가 되어 모델의 지속적인 운용을 유도합니다. 모델에서의 마이크로카피 활용을 제처놓고서도 유용한 방법론입니다. <a title='매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론' href='/introduce-product-led-growth' target='_blank' rel='noopener'>제품 주도 성장 전략에 이와 유사한 플라이휠 모델</a>이 있습니다.
 {: .indent}
 
 ## 마이크로카피 한 꼬집
 
-![Little, but Tough]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/04.jpg'}} "작은 고추가 맵다")
+![Little, but Tough]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/04.jpg'}} "작은 고추가 맵다"){: loading='lazy'}
 {: .normal-size}
 
 이제 마이크로카피 이야기로 돌아가 봅시다. 가볍고 활용성 좋은 이 카피는 피드백 루프와 Hook 모델 어디에서나 손쉽게 사용할 수 있습니다. 두 방법론의 공통점은 UX를 고려하는 게 본질적으로 사용자와의 소통을 위한 것이라는 사실을 기반으로 하고 있다는 점입니다. 모든 대화가 그렇듯, 잘 듣는 것이 전부가 아니라는 사실 역시 다루고 있습니다. 마이크로카피는 그 부분에서 활용됩니다. 사용자가 잘 듣고 잘 말할 수 있도록 이끌어주는 것입니다.
@@ -84,7 +84,7 @@ Hook 모델에서 마이크로카피는 훌륭한 액션입니다. 짧은 단락
 
 ## 사소하지만 큰 만족
 
-![Simple Outside, Complex Inside]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/05.jpg'}} "겉이 단순하다고 속까지 그런 건 아니다")
+![Simple Outside, Complex Inside]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/05.jpg'}} "겉이 단순하다고 속까지 그런 건 아니다"){: loading='lazy'}
 {: .normal-size}
 
 마이크로카피를 효과적으로 활용하는 일은 쉽지 않습니다. UX라는 것이 본래 신경 써야 할 것이 원체 많습니다. 당장 [버튼에 활용되는 마이크로카피](https://www.invisionapp.com/inside-design/microcopy-destructive-actions)부터도 머리를 쥐어짜야 하는 일인데, 피드백 루프와 Hook 모델을 의도적으로 설계하는 건 더 많은 시간과 노력을 요구하는 일이 될 수밖에 없습니다.

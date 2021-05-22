@@ -11,7 +11,7 @@ topic: Design System
 이 글에는 고유한 이름의 번역어가 포함되어있습니다. 괄호 안의 영어는 해당 번역어의 원어입니다.
 {: .indent .infor}
 
-![Material makes it possible]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/01.jpg" }} "머티리얼 소개 페이지에서 가장 눈에 띄었던 문장 하나")
+![Material makes it possible]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/01.jpg" }} "머티리얼 소개 페이지에서 가장 눈에 띄었던 문장 하나"){: loading='lazy'}
 {: .full-size}
 
 Google I/O 2018 첫날, 5월 9일 새벽 6시의 저는 졸린 눈을 비비며 생방송을 보고 있었습니다. 바다 건너 5월 8일 오후 2시를 지나고 있는 캘리포니아는 쨍쨍한 날씨였고 Google I/O 2018의 첫 번째 디자인 세션이 열리는 중이었습니다. 당신의 제품을 위해 머티리얼 디자인 요소 커스터마이징하기(Customize Material Components for your product)라는 제목의 세션이었습니다. 서두에 Material Theming을 설명할 때까지는 심드렁했습니다. 제가 기억하는 머티리얼 디자인은 그리 예쁘지 않았으니 말입니다. 이윽고 여느 이들처럼, 제 눈은 휘둥그레질 수밖에 없었습니다. 문자 그대로, 싹 바뀌었습니다.
@@ -21,7 +21,7 @@ Google I/O 2018 첫날, 5월 9일 새벽 6시의 저는 졸린 눈을 비비며 
 
 ## 바탕부터 새롭게
 
-![Brand New Foundation]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/02.jpg" }} "마룻바닥부터 새로 깐다")
+![Brand New Foundation]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/02.jpg" }} "마룻바닥부터 새로 깐다"){: loading='lazy'}
 {: .normal-size}
 
 2014년 한 디자인 시스템이 공개됩니다. 각종 요소는 단단하게 정적이었고 활용 역시 그랬습니다. 현실에서 조명에 비춘 종이 카드를 본떠 그 모습을 고스란히 옮겨놓은 형상과 고도 시스템(Elevation)을 가지고 있었습니다. 그 제작 과정을 자랑스럽게 보여주는 모습이란 물리 세계에 대한 광적인 동경이 엿보일 정도로 무모해 보였습니다. 크로스 플랫폼 디자인 시스템을 자칭하는 머티리얼 디자인은 떠들썩한 등장과는 달리 까탈스러운 규칙과 비관용적인 설계로 무시 받게 되었습니다. 매일 같이 심미적인 레퍼런스가 쏟아져나와도 머티리얼 디자인은 묵묵하게 수학적 근거를 기반으로 만든 투박한 시스템을 고수했습니다. 완전히 개발자를 위한 디자인 시스템이었습니다. 제국의 꿈을 가진 머티리얼 디자인은 그렇게 묻혔습니다. 머티리얼 디자인은 그런 모습이었습니다. 어떤 트렌드와도 무관한 듯 미동조차 하지 않으며 그렇게 4년 동안 숨죽이고 있었습니다. Google I/O 2018에서 공개된 머티리얼 디자인의 새 모습이 놀라웠던 건 그 때문입니다. 
@@ -33,7 +33,7 @@ Google I/O 2018 첫날, 5월 9일 새벽 6시의 저는 졸린 눈을 비비며 
 
 ## 브랜드와 팔짱끼고
 
-![Just Add More!]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/03.jpg" }} "더하고, 더하고, 더했다")
+![Just Add More!]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/03.jpg" }} "더하고, 더하고, 더했다"){: loading='lazy'}
 {: .normal-size}
 
 과거에 머티리얼 디자인을 살펴본 경험이 있으시다면 갖가지 색상을 네모난 박스에 넣어둔 채 주르륵 펼쳐보였던 머티리얼 팔레트를 기억하실 겁니다. 색상별로 명도를 기준으로 분류된 50~900의 열 가지 선택지와 악센트 색상 네 가지가 덤으로 딸려있던 그 화려한 팔레트 말입니다. 이번 변화로 색상 시스템은 정밀해졌습니다. 기존에 있던 주요(Primary) 색상과 보조(Secondary) 색상에 각각 변형(Variant) 색상을 추가했고, 바탕(Background), 표면(Surface), 오류(Error) 색상도 더했습니다. 여기에 On- 접두사가 붙은, 역할별 색상 위에 사용되는 색상도 추가되었습니다. 주요 색상을 가진 버튼이 있다면 그 위에는 On Primary 색상을 가진 글자를 써야 하는 것입니다. 최근 디자인 시스템이 부흥하고 있는데, 이 추세에 맞춘 개선점인 듯싶습니다. 디자인 시스템에서 세분된 색상 시스템이 나날이 중요해지고 있는 상황을 생각해보면 적절한 개선이라고 할 수 있습니다.
@@ -47,7 +47,7 @@ Google I/O 2018 첫날, 5월 9일 새벽 6시의 저는 졸린 눈을 비비며 
 
 ## 거기에 한 발자국 더
 
-![Bottom App Bar and Backdrop]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/04.jpg" }} "몇 달만에 준비할 수 있는 정도가 아닌데?")
+![Bottom App Bar and Backdrop]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/04.jpg" }} "몇 달만에 준비할 수 있는 정도가 아닌데?"){: loading='lazy'}
 {: .normal-size}
 
 머티리얼 디자인의 발전이 위에서 끝났다면 그건 그것대로 만족스러웠을 겁니다. 필요했던 부분은 모두 개선되었습니다. 머티리얼 디자인은 한 발자국 전진했습니다. 그래서 새로 추가된 디자인 요소를 확인했을 때는 경탄했습니다. 머티리얼 디자인은 발전으로 만족하지 않은 모양이었습니다. 그 도전의식이 가리키는 바는 명료했습니다. 진화였습니다.
@@ -61,7 +61,7 @@ Google I/O 2018 첫날, 5월 9일 새벽 6시의 저는 졸린 눈을 비비며 
 
 ## 카드 놀이에서 시작된, 더 이상 놀이라고 부를 수 없는.
 
-![Clap to the Challenge!]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/05.jpg" }} "도전에 박수를!")
+![Clap to the Challenge!]({{ site.cdn_url | append: "/assets/images/02-remodeling-of-material-design/05.jpg" }} "도전에 박수를!"){: loading='lazy'}
 {: .normal-size}
 
 갑작스러운 변화라고 생각될 수 있습니다. 이는 구글도 경계한 바인지 여러 도구를 준비했습니다. 대표적인 것은 머티리얼 디자인 페이지에서 열람할 수 있는 머티리얼 스터디스(Material Studies)라는 쇼케이스들입니다. 이 쇼케이스에서 머티리얼 디자인을 어떤 곳에서 어떤 방식으로 적용했는지 자세히 확인할 수 있습니다. 머티리얼 디자인의 업데이트와 사용에 대해서 이해할 수 있는 멋진 학습 도구입니다. 이번 변화에 얼마나 큰 노력을 기울였는지 알 수 있는 부분이기도 합니다.

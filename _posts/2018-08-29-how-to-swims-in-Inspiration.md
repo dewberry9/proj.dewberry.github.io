@@ -8,7 +8,7 @@ thumbnail: /assets/images/07-how-to-swims-in-inspiration/02.jpg
 permalink: /how-to-swims-in-inspiration
 topic: Design Tip
 ---
-![Infinite Loop]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/01.jpg'}} "무한루프")
+![Infinite Loop]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/01.jpg'}} "무한루프"){: loading='lazy'}
 {: .full-size}
 
 커피 한 잔이 준비되었습니다. 휴대폰과 태블릿 PC는 만족스럽게 충전 중이고, 온도도 습도도 완벽합니다. 작업 사전 준비는 확실하게 끝났습니다. 이제 창조성만 발휘하면 됩니다. 작업 준비를 마치고 의자에 앉자마자 고뇌가 밀려옵니다. 아이디어가 부족합니다. 보통의 디자이너는 이런 상황에서 다음과 같은 루틴을 돕니다 :
@@ -24,7 +24,7 @@ topic: Design Tip
 
 ## 예술가의 뮤즈 VS 디자이너의 뮤즈
 
-![The Art of Communication]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/02.jpg'}} "소통의 예술")
+![The Art of Communication]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/02.jpg'}} "소통의 예술"){: loading='lazy'}
 {: .normal-size}
 
 내로라하는 예술가에게는 자신만의 뮤즈가 있는 경우가 많습니다. 뮤즈는 예술가가 불후의 명저, 명곡, 명화를 만들어내도록 유도합니다. 그런 행운이 디자이너에게도 있을까요? 있더라도, 예술가의 뮤즈와는 상당히 다를 겁니다. 예술과 디자인의 극명한 차이 때문입니다.
@@ -49,7 +49,7 @@ topic: Design Tip
 
 ## 머리로 생각하는 디자인
 
-![Find Why, not Make]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/03.jpg'}} "이유는 만드는 게 아니라 찾는 것")
+![Find Why, not Make]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/03.jpg'}} "이유는 만드는 게 아니라 찾는 것"){: loading='lazy'}
 {: .normal-size}
 
 툴 켜고 마우스 잡기 전에, 연구 리포트 하나 읽어보는 게 어떨까요? UX 연구(UX Research)는 사용자가 어떻게 서비스를 사용하는지 추적해서 특정 UX의 효용성을 파악하는 연구입니다. 마케팅 연구보다 아직 규모가 크지 않고, 특히 국내에서는 찾아보기 힘든 연구입니다. 그러나 인터렉션 디자이너에게 그 중요도는 상상을 초월합니다. 연구 결과가 합리적인 디자인의 근거가 될 수 있기 때문입니다. 연구는 기본적으로 논리적이고 경험론적입니다. 현상에 대한 근본적인 원인은 찾을 수 없어도 필요한 만큼의 경향은 파악할 수 있습니다. 디자이너에게 필요한 건 그런 겁니다. 모두를 만족시키는 디자인이 아니더라도 괜찮습니다. 인터렉션 디자인에서는 예상 사용자의 범위에 최대한 들어맞게끔 타협하는 게 중요합니다.
@@ -61,7 +61,7 @@ UX 연구에 전문적인 대표적인 단체는 [닐슨 노먼 그룹(Nielsen N
 
 ## 눈으로 그리는 디자인
 
-![Mother of Legend, A Pen and A Paper]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/04.jpg'}} "어떤 아름다운 디자인도 펜 한 자루와 종이 한 장에서 나왔다")
+![Mother of Legend, A Pen and A Paper]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/04.jpg'}} "어떤 아름다운 디자인도 펜 한 자루와 종이 한 장에서 나왔다"){: loading='lazy'}
 {: .normal-size}
 
 UX 연구를 조사하면서 디자인의 근거를 마련하는 일은 요리에서 괜찮은 식자재를 수확하는 과정과 같습니다. 좋은 요리는 좋은 재료에서 나옵니다. 디자인도 크게 다르지 않습니다. 그러나 재료만 있다고 음식이 나오는 건 아닙니다. 요리하기 위해서는 레시피가 필요합니다. [Mobbin](https://mobbin.design/)은 그런 역할에 안성맞춤입니다. 출시된 앱의 페이지를 구분하여 확인할 수 있습니다. 무엇보다 패턴별로 UI를 볼 수 있습니다. UI가 브랜드에 맞춰 독창성을 창조하는 과정이기는 하지만, 사용자에게 익숙한 몇 가지 전형은 적용할 필요가 있습니다. 이런 패턴 내에서도 개성은 찾을 수 있습니다. Mobbin은 온보딩, 콘텐츠, 소셜 등 여러 상황에서 사용되는 내비게이션, 다이얼로그, 필터 같은 패턴을 보여줍니다. 다양한 사례를 비교하며 분석하는 데에는 무척 유용한 서비스입니다.
@@ -73,7 +73,7 @@ UX 연구를 조사하면서 디자인의 근거를 마련하는 일은 요리�
 
 ## 생각. 시도. 다시 생각
 
-![The Design Born in Joyful Daily Life]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/05.jpg'}} "예술은 비극에서 탄생하지만, 디자인은 즐거운 일상에서 탄생한다")
+![The Design Born in Joyful Daily Life]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/05.jpg'}} "예술은 비극에서 탄생하지만, 디자인은 즐거운 일상에서 탄생한다"){: loading='lazy'}
 {: .normal-size}
 
 만일 협업을 하고 있다면, 창의적인 아이디어를 떠올릴 수 있는 공간을 마련하는 일도 중요할 수 있습니다. 바둑판 같은 사무실과 화이트보드 하나로 창의력을 억제하는 게 아니라, 쉽게 아이디어를 낼 수 있고 쉽게 다른 이들과 이야기할 수 있는 구조의 공간에서 마음껏 생각을 펼치는 것입니다. 많은 논란이 있지만, 엉망진창으로 뒤섞인 공간에서 창의적인 생각이 나온다는 점은 부정하기 어렵습니다. 그런 공간에서는 일상적이지 않은, 의외의 상황이 벌어지기 마련이고 이는 공간을 사용하는 이들에게 색다른 영감을 줄 가능성이 있습니다. 물론 그런 물리적인 환경보다 중요한 건, 서로 격 없이 이야기하는 자유로움이라는 정서적 환경이지만 말입니다.

@@ -8,7 +8,7 @@ thumbnail: /assets/images/06-design-for-contrast/01.jpg
 permalink: /design-for-contrast
 topic: UI Design
 ---
-![Garden VS Yard]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/01.jpg'}} "앞뜰만의 매력이 있지 않을까")
+![Garden VS Yard]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/01.jpg'}} "앞뜰만의 매력이 있지 않을까"){: loading='lazy'}
 {: .full-size}
 
 멋지게 꾸며진 공원과 멋지게 꾸며진 앞뜰. 둘을 구분하는 건 간단합니다. 애정의 편향입니다. 전자의 경우, 어떤 곳은 숨을 죽이고 어떤 곳은 부각시키면서 전체적인 조화를 이루도록 다듭습니다. 앞뜰이란 공간은 그렇지 않습니다. 모든 화초에 각자의 이름이 있고 모든 구조에 애정이 묻었습니다. 결과적으로는 조화롭지 못하게 되지만, 주인에게 그런 건 상관없습니다.
@@ -20,7 +20,7 @@ topic: UI Design
 
 ## 강약중강약
 
-![Three Contrast of Interaction Design]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/02.jpg'}} "인터랙션 디자인의 세 가지 대비")
+![Three Contrast of Interaction Design]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/02.jpg'}} "인터랙션 디자인의 세 가지 대비"){: loading='lazy'}
 {: .normal-size}
 
 대비는 다른 요소를 서로 다르게 만들어주는 특성, 다시 말해 시각적인 차이입니다. 녹음이 우거진 열대우림에서 빨간 독버섯을 찾을 수 있는 이유, 드넓은 밤하늘에 떠 있는 북극성을 가리킬 수 있는 이유입니다. 각 요소의 인식을 용이하게 만드는 성질입니다. 부조화와는 의미가 다릅니다. 적정한 대비라는 것은 요소가 다른 요소를 방해하고 우위를 점하려는 상황이 아닌 자신의 고유한 모습을 드러내고 있는 것을 뜻합니다. 대비를 철저하게 설계하면 되레 조화로운 디자인을 만들 수 있습니다.
@@ -36,7 +36,7 @@ topic: UI Design
 
 ## 아니, 이것도 저것도 중요한데?🤔
 
-![Selection and Concentration]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/03.jpg'}} "선택과 집중")
+![Selection and Concentration]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/03.jpg'}} "선택과 집중"){: loading='lazy'}
 {: .normal-size}
 
 마음 가는 대로 조화를 챙기다가 의식적으로 대비를 따지면 분명 어려움이 닥칠 것입니다. 지금껏 눈을 감고 레고를 조립하고 있었다는 생각이 들지도 모릅니다. 그도 그럴 것이, 대비의 잣대는 눈에 보이는 모든 것에 적용합니다. 차이를 계산하고 구분을 이루는 일은 유난스러워 보일지도 모릅니다. 그럼에도 불구하고 대비를 강조하는 이유는 자명합니다. 디자이너는 수 시간을 들여 구석구석 설계하고 구상하지만, 사용자는 수 초 동안 넘겨보기 때문입니다.
@@ -48,7 +48,7 @@ topic: UI Design
 
 ## 레이아웃에서 대비 챙기기
 
-![Butterfly on Sight]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/04.jpg'}} "눈 앞의 나비")
+![Butterfly on Sight]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/04.jpg'}} "눈 앞의 나비"){: loading='lazy'}
 {: .normal-size}
 
 많은 인터랙션 디자인은 내비게이션-콘텐츠-CTA 그룹의 3단 구성을 따르고 있습니다. 필수적인 요소만 모아놓은 형태입니다. 내비게이션으로 안내하고, 콘텐츠를 보여주며, CTA로 피드백을 받습니다. 사용자와 대화하기에 부족함이 없고, 복잡하지도 않습니다. 말 그대로 안성맞춤인 셈입니다. 이 레이아웃은 세부적인 대비를 조정할 때 기준이 되기도 합니다. 3단 구성의 세 부분은 모두 중요합니다. 내비게이션이나 콘텐츠 둘 중 하나만을 부각할 수는 없습니다. 각종 요소를 레이아웃에 맞게 그룹으로 묶고, 해당 그룹 내에서 대비를 조정해야 합니다. 내비게이션에 위치한 드롭 박스와 본문의 하이퍼링크가 같은 스타일을 공유할 필요는 없다는 의미입니다.
@@ -60,7 +60,7 @@ topic: UI Design
 
 ## 텍스트에서 대비 챙기기
 
-![The Unbiased Readiness]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/05.jpg'}} "편견 없는 편독")
+![The Unbiased Readiness]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/05.jpg'}} "편견 없는 편독"){: loading='lazy'}
 {: .normal-size}
 
 이제 읽고 싶어지는 줄글에 대해서 이야기해봅시다. 인터랙션 디자인에서 줄글은 수없는 고민을 낳는 골칫거리입니다. [닐슨노먼그룹의 연구결과](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/)처럼 디지털에서 구현된 줄글이 잘 읽히지 않는다는 사실은 많은 실험이 증명하고 있습니다. 내용뿐만 아니라 구성까지 신경 써야 합니다. 그뿐만 아니라 직관성을 위해 충분한 텍스트를 쓰고 싶지만 과하게 텍스트 중심적인 UI가 탄생할까 고심하기도 합니다. 수만 가지 서체에 둘러싸여 선택과 집중을 강요받기도 합니다. 고려해야 하는 점이 만만치 않은 것들뿐이라 텍스트가 삐끗하는 일은 다반사입니다.
@@ -76,7 +76,7 @@ topic: UI Design
 
 ## 불균형의 미학
 
-![The Design is not a Copy of Reality ]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/06.jpg'}} "디자인은 결코 현실의 복사판이 아니다")
+![The Design is not a Copy of Reality ]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/06.jpg'}} "디자인은 결코 현실의 복사판이 아니다"){: loading='lazy'}
 {: .normal-size}
 
 대비를 귀찮은 개념이라고 여길 수도 있겠습니다. 생각해야하는 건 많고, 대충하기도 어렵고, 영향이 미미한 것도 아닙니다. 수십 가지를 함께 생각해야하는 디자인을 하는 사람으로서 만만하게 여기기는 어렵습니다. 현실의 빛이 만들어낸 장난과도 같은 기교는 디지털 공간에서 난해한 숙제가 되었습니다.

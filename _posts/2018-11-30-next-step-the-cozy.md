@@ -9,7 +9,7 @@ permalink: /next-step-the-cozy
 topic: UX Design
 ---
 
-![Monkeys]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/01.jpg'}} "번쩍이는 작은 박스를 손에 든 원숭이, 현대인")
+![Monkeys]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/01.jpg'}} "번쩍이는 작은 박스를 손에 든 원숭이, 현대인"){: loading='lazy'}
 {: .full-size}
 
 어느 순간 게임중독이라는 단어마저 들리지 않습니다. 제가 아주 어릴 때는 TV 중독이라는 말도 있었다고 합니다. 이렇게 새로운 기술과 문화에 대한 대항 의식은 중독이라는 이름으로 나타나는 경우가 대부분입니다. 검증되지 않은 것에 대한 일종의 액땜인 셈입니다. 그렇지만 최근에는 이 기류가 많이 약해졌습니다. SNS 중독이라는 말이 반짝하더니 금방 사그라든 것이 좋은 예시입니다. 기술과 문화가 도입되고 적응되는 과정이 점점 빨라지면서 사람들의 의식도 그 속도를 따라가고 있습니다.
@@ -21,7 +21,7 @@ topic: UX Design
 
 ## 숨 쉬듯 멀티태스킹
 
-![Youtube]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/02.jpg'}} "정적 속에서 기름이 끓는 소리마저 소비되는 세상")
+![Youtube]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/02.jpg'}} "정적 속에서 기름이 끓는 소리마저 소비되는 세상"){: loading='lazy'}
 {: .normal-size}
 
 닐슨노먼그룹의 UX 전문가 케이트 모런(Kate Moran)과 킴 플래허티(Kim Flaherty)는 지난 10월 Life Online Project의 결과에 대한 칼럼을 냈습니다. 토론토, 캔자스, 상하이 등 3개국 6개 도시에서 이뤄진 글로벌 UX 연구는 마냥 평범했던 일상을 전혀 다른 시각으로 해부했습니다.
@@ -35,7 +35,7 @@ Life Online Project의 여러 피연구자는 정적을 메우려는 자신의 �
 
 ## 오후 11시, 클라이언트로부터 메시지가 왔다
 
-![image]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/03.jpg'}} "선정리가 필요한 순간")
+![image]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/03.jpg'}} "선정리가 필요한 순간"){: loading='lazy'}
 {: .normal-size}
 
 어떤 서비스이든 비즈니스외 연결된 것이라면 리텐션(Retention)을 고려할 수밖에 없습니다. 서로 뒤섞이고 영향을 주고받는 현대의 디지털 프로덕트 시장에서 직접 전환을 통한 사용자 유치는 힘든 일입니다. 사용자의 재방문이라는 드높은 목표를 달성하기 위해 마케팅을 비롯한 모든 분야에서 연구가 이뤄졌습니다. UX도 예외는 아닙니다. [지난 열한 번째 이야기](https://dewberry9.github.io/talk-with-microcopy)에서 언급한 Hook 모델이 대표적입니다. 이 모델은 사용자가 치밀하게 설계된 서비스의 네 단계(계기 → 액션 → 보상 → 투자)를 거치게 하여 질 좋은 리텐션을 확보하는 모델입니다.
@@ -52,7 +52,7 @@ Life Online Project의 여러 피연구자는 정적을 메우려는 자신의 �
 
 ## 바쁜 벌꿀이 달지만은 않다
 
-![image]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/04.jpg'}} "지치는 디자인")
+![image]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/04.jpg'}} "지치는 디자인"){: loading='lazy'}
 {: .normal-size}
 
 잠시 정리하면, 오늘날의 사용자는 디지털 프로덕트 소비를 굉장히 즐깁니다. 정적인 시간을 피하고자 다양한 서비스를 효과적으로 활용합니다. 여가도 아까워서 영화와 게임을 동시에 즐기기도 합니다. 디지털 프로덕트의 장점인 접근성을 거의 최대로 끌어올린 듯한 모습입니다. 그런데 다른 한쪽에서는, 서비스를 사용하다 그것에 지쳐갑니다. 그런 디지털 프로덕트는 시간과 공간에 제약받지 않고 사용자를 괴롭힙니다. 그럴 의도가 명백하게 없어 보이지만, 어쨌든 현상은 일어납니다.
@@ -64,7 +64,7 @@ Life Online Project의 여러 피연구자는 정적을 메우려는 자신의 �
 
 ## 편안한 디자인
 
-![image]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/05.jpg'}} "편-안")
+![image]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/05.jpg'}} "편-안"){: loading='lazy'}
 {: .normal-size}
 
 디지털 프로덕트와 매 순간을 함께하는 사용자, 그만큼 중요해지는 서비스, 그렇지만 싫증 내는 사람은 하나둘 늘어갑니다. 그래서요? 사용자에게 강요된 비즈니스 플랜 때문에 기분 나쁜 일이 일어나는데, 디자이너가 해결할 수 있는 문제는 아니잖아요? 그렇지 않습니다.
@@ -78,7 +78,7 @@ Life Online Project의 여러 피연구자는 정적을 메우려는 자신의 �
 
 ## 편안할 수 없는 도전
 
-![image]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/06.jpg'}} "다음")
+![image]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/06.jpg'}} "다음"){: loading='lazy'}
 {: .normal-size}
 
 이쯤 되면 약간 억울한 디자이너도 있을 겁니다. 시간을 넉넉하게 잡아서 리서치도 하고 싶고, 햄버거 메뉴는 쓰기 싫고, '할인 중' 배지는 적당히 달고 싶은 건 당연한데, 그러지 못했으니 말입니다. 기껏해야 달 수 있는 건 iOS 12의 스크린 타임이나 인스타그램의 사용시간 제한 기능 같은 부가적이고 사후적인 기능뿐입니다. 그게 비즈니스라는 생각을 할 수도 있습니다. 그러나 비즈니스와 디자인은 결국 협력하는 관계입니다. 비즈니스는 디자인이라는 도구가 없으면 맥을 추리지 못하고, 디자인은 비즈니스라는 목표가 없으면 의미도 없습니다.

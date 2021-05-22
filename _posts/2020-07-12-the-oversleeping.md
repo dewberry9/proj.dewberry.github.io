@@ -9,7 +9,7 @@ permalink: /the-oversleeping
 topic: Essay
 ---
 
-![The Way to a Oversleeping]({{ site.cdn_url | append: '/assets/images/story/02-the-oversleeping(2).jpg' }} "강변 가는 길")
+![The Way to a Oversleeping]({{ site.cdn_url | append: '/assets/images/story/02-the-oversleeping(2).jpg' }} "강변 가는 길"){: loading='lazy'}
 {: .full-size}
 
 유월 삼십일

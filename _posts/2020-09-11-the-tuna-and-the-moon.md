@@ -9,7 +9,7 @@ permalink: /the-tuna-and-the-moon
 topic: Short Story
 ---
 
-![The Seaside]({{ site.cdn_url | append: '/assets/images/story/01-tuna-moon(2).jpg' }} "조류")
+![The Seaside]({{ site.cdn_url | append: '/assets/images/story/01-tuna-moon(2).jpg' }} "조류"){: loading='lazy'}
 {: .full-size}
 ## 1
 &ndash; 목적지입니다. 고객님.  

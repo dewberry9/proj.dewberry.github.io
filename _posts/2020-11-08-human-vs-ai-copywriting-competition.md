@@ -17,7 +17,7 @@ AI 기술은 하루가 갈수록 발전하고 있으며 이제 막 초등학교�
 
 ## AI가 카피를 쓴다고요? 🤔
 
-![Writing AI?]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/02.jpg' }} "Writing AI?")
+![Writing AI?]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/02.jpg' }} "Writing AI?"){: loading='lazy'}
 {: .normal-size}
 
 AI는 [머핀과 치와와 사진을 구별](https://www.google.com/search?q=Chihuahua+or+muffin&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwidrNzqwevsAhU0y4sBHbxtCaUQ_AUoAXoECAwQAw&biw=771&bih=731&dpr=1.25)하고, 도로의 신호등과 사물을 파악해서 [혼자 차를 굴리기도](https://media.giphy.com/media/H7rpSYHRyYgamxQNqw/giphy.gif) 합니다. 요즘 번역기는 번역체 문장을 매끄럽게 만들기 위해 AI 처리를 거치지 않은 경우가 드물 정도입니다. 페이스북, 구글 등에서는 적합한 광고 타깃을 찾기 위해 머신러닝 분석을 사용합니다. 이렇듯 경우의 수를 분석해서 최선의 답을 내놓는 AI는 익숙합니다. 하지만 창작하는 AI는? 고개가 갸우뚱합니다. 서비스 이름을 정할 때, 랜딩 페이지 메인 카피를 뽑을 때 쏟았던 창작 능력을 생각하면 감히 기계가 따라 할 수 있는 일인가 싶습니다.
@@ -34,22 +34,22 @@ AI가 새로운 무언가를 만들어내는 일이 어떻게 가능할까요? A
 
 [🤖AI 승리] 정수 관련 회사 Culligan Water의 랜딩페이지 설명카피
 
-![AI Win - Culligan's Headline]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/03.jpg' }} "AI 승리 - Culligan 설명카피")
+![AI Win - Culligan's Headline]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/03.jpg' }} "AI 승리 - Culligan 설명카피"){: loading='lazy'}
 {: .full-size}
 
 [🤖AI 승리] 독일 보험앱 CLARK의 랜딩페이지 헤드라인
 
-![AI Win - CLARK's Headline]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/04.jpg' }} "AI 승리 - CLARK 헤드라인")
+![AI Win - CLARK's Headline]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/04.jpg' }} "AI 승리 - CLARK 헤드라인"){: loading='lazy'}
 {: .full-size}
 
 [🤖AI 승리] 승마 용품 판매점 Schneiders의 이벤트 배너
 
-![AI Win - Schneiders의's Banner]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/05.jpg' }} "AI 승리 - Schneiders의 이벤트 배너")
+![AI Win - Schneiders의's Banner]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/05.jpg' }} "AI 승리 - Schneiders의 이벤트 배너"){: loading='lazy'}
 {: .full-size}
 
 [👩인간 승리] Booking.com 예약 CTA 버튼
 
-![Human Win - Booking.com's Reserve CTA Button]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/06.jpg' }} "AI 승리 - Booking.com 예약 CTA 버튼")
+![Human Win - Booking.com's Reserve CTA Button]({{ site.cdn_url | append: '/assets/images/design/human-vs-ai-copywriting-competition/06.jpg' }} "AI 승리 - Booking.com 예약 CTA 버튼"){: loading='lazy'}
 {: .full-size}
 
 아직 결과를 기다리고 있는 2건의 승부가 남아있기는 하지만 결국 AI의 승리입니다. 요즘 노 코드 툴도 잘 나오던데 앞으로 페이스북 마케팅부터 랜딩 페이지 제작까지는 돈만 내면 클릭 몇 번으로 끝낼 수 있는 때가 올지도 모르겠습니다.

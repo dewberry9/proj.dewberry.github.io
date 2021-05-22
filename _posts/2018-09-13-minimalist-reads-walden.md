@@ -11,7 +11,7 @@ topic: UX Design
 글 사이에 인용된 「월든」의 구절은 도서출판 이레에서 출판한 강승영 역자의 번역본을 따르고 있습니다.
 {: .indent .infor}
 
-![The Masterpiece]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/01.jpg'}} "고전 명작")
+![The Masterpiece]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/01.jpg'}} "고전 명작"){: loading='lazy'}
 {: .full-size}
 
 [디터 람스의 디자인](https://www.vitsoe.com/eu/about/good-design)을 보면 녹슬지 않는 디자인이 무엇인지 한눈에 깨달을 수 있습니다. 유려하되 과하지 않은 그의 디자인을 보면 80년의 세월이 무색합니다. 현대적, 심지어 미래적으로 보입니다. 디터 람스는 1960년대에 시작한 미니멀리즘(Minimalism)을 이끌었던 대표적인 디자이너입니다. 디자인에서 미니멀리즘은 거대한 물결이 되었습니다. 모든 장식은 실용적이었고, 모든 형태는 불편하지 않았습니다. 단순함의 미학이라 일컬을 만 합니다.
@@ -23,7 +23,7 @@ topic: UX Design
 
 ## 나무꾼이자 실험자
 
-![Lake]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/02.jpg'}} "이 19세기 사람은 호수를 사랑한다")
+![Lake]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/02.jpg'}} "이 19세기 사람은 호수를 사랑한다"){: loading='lazy'}
 {: .normal-size}
 
 「월든」은 지루합니다. 별로 흥미도 가지 않는 이야기를 자세히, 길게 늘어놓습니다. 겨울철 호수에서 얼음을 끌어내는 이들의 모습이나, 숲속의 곤충과 동물들이 어떻게 우는지를 설명합니다. 작가의 취향은 차고 넘쳐서, 동양철학 내용이 상당히 포함되어 있습니다. 그렇다고 가벼운 내용을 다루는 것도 아닙니다. 당대의 문제부터 좀 더 철학적인 사색까지 모두 구구절절하게 설명합니다. 그런데 「월든」을 읽다 보면 무거운 내용이 전혀 무겁지가 않습니다. 투명한 호수와 뛰노는 물고기에 대한 묘사를 접하다 보면 답이 뻔한 문제를 다루고 있다는 느낌을 받습니다. 「월든」은 이렇게 청명한 글입니다.
@@ -35,7 +35,7 @@ topic: UX Design
 
 ## 호숫가의 건축가
 
-![Only a Nature]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/03.jpg'}} "오로지 본질")
+![Only a Nature]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/03.jpg'}} "오로지 본질"){: loading='lazy'}
 {: .normal-size}
 
 이 책의 초반부에서 소로는 멕시코 전쟁에 항의하는 의미로 문명을 떠나 월든 호숫가에 외따로 살기 시작했습니다. 그 2년 2달 동안 소로는 주거 환경을 포함한 모든 생활을 자연 속에서 스스로 영위했습니다. 그가 묘사하는 숲의 사계절은 흥미롭지만, 그가 작은 집을 짓는 과정은 더욱 흥미롭습니다. 도끼 하나를 빌려 재목을 마련하고, 오래된 집을 헐어 판자와 창문을 구하고, 벽을 세우고 지하실을 만들며 지붕을 얹습니다. 이 간결한 과정을 마친 후 소로는 세간의 '건축가'를 평가합니다.
@@ -51,7 +51,7 @@ topic: UX Design
 
 ## 최소를 위한 최대
 
-![The Hunt]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/04.jpg'}} "사냥은 시야를 넓혀주기도 한다")
+![The Hunt]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/04.jpg'}} "사냥은 시야를 넓혀주기도 한다"){: loading='lazy'}
 {: .normal-size}
 
 소로는 책 전반에 걸쳐 자신의 탐구적인 모습을 보여줍니다. 효모 없이 순수한 호밀가루로만 빵을 굽기도 하고, 자신의 무게를 견디지 못해 줄기가 부러지는 딸기를 관찰하기도 하며, 호수의 개구리 
@@ -66,7 +66,7 @@ topic: UX Design
 
 ## 이방인의 미학
 
-![Some Reset]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/05.jpg'}} "창조의 고민은 리셋에서 해결된다")
+![Some Reset]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/05.jpg'}} "창조의 고민은 리셋에서 해결된다"){: loading='lazy'}
 {: .normal-size}
 
 소로의 다소 감성적인 표현에도 불구하고 향수를 일으킬 만한 문장은 보이지 않습니다. 고향 콩코드에 살면서 콩코드를 자랑스러워하지만 늘 새로운 무언가를 상상하고 있는 것입니다. 월든 호숫가에서의 생활을 스스로 '실험'이라고 칭하는 것도 같은 맥락에서 이뤄진 일입니다. 그는 난생처음으로 들판에서 빵을 굽고, 콩밭에서 김매고, 얼어붙은 호수의 깊이를 잽니다. 거리낌 없이 행하고 망설임 없이 경험으로 여깁니다. 그는 언제나 새로운 방향으로 시도합니다. 이런 라이프 스타일에 대해 소로 본인은 다음과 같은 생각을 합니다 :
@@ -81,7 +81,7 @@ topic: UX Design
 
 ## 미니멀리스트는 「월든」을 읽는다
 
-![Minimalist. Alone.]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/06.jpg'}} "미니멀리스트는 홀로 선다")
+![Minimalist. Alone.]({{ site.cdn_url | append: '/assets/images/09-minimalist-reads-walden/06.jpg'}} "미니멀리스트는 홀로 선다"){: loading='lazy'}
 {: .normal-size}
 
 위의 이야기를 정리하자면, 미니멀리스트는 3가지 특성을 가지고 있습니다.

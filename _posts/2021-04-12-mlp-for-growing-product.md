@@ -16,7 +16,7 @@ topic: UX Design
 
 ## MVP만으로 제품을 만들 수 없는 2가지 이유
 
-![MVP Circle]({{ '/assets/images/design/mlp-for-growing-product/01.jpg' | relative_url }} 'MVP 사이클')
+![MVP Circle]({{ '/assets/images/design/mlp-for-growing-product/01.jpg' | relative_url }} 'MVP 사이클'){: loading='lazy'}
 {: .normal-size}
 
 1. MVP는 가설을 증명하는 도구이지 가설 자체에 대한 방향성을 제공하지 않는다.
@@ -26,14 +26,14 @@ topic: UX Design
 
 <a title="Jim Brikman(Y Combinator) - A Minimum Viable Product Is Not a Product, It's a Process" href='https://www.ycombinator.com/library/4Q-a-minimum-viable-product-is-not-a-product-it-s-a-process' target='_blank'>'MVP는 제품 형태일 필요도 없다.'</a> 이 말은 제품을 구축하는 방법론 MVP의 막강한 경제성을 보여주는 말입니다. 사진, 동영상, 프레젠테이션, 어떤 것이든 사용자가 기능을 이해할 수 있는 형태이기만 하면 됩니다. 그렇게 해서 수용 가능한 제품을 도출해내는 것이 MVP의 역할입니다. 그런데 위 말을 잘못 받아들여 MVP를 부족한 기능의 제품을 단순히 빠르게 내놓는 것으로 해석하는 경우가 많습니다. MVP가 증명해야 하는 건 제품이지 기능이 아닙니다. <a title='CB Insights, 2019 - The Top 20 Reasons Startups Fail' href='https://www.cbinsights.com/research/startup-failure-reasons-top/' target='_blank'>스타트업이 망하는 가장 큰 원인은 자금 문제도, 직원 문제도 아니라 시장에 제품에 대한 니즈가 없는 경우입니다.</a> 결국 올바른 가설을 갖고 MVP를 사용해야 제대로 된 인사이트를 얻을 수 있는 것입니다. 그러나 이 올바른 가설을 가리키는 방향성은 MVP에서 찾을 수 없습니다. MVP는 가설을 증명하는 방법일 뿐이니까요. 그럼 어디서 찾을 수 있을까요?
 
-![First Mover VS Fast Follower]({{ '/assets/images/design/mlp-for-growing-product/02.jpg' | relative_url }} '퍼스트 무버 VS 패스트 팔로워')
+![First Mover VS Fast Follower]({{ '/assets/images/design/mlp-for-growing-product/02.jpg' | relative_url }} '퍼스트 무버 VS 패스트 팔로워'){: loading='lazy'}
 {: .normal-size}
 
 MVP의 구조에서 오는 한계도 있습니다. MVP는 수용할 수 있는 제품을 만듭니다. 그리고 사용자는 수용할 수만 있다면 어떤 제품이든 사용할 수 있습니다. 꼭 내 제품이 아니더라도 말입니다. Facebook, Lime, YouTube. 새로운 제품의 개척자 퍼스트 무버(First Mover)가 아닌 영악한 모방자인 패스트 팔로워(Fast Follower)가 승리자가 되는 구도는 이미 우리에게도 익숙합니다. 사용자가 없다면 제품은 성립하지 않습니다. MVP로 ‘먹히는 어떤 것’을 찾아낼 수는 있지만, ‘내 제품’을 사용해야 하는 이유를 찾아내기에는 부족합니다.
 
 ## 제품의 팬을 만드는 MLP
 
-![MLP Circle]({{ '/assets/images/design/mlp-for-growing-product/03.jpg' | relative_url }} 'MLP 사이클')
+![MLP Circle]({{ '/assets/images/design/mlp-for-growing-product/03.jpg' | relative_url }} 'MLP 사이클'){: loading='lazy'}
 {: .normal-size}
 
 MLP(Minimum Lovable Product)는 어떤 문제를 해결할 뿐만 아니라 사용자에게 애정 받을 수 있는 제품을 만들기 위해 가설을 제시하고 피드백을 받는 순환과정으로 구성된 프로세스입니다. MVP의 유용함(신속성, 정확성, 경제성)을 받아들이고 UX 상의 단점(앞선 문단에서 언급한 한계)을 보완한 방식입니다.
@@ -46,7 +46,7 @@ MLP는 MVP를 포함한 여러 제품 개발 방법론을 포괄하는 상위 �
 
 로드맵 소프트웨어 개발사 Aha!의 창업자 브라이언(Brian de Haaff)은 자신의 저서 행복해 하는 비즈니스를 만드는 방법>에서 <a title='Brain De Haaff(Aha!), 2017 - The 10 Building Blocks of Lovability' href='https://www.aha.io/blog/the-10-building-blocks-of-lovability' target='_blank'>사용자의 애정을 구성하는 10가지 요소를 3단계 피라미드 구조</a>로 제시한 바 있습니다.
 
-![Lovability Pyramid]({{ '/assets/images/design/mlp-for-growing-product/04.jpg' | relative_url }} '애정 피라미드')
+![Lovability Pyramid]({{ '/assets/images/design/mlp-for-growing-product/04.jpg' | relative_url }} '애정 피라미드'){: loading='lazy'}
 {: .full-size}
 
 사용자의 애정은 단계별로 다음과 같이 구분할 수 있습니다.

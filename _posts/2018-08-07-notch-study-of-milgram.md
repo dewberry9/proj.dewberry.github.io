@@ -8,7 +8,7 @@ thumbnail: /assets/images/05-notch-study-of-milgram/01.jpg
 permalink: /notch-study-of-milgram
 topic: UX Design
 ---
-![Unwanted Blueprint, Notch]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/01.jpg" }} "바라지 않는 청사진, 노치")
+![Unwanted Blueprint, Notch]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/01.jpg" }} "바라지 않는 청사진, 노치"){: loading='lazy'}
 {: .full-size}
 
 최근 iOS 12의 다섯 번째 개발자 베타가 공개되었습니다. 이어 [9TO5Mac이라는 애플 전문 매체에서 차세대 iPad Pro에 대한 정보](https://9to5mac.com/2018/08/01/ios-12-beta-5-bezel-less-ipad-glyph-leak/)를 게시했습니다. OS에 포함된 아이콘을 참고한 정보인데요, 이로써 차세대 iPad Pro는 홈버튼이 제거된 라운드 디스플레이가 장착될 가능성이 커졌습니다. 기존에 돌아다니던 루머와 유사한 모습입니다. 한 가지, 노치(Notch)를 제외하고 말입니다.
@@ -20,7 +20,7 @@ topic: UX Design
 
 ## 골짜기의 총성
 
-![It's not fine]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/02.jpg" }} "자연을 닮았다고 다 괜찮은 건 아니다")
+![It's not fine]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/02.jpg" }} "자연을 닮았다고 다 괜찮은 건 아니다"){: loading='lazy'}
 {: .normal-size}
 
 노치는 골짜기를 뜻하는 영어단어입니다. 스마트폰 시장에서도 비슷한 의미로 쓰이는 말입니다. 넓은 디스플레이에 골짜기처럼 파해있는 부분을 뜻합니다. 온통 얇은 베젤뿐인데 유일하게 디스플레이 쪽으로 튀어나와 있는 구조인 겁니다. iPhone X의 등장으로 관심을 받게 된 이 구조는 누구에게도 익숙지 않은 구조였습니다. 국내에서는 M자 탈모 등으로 희화화되기도 했습니다.
@@ -32,7 +32,7 @@ topic: UX Design
 
 ## 1. 낮은 활용성
 
-![Nothing is Changed]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/03.jpg" }} "디스플레이는 넓어졌지만 바뀐 건 없었다")
+![Nothing is Changed]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/03.jpg" }} "디스플레이는 넓어졌지만 바뀐 건 없었다"){: loading='lazy'}
 {: .normal-size}
 
 터치 디스플레이는 정말이지 멋진 구조가 아닐 수 없습니다. 입력과 출력은 디지털 세계에서 오랜 시간 동안 엮일 수 없는 일이었습니다. 각기 다른 기기로 구성되는 게 당연했습니다. 사용자의 피드백이 간접적으로 작용한다는 인상을 지울 수 없었습니다. 아무리 가까워도 입력과 출력 사이에는 항상 모니터와 마우스 간의 거리가 버티고 있었습니다. 터치 디스플레이는 이런 경험의 간극을 획기적으로 줄였습니다. 사용자는 최고의 스타일러스, 손가락으로 직접 피드백을 줄 수 있게 되었습니다. 휴대성이 좋은 스마트폰 같은 경우, 그런 터치 디스플레이의 장점이 커집니다. 디지털 세상의 경험을 언제나 가볍게 접할 수 있게 된 겁니다.
@@ -44,7 +44,7 @@ topic: UX Design
 
 ## 2. 구분성 저하
 
-![Flood in Bezel]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/04.jpg" }} "베젤의 범람")
+![Flood in Bezel]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/04.jpg" }} "베젤의 범람"){: loading='lazy'}
 {: .normal-size}
 
 어떤 공간이든 끝은 있습니다. 거장의 캔버스에도 한계는 있고, 대양도 무한히 뻗쳐있지는 않습니다. 그러한 한계의 규정은 인터랙션 디자인에서 중요한 일입니다. 어디부터 피드백을 수용할 수 있고, 어디까지 수용할 수 없는지 명확해야 합니다. 불필요한 조작과 더불어 방해받는 집중을 방지할 수 있으니 말입니다. 작은 모바일 기기에서 이런 영역의 구분이 얼마나 까다로운지, 또 중요한지는 굳이 역설하지 않겠습니다.
@@ -56,7 +56,7 @@ iPhone X 같은 경우에는 엉뚱한 모양새의 노치를 자연스럽게 �
 
 ## 3. 생소한 메타포(Metaphor)
 
-![Individuality and Originality are Important. But…]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/05.jpg" }} "개성과 독창성을 중시하는 필자도 노치는 이해가 힘들다")
+![Individuality and Originality are Important. But…]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/05.jpg" }} "개성과 독창성을 중시하는 필자도 노치는 이해가 힘들다"){: loading='lazy'}
 {: .normal-size}
 
 메타포는 은유라는 의미입니다. 문학적 의미 말고도 다양한 분야에서 사용되고 있는 단어이기도 합니다. 이는 인터랙션 디자인에서도 폭넓게 활용되고 있습니다. 이전에 했던 이야기에서 종종 언급했듯이 디자인을 이루는 많은 요소는 현실에서 그 원형을 가져와서 나름의 변형을 가하고 가치를 담아서 재탄생됩니다. 이것이 인터랙션 디자인에서 메타포가 만들어지는 과정입니다. 현실에서 원형을 가져오기 때문에 학습이 신속합니다. 그래서 디자인은 한 편의 서사시가 됩니다. 막힘없는 비유가 조화를 이루고 있는 겁니다.
@@ -68,7 +68,7 @@ iPhone X 같은 경우에는 엉뚱한 모양새의 노치를 자연스럽게 �
 
 ## 군학일계
 
-![Notch is Pollution]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/06.jpg" }} "노치는 오염이다")
+![Notch is Pollution]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/06.jpg" }} "노치는 오염이다"){: loading='lazy'}
 {: .normal-size}
 
 몇몇 이들은 노치가 끼어있는 풀 스크린 디스플레이를 보고 창의적인 발전을 말합니다. 각지고 네모난 오래된 디스플레이가 주는 경험은 고리타분하며, 새롭고 독특한 디스플레이의 부흥을 꿈꿉니다. 실제로 그 인상적인 위용은 부정할 수 없습니다. 얼마 전까지만 해도 하웨이의 Nova 3, 에이수스의 Zenfone 5, LG의 ThinQ처럼 노치가 붙은 풀 스크린 디스플레이를 장착한 스마트폰이 많이 출시되었습니다. 미래지향적인, 독특한 구조라고 생각했을 겁니다.
