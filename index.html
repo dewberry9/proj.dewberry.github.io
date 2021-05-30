@@ -22,7 +22,7 @@ thumbnail: /assets/images/ogimage.jpg
                 <p class="numbering">00</p>
             </div>
             <div class="title-space-right">
-                <h1 class="title-description">읽을 만한 취향들, 매거진 입맛.<br>책, 술, 그밖에 즐거움 리뷰 / 디자인 / 소설</h1>
+                <h1 class="title-description">읽을 만한 취향들, 매거진 입맛.<br>책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</h1>
                 <p class="numbering">01</p>
             </div>
         </div>
@@ -39,15 +39,15 @@ thumbnail: /assets/images/ogimage.jpg
 <section class="btn-point">
     <p class="numbering">02</p>
     <div class="text-content">
-        <h3>입맛리뷰 - 책, 술, 그밖에 삶의 즐거움</h3>
-        <a href="{{ 'review' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
+        <h3>프로덕트 디자인 - 인사이트, 가이드</h3>
+        <a href="{{ 'article' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
                 viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
                 <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
                 </svg></a>
     </div>
 </section>
 <section class="recent-article post-list">
-    {% for post in site.categories.review limit:3 %}
+    {% for post in site.categories.design-teatime limit:3 %}
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">
@@ -77,15 +77,15 @@ thumbnail: /assets/images/ogimage.jpg
 <section class="btn-point">
     <p class="numbering">03</p>
     <div class="text-content">
-        <h3>UX 디자인 - 인사이트, 가이드</h3>
-        <a href="{{ 'article' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
+        <h3>입맛리뷰 - 책, 술, 삶의 즐거움들</h3>
+        <a href="{{ 'review' | relative_url }}" title="Articles" class="btn-list"><span>더보기</span><svg
                 viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
                 <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
                 </svg></a>
     </div>
 </section>
 <section class="recent-article post-list">
-    {% for post in site.categories.design-teatime limit:3 %}
+    {% for post in site.categories.review limit:3 %}
     <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
         title="{{ post.title | prepend : 'Read' }}">
         <div class="post-thumbnail">
