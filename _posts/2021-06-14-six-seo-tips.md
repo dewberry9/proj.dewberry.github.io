@@ -1,5 +1,5 @@
 ---
-title: 핵심만 모아놓은, 메모해놓고 쓰는 6가지 SEO 전략
+title: 핵심만 모은, 메모해놓고 쓰는 6가지 SEO 전략
 layout: post
 category: design-teatime
 date: 2021-06-13 00:00:00
