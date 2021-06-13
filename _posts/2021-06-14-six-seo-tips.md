@@ -4,7 +4,7 @@ layout: post
 category: design-teatime
 date: 2021-06-13 00:00:00
 excerpt: SEO는 고객 획득 전략 중에서도 유독 성과가 갈립니다. 어떻게 성공시킬까요? 핀터레스트, Typeform 등 사례와 핵심 전략을 살펴봅니다.
-thumbnail: /assets/images/design/product-led-growth-viral/00.jpg
+thumbnail: /assets/images/design/six-seo-tips/00.jpg
 permalink: /six-seo-tips
 topic: Marketing
 ---
