@@ -1,0 +1,159 @@
+---
+title: MVP가 실패하는 5가지 이유와 해답 - MVT(최소기능검증)
+layout: post
+category: design-teatime
+date: 2021-10-21 00:00:00
+excerpt: 어정쩡한 고객 피드백과 프로덕트 마켓 핏 사이에서 갈팡질팡하고 있다면, MVP보다 더 MVP스러운 전략 MVT가 나설 때입니다.
+thumbnail: /assets/images/design/why-mvp-as-a-product-fails-try-mvt/00.jpg
+permalink: /why-mvp-as-a-product-fails-try-mvt
+topic: UX Design
+---
+
+왜 사람들은 최소 기능 제품, MVP(Minimum Viable Product)에 열광할까요? 지루한 시장 조사, 관료적 의사결정 대신 진짜 제품을 가지고 진짜 고객에게서 인사이트를 얻기 때문입니다. 가설을 확인하기 위해 제품을 고치고 배포해서 피드백을 받습니다. 피드백으로 새 가설을 세웁니다. 이 사이클에서 MVP는 점점 완성 단계의 제품으로 진화합니다.
+
+![MVP Fails]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/01.jpg' | relative_url }} 'MVP Fails'){: loading='lazy'}
+{: .normal-size}
+
+이론상으로는 더없이 이상적인 트랙인데 현실에서는 뭔가 다릅니다.🤔 발전은커녕 첫발부터 빗나가기 일쑤입니다. MVP에 대한 고객의 반응은 시원찮습니다. 제품이 시장에서 굴러갈 수 있다는 확신, 프로덕트 마켓 핏(Product-Market Fit)은 저 멀리 있어 닿지 않습니다. 다음 MVP를 준비합니다. 다시 어정쩡한 피드백이 돌아옵니다. MVP를 쓰면서 일한다고 착각하는 상황입니다. MVP를 제품으로 생각하고 있다면 결코 이 악순환에서 탈출할 수 없습니다. 어떻게 해야 할까요? 더 가볍고 빨라야 합니다. 목표와 수단이 명확해야 합니다. 제품이라는 탈을 벗겨야 합니다. 프로덕트 마켓 핏에 도달하기 위해 꼭 검증해야 하는 가설의 연속, MVT(Minimum Viable Testing; 최소 기능 검증)가 바로 그것입니다.
+
+- 제품으로서의 MVP는 왜 실패할까요?
+- MVT가 MVP의 한계를 극복하는 해답인 이유가 뭘까요?
+- MVT를 구축하는 3단계와 실제 제품 사례는 어떤 게 있을까요?
+
+## MVP가 실패하는 5가지 이유
+
+<a title='Kyril Kotashev, 2019 - Startup Mistakes: First-Hand Lessons from 80+ Failed Startups' href='https://www.failory.com/blog/startup-mistakes?refer=mag_epmat' target='_blank' rel='noopener'>실패한 스타트업의 1/3</a>은 프로덕트 마켓 핏에 맞지 않는 제품을 만든 까닭에 넘어졌습니다. 프로덕트 마켓 핏을 찾는 일은 쉽지 않습니다. 스타트업이 프로덕트 마켓 핏을 찾기까지는 많은 창업자가 예상한 기간보다 2~3배 더 긴 시간이 듭니다. 이렇게 프로덕트 마켓 핏을 찾기 전 창업자는 자신의 제품을 실제보다 <a title='Nicolás Cerdeira, Kyril Kotashev, 2021 - Startup Failure Rate: Ultimate Report + Infographic [2021]' href='https://www.failory.com/blog/startup-failure-rate?refer=mag_epmat' target='_blank' rel='noopener'>2.5배 과대평가</a>합니다. 제품을 성공시키기 위해서는 많은 시도가 있어야 하고, 실패했을 때의 부담을 줄이고 다음 시도를 위한 인사이트를 도출하기 위해 각 시도는 가볍고, 빠르고, 정교해야 합니다. 많은 스타트업에서 초기 제품 아이디어를 검증하는데 MVP의 철학이 기도문처럼 쓰이고 있는 것은 위와 같은 사실을 생각해봤을 때 자연스럽습니다. 그러나 오늘날의 MVP는 MVP에서 멀어지고 있습니다.
+
+스타트업 VC, Y Combinator의 짐 브릭먼(Yevgeniy Jim Brikman)이 지적했듯이 <a title="Jim Brikman(Y Combinator), 2016 - A Minimum Viable Product Is Not a Product, It's a Process" href='https://www.ycombinator.com/library/4Q-a-minimum-viable-product-is-not-a-product-it-s-a-process?refer=mag_epmat' target='_blank' rel='noopener'>MVP는 제품이 아니라 프로세스</a>입니다. 프로덕트 마켓 핏을 찾는 과정은 시행착오의 연속이고 빠른 실패와 인사이트 도출이 중요합니다. 그러나 **오늘날 MVP를 쓴다고 자부하는 많은 조직에서 MVP의 위치는 빠르게 내놓지만 부실한 인스턴트 같은 제품이 되었습니다.** 온라인 교육 플랫폼 유데미(Udemy)의 공동 창업자이자 현재 메이븐(Maven)의 CEO인 가간 비야니(Gagan Biyani)는 이런 식으로 초기 제품 아이디어 검증에 <a title='Gagan Biyani - The Minimum Viable Testing Process for Evaluating Startup Ideas' href='https://review.firstround.com/the-minimum-viable-testing-process-for-evaluating-startup-ideas?refer=mag_epmat' target='_blank' rel='noopener'>제품으로써의 MVP가 사용될 때 발생하는 한계점</a>을 말했습니다.
+
+![Limitations of Incorrect MVP Usage]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/02.jpg' | relative_url }} 'Limitations of Incorrect MVP Usage'){: loading='lazy'}
+{: .normal-size}
+
+1. 프로덕트 마켓 핏으로 이끄는 수십 가지 인사이트 대신 어떤 제품을 만들겠다는 이상을 담은 특정 비전에 집중하게 됩니다.
+2. 실제 고객이 사용하는 제품을 만들기 때문에 고객 피드백의 영향력이 커집니다. 고객 피드백은 중요하지만 거리를 둬야 합니다. 시장에 적합한 제품을 만드는 일은 고객의 관심사가 아닙니다. 헨리 포드가 말했듯, 사람들은 자동차가 아니라 더 빠른 말을 원한다고 했을 겁니다.
+3. 제품이 생기면 운영사도 생깁니다. 프로덕트 마켓 핏을 찾기 이전에 진행하는 조직 구성 업무는 불필요할 뿐만 아니라 기민해야 하는 검증 과정에 방해가 될 수 있습니다.
+4. 제품이 제품답게 보이는 데 필요한 부가적인 요소들을 만들어야 합니다. <a title='Caspar, 2021 - Why you should launch your product without a login' href='https://casparwre.de/blog/launching-a-product-without-a-login?refer=mag_epmat' target='_blank' rel='noopener'>로그인 절차</a>, 제품 사용 데이터 DB, 심지어는 제품 로고와 이름까지 필요합니다.
+5. 빠르게 구현한 MVP가 운 좋게 프로덕트 마켓 핏에 맞아 해당 MVP를 기반으로 제품을 발전한다고 했을 때, 이 MVP에 사용된 코드는 종종 제품의 개선을 어렵게 하는 기술 부채가 됩니다. 많은 개발자가 하소연하는 것처럼, ‘처음부터 만드는 게 더 빠른’ 경우가 발생합니다.
+
+## MVP, MLP 그리고 MVT
+
+![MLP, MVP and MVT]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/03.jpg' | relative_url }} 'MLP, MVP and MVT'){: loading='lazy'}
+{: .normal-size}
+
+어떤 문제를 해결할 뿐만 아니라 사용자에게 애정 받을 수 있는 제품을 만들기 위해 가설을 제시하고 피드백을 받는 순환 프로세스인 <a title='매거진 입맛 - MVP는 방향이 아닌 속도다. MLP로 성장하는 제품 만들기(1/2)' href='/mlp-for-growing-product' target='_blank'>MLP(Minimum Lovable Product)를 설명한 이전 글</a>에서, MVP가 인사이트 해석과 가설 설립에 대한 방향을 제공하지 않으며, 제품의 차별성을 만들기 어렵다는 한계점을 MLP를 통해 극복할 수 있다고 말한 적 있습니다. 이때 MLP가 MVP의 방향성을 보완하기 위해 제시되었다면, MVT는 MVP의 유용함(신속성, 정확성, 경제성)을 강화하는 수단의 성격으로 이야기됩니다.
+
+**MVT는 특정 제품이 프로덕트 마켓 핏을 찾기 위해 필연적인 가설 검증의 연속**입니다. 장기적 비전, 고객 피드백, 조직이나 제품을 위한 부가적 업무 등이 아니라 목표한 제품이 작동하려면 반드시 검증해야 하는 핵심적인 가설에 집중합니다.
+
+전통적인 제품 개발 방식과 MVP를 비교하는 자동차 예시를 많이 보았을 겁니다. 전자는 미리 설계한 최종 제품에 맞춰 바퀴, 좌석, 핸들을 따로 만듭니다. MVP는 스케이트보드를 제시하여 제품의 가능성을 확인한 후 자전거, 자동차 순으로 점진적인 발전 과정을 거칩니다. MVT는 더 작은 단위에서 본질적인 가설을 검증합니다. ‘바퀴 달린 운송수단은 작동할 것인가?’, ‘고객은 이를 이용할 수 있을 것인가?’ MVT가 묻는 말은 이런 것입니다. MVT는 바퀴가 굴러가는지, 고객이 거기에 올라탈 수 있는지를 검증할 것입니다. 그렇지 않다면 스케이트보드도 자동차도 필요 없으니까요.
+
+## MVT 구축 3단계
+
+좋은 MVT는 작은 한 점을 빠르고 깊숙이 찌르는 벌침과도 같습니다. MVT에서 검증하는 가설은 그림 한가운데에 자리한 작은 퍼즐 조각입니다. 없으면 퍼즐을 완성할 수 없습니다. 이런 MVT를 세우기 위해서는 기준이 필요합니다. MVT를 실무에 적용하는 구체적인 방법은 아래와 같은 3단계로 나뉩니다.
+
+**1단계 : 가치 제안(Value Proposition)**  
+린(Lean), 애자일(Agile), MVP, MLP(Minimum Lovable Product)…. 이러한 그로쓰 해킹 전략의 공통점은 고객과 시장에 통하는 제품을 빠르게 만들고 증명하는 것입니다. MVT도 마찬가지입니다. 그 첫 단추는 통하는 어떤 것을 찾아내는 일입니다.
+
+가치 제안은 아이디어의 가능성, 즉 고객의 니즈를 위해 제품이 제공할 수 있는 가치입니다. 가치 제안은 많은 제품 개발 방법론에서 필수적으로 거치는 보편적인 과정입니다. MVP에서는 합의된 가치 제안으로 <a title='Robert Beerworth, 2014 - The importance of the value proposition to MVP; and starting with Lean UX' href='https://www.wiliam.com.au/wiliam-blog/the-importance-of-the-value-proposition-to-mvp-and-starting-with-lean-ux?refer=mag_epmat' target='_blank' rel='noopener'>제품 정체성을 정의하고 MVP가 발전해 나갈 로드맵을 그립니다</a>. 이전에 쓴 <a title='매거진 입맛 - 일은 최소로, 효과는 최대로. MLP 4원칙. MLP로 성장하는 제품 만들기(2/2)' href='/four-principles-of-mlp' target='_blank' rel='noopener'>MLP 4원칙에 관한 글</a>에서 찾아볼 수 있듯, 비즈니스적 필요가 아닌 고객의 필요에서 시작하고, 문제 정의 전 성급하게 솔루션을 제시하지 말고, 고객 피드백을 맹목적으로 받아들이지 않으며 가장 가치 있는 문제와 솔루션을 선택하라는 MLP 4원칙은 그 자체로 좋은 가치 제안을 찾는 방법이기도 합니다.
+
+![KakaoTalk, Uber, stripe, SOCAR Value Proposition]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/04.jpg' | relative_url }} 'KakaoTalk, Uber, stripe, SOCAR Value Proposition'){: loading='lazy'}
+{: .normal-size}
+
+MVT 역시 같은 방향으로 가치 제안을 선정합니다. 고객이 무얼 하려고 하는지, 어떻게 하면 고객이 알고 있는 방식보다 더 빠르고 확실하게 그 목표를 달성할 수 있는지 고민해야 합니다. MVT의 가치 제안에서 중요한 점은 단순함을 잃지 않는 것입니다. 단순함은 성공한 제품이 가지고 있는 가치 제안의 특징이기도 합니다. 카카오톡의 가치 제안은 무료로 쓸 수 있는 메신저가 고객의 생활에 도움을 준다는 것입니다. 쉽고 빠르게 택시를 부를 수 있는 우버(Uber), 이전의 어느 온라인 결제 수단보다 간편한 스트라이프(Stripe), 비대면으로 자동차를 빌릴 수 있는 쏘카. 모두 복잡하고 어려운 가치 제안을 하고 있지 않습니다. 가치 제안은 실제적이고 직관적이어야 합니다.
+
+이렇게 정의한 가치 제안이 MVT에서 검증 받는데 성공한다면, MVT 이후에 해당 가치 제안을 핵심으로 제품을 만들게 됩니다.
+
+**2단계 : 리스크 검증(Risk Assumption)**  
+가치 제안을 정의하고 난 다음, 이 가치가 고객과 시장에 통하지 않을 경우를 살펴봐야 합니다. MVT 구축의 2단계, 리스크 검증은 준비하고 있는 MVT가 실패할 상황을 가정하고 실제 MVT가 진행된 이후 해당 가정과 관련된 일이 일어났는지 확인하는 과정입니다. 이때 가정하는 리스크는 제품이 정상적으로 작동하지 않을 만큼 가능성이나 영향력이 큰 것이어야 합니다.  MVT 실행 전에 가정한 리스크가 실제로 존재하는지, 있다면 영향력은 얼마나 되는지, 대응책은 있는지 살펴보는 게 리스크 검증의 주요한 역할입니다.
+
+![5 Types of Major Risk]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/05.jpg' | relative_url }} '5 Types of Major Risk'){: loading='lazy'}
+{: .normal-size}
+
+MVT에서 사용하는 리스크 검증은 크게 다음 5가지 유형으로 구분합니다.
+
+1. 고객의 필요성 : 가장 중요한 리스크입니다. 제품이 고객에게 불필요한 것이 확인된다면 그 이상의 MVT는 무의미합니다. 가치 제안부터 다시 세워서 피벗해야 합니다.
+2. 기술적 실현성 : 오늘날 일반적인 자동차가 요구하는 연료의 1/10만으로 4배 빨리 목적지에 도착하는 하늘을 나는 교통수단은 얼마나 멋질까요? 현재의 기술로는 실현하기에 무리인 아이디어입니다. 제품을 디자인하고 있다는 사실을 잊지 말아야 합니다. 대담함과 혁신에 목매다 실현성을 간과해서는 안 됩니다.
+3. 마케팅 : 좋은 제품만큼 좋은 마케팅도 중요합니다. MVT에서 확인해야 할 마케팅 리스크는 누가 제품을 살 것인지, 그 시장에서는 어떻게 팔아야 하는지를 포함하는 전반적인 시장 진출 전략입니다.
+4. 시장 규모 : 확장·지속 가능한 비즈니스에서 큰 규모의 시장은 중요합니다. 플라스틱 책갈피 시장에서 어떤 유의미한 비즈니스를 세울 수 있을까요? 전반적인 시장 크기, 참여하고 있는 고객과 사업자, 시장 동향까지 체크할 필요가 있습니다.
+5. 수익성 : 많은 초기 스타트업이 간과하고 있지만, 이윤은 중요합니다. 수익은 제품 개발 조직을 유지할 뿐만 아니라 확장하는데 결정적입니다. 조직의 확대는 더 나아진 제품을 더 많은 고객이 사용할 수 있게 된다는 의미가 있습니다. 수익성 리스크에서는 MVT를 사용하는 고객이 실제 비용을 지불할 의사가 있는지 확인하는 게 제일 중요합니다.
+
+**3단계 : 최소 단위 검증(Atomic Unit Testing)**  
+제품의 핵심이 되는 가치 제안을 정의하고 이 가치 검증이 통하지 않을 경우, 즉 리스크도 꼽아봤습니다. 이제 남은 건 실제 검증뿐입니다.
+
+![Continuous MVT]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/06.jpg' | relative_url }} 'Continuous MVT'){: loading='lazy'}
+{: .normal-size}
+
+최소 단위 검증은 실행 단계의 MVT가 갖는 주요한 특징입니다. 2단계에서 설정한 리스크 중 제품 유지에 필수적인 리스크 하나를 선택해서 검증합니다. 2~3개의 리스크가 한 MVT에서 함께 검증될 수 있지만 항상 1순위로 확인할 리스크가 정해져 있어야 합니다. 기술적인 실현 가능성을 확인했다면 이어서 수익성을 검증할 MVT를 실행합니다. 제품 개발에 필요한 만큼 인사이트가 쌓일 때까지 가장 결정적인 리스크부터 차례로 검증합니다. 필요에 따라 한 리스크를 추가 검증하기 위해서 후속 MVT를 기획합니다.
+
+최소 단위 검증이 강조하는 바는 부분적이지만 명확하고 구체적인 가설을 선택하라는 것입니다. 세계 최대의 온라인 커머스 플랫폼 아마존(Amazon)도 처음에는 책만 팔았습니다. 주문 가능한 수백만 가지 품목, 배송 체계, 멤버십 제도는 고려 대상이 아니었습니다. 아마존도 초창기에는 단 하나의 가설에서 시작했습니다. ‘사람들이 온라인으로 책을 살 것인가.’ 핵심에 집중한 MVT는 오염 없는 명료한 데이터를 줍니다. 제품이 성립하기 위해 반드시 증명해야 하는 가설에 빠르게 접근할 수 있도록 해줍니다.
+
+## 4가지 제품에서 본 MVT 사례
+
+이제 MVT가 실제로 어떻게 실행되는지 살펴보겠습니다.
+
+**집단 온라인 교육 플랫폼 메이븐(Maven)**  
+메이븐은 여러 수강생이 함께 온라인 강의를 수강하는 교육 플랫폼입니다. 이 독특한 교육 플랫폼은 몇 달 전 a16z에서 <a title='Natasha Mascarenhas(TechCrunch), 2021 - a16z bets millions on Maven, a platform for cohort-based courses' href='https://techcrunch.com/2021/05/20/maven-series-a-a16z?refer=mag_epmat' target='_blank' rel='noopener'>2천만 달러(한화 약 230억 원) 시리즈 A 투자를 유치</a>했습니다.
+
+1. 가치 제안 : 집단으로 수강하는 온라인 교육의 장이 되어 온라인 교육의 질을 끌어올리기
+2. 주요 리스크 : 수익성. 일반적인 녹화 강좌보다 집단 수강 강의에 더 많은 돈을 지불할 의사가 없을 수도 있다.
+3. 최소 단위 검증 : 이미 잘 알고 있는 특정 분야를 골라 직접 집단 수강 강의 열어보기
+
+메이븐의 MVT는 10점 만점에 9점이라는 학생 만족도, 15만 달러가 넘는 수익을 남기고 끝났습니다. 이 MVT를 통해 실시간으로 이뤄지는 집단 수강 제품은 쉽게 수익화할 수 있으며, 커뮤니티 구축과 강좌 코스 설계에 큰 노하우가 필요하다는 인사이트를 얻었습니다.
+
+전문 강사는 단 1명도 고용하지 않았지만 온라인 교육 플랫폼의 수익 구조를 증명하는 일에는 무리가 없었습니다.
+
+**음식 배달 플랫폼 스프리그(Sprig)**  
+스프리그는 고급 음식을 패스트푸드만큼 간단하게 시켜먹을 수 있는 음식 배달 플랫폼입니다. 도어대쉬(Doordash), 우버 이츠(Uber Eats) 등 쟁쟁한 경쟁사에 밀려 운영 중단했지만, 누적 투자액이 <a title='Biz Carson(INSIDER), 2017 - Sprig, San Francisco Food-Delivery Startup, Is Shutting Down' href='https://www.businessinsider.com/san-francisco-food-delivery-startup-sprig-is-shutting-down-2017-5?refer=mag_epmat' target='_blank' rel='noopener'>5,600만 달러에 이를 정도로 큰 제품</a>이었습니다.
+
+1. 가치 제안 : 고급 식사를 빠르고 쉽게 배달시켜 먹을 수 있는 서비스
+2. 주요 리스크 : 기술적 실현성. 운영 비용과 복잡성이 예상보다 클 수 있다.
+3. 최소 단위 검증 : 요리사, 배달원, 고객을 모집하여 운영 프로세스 돌려보기
+
+![Sprig's MVT]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/07.jpg' | relative_url }} 'Sprig's MVT'){: loading='lazy'}
+{: .normal-size}
+
+여러 배달원이 다양한 음식을 가져가고 각 주문 고객이 수령하는 병렬적 과정이 무리 없이 운영될 수 있는지 알아보는 MVT가 실행되었습니다. Craigslist에서 프라이빗 셰프를 찾아 음식을 만들고, 지인에게 이메일을 보내고 Eventbrite라는 지역 이벤트 플랫폼에 게시글을 올려 그의 실험을 홍보하고 주문을 받았습니다. 배달원은 긱 이코노미 플랫폼 TaskRabbit으로 모집하고 배달원과 고객에게 문자 메시지로 음식 배달을 안내했습니다.
+
+지인 대상의 실험이었기 때문에 실제 고객이 어떻게 반응할지, 이와 같은 제품의 마케팅은 어떤 방향으로 해야 할 지 알 수 없었지만(이는 다른 MVT에서 검증합니다), 식당 하나 차리지 않고도 음식 배달 플랫폼의 운영 프로세스를 검증할 수 있었습니다.
+
+**온라인 패션 커머스 플랫폼 자포스(Zappos)**  
+자포스는 신발 판매 웹페이지로 시작해 오늘날 연간 20억 달러(한화 약 1조 1천억 원)가 넘는 매출을 올리고 있는 거대 패션 커머스 플랫폼입니다. 자포스는 1999년 창업자 닉 스윈먼(Nick Swinmern)은 Shoesite.com이라는 도메인으로 자포스를 시작했습니다. 10년 후 아마존에 12억 달러로 인수될 자포스의 초창기는 <a title='Bobby Kilpatrick, 2017 - Is Your MVP Minimal Enough?' href='https://spin.atomicobject.com/2017/02/14/mvp-minimal-enough?refer=mag_epmat' target='_blank' rel='noopener'>좋은 MVT의 대표적 사례</a>입니다.
+
+1. 가치 제안 : 지역 판매점 재고에 연연하지 않고 원하는 신발을 바로 살 수 있는 온라인 커머스
+2. 주요 리스크 : 고객의 필요성. 직접 신어보고 구매하는 등의 이유로 온라인에서 신발을 사지 않을 수 있다.
+3. 최소 단위 검증 : 지역 판매점에서 찍은 신발 사진을 웹페이지에 게시, 주문이 들어오면 판매점에서 사서 배송하는 식으로 실제 니즈를 파악
+
+자포스의 MVT가 보여주듯, 신발 재고 한 켤레도 갖고 있지 않아도 온라인에서 신발을 파는 비즈니스 모델을 증명하는 데는 문제가 없습니다.
+
+**파일 공유 클라우드 서비스 드롭박스(Dropbox)**  
+드롭박스는 고전적인 사례입니다. 드롭박스는 MVP 대중화에 일조한 에릭 리에스(Eric Ries)의 저작 <린 스타트업(The Lean Startup)>에서도 예시로 꼽힙니다. 드롭박스 CEO 드류 휴스턴(Drew Houston)은 투자 유치를 위해 베타 버전의 드롭박스를 원하는 고객을 모집했습니다. 오늘날 7억 명이 사용하는 제품의 시작은 아래와 같은 MVT였습니다.
+
+1. 가치 제안 : 물리 디스크보다 편리하고, 기존 서비스보다 안정적이고 빠른 클라우드 서비스
+2. 주요 리스크 : 고객의 필요성/마케팅. 클라우드 서비스의 난해한 기술적 기반은 초기 고객을 견인하는데 좋은 특징이 아닐뿐더러 고객 니즈에 완전히 확신하기 전이라면 제품을 개발하기에도 부담이 된다.
+3. 최소 단위 검증 : 부족한 프로토타입을 공개하는 대신, 완벽하게 작동하는 모습을 담은 시연 영상으로 고객 모집
+
+이 3분짜리 영상으로 베타 버전 드롭박스를 원하는 대기자는 하룻밤 새 5천 명에서 <a title='Eric Ries, 2011 - How DropBox Started As A Minimal Viable Product' href='https://techcrunch.com/2011/10/19/dropbox-minimal-viable-product?refer=mag_epmat' target='_blank' rel='noopener'>7만 5천 명으로 뛰었습니다</a>. 드롭박스의 MVT가 보여주듯, 제품 자체가 없어도 제품을 쓰고 싶어 안달 난 고객의 수를 15배로 늘리는 데는 문제가 없습니다.
+
+온라인 강의를 제공하는 제품의 수익성을 검증하는 일에 강사는 필요 없습니다. 음식 배달 플랫폼의 운영 복잡도를 측정하는 일에 식당은 필요 없습니다. 온라인 신발 커머스 서비스의 고객 니즈를 알아보는 일에 신발은 필요 없습니다. **프로덕트 마켓 핏에 맞는 제품을 찾는 일에 제품은 필요 없습니다.** MVT가 강력한 이유입니다. MVT는 여러 차례 제품에 필요한 결정적인 가설에 집중하여 인사이트를 얻어냅니다. 최소의 비용으로 최대의 성공 전략을 찾아냅니다. MVT는 제품을 만들기도 전에 제품의 성패를 알 수 있게 해줍니다.
+
+## 정리
+
+오늘날 MVP는 제품이라는 역할이 중시되면서 본래 MVP의 의미에서 멀어지고 있습니다. 프로덕트 마켓 핏을 찾는 여정에서 위처럼 활용되는 MVP는 다음과 같은 한계점을 갖습니다.
+
+1. 현실적 인사이트 대신 어떤 제품을 만들겠다는 특정 비전에 집중
+2. 고객 피드백 영향력 확대
+3. 시기상조의 조직 구성 업무 발생
+4. 제품의 부가적인 요소 개발 업무 발생
+5. MVP의 개발 부채화
+
+<a title='매거진 입맛 - MVP는 방향이 아닌 속도다. MLP로 성장하는 제품 만들기(1/2)' href='/mlp-for-growing-product' target='_blank'>MLP</a>가 MVP의 방향이라면, MVT는 MVP의 수단입니다. MVT는 특정 제품이 프로덕트 마켓 핏을 찾기 위해 필연적인 가설 검증의 연속으로, 장기적 비전, 고객 피드백, 조직이나 제품을 위한 부가적 업무에 초점을 두지 않는 작고 중요한 가설을 대상으로 합니다. MVT를 실제로 적용하는 방법은 3단계로 구분됩니다.
+
+1. 가치 제안
+2. 리스크 검증
+3. 최소 단위 검증
+
+끝으로 실제 제품에서 각 단계가 적용된 사례를 살펴보며 제품을 만들기도 전에 제품의 성패를 알 수 있게 해주는 MVT의 특성을 알아보았습니다.
+
+모든 제품 개발 전략이 그렇듯 MVT도 반드시 성공하는 제품을 만들어 주지는 않습니다. 실패할 가능성을 줄여줄 뿐입니다. MVT가 특별한 것은 MVT가 의도하는 것이 작은 실패와 배움의 연속이기 때문입니다. MVT는 바른길을 찾을 뿐만 아니라 그 과정에서 여러 인사이트를 발굴하는데 특화되어 있습니다. 제품 개발은 정시에 출발하는 기차를 타고 여행하는 일이 아닙니다. 궂은 날씨에 하는 트레킹에 가깝습니다. 어디로 갈지, 언제 쉴지 모두 자신의 결정이고 자신의 책임입니다. MVT는 제품 개발의 첫발을 뗄 때 옆을 지켜줄 든든한 동행인이 될 것입니다.
+
+위시켓의 지원과 함께 제작된 콘텐츠입니다.
+{: .right-infor}
