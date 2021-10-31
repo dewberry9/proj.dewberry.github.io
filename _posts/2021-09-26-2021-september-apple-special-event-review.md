@@ -1,5 +1,5 @@
 ---
-title: 혁신은 (또) 없었던 애플의 자신감 - 9/14 애플 이벤트 리뷰
+title: 혁신은 (또) 없었던 애플의 자신감. 9/14 애플 이벤트 리뷰
 layout: post
 category: design-teatime
 date: 2021-09-26 00:00:00 +0900

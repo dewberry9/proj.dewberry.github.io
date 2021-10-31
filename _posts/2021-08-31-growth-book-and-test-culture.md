@@ -1,5 +1,5 @@
 ---
-title: 따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book
+title: 따라쓰기만 하면 테스트 문화가 만들어진다. Growth Book
 layout: post
 category: design-teatime
 date: 2021-08-30 00:00:00 +0900

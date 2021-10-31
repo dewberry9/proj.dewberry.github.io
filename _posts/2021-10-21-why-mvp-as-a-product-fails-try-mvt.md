@@ -1,5 +1,5 @@
 ---
-title: MVP가 실패하는 5가지 이유와 해답 - MVT(최소기능검증)
+title: MVP가 실패하는 5가지 이유와 해답. MVT(최소기능검증)
 layout: post
 category: design-teatime
 date: 2021-10-21 00:00:00 +0900
@@ -9,10 +9,10 @@ permalink: /why-mvp-as-a-product-fails-try-mvt
 topic: UX Design
 ---
 
-왜 사람들은 최소 기능 제품, MVP(Minimum Viable Product)에 열광할까요? 지루한 시장 조사, 관료적 의사결정 대신 진짜 제품을 가지고 진짜 고객에게서 인사이트를 얻기 때문입니다. 가설을 확인하기 위해 제품을 고치고 배포해서 피드백을 받습니다. 피드백으로 새 가설을 세웁니다. 이 사이클에서 MVP는 점점 완성 단계의 제품으로 진화합니다.
-
 ![MVP Fails]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/01.jpg' | relative_url }} 'MVP Fails'){: loading='lazy'}
-{: .normal-size}
+{: .full-size}
+
+왜 사람들은 최소 기능 제품, MVP(Minimum Viable Product)에 열광할까요? 지루한 시장 조사, 관료적 의사결정 대신 진짜 제품을 가지고 진짜 고객에게서 인사이트를 얻기 때문입니다. 가설을 확인하기 위해 제품을 고치고 배포해서 피드백을 받습니다. 피드백으로 새 가설을 세웁니다. 이 사이클에서 MVP는 점점 완성 단계의 제품으로 진화합니다.
 
 이론상으로는 더없이 이상적인 트랙인데 현실에서는 뭔가 다릅니다.🤔 발전은커녕 첫발부터 빗나가기 일쑤입니다. MVP에 대한 고객의 반응은 시원찮습니다. 제품이 시장에서 굴러갈 수 있다는 확신, 프로덕트 마켓 핏(Product-Market Fit)은 저 멀리 있어 닿지 않습니다. 다음 MVP를 준비합니다. 다시 어정쩡한 피드백이 돌아옵니다. MVP를 쓰면서 일한다고 착각하는 상황입니다. MVP를 제품으로 생각하고 있다면 결코 이 악순환에서 탈출할 수 없습니다. 어떻게 해야 할까요? 더 가볍고 빨라야 합니다. 목표와 수단이 명확해야 합니다. 제품이라는 탈을 벗겨야 합니다. 프로덕트 마켓 핏에 도달하기 위해 꼭 검증해야 하는 가설의 연속, MVT(Minimum Viable Testing; 최소 기능 검증)가 바로 그것입니다.
 
