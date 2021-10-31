@@ -5,7 +5,6 @@ author: "이준환"
 url: "https://dewberry9.github.io"
 cdn_url: "https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io"
 show_excerpts: true
-timezone: Asia/Seoul
 # Build settings
 markdown: kramdown
 pagination:

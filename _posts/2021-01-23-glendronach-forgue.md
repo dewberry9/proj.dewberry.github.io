@@ -2,7 +2,7 @@
 title: 다이어트한 셰리 위스키. 글렌드로낙 포그 10년
 layout: post
 category: review
-date: 2021-01-23 00:00:00
+date: 2021-01-23 00:00:00 +0900
 excerpt: 여전히 훌륭한 셰리 오크통 숙성 위스키. 그러나 저숙성의 벽 앞에서 무너져버린 감미로운 여운. 싱글 몰트 스카치위스키 글렌드로낙 포그 10년 리뷰.
 thumbnail: /assets/images/daily/glendronach-forgue/00.jpg
 permalink: /glendronach-forgue

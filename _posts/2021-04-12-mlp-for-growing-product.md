@@ -2,7 +2,7 @@
 title: MVP는 방향이 아닌 속도다. MLP로 성장하는 제품 만들기(1/2)
 layout: post
 category: design-teatime
-date: 2021-04-11 00:00:00
+date: 2021-04-11 00:00:00 +0900
 excerpt: 빠르고 경제적인 MVP의 성공이 늘 제품의 성공인 건 아닙니다. 왜일까요? MVP의 한계를 극복하는 MLP(Minimum Lovable Product)을 알아봅니다.
 thumbnail: /assets/images/design/mlp-for-growing-product/00.jpg
 permalink: /mlp-for-growing-product

@@ -2,7 +2,7 @@
 title: 흔들지 말고 섞어서. 마티니 엑스트라 드라이 & 드라이 마티니
 layout: post
 category: review
-date: 2021-04-23 00:00:00
+date: 2021-04-23 00:00:00 +0900
 excerpt: 듣기만 해도 클래식한 그 이름 마티니. 그런데 마티니라고 큼직하게 이름 붙은 이 초록병은 또 뭘까요? 드라이 베르무트 마티니 엑스트라 드라이 리뷰.
 thumbnail: /assets/images/daily/martini-extra-dry/00.jpg
 permalink: /martini-extra-dry

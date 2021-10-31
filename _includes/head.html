@@ -71,7 +71,9 @@
           "description":"{{ page.excerpt }}",
           "author":{
             "@type":"Person",
-            "name":"{{ site.author }}"
+            "name":"{{ site.author }}",
+            "url":"{{ site.url }}",
+            "email":"{{ site.email }}"
           },
           "publisher":{
             "@type":"Organization",
@@ -79,7 +81,9 @@
             "logo":{
               "@type":"ImageObject",
               "url":"{{ site.url }}/assets/images/logo.png"
-            }
+            },
+            "url":"{{ site.url }}",
+            "email":"{{ site.email }}"
           },
           "image":{
             "@type":"ImageObject",

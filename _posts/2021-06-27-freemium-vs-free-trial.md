@@ -2,7 +2,7 @@
 title: 퍼주기만 하는 제품운영? 부분 유료화 vs 무료 체험판 모델로 성과내기
 layout: post
 category: design-teatime
-date: 2021-06-27 00:00:00
+date: 2021-06-27 00:00:00 +0900
 excerpt: 부분 유료화, 무료 체험판 모델을 쓰지 않는 SaaS는 찾기 힘들지만, 성능에 대해서는 말이 많습니다. 부분 유료화, 무료 체험판 모델을 비교분석합니다.
 thumbnail: /assets/images/design/freemium-vs-free-trial/00.jpg
 permalink: /freemium-vs-free-trial

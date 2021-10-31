@@ -2,7 +2,7 @@
 title: 이루다의 논란이 넷플릭스에 없는 이유. 프라이버시 리스크 관리의 3가지 포인트
 layout: post
 category: design-teatime
-date: 2021-07-15 00:00:00
+date: 2021-07-15 00:00:00 +0900
 excerpt: 고객과 빅 테크 기업이 바꾼 시장은 프라이버시 리스크 관리를 요구하고 있습니다. 이루다, 넷플릭스, 페이스북의 사례를 통해 핵심을 짚어봅니다.
 thumbnail: /assets/images/design/three-points-of-privacy-risk-management/00.jpg
 permalink: /three-points-of-privacy-risk-management

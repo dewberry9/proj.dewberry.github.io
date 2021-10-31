@@ -2,7 +2,7 @@
 title: 그 AB 테스트 결과는 우연일지도 모릅니다.
 layout: post
 category: design-teatime
-date: 2021-09-13 00:00:00
+date: 2021-09-13 00:00:00 +0900
 excerpt: 통계적 유의성, p값, 신뢰구간, Z 점수…. 무슨 말일까요? AB 테스트 결과를 분석하는 빈도주의 통계적 가설 감정에 대해 알아봅니다.
 thumbnail: /assets/images/design/ab-test-frequentist-statistical-analysis/00.jpg
 permalink: /ab-test-frequentist-statistical-analysis

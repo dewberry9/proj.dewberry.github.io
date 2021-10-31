@@ -2,7 +2,7 @@
 title: 따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book
 layout: post
 category: design-teatime
-date: 2021-08-30 00:00:00
+date: 2021-08-30 00:00:00 +0900
 excerpt: AB 테스트는 조직에 함께하는 문화가 자리잡을 때 곱절의 성능을 발휘합니다. 테스트 문화 구현에 적합한 오픈소스 AB 테스트 플랫폼을 소개합니다.
 thumbnail: /assets/images/design/growth-book-and-experiment-culture/00.jpg
 permalink: /growth-book-and-experiment-culture

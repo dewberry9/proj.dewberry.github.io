@@ -2,7 +2,7 @@
 title: 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드
 layout: post
 category: design-teatime
-date: 2020-11-11 00:00:00
+date: 2020-11-11 00:00:00 +0900
 excerpt: AB 테스트가 좋은 건 알겠는데 막막하지 않나요? 가설 수립부터 결과 분석까지 3단계로 살펴봅니다.
 thumbnail: /assets/images/design/3step-ab-test/01.jpg
 permalink: /3step-ab-test

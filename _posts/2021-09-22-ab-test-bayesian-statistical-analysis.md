@@ -2,7 +2,7 @@
 title: AB 테스트 인사이트의 수준이 달라지는 베이지안 분석
 layout: post
 category: design-teatime
-date: 2021-09-22 00:00:00
+date: 2021-09-22 00:00:00 +0900
 excerpt: ‘대안의 결과가 원본보다 나을 확률’, ‘대안을 선택했을 때 예상 손실’. 빈도주의 분석으로 알 수 없는 인사이트를 어떻게 얻을 수 있을까요?
 thumbnail: /assets/images/design/ab-test-bayesian-statistical-analysis/00.jpg
 permalink: /ab-test-bayesian-statistical-analysis

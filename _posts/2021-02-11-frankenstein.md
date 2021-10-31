@@ -2,7 +2,7 @@
 title: 열렬하고 무력한 자들. 허밍버드 클래식 M <프랑켄슈타인>
 layout: post
 category: review
-date: 2021-02-11 00:00:00
+date: 2021-02-11 00:00:00 +0900
 excerpt: 미친 과학자와 나사 박힌 인조인간과 흑백 영화 분위기의 성. 이게 전부일까요? 저주스러운 삶에 대한 뜨거운 복수극, <프랑켄슈타인> 리뷰.
 thumbnail: /assets/images/daily/frankenstein/01.jpg
 permalink: /frankenstein

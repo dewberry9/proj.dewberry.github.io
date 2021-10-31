@@ -2,7 +2,7 @@
 title: 고객을 결제시키는 3가지 라이브 채팅 전략
 layout: post
 category: design-teatime
-date: 2021-06-20 00:00:00
+date: 2021-06-20 00:00:00 +0900
 excerpt: 라이브 채팅은 만족도가 가장 높은 CS 도구로, 전환율 20%, 리텐션은 48%나 개선합니다. 그러나 악영향을 주는 경우도 있습니다. 어떻게 된 거죠?
 thumbnail: /assets/images/design/three-live-chat-tips/00.jpg
 permalink: /three-live-chat-tips

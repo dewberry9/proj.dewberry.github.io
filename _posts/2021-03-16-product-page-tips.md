@@ -2,7 +2,7 @@
 title: 전환율 높이는 상세 페이지 디자인. 바로 써보는 3가지 방법
 layout: post
 category: design-teatime
-date: 2021-03-16 00:00:00
+date: 2021-03-16 00:00:00 +0900
 excerpt: 상세 페이지는 전환이 발생하는 화면이기에 비즈니스에서 중요합니다. 실제 AB 테스트 사례(Airbnb) 함께 개선 방법 3가지를 알려드립니다.
 thumbnail: /assets/images/design/product-page-tips/00.jpg
 permalink: /product-page-tips

@@ -2,7 +2,7 @@
 title: 처음 시작하는 구글 옵티마이즈 + AB 테스트 실무 팁
 layout: post
 category: design-teatime
-date: 2020-11-12 00:00:00
+date: 2020-11-12 00:00:00 +0900
 excerpt: 옵티마이즈로 AB 테스트 해봅니다. 타 트래킹 툴과 같이 쓰는 법, SPA에서 쓰는 법, 팁도 알려드립니다.
 thumbnail: /assets/images/design/starting-google-optimize/01.jpg
 permalink: /starting-google-optimize

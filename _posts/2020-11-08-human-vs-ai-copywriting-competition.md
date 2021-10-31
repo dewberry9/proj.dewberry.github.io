@@ -2,7 +2,7 @@
 title: 인간 VS AI 카피라이팅 대결
 layout: post
 category: design-teatime
-date: 2020-11-08 00:00:00
+date: 2020-11-08 00:00:00 +0900
 excerpt: 인간의 카피와 GPT-3의 카피라이팅 대결. 누가 승리했을까요?
 thumbnail: /assets/images/design/human-vs-ai-copywriting-competition/01.jpg
 permalink: /human-vs-ai-copywriting-competition

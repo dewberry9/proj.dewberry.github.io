@@ -2,7 +2,7 @@
 title: 홈텐딩의 완벽한 시작. 봄베이 사파이어와 아트 오브 칵테일
 layout: post
 category: review
-date: 2021-05-15 00:00:00
+date: 2021-05-15 00:00:00 +0900
 excerpt: 이 각진 파란 병 진이 뭐가 그렇게 특이할까요? 아트 오브 칵테일의 홈텐딩 키트와 함께 알아봅니다. 런던 드라이 진 봄베이 사파이어 리뷰.
 thumbnail: /assets/images/daily/bombay-sapphire/00.jpg
 permalink: /bombay-sapphire

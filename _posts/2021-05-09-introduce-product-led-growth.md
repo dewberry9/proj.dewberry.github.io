@@ -2,7 +2,7 @@
 title: 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론
 layout: post
 category: design-teatime
-date: 2021-05-09 00:00:00
+date: 2021-05-09 00:00:00 +0900
 excerpt: 비싸지는 고객 획득 비용, 높아지는 경쟁률, 변화하는 고객 사이에서 어떻게 성장 동력을 챙길 수 있을까요? 제품 주도 성장이 답입니다.
 thumbnail: /assets/images/design/introduce-product-led-growth/00.jpg
 permalink: /introduce-product-led-growth

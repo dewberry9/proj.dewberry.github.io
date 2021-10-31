@@ -2,7 +2,7 @@
 title: 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표
 layout: post
 category: design-teatime
-date: 2021-05-13 00:00:00
+date: 2021-05-13 00:00:00 +0900
 excerpt: 제품 주도 성장 조직의 성과를 측정하는 NRG(자연 성장률)과 AARRR 프레임워크 단계별 지표로 제품 주도 성장을 모두에게 증명하는 방법입니다.
 thumbnail: /assets/images/design/product-led-growth-metrics/00.jpg
 permalink: /product-led-growth-metrics

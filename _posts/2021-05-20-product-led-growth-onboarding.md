@@ -2,7 +2,7 @@
 title: 고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기
 layout: post
 category: design-teatime
-date: 2021-05-20 00:00:00
+date: 2021-05-20 00:00:00 +0900
 excerpt: 좋은 온보딩은 가는 고객을 막을 뿐만 아니라, 돈도 20% 더 쓰게 합니다. 포그 행동 모델과 여러 전략을 살펴보며 좋은 온보딩을 알아봅니다.
 thumbnail: /assets/images/design/product-led-growth-onboarding/00.jpg
 permalink: /product-led-growth-onboarding

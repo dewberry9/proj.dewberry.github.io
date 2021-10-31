@@ -2,7 +2,7 @@
 title: 바이럴 없는 제품은 말라죽을 수밖에 없다
 layout: post
 category: design-teatime
-date: 2021-05-24 00:00:00
+date: 2021-05-24 00:00:00 +0900
 excerpt: 15개월 만에 3,900% 성장, 3달 만에 1천만 명에서 2억명. 드롭박스와 줌, 시기는 달랐지만 이들의 성장에는 공통점, 바이럴이 있었습니다.
 thumbnail: /assets/images/design/product-led-growth-viral/00.jpg
 permalink: /product-led-growth-viral

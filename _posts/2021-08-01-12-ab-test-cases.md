@@ -2,7 +2,7 @@
 title: 당장 활용하는 12가지 AB 테스트 사례
 layout: post
 category: design-teatime
-date: 2021-08-01 00:00:00
+date: 2021-08-01 00:00:00 +0900
 excerpt: Booking.com, 넷플릭스, Etsy 등, 직관적이고 어렵지 않은 난이도의 AB 테스트 사례 12가지를 보고 인사이트를 가져가세요.
 thumbnail: /assets/images/design/12-ab-test-cases/00.jpg
 permalink: /12-ab-test-cases
