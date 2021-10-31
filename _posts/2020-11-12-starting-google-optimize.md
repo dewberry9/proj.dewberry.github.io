@@ -9,7 +9,13 @@ permalink: /starting-google-optimize
 topic: AB Test
 ---
 
-<a title='매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드' href='/3step-ab-test' target='_blank'>저번 가이드(먼저 읽어보시는 것을 추천)</a>에서는 AB 테스트를 시작할 때 알아두어야 할 핵심적인 과정,
+**AB 테스트 가이드라인 시리즈**  
+1부 - <a title='매거진 입맛 - 인간 VS AI 카피라이팅 대결' href='/human-vs-ai-copywriting-competition' rel='noopener'>인간 VS AI 카피라이팅 대결</a>  
+2부 - <a title='매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드' href='/3step-ab-test' rel='noopener'>매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드</a>  
+3부 - 처음 시작하는 구글 옵티마이즈 + AB 테스트 실무 팁
+{: .infor}
+
+<a title='매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드' href='/3step-ab-test' >저번 가이드</a>에서는 AB 테스트를 시작할 때 알아두어야 할 핵심적인 과정,
 
 1. 가설 수립
 2. 실험 진행

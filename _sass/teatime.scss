@@ -805,9 +805,7 @@ section {
             }
 
             > p.infor {
-                &::before {
-                    content: "*";
-                }
+                text-indent: 0;
             }
 
             > p.right-infor {

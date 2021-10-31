@@ -9,7 +9,11 @@ permalink: /product-led-growth-metrics
 topic: UX Design
 ---
 
-시리즈로 구성된 글입니다. <a title='매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론' href='/introduce-product-led-growth' target='_blank'>저번 글에서는 제품 주도 성장의 등장 배경, 정의, 구조, 장점을 설명</a>했습니다. 이번 글은 제품 주도 성장을 실제로 적용할 때 선행해야할 지표 설정에 대해 다룹니다.
+**제품 주도 성장 시리즈**  
+1부 - <a title='매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론' href='/introduce-product-led-growth' rel='noopener'>알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론</a>  
+2부 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표  
+3부 - <a title='매거진 입맛 - 고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기' href='/product-led-growth-onboarding' rel='noopener'>고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기</a>  
+4부 - <a title='매거진 입맛 - 바이럴 없는 제품은 말라죽을 수밖에 없다' href='/product-led-growth-viral' rel='noopener'>바이럴 없는 제품은 말라죽을 수밖에 없다</a>
 {: .infor}
 
 ## 조직의 언어, 지표

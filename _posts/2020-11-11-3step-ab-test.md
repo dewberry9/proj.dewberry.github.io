@@ -9,6 +9,12 @@ permalink: /3step-ab-test
 topic: AB Test
 ---
 
+**AB 테스트 가이드라인 시리즈**  
+1부 - <a title='매거진 입맛 - 인간 VS AI 카피라이팅 대결' href='/human-vs-ai-copywriting-competition' rel='noopener'>인간 VS AI 카피라이팅 대결</a>  
+2부 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드  
+3부 - <a title='매거진 입맛 - 처음 시작하는 구글 옵티마이즈 + AB 테스트 실무 팁' href='/starting-google-optimize' rel='noopener'>처음 시작하는 구글 옵티마이즈 + AB 테스트 실무 팁</a>
+{: .infor}
+
 ![AB Test in Many Apps]({{ site.cdn_url | append: '/assets/images/design/3step-ab-test/02.jpg' }} "이미 많은 기업에서 활용 중인 AB 테스트"){: loading='lazy'}
 {: .full-size}
 
