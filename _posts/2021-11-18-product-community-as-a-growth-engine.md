@@ -1,0 +1,107 @@
+---
+title: 전환율, 피드백, 고객지원까지. 어떻게 제품 커뮤니티를 만능 성장 동력으로 만들까?
+layout: post
+category: design-teatime
+date: 2021-11-18 00:00:00 +0900
+excerpt: 커뮤니티. 만들면 좋다고는 하는데, 정확히 어떻게 제품에 기여하는 걸까요? 세일즈포스, 레딧, 프로덕트 헌트의 사례로 살펴봅니다.
+thumbnail: /assets/images/design/product-community-as-a-growth-engine/00.jpg
+permalink: /product-community-as-a-growth-engine
+topic: UX Design
+---
+
+**만능 성장 동력 제품 커뮤니티 시리즈**  
+1부 - 전환율, 피드백, 고객지원까지. 어떻게 제품 커뮤니티를 만능 성장 동력으로 만들까?  
+2부 - 인정받는 커뮤니티 업무의 시작, 성과 측정 지표 설정(예정)  
+3부 - 성장 동력, 제품 커뮤니티. 실제 제품 사례 알아보기(예정)
+{: .infor}
+
+고객을 어떻게 데려올지, 원하는 게 뭔지, 사용에 문제는 없는지, 그리고 어떻게 제품에 돈을 내게 할지. 디지털 프로덕트를 개발하고 운영하다 보면 갖가지 문제에 당면하게 됩니다. 문제를 풀기 위해 수많은 전략과 방법론이 탄생했습니다. 포그 행동 모델을 활용해서 온보딩 과정을 설계합니다. 고객 지원 경험의 개선을 위해 라이브 채팅을 도입합니다. 하나의 문제를 해결하기 위해 하나의 전략이 동원되는 게 보통입니다. 1가지 해결책이 여러 문제를 함께 해결하는 경우는 희귀합니다. 그 어려운 걸 해내는 게 바로 제품 커뮤니티입니다.
+
+제품 커뮤니티는 특정 제품 혹은 브랜드를 공통 관심사로 갖는 고객 및 잠재고객의 모임을 뜻합니다. 어떤 게임의 플레이어가 모인 네이버 카페, 어떤 디자인 툴의 사용자가 모인 페이스북 그룹, 어떤 전자기기 브랜드의 팬이 모인 웹사이트까지, 제품 커뮤니티의 형태는 다양합니다. 사람들은 제품 커뮤니티에서 제품에 대한 정보를 공유합니다. 커뮤니티가 발전하면 회원 사이의 사회적 유대감이 형성됩니다. 소속감이 생깁니다. 이 단계에 이르면 커뮤니티는 단순한 정보 공유 허브 이상의 역할을 갖게 됩니다. 커뮤니티의 조직화한 힘은 특정 방향으로 제품을 개선하는 일에, 제품 사용에 능숙하지 못한 초보자를 돕는 일에, 아니면 서로 모여 밥 한번 먹는 일에 쓰입니다.
+
+![Product Community Starting to Get Interested]({{ '/assets/images/design/product-community-as-a-growth-engine/01.jpg' | relative_url }} 'Product Community Starting to Get Interested'){: loading='lazy'}
+{: .normal-size}
+
+이제 제품 개발 조직 입장에서 커뮤니티를 바라봅시다. 스타트업 창업자 10명 중 8명은 <a title='First Round - State of Startups 2019' href='https://stateofstartups2019.firstround.com?refer=mag_epmat#10-community-moat' target='_blank' rel='noopener'>제품 커뮤니티를 만드는 일이 비즈니스 성공에 중요</a>하다고 생각합니다. 기업의 커뮤니티 전문가 69%는 내년에 올해보다 <a title='CMX(Bevy) - The 2021 Community Industry Report' href='https://cmxhub.com/community-industry-report-2021?refer=mag_epmat' target='_blank' rel='noopener'>더 큰 비용을 커뮤니티에 투자할 예정</a>이라고 말합니다. 왜 제품 커뮤니티는 이렇게 큰 관심을 받고 있을까요? 전통적으로 기업은 제품 커뮤니티를 브랜드 유지와 제품 개발을 위한 목적으로 활용해왔습니다. 디지털 프로덕트 브랜드는 거기서 한 발짝 더 나갔습니다. 온라인 중심 커뮤니티는 비교적 쉽고 빠르게 구축하고 확장할 수 있습니다. 오늘날 여러 디지털 프로덕트 브랜드는 제품 커뮤니티 설계에 적극적으로 참여하면서 제품의 굳건한 성장 동력을 만들고 있습니다. 제품 커뮤니티가 그만큼 매력적인 선택지이기 때문입니다.
+
+- 그렇다면 제품 커뮤니티가 제품 성장에 기여하는 3가지 분야는 무엇일까요?
+- 제품 커뮤니티가 성장 동력이 되는데 필요한 핵심은 어떤 게 있을까요?
+
+## 지원 리소스 확충
+
+![Product Community Support Resources]({{ '/assets/images/design/product-community-as-a-growth-engine/02.jpg' | relative_url }} 'Product Community Support Resources'){: loading='lazy'}
+{: .normal-size}
+
+고객이 제품을 쓰다 보면 도움이 필요할 때가 생깁니다. 고객 지원은 FAQ와 가이드 문서를 비롯한 셀프서비스, 라이브채팅과 챗봇 등 다양한 방식으로 제공됩니다. 그러나 모든 고객이 원하는 수준의 지원을 받을 수 있는 건 아닙니다. SaaS 제품을 쓰는 27%의 기업 고객은 문제가 생겼을 때 <a title="mimecast - Survey Finds SaaS Providers' Apos; Customer Support Lacking" href='https://www.mimecast.com/resources/press-releases/dates/2013/2/survey-finds-saas-providers-customer-support-lacking---us?refer=mag_epmat' target='_blank' rel='noopener'>적절한 담당자와 연결되기 어렵다</a>고 합니다. 제품을 쓰는 고객이 늘어날수록 문의의 범위는 넓어지고 양은 많아집니다. 규모와 지식이 한정된 고객 지원 담당 부서는 전보다 더 전문적인 문의를 더 많이 처리해야 합니다. 해결책은 두 가지입니다. 제품 성장률에 맞춰 고객 지원 담당자를 더 고용하거나, 제품 커뮤니티에 맡깁니다.
+
+한 커뮤니티에는 특정 주제에 대해 비교적 잘 알고 있는 회원과 그렇지 못한 회원이 공존합니다. 회원과 회원 사이에는 여러 주제에 걸친 정보 격차가 발생합니다. 각 회원이 이 격차를 해소하고자 교류할 때, 커뮤니티 전체 회원이 가진 지식의 총량은 커집니다. 이러한 구조를 핵심으로 운영되고 있는 커뮤니티가 바로 네이버의 지식iN, 개발 지식 교류 플랫폼 스택오버플로우(Stack Overflow)와 같은 커뮤니티입니다. 제품 커뮤니티도 똑같은 방식으로 운영할 수 있습니다. 제품 사용 초보 고객의 문의를 커뮤니티의 전문 고객이 해결합니다. 제품 커뮤니티의 토론, Q&A, 사용자 생성 콘텐츠에 쉽게 접근할 수 있다면 고객의 문의는 지원 담당자에게 오기 전 커뮤니티 안에서 해소될 것입니다.
+
+CRM 솔루션 세일즈포스(Salesforce)의 제품 커뮤니티는 지원 리소스 확충 능력을 여실히 보여주는 <a title='Beth Mclntyre, 2019 - Building Community is Smart Business | Erica Kuhl' href='https://cmxhub.com/building-community-is-smart-business-erica-kuhl?refer=mag_epmat' target='_blank' rel='noopener'>대표적 사례</a>입니다. 세일즈포스는 고객을 Trailblazer(선구자, 혁신자)라고 부릅니다. 토론과 학습에 집중한 큰 규모의 제품 커뮤니티를 운영하고 있는 세일즈포스에 꼭 맞는 애칭입니다. 매달 4천 개가 넘는 문의와 답변이 커뮤니티에 올라옵니다. 문의의 83%는 커뮤니티 내부에서 해결됩니다. 제품 커뮤니티로 절감한 고객 지원 비용은 월 2백만 달러(한화 약 23억 원)에 이를 것으로 추정됩니다.
+
+이처럼 **제품 커뮤니티는 지원 리소스를 확보하고 보충하는데 기여합니다.**
+
+## 전환율은 올리고, 이탈율은 줄이고
+
+제품 커뮤니티는 고객이 제품에 대해 확신하도록 합니다. 하루에도 수십 개의 글이 올라오고 문의를 남기면 몇 분 만에 답변이 달리는 활동적인 커뮤니티를 상상해보세요. 잠재고객은 커뮤니티를 보면서 해당 제품을 쓰면 충분한 지원을 받을 수 있다고 여길 것입니다.
+
+합리성에 기반한 이점 외에 좀 더 원초적인 이유도 있습니다. 소셜 프루프(Social Proof)입니다. 정도야 어찌 되었든 인간의 선택은 언제나 사회적 영향력 아래에 있습니다. 활발한 고객을 많이 가지고 있는 제품은 그 자체로 끌립니다. 그렇게 많은 사람들이 그 제품을 선택한 데에 이유가 있다고 생각합니다. 그 무리에 끼고 싶은 마음이 듭니다. 그렇게 제품을 고르고 무리에 들어가게 되면 상당한 소속감이 생깁니다. 이런 방식으로 **제품 커뮤니티는 전환율을 비롯한 제품 주요 지표에 기여합니다.**
+
+![Product Metrics of Salesforce Community Members]({{ '/assets/images/design/product-community-as-a-growth-engine/03.jpg' | relative_url }} 'Product Metrics of Salesforce Community Members'){: loading='lazy'}
+{: .normal-size}
+
+역시 <a title='Carrie Melissa Jones, 2014 - How Erica Kuhl Proved the ROI of Community at Salesforce' href='https://cmxhub.com/erica-kuhl-salesforce-community-roi?refer=mag_epmat' target='_blank' rel='noopener'>세일즈포스의 예시</a>가 이를 증명합니다. 제품 커뮤니티에 참여한 세일즈포스 고객은 그렇지 않은 고객보다 2배의 AOV(Average Order Value; 평균 주문 금액)를 보였습니다. 즉, 커뮤니티 참여 고객은 2배 더 많은 돈을 썼습니다. 제품 채택률, 곧 전환율도 33% 높았습니다. 전환 속도도 35% 빨랐습니다. 이탈률은 3배나 낮았습니다.
+
+## 지속적인 피드백 수집
+고객 피드백은 제품 개발에 필수적입니다. 오늘날 많은 디지털 프로덕트 브랜드는 프로덕트 마켓 핏(Product Market Fit) 달성 여부, 브랜딩 방향, 수익 구조, 랜딩 페이지의 버튼 카피를 고치는 사소한 일까지 고객의 의식·무의식적 피드백에 의존합니다. 구글 애널리틱스(Google Analytics), 핫자(Hotjar), 서베이몽키(SurveyMonkey) 등 많은 고객 피드백 수집·분석 툴이 시장에 나와 있는 것은 우연이 아닙니다. 이런 점에서 볼 때 제품 커뮤니티는 제품에 크게 기여한다고 할 수 있습니다. 제품 커뮤니티는 하나의 큰 피드백 수집 풀이기 때문입니다. 커뮤니티 회원은 제품에 대한 정보를 공유하는 과정에서 자연스럽게 피드백을 흘립니다. 신규 기능에 관한 의견, 운영 정책에 대한 토론이 커뮤니티 곳곳에서 항상 일어납니다. 제품 사용 도중에 설문 한번 해달라고 빌 필요도, 눈이 빠지게 사용 기록을 돌려 볼 필요도 없습니다. 그물을 올려 물고기를 잡듯 커뮤니티에서 쏟아지는 피드백을 받아 보면 됩니다. **제품 커뮤니티는 지속적인 피드백 수집에 기여합니다.**
+
+세무·회계 SaaS 퀵북(QuickBooks) 피드백 수집에 있어 제품 커뮤니티의 장점을 <a title='Khoros Atlas - 2021 Customer Awards: Intuit - Top Line Growth All Star' href='https://community.khoros.com/t5/Kudos-Awards-2021/2021-Customer-Awards-Intuit-Top-Line-Growth-All-Star/cns-p/639676?refer=mag_epmat' target='_blank' rel='noopener'>가장 잘 보여주는 사례</a> 중 하나입니다. 퀵북 커뮤니티의 대대적인 개편 후에 더 많은 피드백을 수집할 수 있었던 것입니다. 퀵북을 방문하는 고객을 대상으로 하는 설문 조사에 37% 늘어난 응답이 돌아왔습니다.
+
+## 성장 동력이 되는 커뮤니티의 3가지 포인트
+
+![Three Points of Product Community as a Growth Engine]({{ '/assets/images/design/product-community-as-a-growth-engine/04.jpg' | relative_url }} 'Three Points of Product Community as a Growth Engine'){: loading='lazy'}
+{: .normal-size}
+
+좋은 제품 커뮤니티는 지원 리소스와 고객 피드백이 솟는 마르지 않는 샘이며, 전환율을 높이고 이탈률을 줄이는 등 제품 주요 지표를 개선합니다. 이렇게 제품의 성장 동력이 되는 제품 커뮤니티를 만들려면 어떻게 해야 할까요? 핵심을 3가지로 정리해 보았습니다.
+
+**1. 커뮤니티가 주는 가치를 명확하게**  
+13명의 초창기 인스타그램 직원 중 한 명이자 커뮤니티 전문가인 베일리 리처드슨(Bailey Richardson)은 그녀의 저서 &lt;Get Together: How to build a community with your people&gt;에서 <a title='First Round Review - From Instant Pot to Instagram: Critical Lessons in Startup Community Building' href='https://review.firstround.com/from-instant-pot-to-instagram-critical-lessons-in-startup-community-building?refer=mag_epmat' target='_blank' rel='noopener'>커뮤니티가 제공하는 가치를 강조</a>합니다. 왜 사람들을 모아 제품 커뮤니티를 만드는가? 경쟁사가 하고 있다거나, 투자자가 하라거나, 바이럴 마케팅에 도움이 될 것 같아서 등등은 이에 대한 답변으로 충분하지 않습니다. 제품 커뮤니티의 핵심은 고객과 특수한 관계를 맺어 고객이 비즈니스의 일부라고 느끼게 하는 것이기 때문입니다. 제품 개발 조직과 고객이 커뮤니티 활동을 하게 하는 동기, 즉 혼자가 아니라 여럿이서 함께 기여할 수 있는 공동의 목표가 필요합니다. 리처드슨은 다음 3개의 질문으로 이 목표를 결정할 수 있다고 이야기합니다.
+
+1. 조직과 고객에게 더 필요한 것이 무엇인가?
+2. 조직과 고객이 바라는 변화는 무엇인가?
+3. 조직과 고객이 함께 해결할 수 있는 문제는 무엇인가?
+
+위의 질문에 답이 되는 공동 목표가 명확해야 제대로 교류가 발생하는 제품 커뮤니티를 세울 수 있을 것입니다.
+
+**2. 충성 고객 지원**  
+프로덕트 헌트(Product Hunt)는 매일 주목할 만한 제품을 소개하는 기술 커뮤니티입니다. 프로덕트 헌트에서 소개된 20만 개가 넘는 제품 가운데는 노션(Notion), 에어테이블(Airtable), 람다 스쿨(Lambda School) 등 유망한 제품이 많아, 디지털 프로덕트 스타트업에게는 일종의 등용문으로 여겨지고 있습니다. 처음에 프로덕트 헌트는 정기적으로 발송되는 이메일 뉴스레터였습니다. 창업자 라이언 후버(Ryan Hoover)는 자신의 블로그 독자를 중심으로 스타트업, 벤처캐피탈 업계에서 영향력 있는 구독자를 모았습니다. 이들을 정성스럽게 케어해 충성 고객으로 만들면서 제품의 틀을 잡았습니다. 이들 초창기의 충성 고객은 제품의 방향성을 결정하는 데 큰 영향을 끼쳤을 뿐만 아니라, 그들이 업계에서 가지고 있는 위치 덕분에 상당한 효과의 <a title='First Round Review - Product Hunt is Everywhere — This is How It Got There' href='https://review.firstround.com/Product-Hunt-is-Everywhere-This-is-How-It-Got-There?refer=mag_epmat' target='_blank' rel='noopener'>바이럴을 일으킬 수 있었습니다.</a>
+
+소수의 충성 고객은 제품이 막 첫발을 내딛는 그 시기에만 도움이 되는 것은 아닙니다. 오토캐드(AutoCAD)와 3D 모델링 툴 마야(Maya)로 유명한 오토데스크(Autodesk)는 매년 많은 후보자 중 Expert Elite라고 불리는 소수의 전문가 회원을 뽑습니다. 이들은 제품 커뮤니티에 제보되는 여러 문제를 해결할 뿐만 아니라, 정기적인 모임에서 제품 개발 방향을 제안하는 등 제품 개발 조직과 직접 협력하기도 합니다. 전문가 회원 덕분에 오토데스크 커뮤니티의 <a title='Khoros Case Study - How Autodesk Leverages Peer-to-Peer Support with Khoros Community' href='https://khoros.com/resources/autodesk-case-study?refer=mag_epmat' target='_blank' rel='noopener'>방문율은 44% 증가</a>했습니다. 커뮤니티 회원의 문의에 대해 이들이 내놓는 답변, 그중에서 채택된 것만 하더라도 한 해에 <a title='Khoros Case Study - How Autodesk Leverages Peer-to-Peer Support with Khoros Community' href='https://khoros.com/resources/autodesk-case-study?refer=mag_epmat' target='_blank' rel='noopener'>2만 5천 건에 달합니다.</a>
+
+![Rule of 1%]({{ '/assets/images/design/product-community-as-a-growth-engine/05.jpg' | relative_url }} 'Rule of 1%'){: loading='lazy'}
+{: .normal-size}
+
+<a title='Wikipedia - 1% rule (Internet culture)' href='https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture)?refer=mag_epmat' target='_blank' rel='noopener'>1% 규칙(1% Rule)</a> 혹은 1-9-90 규칙이라고 불리는 현상이 있습니다. 실질적으로 커뮤니티 구성원의 1%만이 콘텐츠를 제작하고, 9%는 1%가 만든 콘텐츠를 조금 수정하거나 업데이트하며, 나머지 90%는 그마저도 하지 않고 콘텐츠 소비만 하는 현상을 의미합니다. 이 1%와 같이 **열성적인 커뮤니티 회원의 이야기를 듣고 이들을 지원함으로써 고품질의 지원 리소스와 장기적 성장의 길을 확보할 수 있습니다.**
+
+**3. 자율성을 보장하는 시스템**  
+언어 학습 서비스 듀오링고(Duolingo)는 고객이 다른 고객과 함께 공부하기 위해 오프라인 모임을 열 수 있는 기능이 있습니다. 제품 개발 조직이 제공하는 직접적인 운영 지원은 없지만 매달 500개 이상의 모임이 개설됩니다. 만약 반대로 모든 모임에 제품 개발 조직의 통제가 들어갔다면 얼마나 큰 리소스가 필요했을까요? 듀오링고 커뮤니티의 성장 비결은 자율성이었습니다.
+
+제품 커뮤니티가 항상 제품 개발 조직의 의도대로 움직이지는 않을 것입니다. 중요한 일은 **커뮤니티 회원을 직접 통제하지 않으면서도, 효과적으로 제품에 기여하고 문제를 자체적으로 해결하는 구조를 만드는 것**입니다. 세계 최대의 커뮤니티 레딧(Reddit)의 전 커뮤니티 매니저 에릭 마틴(Erik Martin)은 커뮤니티 회원 일부에게 커뮤니티의 문제에 적극적으로 관여하는 중재자의 지위를 주어 <a title='First Round Review - What to Learn from the Man Who Managed Reddit’s Community of Milions' href='https://review.firstround.com/What-to-Learn-from-the-Man-Who-Managed-Reddits-Community-of-Millions?refer=mag_epmat' target='_blank' rel='noopener'>커뮤니티 내부에서 문제가 종결되는 시스템</a>을 주장합니다. 이 구조는 쉽게 확장 가능한 장점이 있어 구글을 비롯한 여러 기업에서 활용되고 있습니다.
+
+## 정리
+
+특정 제품 혹은 브랜드를 공통 관심사로 갖는 고객 및 잠재고객의 모임, 제품 커뮤니티는 제품의 성장 동력으로 각광 받고 있습니다. 제품 커뮤니티는 크게 다음 3가지 분야에서 제품의 성장에 기여합니다.
+
+1. 지원 리소스 확충
+2. 전환율을 비롯한 제품 주요 지표 개선
+3. 지속적 피드백 제공
+
+제품 성장 동력으로써 제대로 작동하는 커뮤니티를 구축하기 위해서는 다음 3가지 핵심을 고려해야 합니다.
+
+1. 커뮤니티가 주는 가치를 명확하게 할 것
+2. 열성적인 소수 충성 고객을 지원할 것
+3. 자율성 있는 시스템으로 운영할 것
+
+그런데 이 모든 내용을 숙지하고 커뮤니티에 투자한다고 가정했을 때, 그 성과는 어떻게 측정할 수 있을까요? 구체적인 목표치는 어떻게 잡죠? 커뮤니티 ROI 측정을 위한 지표에 관련된 내용은 다음 글에서 이어집니다.
+
+위시켓의 지원과 함께 제작된 콘텐츠입니다.
+{: .right-infor}
