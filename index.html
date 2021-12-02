@@ -36,7 +36,7 @@ thumbnail: /assets/images/ogimage.jpg
     </div>
 </section>
 
-<section class="btn-point">
+<section class="btn-point rise-target">
     <p class="numbering">02</p>
     <div class="text-content">
         <h3>프로덕트 디자인 - 인사이트, 가이드</h3>
@@ -48,8 +48,7 @@ thumbnail: /assets/images/ogimage.jpg
 </section>
 <section class="recent-article post-list">
     {% for post in site.categories.design-teatime limit:3 %}
-    <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
-        title="{{ post.title | prepend : 'Read' }}">
+    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target">
         <div class="post-thumbnail">
             <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
         </div>
@@ -62,7 +61,7 @@ thumbnail: /assets/images/ogimage.jpg
         </div>
     </a>
     {% endfor %}
-    <div class="ads-container ads-container-mobile-feedcard">
+    <div class="ads-container ads-container-mobile-feedcard rise-target">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle infeed"
             style="display:block"
@@ -74,7 +73,7 @@ thumbnail: /assets/images/ogimage.jpg
     </div>
 </section>
 
-<section class="btn-point">
+<section class="btn-point rise-target">
     <p class="numbering">03</p>
     <div class="text-content">
         <h3>입맛리뷰 - 책, 술, 삶의 즐거움들</h3>
@@ -86,8 +85,7 @@ thumbnail: /assets/images/ogimage.jpg
 </section>
 <section class="recent-article post-list">
     {% for post in site.categories.review limit:3 %}
-    <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
-        title="{{ post.title | prepend : 'Read' }}">
+    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target">
         <div class="post-thumbnail">
             <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
         </div>
@@ -100,7 +98,7 @@ thumbnail: /assets/images/ogimage.jpg
         </div>
     </a>
     {% endfor %}
-    <div class="ads-container ads-container-mobile-feedcard">
+    <div class="ads-container ads-container-mobile-feedcard rise-target">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle infeed"
             style="display:block"
@@ -112,7 +110,7 @@ thumbnail: /assets/images/ogimage.jpg
     </div>
 </section>
 
-<section class="btn-point">
+<section class="btn-point rise-target">
     <p class="numbering">04</p>
     <div class="text-content">
         <h3>소설 - 판매용, 팔아본 적은 없음</h3>
@@ -124,8 +122,7 @@ thumbnail: /assets/images/ogimage.jpg
 </section>
 <section class="recent-article post-list">
     {% for post in site.categories.story limit:3 %}
-    <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item"
-        title="{{ post.title | prepend : 'Read' }}">
+    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target">
         <div class="post-thumbnail">
             <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
         </div>
@@ -138,7 +135,7 @@ thumbnail: /assets/images/ogimage.jpg
         </div>
     </a>
     {% endfor %}
-    <div class="ads-container ads-container-mobile-feedcard">
+    <div class="ads-container ads-container-mobile-feedcard rise-target">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle infeed"
             style="display:block"

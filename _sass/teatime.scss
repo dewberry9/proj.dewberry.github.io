@@ -155,6 +155,57 @@ $base-cubic-bezier: cubic-bezier(.8,0,.2,1);
     }
 }
 
+@-webkit-keyframes smooth-rise {
+    from {
+        -webkit-transform: translateY(10rem);
+                transform: translateY(10rem);
+    }
+    to {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+@keyframes smooth-rise {
+    from {
+        -webkit-transform: translateY(10rem);
+                transform: translateY(10rem);
+    }
+    to {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+.sink-state {
+    -webkit-transform: translateY(10rem);
+        -ms-transform: translateY(10rem);
+            transform: translateY(10rem);
+}
+
+.rise-animated {
+    -webkit-animation: smooth-rise 0.3s $base-cubic-bezier forwards;
+            animation: smooth-rise 0.3s $base-cubic-bezier forwards;
+
+    &.second-position {
+        -webkit-animation-delay: 0.1s;
+                animation-delay: 0.1s;
+    }
+
+    &.third-position {
+        -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s;
+    }
+
+    @include media-query($mobile-width) {
+        &.second-position,
+        &.third-position {
+            -webkit-animation-delay: 0s;
+                    animation-delay: 0s;
+        }
+    }
+}
+
 .op75 {
     opacity: 0.75;
 }
@@ -280,6 +331,10 @@ body {
     overflow-x: hidden;
     position: relative;
     min-height: 100vh;
+}
+
+#content {
+    margin-bottom: 64px;
 }
 
 blockquote {
@@ -714,9 +769,9 @@ section {
     }
 
     &.post-list {
-        -webkit-box-align: start !important;
-    -ms-flex-align: start !important;
-        align-items: flex-start !important;
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         -webkit-box-pack: start;
@@ -1033,7 +1088,7 @@ section {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-        margin: 2rem auto 4rem;
+        margin: 2rem auto;
         font-weight: bold;
         font-size: 0.875rem;
 
@@ -1285,11 +1340,11 @@ section {
             -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-            margin: 1rem 0;
+            margin: 56px 0 1rem;
         }
 
         &.related-post-list {
-            margin-bottom: calc(2rem + 64px);
+            margin-bottom: 2.5rem;
             
             .related-post-list-top-border {
                 width: calc(100% - 1rem);
@@ -1509,6 +1564,8 @@ section {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;

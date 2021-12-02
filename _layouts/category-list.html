@@ -5,7 +5,7 @@ category: category-list
 <div id="article-page">
     <section class="post-list">
             {% for post in paginator.posts %}
-                <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
+                <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target">
                     <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div></div>
                     <div class="post-description">
                         <span class="post-topic">{{ post.topic }}</span>
@@ -16,7 +16,7 @@ category: category-list
                     </div>
                 </a>
             {% endfor %}
-            <div class="ads-container ads-container-relative-feedcard">
+            <div class="ads-container ads-container-relative-feedcard rise-target">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <ins class="adsbygoogle infeed"
                     style="display:block"
@@ -27,29 +27,11 @@ category: category-list
                 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
             </div>
 
-            {% if paginator.total_pages > 1 %}
-                <div class="pagination">
-                {% if paginator.previous_page %}
-                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous"><i class='bx bx-chevron-left'></i> 이전</a>
-                {% else %}
-                    <a class="disable-txt"><i class='bx bx-chevron-left' title="Previous"></i> 이전</a>
-                {% endif %}
-
-                {% for page-paginator in (1..paginator.total_pages) %}
-                    {% if page-paginator == paginator.page %}
-                    <a class="now-page" title="This Page">{{ page-paginator }}</a>
-                    {% elsif page-paginator == 1 %}
-                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Page {{ page-paginator }}">{{ page-paginator }}</a>
-                    {% else %}
-                    <a href="{{ page.path-paginator | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page-paginator }}" title="Page {{ page-paginator }}">{{ page-paginator }}</a>
-                    {% endif %}
-                {% endfor %}
-
-                {% if paginator.next_page %}
-                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Next">다음 <i class='bx bx-chevron-right'></i></a>
-                {% else %}
-                    <a class="disable-txt">다음 <i class='bx bx-chevron-right' title="Next"></i></a>
-                {% endif %}
+            {% if paginator.page_trail %}
+                <div class="pagination rise-target">
+                    {% for trail in paginator.page_trail %}
+                        <a {% if page.url == trail.path %}class="now-page"{% endif %} href="{{ trail.path | prepend: site.baseurl }}" title="{{ trail.title }}">{{ trail.num }}</a>
+                    {% endfor %}
                 </div>
             {% endif %}
     </section>

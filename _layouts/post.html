@@ -20,7 +20,7 @@ layout: base
     </div>
 </section>
 
-<section class="subscribe subscribe-post-bottom">
+<section class="subscribe subscribe-post-bottom rise-target">
     <div class="subscribe-container">
         <p class="subscribe-description">매거진 입맛의 취향들을 더 편하게, 더 빠르게 받아보세요.</p>
         <a rel="noreferrer" class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
@@ -37,7 +37,7 @@ layout: base
                 {% break %}
             {% endif %}
             {% assign count_same_category_posts = count_same_category_posts | minus: 1 %}
-            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
+            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item rise-target">
                 <div class="post-thumbnail">
                     <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
                 </div>
@@ -52,7 +52,7 @@ layout: base
         {% endif %}
     {% endfor %}
     {% for post in same_category_posts limit: count_same_category_posts %}
-        <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
+        <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item rise-target">
                 <div class="post-thumbnail">
                     <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
                 </div>
@@ -65,7 +65,7 @@ layout: base
                 </div>
         </a>
     {% endfor %}
-    <div class="ads-container ads-container-mobile-feedcard">
+    <div class="ads-container ads-container-mobile-feedcard rise-target">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle infeed"
             style="display:block"
@@ -84,7 +84,7 @@ layout: base
                 {% break %}
             {% endif %}
             {% assign count_another_category_posts = count_another_category_posts | minus: 1 %}
-            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
+            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item rise-target">
             <div class="post-thumbnail">
                 <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
             </div>
@@ -104,7 +104,7 @@ layout: base
                 {% break %}
             {% endif %}
             {% assign count_another_category_posts = count_another_category_posts | minus: 1 %}
-            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item">
+            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item rise-target">
                     <div class="post-thumbnail">
                         <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
                     </div>
@@ -118,7 +118,7 @@ layout: base
             </a>
         {% endif %}
     {% endfor %}
-    <div class="ads-container ads-container-relative-feedcard">
+    <div class="ads-container ads-container-relative-feedcard rise-target">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle infeed"
             style="display:block"
