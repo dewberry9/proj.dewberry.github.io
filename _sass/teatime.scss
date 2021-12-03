@@ -790,7 +790,7 @@ section {
     }
 
     &.related-post-list {
-        margin-bottom: calc(3.5rem + 64px);
+        margin: 2.5rem 0 calc(3.5rem + 64px);
         
         .related-post-list-top-border {
             width: calc(100% - 3rem);
@@ -815,7 +815,7 @@ section {
         .post-title {
             width: 100%;
             text-align: center;
-            margin-top: 4rem;
+            margin: 4rem 0 3rem;
             position: relative;
             line-height: 1.2;
             color: $primary-color;
@@ -829,25 +829,6 @@ section {
         &:not(:first-child) {
             -webkit-animation: fade-in 0.8s ease;
             animation: fade-in 0.8s ease;
-        }
-
-        .post-category {
-            display: block;
-            width: 100%;
-            margin-bottom: 4rem;
-            color: $base-color-tone;
-            position: relative;
-
-            .script-font {
-                display: block;
-                position: absolute;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                    -ms-transform: translate(-50%, -50%);
-                        transform: translate(-50%, -50%);
-                width: 250px;
-                fill: #ff1c73;
-            }
         }
 
         div {
@@ -905,8 +886,9 @@ section {
             }
 
             h2 {
-                margin: 6rem 0 4rem;
+                margin: 6rem 0 2rem;
                 text-align: center;
+                word-break: keep-all;
             }
 
             img {
@@ -1344,7 +1326,7 @@ section {
         }
 
         &.related-post-list {
-            margin-bottom: 2.5rem;
+            margin: 1.5rem 0 2.5rem;
             
             .related-post-list-top-border {
                 width: calc(100% - 1rem);
@@ -1362,20 +1344,12 @@ section {
                 }
 
                 h2 {
-                    margin: 1.5rem 0;
+                    margin: 2rem 0 1.5rem;
                 }
             }
 
             .post-title {
                 margin-top: 3rem;
-            }
-
-            .post-category {
-                margin-bottom: 1rem;
-
-                .script-font {
-                    width: 200px;
-                }
             }
 
             div {
