@@ -6,7 +6,7 @@ date: 2021-12-26 00:00:00 +0900
 excerpt: 넷플릭스는 가격 책정으로 80만 고객을 잃은 적도, 35%의 수익 성장률을 달성한 적도 있습니다. 구독 서비스 가격 책정, 그 전략에 대해 알아봅니다.
 thumbnail: /assets/images/design/pricing-strategies/00.jpg
 permalink: /pricing-strategies
-topic: UX Design
+topic: Business Model
 ---
 
 식품, 의류, 세탁, 위생품, 콘텐츠, 차량 관리…. 오늘날에는 생활의 거의 모든 부분이 디지털 프로덕트를 다리 삼아서 구독 서비스로 제공됩니다. 구독 서비스의 유행은 강력한 고객 유지 특성에서 비롯합니다. 유통 기반이 온라인으로 옮겨져 전보다 노출이 쉬워졌지만, 그만큼 다른 제품도 쉽게 노출되기에 아무리 많은 고객을 유입시켜도 재방문 전략이 없다면 밑 깨진 독에 물 붓는 것이나 다름 없습니다. 재방문 고객은 전환, 제품 학습, <a title='매거진 입맛 - 전환율, 피드백, 고객지원까지. 어떻게 제품 커뮤니티를 만능 성장 동력으로 만들까?' href='/product-community-as-a-growth-engine' target='_blank' rel='noopener'>커뮤니티 기여</a> 등 수많은 분야에서 신규 고객보다 월등한 활동을 보입니다. 실제로 구독 고객은 일회성 고객보다 <a title='Erin Dorashorst(Salesforce), 2020 - A Subscription Service Can Increase Your Bottom Lines' href='https://www.salesforce.com/blog/grow-commerce-subscription-service?refer=mag_epmat' target='_blank' rel='noopener'>217% 더 많은 수익</a>을 가져다줍니다.
