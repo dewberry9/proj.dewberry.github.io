@@ -7,6 +7,7 @@ excerpt: 제품의 만능 성장 동력, 커뮤니티. 실제 제품에서는 �
 thumbnail: /assets/images/design/product-community-study-cases/00.jpg
 permalink: /product-community-study-cases
 topic: Case Study
+stylecss: /assets/post.css
 ---
 
 **만능 성장 동력 제품 커뮤니티 시리즈**  
@@ -29,7 +30,8 @@ topic: Case Study
 기업 가치가 100억 달러(한화 약 11조 원)가 넘는 노션의 성장세는 엄청납니다. 2019년 100만 명, 2020년에는 400만 명, 2021년에는 5배 늘어난 2천만 명의 고객이 노션을 사용 중입니다. 이 성장은 노션의 적극적인 커뮤니티 지원 정책의 영향이 큽니다. 5만 명이 넘는 페이스북 그룹 멤버, 1만 명이 넘는 디스코드(Discord) 채널 참가자, 레딧(Reddit)의 노션 서브레딧(레딧 내의 그룹)에는 16만 명이 참여하고 있습니다.
 
 
-**노션 앰배서더 - 피드백, 커뮤니티 참여**  
+**노션 앰배서더 - 피드백, 커뮤니티 참여**
+
 ![Notion Ambassador]({{ '/assets/images/design/product-community-study-cases/02.jpg' | relative_url }} 'Notion Ambassador'){: loading='lazy'}
 {: .normal-size}
 
@@ -62,7 +64,8 @@ topic: Case Study
 
 노션과 다르게, 피그마는 제품 커뮤니티를 직접 운영하고 있습니다. 피그마 커뮤니티에서 보이는 회원의 강한 활동성은 매끄럽게 설계된 제품과의 긴밀함에서 이유를 찾을 수 있습니다.
 
-**오픈소스 에셋 - 사용자 생성 콘텐츠, 커뮤니티 참여**  
+**오픈소스 에셋 - 사용자 생성 콘텐츠, 커뮤니티 참여**
+
 ![Figma Community]({{ '/assets/images/design/product-community-study-cases/04.jpg' | relative_url }} 'Figma Community'){: loading='lazy'}
 {: .normal-size}
 
@@ -87,7 +90,8 @@ topic: Case Study
 
 오늘의집은 인테리어 콘텐츠를 기반으로 커머스와 시공업체 비교 서비스를 제공하는 인테리어 플랫폼입니다. 앱 다운로드 횟수만 2천 만에 이르는 오늘의집의 운영사 버킷플레이스의 기업 가치는 1조 1천억 원으로 단연 국내 최대의 인테리어 플랫폼입니다. 시리즈 D 투자를 앞둔 지금은 기업 가치가 2조 원까지 언급될 정도로 성장세가 빠른 기업이기도 합니다.
 
-**콘텐츠 루프 - 고객 전환, 사용자 생성 콘텐츠**  
+**콘텐츠 루프 - 고객 전환, 사용자 생성 콘텐츠**
+
 ![Ohouse's Content Loop]({{ '/assets/images/design/product-community-study-cases/07.jpg' | relative_url }} 'Ohouse's Content Loop'){: loading='lazy'}
 {: .normal-size}
 

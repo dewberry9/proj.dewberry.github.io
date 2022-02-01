@@ -2,41 +2,38 @@
 layout: base
 category: category-list
 ---
-<div id="article-page">
-    <section class="post-list">
-            {% for post in paginator.posts %}
-                <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target">
-                    <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div></div>
-                    <div class="post-description">
-                        <span class="post-topic">{{ post.topic }}</span>
-                        <div class="post-intro">
-                            <h2>{{ post.title }}</h2>
-                            <p class="post-excerpt">{{ post.excerpt }}</p>
-                        </div>
-                    </div>
-                </a>
-            {% endfor %}
-            <div class="ads-container ads-container-relative-feedcard rise-target third-position">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <ins class="adsbygoogle infeed"
-                    style="display:block"
-                    data-ad-format="fluid"
-                    data-ad-layout-key="-68+cn+0-3b+gj"
-                    data-ad-client="ca-pub-7525347021497850"
-                    data-ad-slot="9019438848"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<section class="post-list three-row recent-article">
+    {% for post in paginator.posts %}
+    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}"
+        class="post-list-item rise-target sequential-rise-target">
+        <div class="post-thumbnail">
+            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+        </div>
+        <div class="post-description">
+            <span class="post-topic">{{ post.topic }}</span>
+            <div class="post-intro">
+                <h2>{{ post.title }}</h2>
+                <p class="post-excerpt">{{ post.excerpt }}</p>
             </div>
-
-            {% if paginator.page_trail %}
-                <div class="pagination rise-target">
-                    {% for trail in paginator.page_trail %}
-                        <a {% if page.url == trail.path %}class="now-page"{% endif %} href="{{ trail.path | prepend: site.baseurl }}" title="{{ trail.title }}">{{ trail.num }}</a>
-                    {% endfor %}
-                </div>
-            {% endif %}
-    </section>
+        </div>
+    </a>
+    {% endfor %}
+    <div class="ads-container ads-container-relative-feedcard rise-target third-position">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle infeed" style="display:block" data-ad-format="fluid" data-ad-layout-key="-68+cn+0-3b+gj"
+            data-ad-client="ca-pub-7525347021497850" data-ad-slot="9019438848"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+</section>
+{% if paginator.page_trail %}
+<div class="pagination rise-target">
+    {% for trail in paginator.page_trail %}
+    <a {% if page.url==trail.path %}class="now-page" {% endif %} href="{{ trail.path | prepend: site.baseurl }}"
+        title="{{ trail.title }}">{{ trail.num }}</a>
+    {% endfor %}
 </div>
+{% endif %}
 <script>
-        document.getElementById('nav').classList.add('show')
+    document.getElementById('nav').classList.add('show')
 </script>
 {{ content }}

@@ -7,6 +7,7 @@ excerpt: 푹 익은 과일을 베어무는 듯한 풍부함. 싱글 몰트 위�
 thumbnail: /assets/images/daily/03-highland-park-12/01.jpg
 permalink: /highland-park-12
 topic: Whisky
+stylecss: /assets/post.css
 ---
 
 ![Package 1]({{ site.cdn_url | append: '/assets/images/daily/03-highland-park-12/02.jpg' }} "Package-1"){: loading='lazy'}

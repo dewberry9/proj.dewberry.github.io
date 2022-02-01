@@ -7,6 +7,7 @@ excerpt: 빠르고 경제적인 MVP의 성공이 늘 제품의 성공인 건 아
 thumbnail: /assets/images/design/mlp-for-growing-product/00.jpg
 permalink: /mlp-for-growing-product
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **MLP 시리즈**  

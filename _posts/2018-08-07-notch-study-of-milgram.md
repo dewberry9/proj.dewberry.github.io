@@ -7,6 +7,7 @@ excerpt: iPhone X의 등장으로 스마트폰 시장에는 반짝 노치 열풍
 thumbnail: /assets/images/05-notch-study-of-milgram/01.jpg
 permalink: /notch-study-of-milgram
 topic: UX Design
+stylecss: /assets/post.css
 ---
 ![Unwanted Blueprint, Notch]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/01.jpg" }} "바라지 않는 청사진, 노치"){: loading='lazy'}
 {: .full-size}

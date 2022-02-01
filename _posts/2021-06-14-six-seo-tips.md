@@ -7,6 +7,7 @@ excerpt: SEO는 고객 획득 전략 중에서도 유독 성과가 갈립니다.
 thumbnail: /assets/images/design/six-seo-tips/00.jpg
 permalink: /six-seo-tips
 topic: Marketing
+stylecss: /assets/post.css
 ---
 
 디지털 프로덕트에 고객을 유치하는 방법이 몇 가지나 있을까요? 갖가지 전략을 떠올릴 수 있겠지만 고객 획득에 직접 관여하는 방법은 크게 4가지로 나눌 수 있습니다.

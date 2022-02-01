@@ -7,6 +7,7 @@ excerpt: 2018년 5월, 머티리얼 디자인의 새로운 모습이 공개되�
 thumbnail: /assets/images/02-remodeling-of-material-design/01.jpg
 permalink: /remodeling-of-material-design
 topic: Design System
+stylecss: /assets/post.css
 ---
 이 글에는 고유한 이름의 번역어가 포함되어있습니다. 괄호 안의 영어는 해당 번역어의 원어입니다.
 {: .indent .infor}

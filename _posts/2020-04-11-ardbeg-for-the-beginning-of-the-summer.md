@@ -7,6 +7,7 @@ excerpt: 피트향 가득, 쾌청한 풍미의 싱글 몰트 아일라 위스키
 thumbnail: /assets/images/daily/01-ardbeg/01.jpg
 permalink: /ardbeg-for-the-beginning-of-the-summer
 topic: Whisky
+stylecss: /assets/post.css
 ---
 
 ![The Ardbeg 10 Years Old]({{ site.cdn_url | append: '/assets/images/daily/01-ardbeg/01.jpg' }} "아드벡 10년"){: loading='lazy'}

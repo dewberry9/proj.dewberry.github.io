@@ -7,6 +7,7 @@ excerpt: 디자이너에게 카드는 좋은 재료입니다. 그러나 카드�
 thumbnail: /assets/images/01-build-house-with-cards/02.jpg
 permalink: /build-house-with-cards
 topic: UI Design
+stylecss: /assets/post.css
 ---
 ![Three Awesome Characteristics of Clients]({{ site.cdn_url | append: "/assets/images/01-build-house-with-cards/01.jpg" }} "삼대장"){: loading='lazy'}
 {: .full-size}

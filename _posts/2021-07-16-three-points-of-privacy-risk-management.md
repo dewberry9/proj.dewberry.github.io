@@ -7,6 +7,7 @@ excerpt: 고객과 빅 테크 기업이 바꾼 시장은 프라이버시 리스�
 thumbnail: /assets/images/design/three-points-of-privacy-risk-management/00.jpg
 permalink: /three-points-of-privacy-risk-management
 topic: Management
+stylecss: /assets/post.css
 ---
 
 **프라이버시 트렌드 시리즈**  

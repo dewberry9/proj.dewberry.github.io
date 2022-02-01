@@ -7,6 +7,7 @@ excerpt: 레이아웃은 디자인 분야의 오래된 고민거리입니다. �
 thumbnail: /assets/images/10-grid-list-and-spaghetti/01.jpg
 permalink: /grid-list-and-spaghetti
 topic: UI Design
+stylecss: /assets/post.css
 ---
 
 ![Let's Cook the Layout]({{ site.cdn_url | append: '/assets/images/10-grid-list-and-spaghetti/01.jpg'}} "레이아웃 요리, 시작"){: loading='lazy'}

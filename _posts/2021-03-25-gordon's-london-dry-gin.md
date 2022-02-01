@@ -7,6 +7,7 @@ excerpt: 진은 칵테일에 자주 쓰이는 재료입니다. 그런데 진만 
 thumbnail: /assets/images/daily/gordons-london-dry-gin/00.jpg
 permalink: /gordons-london-dry-gin
 topic: Gin
+stylecss: /assets/post.css
 ---
 
 진(Gin)이 들어가는 칵테일만 당장 열 개는 넘게 말할 수 있을 것 같습니다. 진 토닉, 진 리키, 진 피즈, 김렛, 마티니, 베스퍼, 네그로니…. 진은 칵테일에 쓰이는 대표적인 기주입니다. 특유의 솔향은 술자리 분위기를 고급스럽게 하는데 즉효가 있습니다. 이렇게 유명하지만, 진만 따로 마셔본 적은 있나요?

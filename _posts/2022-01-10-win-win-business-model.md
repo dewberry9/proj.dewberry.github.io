@@ -7,6 +7,7 @@ excerpt: 제품이 살아남으려면 비즈니스 모델이 사용료 청구라
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1641623493/design/win-win-business-model/00_xswbs8.jpg
 permalink: /win-win-business-model
 topic: Business Model
+stylecss: /assets/post.css
 ---
 
 비즈니스 모델(Business Model)은 사업이 고객에게 제공하는 가치로 수익을 내고, 이 수익으로 사업 자체를 유지하고 성장시켜서 더 큰 가치를 창출하는 순환 구조입니다. 제과점 주인은 과자를 팔고 돈을 받습니다. 이 돈은 과자 재료와 과자를 만들 공간, 과자를 팔 공간을 마련하는 데 사용됩니다. 이 과정은 반복됩니다. 이것이 비즈니스 모델입니다.

@@ -7,6 +7,7 @@ excerpt: 통계적 유의성, p값, 신뢰구간, Z 점수…. 무슨 말일까�
 thumbnail: /assets/images/design/ab-test-frequentist-statistical-analysis/00.jpg
 permalink: /ab-test-frequentist-statistical-analysis
 topic: AB Test
+stylecss: /assets/post.css
 ---
 
 **AB 테스트 통계분석 시리즈**  

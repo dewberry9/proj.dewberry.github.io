@@ -7,6 +7,7 @@ excerpt: 좋은 제품은 좋은 전략으로부터 나옵니다. 그럼 좋은 
 thumbnail: /assets/images/design/dhm-model-for-product-strategy/00.jpg
 permalink: /dhm-model-for-product-strategy
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **DHM 모델 시리즈**  

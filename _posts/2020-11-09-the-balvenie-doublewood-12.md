@@ -7,6 +7,7 @@ excerpt: 과즙 풀장에서 헤엄치고 싶다면. 싱글 몰트 스카치 위
 thumbnail: /assets/images/daily/balvenie-doublewood-12/00.jpg
 permalink: /balvenie-doublewood-12
 topic: Whisky
+stylecss: /assets/post.css
 ---
 
 ![Case 1]({{ site.cdn_url | append: '/assets/images/daily/balvenie-doublewood-12/01.jpg' }} "Case 1"){: loading='lazy'}

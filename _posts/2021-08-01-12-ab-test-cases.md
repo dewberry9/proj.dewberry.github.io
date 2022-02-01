@@ -7,6 +7,7 @@ excerpt: Booking.com, 넷플릭스, Etsy 등, 직관적이고 어렵지 않은 �
 thumbnail: /assets/images/design/12-ab-test-cases/00.jpg
 permalink: /12-ab-test-cases
 topic: AB Test
+stylecss: /assets/post.css
 ---
 
 AB 테스트는 <a title='매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드' href='/3step-ab-test' target='_blank' rel='noopener'>가설 수립, 실험 진행, 결과 분석의 3단계로 진행되는 그로쓰 해킹 방법론</a>입니다. AB 테스트는 제품과 조직의 확실한 성장 엔진으로, 그랩(Grab), 넷플릭스(Netflix), 에어비앤비(Airbnb) 등 데이터 좀 다룬다 싶은 기업은 모두 AB 테스트 성공담 하나는 가지고 있습니다. <a title='매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드' href='/3step-ab-test' target='_blank' rel='noopener'>이전 글</a>에서 말씀드렸다시피 큰 그로쓰 해킹 팀이나 테스트 문화, 맞춤 툴이 전혀 없는 상황이라도 AB 테스트를 시작하는 데는 아무런 문제가 없습니다. 나름의 가설을 세우고, 동료와 함께 구성하고, 지표를 추적하고, 시행착오를 겪다 보면 어느 정도 요령이 생깁니다.

@@ -7,6 +7,7 @@ excerpt: 좋은 온보딩은 가는 고객을 막을 뿐만 아니라, 돈도 20
 thumbnail: /assets/images/design/product-led-growth-onboarding/00.jpg
 permalink: /product-led-growth-onboarding
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **제품 주도 성장 시리즈**  

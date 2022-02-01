@@ -7,6 +7,7 @@ excerpt: 어정쩡한 고객 피드백과 프로덕트 마켓 핏 사이에서 �
 thumbnail: /assets/images/design/why-mvp-as-a-product-fails-try-mvt/00.jpg
 permalink: /why-mvp-as-a-product-fails-try-mvt
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 ![MVP Fails]({{ '/assets/images/design/why-mvp-as-a-product-fails-try-mvt/01.jpg' | relative_url }} 'MVP Fails'){: loading='lazy'}

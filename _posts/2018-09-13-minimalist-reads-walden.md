@@ -7,6 +7,7 @@ excerpt: 소로의 명저 「월든」에는 그의 생태주의와 소소한 �
 thumbnail: /assets/images/09-minimalist-reads-walden/05.jpg
 permalink: /minimalist-reads-walden
 topic: UX Design
+stylecss: /assets/post.css
 ---
 글 사이에 인용된 「월든」의 구절은 도서출판 이레에서 출판한 강승영 역자의 번역본을 따르고 있습니다.
 {: .indent .infor}

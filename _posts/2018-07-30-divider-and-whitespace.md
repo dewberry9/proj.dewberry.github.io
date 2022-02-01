@@ -7,6 +7,7 @@ excerpt: 인터랙션 디자인에서 구분선과 공백은 요소와 요소, �
 thumbnail: /assets/images/03-divider-and-whitespace/01.jpg
 permalink: /divider-and-whitespace
 topic: UI Design
+stylecss: /assets/post.css
 ---
 ![Something Sweet]({{ site.cdn_url | append: "/assets/images/03-divider-and-whitespace/01.jpg" }} "깜빡이 잊은 저녁열람금지 이미지"){: loading='lazy'}
 {: .full-size}

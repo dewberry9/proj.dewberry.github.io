@@ -7,6 +7,7 @@ excerpt: 여전히 훌륭한 셰리 오크통 숙성 위스키. 그러나 저숙
 thumbnail: /assets/images/daily/glendronach-forgue/00.jpg
 permalink: /glendronach-forgue
 topic: Whisky
+stylecss: /assets/post.css
 ---
 
 ![Bottle, Case]({{ site.cdn_url | append: '/assets/images/daily/glendronach-forgue/01.jpg' }} "Bottle, Case"){: loading='lazy'}

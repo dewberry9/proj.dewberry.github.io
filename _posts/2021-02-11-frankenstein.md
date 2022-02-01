@@ -7,6 +7,7 @@ excerpt: 미친 과학자와 나사 박힌 인조인간과 흑백 영화 분위�
 thumbnail: /assets/images/daily/frankenstein/01.jpg
 permalink: /frankenstein
 topic: Book
+stylecss: /assets/post.css
 ---
 
 너무나, 너무나 유명한 책들이 있습니다. &lt;걸리버 여행기&gt;, &lt;오즈의 마법사&gt;, &lt;돈키호테&gt;…. 이것들은 책 자체보다는 동화와 영화의 모습으로 우리와 가까워질 수 있었습니다. 그 때문에 잘 알고 있다고 여겼던 이야기가 막상 읽어보니 생소했더라는 경우도 빈번합니다.

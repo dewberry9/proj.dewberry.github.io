@@ -7,6 +7,7 @@ excerpt: 비싸지는 고객 획득 비용, 높아지는 경쟁률, 변화하는
 thumbnail: /assets/images/design/introduce-product-led-growth/00.jpg
 permalink: /introduce-product-led-growth
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **제품 주도 성장 시리즈**  

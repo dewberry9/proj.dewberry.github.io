@@ -7,6 +7,7 @@ excerpt: 부분 유료화, 무료 체험판 모델을 쓰지 않는 SaaS는 찾�
 thumbnail: /assets/images/design/freemium-vs-free-trial/00.jpg
 permalink: /freemium-vs-free-trial
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 부분 유료화와 무료 체험판 모델은 구독 정책과 마찬가지로 디지털 프로덕트 시장의 초기부터 활용되었습니다. 플로피 디스크나 CD로 사던 소프트웨어는 인터넷 기반의 SaaS가 되었습니다. 그러는 동안에도 부분 유료화, 무료 체험판 모델은 살아남았습니다. 오히려 더 강력해졌습니다. 두 모델에서 핵심이 되는 무료 버전 제품을 제공하기가 훨씬 수월해졌기 때문입니다. <a title='매거진 입맛 - 고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기' href='/product-led-growth-onboarding' target='_blank' rel='noopener'>온보딩 전략에 대해 다룬 이전 글</a>에서도 설명한 바 있듯, 고객 10명 중 9명이 제품 탐색 방식으로 영업 사원과의 대화보다 <a title='Eric Keating(Product-led Growth Collective), 2020 - Product is the new landing page' href='https://www.productled.org/blog/product-landing-page' target='_blank' rel='noopener'>부분 유료화·무료 체험판 제품 사용을 선호</a> 합니다. 오늘날 디지털 프로덕트를 만드는 사람이라면 언젠가 반드시 공부하게 되는 전략이 부분 유료화와 무료 체험판 모델입니다.

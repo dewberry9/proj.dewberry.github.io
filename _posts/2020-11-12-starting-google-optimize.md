@@ -7,6 +7,7 @@ excerpt: 옵티마이즈로 AB 테스트 해봅니다. 타 트래킹 툴과 같�
 thumbnail: /assets/images/design/starting-google-optimize/01.jpg
 permalink: /starting-google-optimize
 topic: AB Test
+stylecss: /assets/post.css
 ---
 
 **AB 테스트 가이드라인 시리즈**  

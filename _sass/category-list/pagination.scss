@@ -1,0 +1,41 @@
+.pagination {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0 auto 12rem;
+    font-weight: bold;
+    font-size: 1rem;
+
+    * {
+        cursor: pointer;
+    }
+
+    a {
+        margin: 0 0.5rem;
+        padding: 0 0.5rem;
+
+        * {
+            vertical-align: middle;
+        }
+    }
+
+    .now-page {
+        color: $primary-color;
+        border-bottom: 2px solid $primary-color;
+    }
+
+    @include media-query($wide-width) {
+        margin-bottom: calc(64px + 3.5rem);
+    }
+
+    @include media-query($mobile-width) {
+        margin-bottom: 7.19rem;
+    }
+}

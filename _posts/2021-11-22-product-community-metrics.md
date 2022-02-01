@@ -7,6 +7,7 @@ excerpt: 커뮤니티 성과 측정은 조직 전체가 커뮤니티 업무를 �
 thumbnail: /assets/images/design/product-community-metrics/00.jpg
 permalink: /product-community-metrics
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **만능 성장 동력 제품 커뮤니티 시리즈**  

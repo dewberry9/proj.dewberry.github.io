@@ -7,6 +7,7 @@ excerpt: 제품 주도 성장 조직의 성과를 측정하는 NRG(자연 성장
 thumbnail: /assets/images/design/product-led-growth-metrics/00.jpg
 permalink: /product-led-growth-metrics
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **제품 주도 성장 시리즈**  

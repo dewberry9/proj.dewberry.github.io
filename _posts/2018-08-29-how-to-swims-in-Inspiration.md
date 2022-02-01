@@ -7,6 +7,7 @@ excerpt: 만성적인 영감 부족에 시달리는 오늘날의 디자이너, �
 thumbnail: /assets/images/07-how-to-swims-in-inspiration/02.jpg
 permalink: /how-to-swims-in-inspiration
 topic: Design Tip
+stylecss: /assets/post.css
 ---
 ![Infinite Loop]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/01.jpg'}} "무한루프"){: loading='lazy'}
 {: .full-size}

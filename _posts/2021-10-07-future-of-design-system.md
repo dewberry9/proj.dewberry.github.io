@@ -7,6 +7,7 @@ excerpt: 앞으로 디자인 시스템이 가야할 길은 어디일까요? 지�
 thumbnail: /assets/images/design/future-of-design-system/00.jpg
 permalink: /future-of-design-system
 topic: Trend
+stylecss: /assets/post.css
 ---
 
 ![Design System]({{ '/assets/images/design/future-of-design-system/01.jpg' | relative_url }} 'Design System'){: loading='lazy'}

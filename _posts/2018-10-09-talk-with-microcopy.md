@@ -7,6 +7,7 @@ excerpt: 마이크로카피는 아주 작은 한 덩어리의 텍스트입니다
 thumbnail: /assets/images/11-talk-with-microcopy/04.jpg
 permalink: /talk-with-microcopy
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 ![Guerrilla Copy]({{ site.cdn_url | append: '/assets/images/11-talk-with-microcopy/01.jpg'}} "게릴라 카피"){: loading='lazy'}

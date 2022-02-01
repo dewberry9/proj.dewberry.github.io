@@ -7,6 +7,7 @@ excerpt: 이 각진 파란 병 진이 뭐가 그렇게 특이할까요? 아트 �
 thumbnail: /assets/images/daily/bombay-sapphire/00.jpg
 permalink: /bombay-sapphire
 topic: Gin
+stylecss: /assets/post.css
 ---
 
 ![Bottle 1]({{ '/assets/images/daily/bombay-sapphire/01.jpg' | relative_url }} 'Bottle 1'){: loading='lazy'}

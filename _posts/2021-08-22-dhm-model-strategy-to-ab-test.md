@@ -7,6 +7,7 @@ excerpt: 넷플릭스 DHM 모델은 제품 전략을 세웁니다. 이제 전략
 thumbnail: /assets/images/design/dhm-model-strategy-to-ab-test/00.jpg
 permalink: /dhm-model-strategy-to-ab-test
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **DHM 모델 시리즈**  

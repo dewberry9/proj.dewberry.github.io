@@ -7,6 +7,7 @@ excerpt: 커뮤니티. 만들면 좋다고는 하는데, 정확히 어떻게 제
 thumbnail: /assets/images/design/product-community-as-a-growth-engine/00.jpg
 permalink: /product-community-as-a-growth-engine
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **만능 성장 동력 제품 커뮤니티 시리즈**  

@@ -7,6 +7,7 @@ excerpt: ‘대안의 결과가 원본보다 나을 확률’, ‘대안을 선�
 thumbnail: /assets/images/design/ab-test-bayesian-statistical-analysis/00.jpg
 permalink: /ab-test-bayesian-statistical-analysis
 topic: AB Test
+stylecss: /assets/post.css
 ---
 
 **AB 테스트 통계분석 시리즈**  

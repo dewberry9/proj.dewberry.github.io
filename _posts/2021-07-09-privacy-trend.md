@@ -7,6 +7,7 @@ excerpt: Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC... 사용�
 thumbnail: /assets/images/design/privacy-trend/00.jpg
 permalink: /privacy-trend
 topic: Trend
+stylecss: /assets/post.css
 ---
 
 **프라이버시 트렌드 시리즈**  

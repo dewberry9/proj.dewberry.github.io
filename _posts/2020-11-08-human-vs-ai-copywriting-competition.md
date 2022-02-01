@@ -7,6 +7,7 @@ excerpt: 인간의 카피와 GPT-3의 카피라이팅 대결. 누가 승리했�
 thumbnail: /assets/images/design/human-vs-ai-copywriting-competition/01.jpg
 permalink: /human-vs-ai-copywriting-competition
 topic: AB Test
+stylecss: /assets/post.css
 ---
 
 **AB 테스트 가이드라인 시리즈**  

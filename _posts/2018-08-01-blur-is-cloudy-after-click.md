@@ -7,6 +7,7 @@ excerpt: 블러는 아름다운 효과지만 인터랙션 디자인에서 그 �
 thumbnail: /assets/images/04-blur-is-cloudy-after-click/01.jpg
 permalink: /blur-is-cloudy-after-click
 topic: UI Design
+stylecss: /assets/post.css
 ---
 ![My Glasses T.T]({{ site.cdn_url | append: "/assets/images/04-blur-is-cloudy-after-click/01.jpg" }} "내 안경 T.T"){: loading='lazy'}
 {: .full-size}

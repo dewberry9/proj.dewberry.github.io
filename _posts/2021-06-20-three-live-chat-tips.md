@@ -7,6 +7,7 @@ excerpt: 라이브 채팅은 만족도가 가장 높은 CS 도구로, 전환율 
 thumbnail: /assets/images/design/three-live-chat-tips/00.jpg
 permalink: /three-live-chat-tips
 topic: Customer Service
+stylecss: /assets/post.css
 ---
 
 ![Live Chat SaaS]({{ '/assets/images/design/three-live-chat-tips/01.jpg' | relative_url }} '라이브 채팅 서비스'){: loading='lazy'}

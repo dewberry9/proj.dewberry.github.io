@@ -1,0 +1,406 @@
+@charset "utf-8";
+
+$base-font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+$base-font-weight: 400 !default;
+$base-line-height: 1.8 !default;
+$base-font-size: 1em !default;
+$small-font-size: 0.8em !default;
+$title-font-family: "Nanum Myeongjo";
+
+$text-color: #38373d !default;
+$background-color: #fff !default;
+$primary-color: #363059 !default;
+$title-color: #272629 !default;
+$dark-color: #1f193b !default;
+
+$base-color-tint: #f2f2f2 !default;
+$base-color-tone: #e3e3e6 !default;
+$base-color-tone-text: #c3c3c7 !default;
+$base-color-shade: #86868a !default;
+
+$wide-width: 1600px !default;
+$normal-width: 1200px !default;
+$mobile-width: 760px !default;
+
+$base-cubic-bezier: cubic-bezier(0.8, 0, 0.2, 1);
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin transition-o-point-three($target) {
+    -webkit-transition: $target 0.3s ease;
+    -o-transition: $target 0.3s ease;
+    transition: $target 0.3s ease;
+}
+
+@-webkit-keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes noise {
+    0%,
+    to {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+    10% {
+        -webkit-transform: translate(-1%, -1%);
+        transform: translate(-1%, -1%);
+    }
+    20% {
+        -webkit-transform: translate(1%, 1%);
+        transform: translate(1%, 1%);
+    }
+    30% {
+        -webkit-transform: translate(-2%, -2%);
+        transform: translate(-2%, -2%);
+    }
+    40% {
+        -webkit-transform: translate(3%, 3%);
+        transform: translate(3%, 3%);
+    }
+    50% {
+        -webkit-transform: translate(-3%, -3%);
+        transform: translate(-3%, -3%);
+    }
+    60% {
+        -webkit-transform: translate(4%, 4%);
+        transform: translate(4%, 4%);
+    }
+    70% {
+        -webkit-transform: translate(-4%, -4%);
+        transform: translate(-4%, -4%);
+    }
+    80% {
+        -webkit-transform: translate(2%, 2%);
+        transform: translate(2%, 2%);
+    }
+    90% {
+        -webkit-transform: translate(-2%, -2%);
+        transform: translate(-2%, -2%);
+    }
+}
+
+@keyframes noise {
+    0%,
+    to {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+    10% {
+        -webkit-transform: translate(-1%, -1%);
+        transform: translate(-1%, -1%);
+    }
+    20% {
+        -webkit-transform: translate(1%, 1%);
+        transform: translate(1%, 1%);
+    }
+    30% {
+        -webkit-transform: translate(-2%, -2%);
+        transform: translate(-2%, -2%);
+    }
+    40% {
+        -webkit-transform: translate(3%, 3%);
+        transform: translate(3%, 3%);
+    }
+    50% {
+        -webkit-transform: translate(-3%, -3%);
+        transform: translate(-3%, -3%);
+    }
+    60% {
+        -webkit-transform: translate(4%, 4%);
+        transform: translate(4%, 4%);
+    }
+    70% {
+        -webkit-transform: translate(-4%, -4%);
+        transform: translate(-4%, -4%);
+    }
+    80% {
+        -webkit-transform: translate(2%, 2%);
+        transform: translate(2%, 2%);
+    }
+    90% {
+        -webkit-transform: translate(-2%, -2%);
+        transform: translate(-2%, -2%);
+    }
+}
+
+@-webkit-keyframes gradient-slide-in {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes gradient-slide-in {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@-webkit-keyframes smooth-rise {
+    from {
+        -webkit-transform: translateY(10rem);
+        transform: translateY(10rem);
+    }
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes smooth-rise {
+    from {
+        -webkit-transform: translateY(10rem);
+        transform: translateY(10rem);
+    }
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+a {
+    cursor: pointer;
+    color: $base-color-shade;
+    text-decoration: none;
+    @include transition-o-point-three(color);
+
+    &:hover {
+        color: $base-color-tone-text;
+    }
+}
+
+.sink-state {
+    -webkit-transform: translateY(10rem);
+    -ms-transform: translateY(10rem);
+    transform: translateY(10rem);
+}
+
+.rise-animated {
+    -webkit-animation: smooth-rise 0.3s $base-cubic-bezier forwards;
+    animation: smooth-rise 0.3s $base-cubic-bezier forwards;
+
+    &.second-position {
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+    }
+
+    &.third-position {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+    }
+
+    @include media-query($normal-width) {
+        &.second-position,
+        &.third-position {
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+    }
+}
+
+.op75 {
+    opacity: 0.75;
+}
+
+.disable-txt {
+    color: $base-color-tone-text !important;
+}
+
+.disable-element {
+    display: none;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    top: 0 !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 800;
+    color: $title-color;
+    font-family: $title-font-family;
+}
+
+h1 {
+    line-height: 1;
+    font-size: 2rem;
+
+    @include media-query($mobile-width) {
+        font-size: 1.5rem;
+    }
+}
+
+h2 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+
+    @include media-query($mobile-width) {
+        font-size: 1.25rem;
+    }
+}
+
+h3 {
+    line-height: 1 !important;
+    font-size: 1.25rem;
+
+    @include media-query($mobile-width) {
+        font-size: 1.125rem;
+    }
+}
+
+strong {
+    font-weight: bold;
+}
+
+::-moz-selection {
+    background: $primary-color;
+    color: #fff;
+}
+
+::selection {
+    background: $primary-color;
+    color: #fff;
+}
+
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font-display: swap;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -o-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+section {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: calc((100vw - #{$wide-width}) / 2);
+    padding-right: calc((100vw - #{$wide-width}) / 2);
+    margin: 8rem 0;
+}
+
+.space-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    .space-left {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 0px;
+                flex: 1 1 0;
+    }
+
+    .space-right {
+        -webkit-box-flex: 3;
+            -ms-flex: 3 1 0px;
+                flex: 3 1 0;
+    }
+}
+
+.ads-container-mobile-feedcard {
+    display: none;
+}
+
+@include media-query($wide-width) {
+    #content {
+        padding: 0 2.5rem;
+    }
+
+    section {
+        padding: 0;
+        margin: 3.5rem 0;
+    }
+}
+
+@include media-query($normal-width) {
+    .space-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+    }
+}
+
+@include media-query($mobile-width) {
+    #content {
+        padding: 0 1.25rem;
+    }
+
+    section {
+        margin: 2.5rem 0;
+    }
+
+    .ads-container-mobile-feedcard {
+        display: block;
+    }
+}

@@ -7,6 +7,7 @@ excerpt: 이 육중한 무리는 도대체 무엇인가? 뜨겁게 부푼 살덩
 thumbnail: /assets/images/story/02-the-oversleeping(1).jpg
 permalink: /the-oversleeping
 topic: Essay
+stylecss: /assets/post.css
 ---
 
 ![The Way to a Oversleeping]({{ site.cdn_url | append: '/assets/images/story/02-the-oversleeping(2).jpg' }} "강변 가는 길"){: loading='lazy'}

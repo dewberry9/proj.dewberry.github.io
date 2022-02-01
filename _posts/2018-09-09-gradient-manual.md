@@ -7,6 +7,7 @@ excerpt: 그다리언트는 화려하고 이색적입니다. 이는 인터렉션
 thumbnail: /assets/images/08-gradient-manual/01.jpg
 permalink: /gradient-manual
 topic: UI Design
+stylecss: /assets/post.css
 ---
 ![The Best Light is a Natural Light]({{ site.cdn_url | append: '/assets/images/08-gradient-manual/01.jpg'}} "어떤 사진사가 말했다, 자연광은 최고의 조명이라고."){: loading='lazy'}
 {: .full-size}

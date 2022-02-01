@@ -7,6 +7,7 @@ excerpt: 상세 페이지는 전환이 발생하는 화면이기에 비즈니스
 thumbnail: /assets/images/design/product-page-tips/00.jpg
 permalink: /product-page-tips
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 디지털 프로덕트에서 상세 페이지는 사용자에게 주어진 여러 선택지 중 하나를 세세하게 설명하여 정확한 의사 실행을 돕는 도구입니다. 상세 페이지에서는 전환, 즉 비즈니스에서 유의미하게 여겨지는 사용자의 행동이 발생하는 경우가 많기 때문에 제품의 첫인상을 결정하는 랜딩 페이지만큼이나 중요하게 다뤄지는 화면입니다.

@@ -7,6 +7,7 @@ excerpt: 유용한 디자인, 쉬운 디자인을 겨쳐 오늘날의 디지털 
 thumbnail: /assets/images/12-next-step-the-cozy/01.jpg
 permalink: /next-step-the-cozy
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 ![Monkeys]({{ site.cdn_url | append: '/assets/images/12-next-step-the-cozy/01.jpg'}} "번쩍이는 작은 박스를 손에 든 원숭이, 현대인"){: loading='lazy'}

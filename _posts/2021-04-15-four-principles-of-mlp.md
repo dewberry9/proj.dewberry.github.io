@@ -7,6 +7,7 @@ excerpt: 어떻게 해야 성장하는 제품을 만들 수 있을까요? 뉴욕
 thumbnail: /assets/images/design/four-principles-of-mlp/00.jpg
 permalink: /four-principles-of-mlp
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **MLP 시리즈**  

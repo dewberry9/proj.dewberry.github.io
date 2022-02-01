@@ -7,6 +7,7 @@ excerpt: 듣기만 해도 클래식한 그 이름 마티니. 그런데 마티니
 thumbnail: /assets/images/daily/martini-extra-dry/00.jpg
 permalink: /martini-extra-dry
 topic: Vermouth
+stylecss: /assets/post.css
 ---
 
 포커 테이블, 브리오니 수트, 담배 연기, 스파이, 마티니. 유치하다고 생각할 수도 있을 것 같습니다. 그래도 클래식 칵테일 마티니와의 첫 만남이 &lt;카지노 로얄&gt;이었다는 걸 부정할 수는 없습니다. 형형색색 카지노 속에서 제임스 본드의 손에 들려 있던 차갑게 칠링된 칵테일 잔, 그리고 그 속의 드라이 마티니는 제가 본 영화에 등장하는 술 중 단연 가장 스타일리시했습니다.

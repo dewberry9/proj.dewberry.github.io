@@ -7,6 +7,7 @@ excerpt: AB 테스트가 좋은 건 알겠는데 막막하지 않나요? 가설 
 thumbnail: /assets/images/design/3step-ab-test/01.jpg
 permalink: /3step-ab-test
 topic: AB Test
+stylecss: /assets/post.css
 ---
 
 **AB 테스트 가이드라인 시리즈**  

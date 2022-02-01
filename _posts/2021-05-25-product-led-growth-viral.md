@@ -7,6 +7,7 @@ excerpt: 15개월 만에 3,900% 성장, 3달 만에 1천만 명에서 2억명. �
 thumbnail: /assets/images/design/product-led-growth-viral/00.jpg
 permalink: /product-led-growth-viral
 topic: UX Design
+stylecss: /assets/post.css
 ---
 
 **제품 주도 성장 시리즈**  

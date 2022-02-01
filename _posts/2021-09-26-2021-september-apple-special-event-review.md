@@ -7,6 +7,7 @@ excerpt: 모바일 디바이스만 7개가 나왔던 이번 애플 이벤트. �
 thumbnail: /assets/images/design/2021-september-apple-special-event-review/00.jpg
 permalink: /2021-september-apple-special-event-review
 topic: Trend
+stylecss: /assets/post.css
 ---
 
 이번 글에서 사용한 이미지는 모두 <a title='Apple' href='https://apple.com' target='_blank' rel='noopener'>애플 공식 홈페이지</a>와 2021년 9월 <a title='Apple 이벤트 - 2021년 9월' href='https://www.apple.com/kr/apple-events/september-2021/' target='_blank' rel='noopener'>애플 이벤트 녹화 영상</a>에서 발췌했습니다.

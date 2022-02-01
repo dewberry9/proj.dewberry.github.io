@@ -7,6 +7,7 @@ excerpt: 어떻게 하면 고객이 다른 고객을 데려오도록 할 수 있
 thumbnail: /assets/images/design/waitlist-viral/00.jpg
 permalink: /waitlist-viral
 topic: Marketing
+stylecss: /assets/post.css
 ---
 
 ![Waitlist UI]({{ '/assets/images/design/waitlist-viral/01.jpg' | relative_url }} 'Waitlist UI'){: loading='lazy'}
