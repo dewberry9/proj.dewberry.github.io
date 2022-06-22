@@ -253,34 +253,34 @@ h1, h2, h3 {
                         }
 
                         &:nth-of-type(1)::after {
-                            animation-delay: 0.05s;
-                        }
-                        &:nth-of-type(2)::after {
-                            animation-delay: 0.1s;
-                        }
-                        &:nth-of-type(3)::after {
-                            animation-delay: 0.15s;
-                        }
-                        &:nth-of-type(4)::after {
-                            animation-delay: 0.2s;
-                        }
-                        &:nth-of-type(5)::after {
-                            animation-delay: 0.25s;
-                        }
-                        &:nth-of-type(6)::after {
-                            animation-delay: 0.3s;
-                        }
-                        &:nth-of-type(7)::after {
-                            animation-delay: 0.35s;
-                        }
-                        &:nth-of-type(8)::after {
                             animation-delay: 0.4s;
                         }
-                        &:nth-of-type(9)::after {
+                        &:nth-of-type(2)::after {
+                            animation-delay: 0.45s;
+                        }
+                        &:nth-of-type(3)::after {
                             animation-delay: 0.5s;
                         }
-                        &:nth-of-type(10)::after {
+                        &:nth-of-type(4)::after {
                             animation-delay: 0.55s;
+                        }
+                        &:nth-of-type(5)::after {
+                            animation-delay: 0.6s;
+                        }
+                        &:nth-of-type(6)::after {
+                            animation-delay: 0.65s;
+                        }
+                        &:nth-of-type(7)::after {
+                            animation-delay: 0.7s;
+                        }
+                        &:nth-of-type(8)::after {
+                            animation-delay: 0.75s;
+                        }
+                        &:nth-of-type(9)::after {
+                            animation-delay: 0.8s;
+                        }
+                        &:nth-of-type(10)::after {
+                            animation-delay: 0.85s;
                         }
                     }
 
@@ -597,12 +597,125 @@ h1, h2, h3 {
                         font-size: 0.6rem;
                         color: $color-medium-gray;
                     }
+
+                    &.accordion-item {
+                        cursor: pointer;
+                        background-color: $color-white;
+                        @include basic-transition(all);
+
+                        header, article {
+                            @include basic-transition(opacity);
+                        }
+
+                        .summary {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            p {
+                                flex-shrink: 1;
+                                margin: 0;
+                            }
+
+                            .icon-expand {
+                                @include basic-transition(all);
+                                width: 1.25rem;
+                                height: auto;
+                                fill: $color-gray;
+                                margin-left: 0.75rem;
+                            }
+                        }
+
+                        .expand {
+                            display: none;
+                            margin: 2rem 0 1rem;
+
+                            .number-txt {
+                                span {
+                                    display: block;
+                                    &:first-child {
+                                        color: $color-black;
+                                        font-size: 1.25rem;
+                                        font-weight: 500;
+                                        margin-bottom: 0.25rem;
+                                        letter-spacing: -0.05rem;
+                                    }
+
+                                    &:last-child {
+                                        font-size: 0.75rem;
+                                        color: $color-medium-gray;
+                                    }
+                                }
+
+                            }
+
+                            img {
+                                margin: 1.5rem 0;
+                                border-radius: $border-rd;
+                            }
+
+                            .inexpand-banner {
+                                padding: 1rem;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                margin-top: 1rem;
+                                background-color: $color-light-gray;
+                                border-radius: $border-rd;
+                                text-decoration: none;
+                                @include basic-transition(all);
+
+                                .icon-arrow {
+                                    width: 1rem;
+                                    height: auto;
+                                }
+
+                                span {
+                                    font-size: 0.875rem;
+                                    color: $color-black;
+                                }
+
+                                &:hover {
+                                    background-color: $color-gray;
+                                    transform: scale(1.02);
+                                    box-shadow: 0 0.5rem 1rem -0.5rem rgba($color-black, 0.25);
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            background-color: rgba($color-light-gray, 0.25);
+                            transform: scale(0.99);
+                            header, article {
+                                opacity: 0.8;
+                            }
+                            .summary .icon-expand {
+                                fill: $color-black;
+                            }
+                        }
+
+                        &.active {
+                            .summary .icon-expand {
+                                transform: rotate(180deg);
+                            }
+                            .expand {
+                                display: block;
+                            }
+                        }
+                    }
                 }
             }
 
             &#portfolio article {
                 margin: 0;
                 @extend %txt-md;
+                a {
+                    display: block;
+
+                    &:first-child {
+                        margin-bottom: 1rem;
+                    }
+                }
             }
         }
     }
