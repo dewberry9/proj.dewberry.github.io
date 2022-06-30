@@ -57,7 +57,7 @@ img, picture, video, canvas {display: block;max-width:100%;}
 svg {display: inline-block;}
 ul, ol {list-style: none;}
 html {    
-    font-size: 1vw;
+    font-size: 0.9vw;
     scroll-behavior: smooth;
 
     @include media-query($wide-width) {
@@ -144,7 +144,7 @@ h1, h2, h3 {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.8;
-    margin: 1.5rem 0;
+    margin: 1.75rem 0;
     letter-spacing: -0.01rem;
     color: $color-medium-gray;
 
@@ -161,7 +161,11 @@ h1, h2, h3 {
     }
 
     @include media-query($mobile-width) {
-        margin: 1.25rem 0;
+        margin: 1.5rem 0;
+    }
+
+    strong {
+        font-weight: 700;
     }
 }
 
@@ -177,6 +181,14 @@ h1, h2, h3 {
     &:hover {
         opacity: 0.3;
     }
+}
+
+.icon-expand {
+    @include basic-transition(all);
+    width: 1.25rem;
+    height: auto;
+    fill: $color-gray;
+    margin-left: 0.75rem;
 }
 
 .root-container {
@@ -215,10 +227,10 @@ h1, h2, h3 {
 
             header.subtitle h2 {
                 font-size: 1rem;
-                font-weight: 500;
+                font-weight: 600;
                 letter-spacing: -0.01rem;
                 color: $color-black;
-                margin-bottom: 2rem;
+                margin-bottom: 2.25rem;
             }
 
             &#headcopy {
@@ -292,71 +304,57 @@ h1, h2, h3 {
 
             &#introduce {
                 .description-me {
-                    p {
+                    p, span {
                         @extend %txt-md;
                     }
                     img {
                         border-radius: $border-rd;
                     }
-                }            
-            }
+                    .btn-more {
+                        display: flex;
+                        align-items: center;
+                        font-size: 0.875rem;
+                        color: $color-gray;
+                        @include basic-transition(opacity);
 
-            &#contact {
-                padding-bottom: 2rem;
-                article {
-                    p {
-                        @extend %txt-md;
-                        margin: 0;
-                    }
-                }
-            }
-            &#skills {
-                padding-top: 2rem;
-
-                .skill-tab {
-                    margin-bottom: 1.5rem;
-    
-                    button {
-                        background: none;
-                        border: none;
-                        font-size: 0.75rem;
-                        font-weight: 500;
-                        color: $color-medium-gray;
-                        padding: 0.4rem 0.6rem;
-                        display: inline-block;
-                        border-radius: 0.5rem;
-                        cursor: pointer;
-                        @include basic-transition(background-color);
-    
-                        &:hover {
-                            background-color: rgba($color-blue, 0.05);
+                        .closeCopy {
+                            display: none;
                         }
-    
+
+                        .openCopy,
+                        .closeCopy {
+                            margin: 0;
+                        }
+
+                        cursor: pointer;
+                        svg {
+                            margin-left: 0;
+                        }
+
+                        &:hover {
+                            opacity: 0.7;
+                        }
+
                         &.active {
-                            font-weight: 700;
-                            color: $color-blue;
-                            border-bottom: 3px solid $color-blue;
-                            border-radius: 0;
-    
-                            &:hover {
-                                background: none;
+                            svg {
+                                transform: rotate(180deg);
+                            }
+                            .closeCopy {
+                                display: inline;
+                            }
+                            .openCopy {
+                                display: none;
                             }
                         }
                     }
-                }
-    
-                ul li {
-                    border: 1px solid $color-medium-gray;
-                    color: $color-medium-gray;
-                    font-size: 0.75rem;
-                    border-radius: 10rem;
-                    display: inline-block;
-                    padding: 0.25rem 0.5rem;
-                    margin: 0 0 0.4rem 0;
-                }
-    
-                ul.by-keyword {
-                    display: none;
+
+                    .more {
+                        display: none;
+
+                        &.active {
+                            display: block;
+                        }
+                    }
                 }
             }
 
@@ -452,7 +450,7 @@ h1, h2, h3 {
                             }
 
                             .card-thumbnail img {
-                                height: 115%;
+                                width: 110%;
                                 opacity: 0.7;
                             }
 
@@ -510,9 +508,9 @@ h1, h2, h3 {
                             
                             img {
                                 @include basic-transition(all);
-                                max-width: fit-content;
-                                height: 105%;
                                 position: absolute;
+                                max-width: fit-content;
+                                width: 100%;
                                 top: 50%;
                                 left: 50%;
                                 transform: translate(-50%, -50%);
@@ -533,7 +531,7 @@ h1, h2, h3 {
                                 h4 {
                                     font-weight: 500;
                                     font-size: 0.875rem;
-                                    margin-bottom: 0.75rem;
+                                    margin-bottom: 0.125rem;
                                     line-height: 1.2;
                                 }
     
@@ -541,6 +539,13 @@ h1, h2, h3 {
                                     font-size: 0.75rem;
                                     line-height: 1.3;
                                     opacity: 0.6;
+                                }
+
+                                .date {
+                                    font-size: 0.6rem;
+                                    line-height: 1;
+                                    margin-bottom: 0.875rem;
+                                    opacity: 0.5;
                                 }
                             }
                         }
@@ -615,14 +620,6 @@ h1, h2, h3 {
                             p {
                                 flex-shrink: 1;
                                 margin: 0;
-                            }
-
-                            .icon-expand {
-                                @include basic-transition(all);
-                                width: 1.25rem;
-                                height: auto;
-                                fill: $color-gray;
-                                margin-left: 0.75rem;
                             }
                         }
 
@@ -705,15 +702,79 @@ h1, h2, h3 {
                     }
                 }
             }
+        }
 
-            &#portfolio article {
-                margin: 0;
-                @extend %txt-md;
-                a {
-                    display: block;
+        .contact-and-skills section {
+            &#contact {
+                padding-bottom: 2rem;
+                article {
+                    p {
+                        @extend %txt-md;
+                        margin: 0;
+                    }
+                }
+            }
+            &#skills {
+                padding: 2rem 0;
 
-                    &:first-child {
-                        margin-bottom: 1rem;
+                .skill-tab {
+                    margin-bottom: 1.5rem;
+    
+                    button {
+                        background: none;
+                        border: none;
+                        font-size: 0.75rem;
+                        font-weight: 500;
+                        color: $color-medium-gray;
+                        padding: 0.4rem 0.6rem;
+                        display: inline-block;
+                        border-radius: 0.5rem;
+                        cursor: pointer;
+                        @include basic-transition(background-color);
+    
+                        &:hover {
+                            background-color: rgba($color-blue, 0.05);
+                        }
+    
+                        &.active {
+                            font-weight: 700;
+                            color: $color-blue;
+                            border-bottom: 3px solid $color-blue;
+                            border-radius: 0;
+    
+                            &:hover {
+                                background: none;
+                            }
+                        }
+                    }
+                }
+    
+                ul li {
+                    border: 1px solid $color-medium-gray;
+                    color: $color-medium-gray;
+                    font-size: 0.75rem;
+                    border-radius: 10rem;
+                    display: inline-block;
+                    padding: 0.25rem 0.5rem;
+                    margin: 0 0 0.4rem 0;
+                }
+    
+                ul.by-keyword {
+                    display: none;
+                }
+            }
+            &#portfolio {
+                padding-top: 2rem;
+                article {
+                    margin: 0;
+                    @extend %txt-md;
+                    font-size: 0.875rem;
+                    a {
+                        display: block;
+    
+                        &:first-child {
+                            margin-bottom: 1rem;
+                        }
                     }
                 }
             }
@@ -728,17 +789,6 @@ h1, h2, h3 {
 
     @include media-query($normal-width) {
         padding: 2.5rem 3rem 4rem;
-        .content-container {
-            padding: 2rem 0;
-
-            &#contact {
-                padding-bottom: 1.5rem;
-            }
-
-            &#skills {
-                padding-top: 1.5rem;
-            }
-        }
     }
 
     @include media-query($mobile-width) {
@@ -764,7 +814,7 @@ h1, h2, h3 {
         }
 
         .content-container section {
-            padding: 2rem 0;
+            padding: 2.25rem 0;
 
             &#headcopy {
                 margin-top: 5rem;
@@ -777,7 +827,7 @@ h1, h2, h3 {
             }
 
             header.subtitle h2 {
-                margin-bottom: 1.25rem;
+                margin-bottom: 1.5rem;
             }
 
             &#experiences .callbuslab-summary {                    
