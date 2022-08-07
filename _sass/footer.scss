@@ -1,83 +1,48 @@
 footer {
-    position: absolute;
-    bottom: 0;
-    -webkit-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     width: 100%;
-    min-height: 64px;
     background-color: $base-color-tint;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 0.875rem;
-    padding: 1rem calc((100vw - #{$wide-width}) / 2);
+    color: $text-color;
 
-    span a {
-        margin-right: 1.5rem;
-        display: -webkit-inline-box;
-        display: -ms-inline-flexbox;
-        display: inline-flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+    &.intro {
+        background-color: #1a1531;
+        color: $base-color-tint;
 
-        &#home-page {
-            font-family: $title-font-family;
-            font-weight: 800;
-        }
-
-        svg {
-            width: 0.75rem;
-            margin-right: 0.25rem;
-        }
-
-        &:last-child {
-            margin-right: 0;
+        section .link-group #home-page {
+            color: $base-color-tint;
         }
     }
 
-    @include media-query($wide-width) {
-        padding: 1rem 2.5rem;
-    }
+    section {
+        justify-content: space-between;
 
-    @include media-query($normal-width) {
-        span a {
-            margin-right: 0.75rem;
-        }
-    }
+        .link-group {
+            font-size: 1.1rem;
 
-    @include media-query($mobile-width) {
-        padding: 1rem 1.25rem;
-        font-size: 0.75rem;
-
-        span {
-            &.inner-link a {
-                margin-right: 0.5rem;
-    
-                &#home-page {
-                    display: block;
-                    font-size: 0.75rem;
-                    margin-right: 0;
-                }
+            #home-page {
+                font-family: $title-font-family;
+                color: $text-color;
             }
 
-            &.outer-link {
-                display: grid;
-                grid-template-columns: repeat(2, 2fr);
-                gap: 0 0.5rem;
+            .group-title {
+                font-weight: 500;
+                margin-bottom: 1rem;
+            }
 
-                a {
-                    margin-right: 0;
+            a {
+                display: block;
+
+                &:hover {
+                    text-decoration: underline;
                 }
+            }
+        }
+
+        @include media-query($mobile-width) {
+            flex-wrap: wrap;
+
+            .link-group:first-child {
+                flex-basis: 100%;
+                margin-bottom: 1rem;
             }
         }
     }

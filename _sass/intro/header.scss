@@ -1,277 +1,99 @@
-.starting-point {
-    margin: 5rem 0;
-    .space-container {
-        border-top: 1px solid $base-color-tone;
-        border-bottom: 1px solid $base-color-tone;
+.starting-point { 
+    padding-top: 0;
+    .txt-container {
         width: 100%;
+        padding: 3.5rem 0 1.5rem;
+        border-bottom: 5px solid $title-color;
+        position: relative;
 
-        .title-space-left,
-        .title-space-right {
-            padding-top: 3.5rem;
-            padding-bottom: 3.5rem;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-            justify-content: space-between;
-        }
-
-        .title-space-left {
-            overflow: hidden;
-            border-right: 1px solid $base-color-tone;
-            -webkit-box-sizing: border-box;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cdefs%3E%3Cfilter id='a' x='-20%25' y='-20%25' width='140%25' height='140%25' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='linearRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.071' numOctaves='4' seed='15' stitchTiles='stitch' x='0%25' y='0%25' width='100%25' height='100%25' result='turbulence'%3E%3Canimate attributeName='seed' values='5;15;' dur='1.5s' repeatCount='indefinite' /%3E%3C/feTurbulence%3E%3CfeSpecularLighting surfaceScale='15' specularConstant='.5' specularExponent='20' lighting-color='%234730b0' x='0%25' y='0%25' width='100%25' height='100%25' in='turbulence' result='specularLighting'%3E%3CfeDistantLight azimuth='3' elevation='80'/%3E%3C/feSpecularLighting%3E%3C/filter%3E%3C/defs%3E%3Cpath fill='%234730b0' filter='url(%23a)' d='M0 0h400v400H0z'/%3E%3C/svg%3E");
+            background-color: #fafafa;
+            border: 7rem solid $background-color;
+            border-bottom-width: 8rem;
+            border-top-width: 5.5rem;
             box-sizing: border-box;
+            z-index: -1;
+        }
 
-            .title-bi {
-                position: relative;
-                margin-right: 3.5rem;
+        .main-title {
+            margin-top: 20vh;
+            svg {
+                width: 100%;
+            }            
+        }
+    
+        .top-section {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-                .title-bi-copy {
-                    svg {
-                        width: 64%;
-                        z-index: 2;
-                    }
+        .main-description,
+        .outer-link {
+            font-family: $title-font-family;
+            font-size: 1.1rem;
+            line-height: 1.5;
 
-                    .title-bi-copy-filled {
-                        fill: $primary-color;
-                        position: relative;
-                        margin-bottom: 50px;
-                        -webkit-animation: fade-in 0.2s ease 0.5s forwards;
-                        animation: fade-in 0.2s ease 0.5s forwards;
-                        opacity: 0;
-                    }
+            a {
+                color: $text-color;
+                line-height: inherit;
 
-                    .title-bi-copy-outline {
-                        position: absolute;
-                        left: 0;
-                        fill: none;
-                        stroke: $primary-color;
-                        stroke-width: 1px;
-                        opacity: 0;
-
-                        &:nth-child(2) {
-                            top: -80%;
-                            -webkit-animation: fade-in 0.2s ease 0.3s 2 alternate forwards;
-                            animation: fade-in 0.2s ease 0.3s 2 alternate forwards;
-                        }
-
-                        &:nth-child(3) {
-                            -webkit-animation: fade-in 0.2s ease 0.2s 2 alternate forwards;
-                            animation: fade-in 0.2s ease 0.2s 2 alternate forwards;
-                        }
-
-                        &:last-child {
-                            bottom: -60%;
-                            -webkit-animation: fade-in 0.2s ease 0.1s 2 alternate forwards;
-                            animation: fade-in 0.2s ease 0.1s 2 alternate forwards;
-                        }
-                    }
+                &:hover {
+                    text-decoration: underline;
                 }
 
-                .title-bi-background-square-container {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    padding: 50px 0 0 36%;
-                    -webkit-box-sizing: border-box;
-                    box-sizing: border-box;
-
-                    .title-bi-background-square {
-                        position: relative;
-                        width: inherit;
-                        height: inherit;
-                        background-color: $primary-color;
-                        overflow: hidden;
-
-                        &::before,
-                        &::after {
-                            content: "";
-                            width: 100%;
-                            height: 100%;
-                            position: absolute;
-                            left: 0;
-                            top: 0;
-                        }
-
-                        &::before {
-                            -webkit-animation: gradient-slide-in 1s ease-out forwards;
-                            animation: gradient-slide-in 1s ease-out forwards;
-                            z-index: 1;
-                            background-size: 200% 100%;
-                            background-image: -o-linear-gradient(
-                                330deg,
-                                rgba(255, 255, 255, 1) 56%,
-                                rgba(255, 255, 255, 0) 95%
-                            );
-                            background-image: linear-gradient(
-                                120deg,
-                                rgba(255, 255, 255, 1) 56%,
-                                rgba(255, 255, 255, 0) 95%
-                            );
-                        }
-
-                        &::after {
-                            width: 110%;
-                            height: 110%;
-                            top: -4%;
-                            left: -4%;
-                            -webkit-animation: noise 0.8s steps(1) 0s infinite;
-                            animation: noise 0.8s steps(1) 0s infinite;
-                            background-repeat: repeat;
-                            background-image: url("https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/noise.png");
-                        }
-                    }
+                .txt-arrow {
+                    font-family: $base-font-family;
                 }
+            } 
+        }
+
+        .outer-link {
+            text-align: right;
+            a {
+                display: block;
+            }   
+        }
+
+        @include media-query($normal-width) {
+            padding: 2.5rem 0 0.5rem;
+
+            &::before {
+                border-width: 2.5rem;
+                border-bottom-width: 5rem;
+                border-top-width: 4rem;
+            }
+
+            .main-title {
+                margin-top: 6rem;
             }
         }
 
-        .title-space-right {
-            .title-description-container {
-                margin-left: 3.5rem;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-orient: vertical;
-                -webkit-box-direction: normal;
-                    -ms-flex-flow: column;
-                        flex-flow: column;
-                height: 100%;
-                -webkit-box-pack: justify;
-                    -ms-flex-pack: justify;
-                        justify-content: space-between;
+        @include media-query($mobile-width) {
+            padding: 1.5rem 0 0;
+            border-width: 3px;
 
-                .title-description {
-                    font-size: 1.25rem;
-                    font-weight: normal;
-                    line-height: 1.5;
-                    color: $title-color;
+            &::before {
+                border-width: 1rem;
+                border-bottom-width: 2rem;
+                border-top-width: 2.5rem;
+            }
 
-                    .title-description-link {
-                        color: $title-color;
-                        @include transition-o-point-three(all);
-
-                        &:hover {
-                            background-color: $primary-color;
-                            color: $background-color;
-                        }
-                    }
-                }
-
-                .subscribe-container {
-                    font-family: $title-font-family;
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: flex;
-                    -webkit-box-align: center;
-                        -ms-flex-align: center;
-                            align-items: center;
-                    width: -webkit-fit-content;
-                    width: -moz-fit-content;
-                    width: fit-content;
-
-                    .subscribe-title {
-                        @include transition-o-point-three(color);
-                    }
-
-                    .subscribe-title-arrow {
-                        font-family: $base-font-family;
-                        font-weight: 300;
-                        @include transition-o-point-three(all);
-                    }
-
-                    &:hover {
-                        * {
-                            color: $base-color-shade;
-                        }
-
-                        .subscribe-title-arrow {
-                            margin-left: 2rem;
-                        }
-                    }
-                }
+            .top-section {
+                display: none;
             }
         }
     }
-}
 
-@include media-query($wide-width) {
-    .starting-point {
-        margin: 2.5rem 0 3rem;
-
-        .space-container {
-            .title-space-left,
-            .title-space-right {
-                padding-top: 3rem;
-                padding-bottom: 3rem;
-            }
-
-            .title-space-left {
-                .title-bi {
-                    margin-right: 3rem;
-                }
-            }
-
-            .title-space-right .title-description-container {
-                margin-left: 3rem;
-            }
-        }
-    }
-}
-
-@include media-query($normal-width) {
-    .starting-point .space-container {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-flow: row;
-                flex-flow: row;
-        .title-space-right {
-            -webkit-box-flex: 2.5;
-                -ms-flex: 2.5 1 0px;
-                    flex: 2.5 1 0;
-        }
-    }
-}
-
-@include media-query($mobile-width) {
-    .starting-point {
-        margin: 1.25rem 0 2.5rem;
-
-        .space-container {
-            .title-space-left,
-            .title-space-right {
-                padding-top: 1.25rem;
-                padding-bottom: 1.25rem;
-            }
-
-            .title-space-left {
-                .title-bi {
-                    margin-right: 1.25rem;
-
-                    .title-bi-copy .title-bi-copy-filled {
-                        margin-bottom: 12px;
-                    }
-
-                    .title-bi-background-square-container {
-                        padding-top: 12px;
-                    }
-                }
-            }
-
-            .title-space-right .title-description-container {
-                margin-left: 1.25rem;
-
-                .title-description {
-                    font-size: 0.875rem;
-                    line-height: 1.25;
-                }
-            }
-        }
+    @include media-query($mobile-width) {
+        padding-bottom: 0;
     }
 }

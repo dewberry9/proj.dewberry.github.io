@@ -5,7 +5,7 @@ $base-font-weight: 400 !default;
 $base-line-height: 1.8 !default;
 $base-font-size: 1em !default;
 $small-font-size: 0.8em !default;
-$title-font-family: "Nanum Myeongjo";
+$title-font-family: "RIDIBatang";
 
 $text-color: #38373d !default;
 $background-color: #fff !default;
@@ -18,9 +18,11 @@ $base-color-tone: #e3e3e6 !default;
 $base-color-tone-text: #c3c3c7 !default;
 $base-color-shade: #86868a !default;
 
-$wide-width: 1600px !default;
-$normal-width: 1200px !default;
+$wide-width: 1300px !default;
+$normal-width: 1100px !default;
 $mobile-width: 760px !default;
+
+$base-round: 4px;
 
 $base-cubic-bezier: cubic-bezier(0.8, 0, 0.2, 1);
 
@@ -53,112 +55,6 @@ $base-cubic-bezier: cubic-bezier(0.8, 0, 0.2, 1);
 
     to {
         opacity: 1;
-    }
-}
-
-@-webkit-keyframes noise {
-    0%,
-    to {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-    10% {
-        -webkit-transform: translate(-1%, -1%);
-        transform: translate(-1%, -1%);
-    }
-    20% {
-        -webkit-transform: translate(1%, 1%);
-        transform: translate(1%, 1%);
-    }
-    30% {
-        -webkit-transform: translate(-2%, -2%);
-        transform: translate(-2%, -2%);
-    }
-    40% {
-        -webkit-transform: translate(3%, 3%);
-        transform: translate(3%, 3%);
-    }
-    50% {
-        -webkit-transform: translate(-3%, -3%);
-        transform: translate(-3%, -3%);
-    }
-    60% {
-        -webkit-transform: translate(4%, 4%);
-        transform: translate(4%, 4%);
-    }
-    70% {
-        -webkit-transform: translate(-4%, -4%);
-        transform: translate(-4%, -4%);
-    }
-    80% {
-        -webkit-transform: translate(2%, 2%);
-        transform: translate(2%, 2%);
-    }
-    90% {
-        -webkit-transform: translate(-2%, -2%);
-        transform: translate(-2%, -2%);
-    }
-}
-
-@keyframes noise {
-    0%,
-    to {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-    10% {
-        -webkit-transform: translate(-1%, -1%);
-        transform: translate(-1%, -1%);
-    }
-    20% {
-        -webkit-transform: translate(1%, 1%);
-        transform: translate(1%, 1%);
-    }
-    30% {
-        -webkit-transform: translate(-2%, -2%);
-        transform: translate(-2%, -2%);
-    }
-    40% {
-        -webkit-transform: translate(3%, 3%);
-        transform: translate(3%, 3%);
-    }
-    50% {
-        -webkit-transform: translate(-3%, -3%);
-        transform: translate(-3%, -3%);
-    }
-    60% {
-        -webkit-transform: translate(4%, 4%);
-        transform: translate(4%, 4%);
-    }
-    70% {
-        -webkit-transform: translate(-4%, -4%);
-        transform: translate(-4%, -4%);
-    }
-    80% {
-        -webkit-transform: translate(2%, 2%);
-        transform: translate(2%, 2%);
-    }
-    90% {
-        -webkit-transform: translate(-2%, -2%);
-        transform: translate(-2%, -2%);
-    }
-}
-
-@-webkit-keyframes gradient-slide-in {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 100% 0;
-    }
-}
-
-@keyframes gradient-slide-in {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 100% 0;
     }
 }
 
@@ -240,10 +136,6 @@ a {
     opacity: 0;
 }
 
-.show {
-    top: 0 !important;
-}
-
 body,
 h1,
 h2,
@@ -291,7 +183,7 @@ h2 {
 }
 
 h3 {
-    line-height: 1 !important;
+    line-height: 1;
     font-size: 1.25rem;
 
     @include media-query($mobile-width) {
@@ -311,6 +203,10 @@ strong {
 ::selection {
     background: $primary-color;
     color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -335,6 +231,7 @@ body {
     overflow-x: hidden;
     position: relative;
     min-height: 100vh;
+    animation: fade-in 0.6s $base-cubic-bezier forwards;
 }
 
 section {
@@ -344,9 +241,12 @@ section {
     display: flex;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding-left: calc((100vw - #{$wide-width}) / 2);
-    padding-right: calc((100vw - #{$wide-width}) / 2);
-    margin: 8rem 0;
+    padding: 5rem calc((100vw - #{$wide-width}) / 2);
+
+    &.wide {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 }
 
 .space-container {
@@ -355,15 +255,23 @@ section {
     display: flex;
 
     .space-left {
+        margin-right: 2rem;
         -webkit-box-flex: 1;
             -ms-flex: 1 1 0px;
                 flex: 1 1 0;
     }
 
     .space-right {
+        margin-left: 2rem;
         -webkit-box-flex: 3;
             -ms-flex: 3 1 0px;
                 flex: 3 1 0;
+    }
+
+    &.one-by-two {
+        .space-right {
+            flex: 2 1 0;
+        }
     }
 }
 
@@ -372,32 +280,35 @@ section {
 }
 
 @include media-query($wide-width) {
-    #content {
-        padding: 0 2.5rem;
-    }
-
     section {
-        padding: 0;
-        margin: 3.5rem 0;
+        padding: 3.5rem 2.5rem;
     }
 }
 
 @include media-query($normal-width) {
+    section {
+        padding: 2.5rem;
+    }
+
     .space-container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-flow: column;
                 flex-flow: column;
+
+        .space-left {
+            margin-right: 0;
+        }
+
+        .space-right {
+            margin-left: 0;
+        }
     }
 }
 
 @include media-query($mobile-width) {
-    #content {
-        padding: 0 1.25rem;
-    }
-
     section {
-        margin: 2.5rem 0;
+        padding: 2rem 1.5rem;
     }
 
     .ads-container-mobile-feedcard {

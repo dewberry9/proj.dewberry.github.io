@@ -1,109 +1,46 @@
 .about-author {
-    margin-bottom: 64px;
-
+    margin-bottom: 0;
+    background-color: $dark-color;
+    
     .space-container {
-        padding: 8rem 0;
-        border-top: 1px solid $base-color-tone;
+        .category-title {
+            color: $background-color;
+        }
 
-        .about-author-container {
-            margin-left: 3.5rem;
+        .about-author-description {
+            font-family: $title-font-family;
+            color: #76728e;
+            font-size: 1.75rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
 
-            .about-author-top {
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .name {
+                color: $background-color;
+            }
+        }
+
+        @include media-query($normal-width) {
+            .list-category .category-list-container .category-link {
+                margin: 0;
+            }
+
+            .about-author-description {
+                font-size: 1.5rem;
+            }
+        }
+
+        @include media-query($mobile-width) {
+            .list-category {
                 margin-bottom: 1.5rem;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-align: end;
-                    -ms-flex-align: end;
-                        align-items: flex-end;
-    
-                .about-author-title {
-                    margin-right: 0.75rem;
-                }
-    
-                .author-link {
-                    font-size: 0.875rem;
-                    margin-right: 0.5rem;
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: flex;
-                    -webkit-box-align: center;
-                        -ms-flex-align: center;
-                            align-items: center;
-    
-                    svg {
-                        width: 0.75rem;
-                        margin-right: 0.25rem;
-    
-                        &#ic-rocketpunch {
-                            width: 0.875rem;
-                            margin-right: 0.125rem;
-                        }
-                    }
-                }
-            }
-    
-            .about-author-bottom {
-                &.post-list {
-                    margin-left: 0;
-                }
-    
-                .about-author-description {
-                    line-height: 1.5;
-    
-                    &:first-child {
-                        margin-bottom: 0.5rem;
-                    }
-                }
-            }
-        }
-
-    }
-}
-
-@include media-query($wide-width) {
-    .about-author {
-        .space-container {
-            padding: 3.5rem 0;
-
-            .space-left {
-                margin-bottom: 2rem;
             }
 
-            .about-author-container {
-                margin-left: 0;
-
-                .about-author-top {
-                    margin-bottom: 0.75rem;
-                }
-            }
-        }
-    }
-}
-
-@include media-query($mobile-width) {
-    .about-author {
-        margin-bottom: 4.69rem;
-
-        .space-container {
-            padding: 2.5rem 0;
-
-            .space-left {
-                margin-bottom: 1.75rem;
-            }
-
-            .about-author-container {
-                .about-author-top {
-                    .about-author-title {
-                        margin-right: 0.5rem;
-                        font-size: 1.125rem;
-                    }
-                }
-
-                .about-author-bottom {
-                    gap: 0;
-                    font-size: 0.875rem;
-                }
+            .about-author-description {
+                font-size: 1.1rem;
+                line-height: 1.6;
             }
         }
     }

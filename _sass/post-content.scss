@@ -13,12 +13,12 @@
             position: -webkit-sticky;
             position: sticky;
             top: 8rem;
-            margin-top: 25vh;
+            margin-top: 12rem;
             padding-bottom: 3.5rem;
 
             .post-share-title {
                 font-family: $base-font-family;
-                margin-bottom: 1.5rem;
+                margin-bottom: 1rem;
             }
 
             .post-share-description {
@@ -42,6 +42,7 @@
                     -ms-flex-align: center;
                         align-items: center;
                 border: 0;
+                border-radius: $base-round;
                 padding: 1rem;
                 font-size: 0.875rem;
                 font-weight: 600;
@@ -88,9 +89,9 @@
 
                 .subscribe-text {
                     .subscribe-title {
-                        font-size: 1rem;
+                        font-size: 1.1rem;
                         line-height: 1;
-                        font-weight: 600;
+                        font-weight: bold;
                         font-family: $base-font-family;
                         margin-bottom: 0.75rem;
                         @include transition-o-point-three(color);
@@ -106,7 +107,7 @@
                 svg {
                     margin-left: 1.5rem;
                     color: $title-color;
-                    width: 4rem;
+                    width: 3rem;
                     @include transition-o-point-three(color);
                 }
 
@@ -139,7 +140,7 @@
         .post-content {
             max-width: $mobile-width;
             width: 100%;
-            margin: 8rem 0 5rem;
+            margin: 12rem 0 5rem;
             font-family: $title-font-family;
 
             * {
@@ -149,10 +150,13 @@
             }
 
             .post-title {
+                font-size: 3rem;
+                font-family: $base-font-family;
+                letter-spacing: -0.05rem;
                 width: 100%;
                 margin-bottom: 3.5rem;
                 position: relative;
-                line-height: 1.25;
+                line-height: 1.4;
                 color: $title-color;
                 word-break: keep-all;
                 -webkit-animation: 0.4s ease forwards fade-in;
@@ -163,9 +167,9 @@
             ul,
             ol,
             table {
-                font-size: 1.1rem;
-                line-height: 2.2;
-                margin: 1.5rem 0;
+                font-size: 1.125rem;
+                line-height: 2.1;
+                margin: 2rem 0;
             }
 
             ul,
@@ -212,7 +216,7 @@
                 margin: 5rem 0 1.5rem;
                 font-family: $base-font-family;
                 word-break: keep-all;
-                font-size: 1.375rem;
+                font-size: 1.5rem;
             }
 
             img {
@@ -296,10 +300,6 @@
     }
 }
 
-.related-post-list {
-    margin-bottom: calc(8rem + 64px);
-}
-
 @include media-query($wide-width) {
     .post-content-container {
         .space-left {
@@ -324,10 +324,6 @@
                 height: 120px;
             }
         }        
-    }
-
-    .post-list.related-post-list {
-        margin: 3.5rem 0 calc(3.5rem + 64px);
     }
 }
 
@@ -367,6 +363,10 @@
         .space-right {
             .post-content {
                 margin: calc(56px + 3.5rem) 0 3.5rem;
+
+                .post-title {
+                    font-size: 2rem;
+                }
             }
 
             .shouk-container {
@@ -401,17 +401,18 @@
 
         .space-right {
             .post-content {
-                margin: calc(2.5rem + 56px) 0 2.5rem;
+                margin: 73px 0 2.5rem;
     
                 .post-title {
                     margin-bottom: 2.5rem;
+                    font-size: 1.75rem;
+                    line-height: 1.3;
                 }
     
                 p,
                 ul,
                 ol,
                 table {
-                    font-size: 1rem;
                     margin: 1.25rem 0;
                 }
     
@@ -420,8 +421,8 @@
                 }
     
                 h2 {
-                    margin: 3.5rem 0 1.25rem;
-                    font-size: 1.125rem;
+                    margin: 2.5rem 0 1.25rem;
+                    font-size: 1.25rem;
                 }
             }
 
@@ -453,6 +454,6 @@
     }
 
     .post-list.related-post-list {
-        margin: 2.5rem 0 7.19rem;
+        margin: 0;
     }
 }

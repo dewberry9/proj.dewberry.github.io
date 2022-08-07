@@ -101,10 +101,13 @@
     <link rel="stylesheet" href='{{ page.stylecss }}'>
     <link rel="canonical" href="{{ site.url }}{{ page.url | remove: 'index.html' }}">
     <link rel="alternate" href="{{ site.url }}/feed.xml" type="application/atom+xml" title="Atom 0.3">
-    <link rel="preload" as="style" href='{{ "assets/fonts/naaummyeongjo.css" | relative_url }}'>
-    <link href='{{ "assets/fonts/naaummyeongjo.css" | relative_url }}' rel='stylesheet' type='text/css' />
+
+    <!-- Fonts -->
     <link rel="preload" as="style" href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css' />
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
+    <link rel="preload" as="style" href='{{ "assets/fonts/ridibatang.css" | relative_url }}'>
+    <link href='{{ "assets/fonts/ridibatang.css" | relative_url }}' rel='stylesheet' type='text/css' />
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "assets" | relative_url }}/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "assets" | relative_url }}/favicons/favicon-32x32.png">

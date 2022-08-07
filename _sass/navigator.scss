@@ -5,15 +5,17 @@
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    width: 100%;
-    height: 56px;
+    width: 100vw;
     z-index: 10;
-    padding-left: calc((100vw - #{$wide-width}) / 2);
-    padding-right: calc((100vw - #{$wide-width}) / 2);
+    padding: 1.5rem calc((100vw - #{$wide-width}) / 2);
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    top: -56px;
+    transform: translateY(-100%);
+
+    &.show {
+        transform: translateY(0);
+    }
 
     nav {
         width: 100%;
@@ -42,7 +44,7 @@
             -ms-flex-align: center;
                 align-items: center;
 
-            font: 800 1.125rem/1 $title-font-family;
+            font: normal 1.25rem/1 $title-font-family;
             color: $title-color;
 
             svg {
@@ -83,41 +85,42 @@
             display: flex;
             list-style-type: none;
 
-            li a {
-                padding: 4px;
-                margin: 0 12px;
-                font: 800 0.875rem/1 $title-font-family;
-                color: $text-color;
-                display: block;
-
-                &:hover {
-                    color: $base-color-tone-text;
+            li {
+                margin-right: 1.5rem;
+                &:last-child {
+                    margin-right: 0;
                 }
 
-                &.nav-item-act {
-                    background-color: $primary-color;
-                    color: $background-color;
+                a {
+                    padding: 0.25rem 0.5rem;
+                    line-height: 1;
+                    font-weight: 500;
+                    color: $text-color;
+                    font-size: 1.1rem;
+                    display: block;
+    
+                    &:hover {
+                        color: $base-color-tone-text;
+                    }
+    
+                    &.nav-item-act {
+                        color: $primary-color;
+                        font-weight: bold;
+                    }
                 }
-
-                @include media-query($mobile-width) {
-                    padding: 4px 6px;
-                    margin: 0 8px;
-                    font-size: 0.875rem;
-                    vertical-align: middle;
-                }
-            }
-
-            li:last-child a {
-                margin-right: 0;
             }
         }
     }
 
     @include media-query($wide-width) {
-        padding: 0 2.5rem;
+        padding: 1.5rem 2.5rem;
     }
 
     @include media-query($mobile-width) {
-        padding: 0 1.25rem;
+        padding: 1rem 1.25rem;
+
+        .dynamic-nav ul li {
+            margin-right: 0.75rem;
+        }
     }
 }
