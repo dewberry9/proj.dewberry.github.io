@@ -13,7 +13,9 @@ footer {
     }
 
     section {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
 
         .link-group {
             font-size: 1.1rem;
@@ -38,10 +40,12 @@ footer {
         }
 
         @include media-query($mobile-width) {
-            flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
 
             .link-group:first-child {
-                flex-basis: 100%;
+                -ms-flex-preferred-size: 100%;
+                    flex-basis: 100%;
                 margin-bottom: 1rem;
             }
         }
