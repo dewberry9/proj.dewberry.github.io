@@ -310,49 +310,17 @@ h1, h2, h3 {
                     img {
                         border-radius: $border-rd;
                     }
-                    .btn-more {
-                        display: flex;
-                        align-items: center;
-                        font-size: 0.875rem;
-                        color: $color-gray;
-                        @include basic-transition(opacity);
 
-                        .closeCopy {
-                            display: none;
-                        }
+                    .more-about-me {
+                        margin-bottom: 1.75rem;
+                        border-top: 1px solid #c9c9cc;
+                        border-bottom: 1px solid #c9c9cc;
 
-                        .openCopy,
-                        .closeCopy {
+                        p {
+                            font-size: 0.875rem;
+                            line-height: 1.5;
+                            font-weight: 400;
                             margin: 0;
-                        }
-
-                        cursor: pointer;
-                        svg {
-                            margin-left: 0;
-                        }
-
-                        &:hover {
-                            opacity: 0.7;
-                        }
-
-                        &.active {
-                            svg {
-                                transform: rotate(180deg);
-                            }
-                            .closeCopy {
-                                display: inline;
-                            }
-                            .openCopy {
-                                display: none;
-                            }
-                        }
-                    }
-
-                    .more {
-                        display: none;
-
-                        &.active {
-                            display: block;
                         }
                     }
                 }
