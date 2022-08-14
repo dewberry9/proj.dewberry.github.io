@@ -4,16 +4,15 @@ $base-font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Rob
 $color-white: #ffffff;
 
 $color-black: #000000;
-$color-medium-gray: #666669;
-$color-gray: #c9c9cc;
-$color-light-gray: #f5f5f5;
+$color-medium-gray: #222223;
+$color-gray: #afafb3;
+$color-light-gray: #f2f2f3;
+$color-lighter-gray: #fbfbfc;
 $color-blue: #005BE4;
 
-
-$color-dark-gray: #222223;
 $color-light-blue: #69d6fe;
 
-$border-rd: 0.5rem;
+$border-rd: 1.25rem;
 
 $wide-width: 1920px;
 $normal-width: 1400px;
@@ -79,17 +78,17 @@ img, picture, video, canvas {display: block;max-width:100%;}
 svg {display: inline-block;}
 ul, ol {list-style: none;}
 html {    
-    font-size: 0.9vw;
+    font-size: 1vw;
     scroll-behavior: smooth;
 
     @include media-query($wide-width) {
-        font-size: 1.1vw;
-    }
-    @include media-query($normal-width) {
         font-size: 1.3vw;
     }
-    @include media-query(1000px) {
+    @include media-query($normal-width) {
         font-size: 1.5vw;
+    }
+    @include media-query(1000px) {
+        font-size: 1.8vw;
     }
     @include media-query($mobile-width) {
         font-size: 4.5vw;
@@ -107,10 +106,10 @@ h1, h2, h3 {
 
 .col-container {
     display: grid;
-    gap: 1rem 2.5rem;
+    gap: 0 2.5rem;
 
     @include media-query($wide-width) {
-        gap: 1rem 1.5rem;
+        gap: 0 1.5rem;
     }
 
     @include media-query($mobile-width) {
@@ -131,6 +130,10 @@ h1, h2, h3 {
         .col-1to3 {
             grid-column: 1 / 4;
         }
+
+        @include media-query($mobile-width) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 
     &.col-4 {
@@ -148,12 +151,24 @@ h1, h2, h3 {
             grid-column: 1 / 5;
         }
 
+        .col-2to4 {
+            grid-column: 2 / 5;
+        }
+
+        .col-3to4 {
+            grid-column: 3 / 5;
+        }
+
         @include media-query($normal-width) {
             grid-template-columns: repeat(3, 1fr);
 
             .col-1to4 {
                 grid-column: 1 / 4;
             }
+        }
+
+        @include media-query($mobile-width) {
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 
@@ -164,9 +179,9 @@ h1, h2, h3 {
 
 %txt-md {
     font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.8;
-    margin: 1.75rem 0;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0.25rem 0;
     letter-spacing: -0.01rem;
     color: $color-medium-gray;
 
@@ -182,26 +197,22 @@ h1, h2, h3 {
         margin-bottom: 0;
     }
 
-    @include media-query($mobile-width) {
-        margin: 1.5rem 0;
-    }
-
     strong {
         font-weight: 700;
     }
 }
 
 %nav-a-style {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
-    color: $color-medium-gray;
+    color: $color-gray;
     letter-spacing: -0.01rem;
     text-decoration: none;
     margin-right: 1.25rem;
     @include basic-transition(all);
 
     &:hover {
-        opacity: 0.3;
+        opacity: 0.5;
     }
 }
 
@@ -213,23 +224,82 @@ h1, h2, h3 {
     margin-left: 0.75rem;
 }
 
+.strip-list {
+    li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 0.25rem;
+
+        &:last-child {
+            margin: 0;
+        }
+
+        &::before {
+            content: '–';
+            margin-right: 0.75rem;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+            line-height: 1.5;
+        }
+
+        p {
+            @extend %txt-md;
+            -ms-flex-negative: 1;
+                flex-shrink: 1;
+            margin: 0;
+            word-break: keep-all;
+        }
+    }
+}
+
+.link-tag {
+    margin-left: 0.5rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.3rem 0.1rem 0.5rem;
+    color: $color-medium-gray;
+    font-weight: 400;
+    border-radius: $border-rd;
+    border: 1px solid $color-medium-gray;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    @include basic-transition(all);
+
+    svg {
+        width: 1rem;
+    }
+
+    &:hover {
+        color: $color-white;
+        background-color: $color-black;
+        border-color: $color-black;
+    }
+}
+
 .root-container {
     opacity: 0;
     -webkit-animation: fade-in 0.75s ease forwards;
             animation: fade-in 0.75s ease forwards;
-    padding: 3rem 3.75rem 6rem;
+    padding: 2rem 3rem 4rem;
 
     .top-nav {
         position: fixed;
-        top: 3rem;
-        left: 3.75rem;
+        top: 2rem;
+        left: 3rem;
         z-index: 10;
         
         nav a {
             @extend %nav-a-style;
 
             &.active {
-                font-weight: 500;
+                font-weight: 600;
                 color: $color-black;
 
                 &:hover {
@@ -245,37 +315,58 @@ h1, h2, h3 {
     }
 
     .content-container {
-        section {
-            padding: 3rem 0;
+        .site-title {
+            @extend %txt-md;
+            font-size: 0.9rem;
+            color: $color-gray;
+            line-height: 1;
+            margin: 0 0 25vh 0;
+        }
 
-            header.subtitle h2 {
-                font-size: 1rem;
-                font-weight: 600;
-                letter-spacing: -0.01rem;
+        section {
+            padding: 4rem 0;
+
+            header.subtitle h3,
+            .job-list h3,
+            .job-list .job-item h5 {
                 color: $color-black;
-                margin-bottom: 2.25rem;
+                margin: 0 0 0.5rem;
+                font-size: 1.1rem;
+                font-weight: 700;
+            }
+
+            header.subtitle {
+                h2 {
+                    font-size: 2rem;
+                    font-weight: 700;
+                    letter-spacing: -0.01rem;
+                    color: $color-black;
+                    margin-bottom: 2rem;
+                    border-top: 1px solid $color-black;
+                    padding-top: 0.75rem;
+                }
+
+                h3 {
+                    letter-spacing: -0.02rem;
+                    margin-bottom: 2rem;
+                }
             }
 
             &#headcopy {
-                padding-top: 0;
-                grid-column: 1 / 5;
-                p {
-                    @extend %txt-md;
-                    line-height: 1;
-                    margin: 0 0 13rem 0;
-                }
+                border: none;
+
                 h1 {
-                    font-size: 3rem;
+                    font-size: 2.75rem;
                     font-weight: 700;
                     color: $color-black;
-
+                    
                     .word-container {
                         position: relative;
                         overflow: hidden;
                         display: inline-block;
                         color: rgba($color-black, 0);
                         line-height: 1.1;
-
+    
                         &::after {
                             content: attr(data-alt);
                             position: absolute;
@@ -289,7 +380,7 @@ h1, h2, h3 {
                                 -ms-transform: translateY(100%);
                                     transform: translateY(100%);
                         }
-
+    
                         &:nth-of-type(1)::after {
                             -webkit-animation-delay: 0.4s;
                                     animation-delay: 0.4s;
@@ -335,298 +426,160 @@ h1, h2, h3 {
                     .blue-word::after {
                         color: $color-blue;
                     }                    
+
                 }
-            }
-
-            &#introduce {
-                .description-me {
-                    p, span {
-                        @extend %txt-md;
-                    }
-                    img {
-                        border-radius: $border-rd;
-                    }
-
-                    .more-about-me {
-                        margin-bottom: 1.75rem;
-                        border-top: 1px solid #c9c9cc;
-                        border-bottom: 1px solid #c9c9cc;
-
-                        p {
-                            font-size: 0.875rem;
-                            line-height: 1.5;
-                            font-weight: 400;
-                            margin: 0;
-                        }
-                    }
-                }
-            }
-
-            &#experiences {
-                .callbuslab-summary {                    
+                
+                .contact {
+                    -ms-flex-item-align: end;
+                        align-self: end;
+    
                     p {
                         @extend %txt-md;
+                        font-size: 0.9rem;
+    
+                        &:last-child {
+                            margin-bottom: 0.5rem;
+                        }
+                    }
+                }
+            }
+
+            &#about {
+                .introduce, .skills {
+                    margin-top: 3rem;
+                }
+
+                .introduce {
+                    .lg-copy {
+                        font-size: 1.375rem;
+                        font-weight: 600;
+                        line-height: 1.4;
+                        color: $color-black;
+                        margin-bottom: 2rem;
+                        word-break: keep-all;
+                        
+                        &:first-child {
+                            text-indent: 35%;
+                        }
+
+                        &:last-of-type {
+                            margin-bottom: 3.5rem;
+                        }
+                    }
+
+                    .job-list {
+                        hr {
+                            border: none;
+                            border-top: 1px solid $color-light-gray;
+                        }
+                        .job-item {
+                            margin: 1.5rem 0;
+                            
+                            .summary p {
+                                @extend %txt-md;
+                            }
+                        }
                     }
                     
-                    header {
-                        h3 {
-                            font-weight: 600;
-                            line-height: 1;
-                            font-size: 1.75rem;
-                        }
-                        p {
-                            line-height: 1;
-                            font-size: 0.875rem;
-                            margin-top: 0.4rem;
-                        }
-                    }
+                }
 
-                    article {
-                        -webkit-box-align: start;
-                            -ms-flex-align: start;
-                                align-items: flex-start;
-                        .product-banner {
-                            margin-top: 1.5rem;
-                            display: -webkit-box;
-                            display: -ms-flexbox;
-                            display: flex;
-                            -webkit-box-align: center;
-                                -ms-flex-align: center;
-                                    align-items: center;
-                            -webkit-box-pack: justify;
-                                -ms-flex-pack: justify;
-                                    justify-content: space-between;
-                            border-radius: $border-rd;
-                            background-color: $color-light-gray;
-                            padding: 0.75rem;
-                            text-decoration: none;
-                            border: 1px solid rgba($color-black, 0.00);
-                            @include basic-transition(all);
-
+                .skills {    
+                    .skill-tab {
+                        margin-bottom: 1.5rem;
+        
+                        button {
+                            background: none;
+                            border: none;
+                            font-size: 0.75rem;
+                            font-weight: 500;
+                            color: $color-medium-gray;
+                            padding: 0.4rem 0.6rem;
+                            display: inline-block;
+                            border-radius: 0.5rem;
+                            cursor: pointer;
+                            @include basic-transition(background-color);
+        
                             &:hover {
-                                -webkit-transform: scale(1.03);
-                                    -ms-transform: scale(1.03);
-                                        transform: scale(1.03);
-                                -webkit-box-shadow: 0 0.5rem 1rem -0.5rem rgba($color-black, 0.25);
-                                        box-shadow: 0 0.5rem 1rem -0.5rem rgba($color-black, 0.25);
-                                border-color: rgba($color-black, 0.05);
+                                background-color: rgba($color-blue, 0.05);
                             }
-                            
-                            .description {
-                                display: inherit;
-                                -webkit-box-align: inherit;
-                                    -ms-flex-align: inherit;
-                                        align-items: inherit;
-
-                                .icon-app {
-                                    width: 2rem;
-                                    height: auto;
-                                    margin-right: 0.5rem;
-                                    -webkit-box-shadow: 0 0.25rem 0.5rem -0.25rem #feda10;
-                                            box-shadow: 0 0.25rem 0.5rem -0.25rem #feda10;
-                                }
-
-                                h4 {
-                                    font-size: 0.75rem;
-                                    font-weight: 600;
-                                    margin-bottom: 0.1rem;
-                                }
-                                p {
-                                    font-size: 0.6rem;
-                                    margin-top: 0;
-                                    line-height: 1;
-                                    color: $color-medium-gray;
+        
+                            &.active {
+                                font-weight: 700;
+                                color: $color-blue;
+                                border-bottom: 3px solid $color-blue;
+                                border-radius: 0;
+        
+                                &:hover {
+                                    background: none;
                                 }
                             }
+                        }
+                    }
+        
+                    ul li {
+                        border: 1px solid $color-medium-gray;
+                        color: $color-medium-gray;
+                        font-size: 0.75rem;
+                        border-radius: 10rem;
+                        display: inline-block;
+                        padding: 0.25rem 0.5rem;
+                        margin: 0 0 0.4rem 0;
+                    }
+        
+                    ul.by-keyword {
+                        display: none;
+                    }
+                }
 
-                            .icon-arrow {
-                                width: 1rem;
-                                height: auto;
-                                fill: $color-medium-gray;
-                            }
+                .education .job-item {
+                    margin-bottom: 0;
+                }
+
+                .links {
+                    article {
+                        margin-top: 3rem;
+
+                        a:first-child:hover svg.icon {
+                            fill: $color-white;
                         }
                     }
                 }
             }
 
-            &#major-jobs {
-                .job-card-container {
-                    row-gap: 2.5rem;
-
-                    .job-card {
-                        border-radius: $border-rd;
-                        text-decoration: none;
-                        position: relative;
-                        cursor: pointer;
-                        @include basic-transition(all);
-
-                        &:hover {
-                            -webkit-transform: scale(1.03);
-                                -ms-transform: scale(1.03);
-                                    transform: scale(1.03);
-                            -webkit-box-shadow: 0 1rem 2rem -1rem $color-black;
-                                    box-shadow: 0 1rem 2rem -1rem $color-black;
-                            .icon-fullsize {
-                                opacity: 1;
-                            }
-
-                            .card-thumbnail img {
-                                width: 110%;
-                                opacity: 0.7;
-                            }
-
-                            .card-bottom .card-description {
-                                opacity: 0.7;
-                            }
-                        }
-                        
-                        &.proj-retention {
-                            background-color: #141e2d;
-                        }
-
-                        &.proj-onboarding {
-                            background-color: #1b1e24;
-                        }
-
-                        &.proj-chat {
-                            background-color: #192e26;
-                        }
-
-                        &.proj-ds {
-                            background-color: #3a3b59;                            
-                        }
-                        
-                        .icon-fullsize {
-                            @include basic-transition(opacity);
-                            width: 1.75rem;
-                            height: 1.75rem;
-                            border-radius: 1rem;
-                            display: -webkit-box;
-                            display: -ms-flexbox;
-                            display: flex;
-                            -webkit-box-align: center;
-                                -ms-flex-align: center;
-                                    align-items: center;
-                            -webkit-box-pack: center;
-                                -ms-flex-pack: center;
-                                    justify-content: center;
-                            background-color: rgba($color-white, 0.1);
-                            position: absolute;
-                            top: 0.75rem;
-                            right: 0.75rem;
-                            z-index: 1;
-                            line-height: 1;
-                            opacity: 0;
-
-                            svg {
-                                width: 1rem;
-                                height: auto;
-                                fill: $color-white;
-                            }
-                        }
-
-                        .card-thumbnail {
-                            width: 100%;
-                            overflow: hidden;
-                            height: 10rem;
-                            position: relative;
-                            border-top-left-radius: $border-rd;
-                            border-top-right-radius: $border-rd;
-                            
-                            img {
-                                @include basic-transition(all);
-                                position: absolute;
-                                max-width: -webkit-fit-content;
-                                max-width: -moz-fit-content;
-                                max-width: fit-content;
-                                width: 100%;
-                                top: 50%;
-                                left: 50%;
-                                -webkit-transform: translate(-50%, -50%);
-                                    -ms-transform: translate(-50%, -50%);
-                                        transform: translate(-50%, -50%);
-                            }
-                        }
-
-                        .card-bottom {
-                            display: -webkit-box;
-                            display: -ms-flexbox;
-                            display: flex;
-                            -webkit-box-pack: justify;
-                                -ms-flex-pack: justify;
-                                    justify-content: space-between;
-                            -webkit-box-align: center;
-                                -ms-flex-align: center;
-                                    align-items: center;
-                            color: $color-white;
-                            padding: 1.25rem;
-
-                            .card-description {
-                                @include basic-transition(opacity);
-                                width: -webkit-fit-content;
-                                width: -moz-fit-content;
-                                width: fit-content;
-
-                                h4 {
-                                    font-weight: 500;
-                                    font-size: 0.875rem;
-                                    margin-bottom: 0.125rem;
-                                    line-height: 1.2;
-                                }
-    
-                                p {
-                                    font-size: 0.75rem;
-                                    line-height: 1.3;
-                                    opacity: 0.6;
-                                }
-
-                                .date {
-                                    font-size: 0.6rem;
-                                    line-height: 1;
-                                    margin-bottom: 0.875rem;
-                                    opacity: 0.5;
-                                }
-                            }
-                        }
-                    }
-
-                    @include media-query($wide-width) {
-                        row-gap: 1.5rem;
-                    }
+            .job-list {
+                h3 {                    
+                    border-top: 1px solid $color-light-gray;
+                    margin-top: 3rem;
+                    padding-top: 1rem;
+                    letter-spacing: -0.02rem;
                 }
-            }
 
-            .sub-job-list {
-                border-top: 2px solid $color-medium-gray;
-                border-bottom: 2px solid $color-medium-gray;
-
-                .sub-job-item {
-                    padding: 1.5rem 0;
-                    border-bottom: 1px solid $color-gray;
+                .job-item {
+                    margin: 3rem 0;
+                    padding: 0.5rem 0;
 
                     &:last-child {
                         border-bottom: none;
                     }
 
-                    h5, p, header span {
-                        font-size: 0.875rem;
-                        letter-spacing: -0.01rem;
-                        color: $color-medium-gray;
-                        line-height: 1.5;
-                        font-weight: 400;
+                    header span {
+                        @extend %txt-md;
+                    }
+
+                    h5, header span {
+                        line-height: 1;
                     }
 
                     h5 {
-                        color: $color-black;
-                        font-weight: 500;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
                     }
 
                     p {
-                        margin-bottom: 1rem;
-                        &:last-child {
-                            margin-bottom: 0;
-                        }
-
                         a {
                             @include basic-transition(all);
                     
@@ -636,15 +589,20 @@ h1, h2, h3 {
                         }
                     }
 
+                    article > p {
+                        @extend %txt-md;
+                    }
+
                     header span {
-                        margin-top: 0.1rem;
-                        font-size: 0.6rem;
-                        color: $color-medium-gray;
+                        font-size: 0.75rem;
+                        color: $color-gray;
                     }
 
                     &.accordion-item {
                         cursor: pointer;
                         background-color: $color-white;
+                        outline: 1.5rem solid rgba($color-lighter-gray, 0);
+                        border-radius: $border-rd;
                         @include basic-transition(all);
 
                         header, article {
@@ -662,16 +620,20 @@ h1, h2, h3 {
                                 -ms-flex-pack: justify;
                                     justify-content: space-between;
 
-                            p {
+                            .summary-description, p {
                                 -ms-flex-negative: 1;
                                     flex-shrink: 1;
-                                margin: 0;
                             }
                         }
 
                         .expand {
                             display: none;
-                            margin: 2rem 0 1rem;
+                            margin: 2.5rem 0 1rem;
+                            
+                            > p {
+                                @extend %txt-md;
+                                margin: 2.5rem 0;
+                            }
 
                             .number-txt {
                                 span {
@@ -694,6 +656,7 @@ h1, h2, h3 {
 
                             img {
                                 margin: 1.5rem 0;
+                                width: 100%;
                                 border-radius: $border-rd;
                             }
 
@@ -736,12 +699,14 @@ h1, h2, h3 {
                         }
 
                         &:hover {
-                            background-color: rgba($color-light-gray, 0.25);
-                            -webkit-transform: scale(0.99);
-                                -ms-transform: scale(0.99);
-                                    transform: scale(0.99);
+                            background-color: rgba($color-lighter-gray, 1);
+                            outline-color: rgba($color-lighter-gray, 1);
+
+                            -webkit-transform: scale(0.98);
+                                -ms-transform: scale(0.98);
+                                    transform: scale(0.98);
                             header, article {
-                                opacity: 0.8;
+                                opacity: 0.6;
                             }
                             .summary .icon-expand {
                                 fill: $color-black;
@@ -761,80 +726,40 @@ h1, h2, h3 {
                     }
                 }
             }
-        }
 
-        .contact-and-skills section {
-            &#contact {
-                padding-bottom: 2rem;
-                article {
-                    p {
-                        @extend %txt-md;
-                        margin: 0;
-                    }
-                }
-            }
-            &#skills {
-                padding: 2rem 0;
+            a.link-block {
+                padding: 1rem;
+                border-radius: $border-rd;
+                text-decoration: none;
+                margin-bottom: 1.5rem;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                @include basic-transition(all);
+                border: 1px solid $color-medium-gray;
 
-                .skill-tab {
-                    margin-bottom: 1.5rem;
-    
-                    button {
-                        background: none;
-                        border: none;
-                        font-size: 0.75rem;
-                        font-weight: 500;
-                        color: $color-medium-gray;
-                        padding: 0.4rem 0.6rem;
-                        display: inline-block;
-                        border-radius: 0.5rem;
-                        cursor: pointer;
-                        @include basic-transition(background-color);
-    
-                        &:hover {
-                            background-color: rgba($color-blue, 0.05);
-                        }
-    
-                        &.active {
-                            font-weight: 700;
-                            color: $color-blue;
-                            border-bottom: 3px solid $color-blue;
-                            border-radius: 0;
-    
-                            &:hover {
-                                background: none;
-                            }
-                        }
-                    }
+                .icon {
+                    width: 1.5rem;
+                    margin-right: 0.5rem;
+                    height: auto;
+                    border-radius: 8px;
                 }
-    
-                ul li {
-                    border: 1px solid $color-medium-gray;
-                    color: $color-medium-gray;
-                    font-size: 0.75rem;
-                    border-radius: 10rem;
-                    display: inline-block;
-                    padding: 0.25rem 0.5rem;
-                    margin: 0 0 0.4rem 0;
+
+                img.icon {
+                    border: 1px solid $color-light-gray;
                 }
-    
-                ul.by-keyword {
-                    display: none;
-                }
-            }
-            &#portfolio {
-                padding-top: 2rem;
-                article {
-                    margin: 0;
-                    @extend %txt-md;
-                    font-size: 0.875rem;
-                    a {
-                        display: block;
-    
-                        &:first-child {
-                            margin-bottom: 1rem;
-                        }
-                    }
+
+                &:hover {
+                    background-color: $color-black;
+                    color: $color-white;
+                    -webkit-transform: scale(1.05);
+                        -ms-transform: scale(1.05);
+                            transform: scale(1.05);
+                    -webkit-box-shadow: 0 0.5rem 1rem -0.5rem rgba($color-black, 0.25);
+                            box-shadow: 0 0.5rem 1rem -0.5rem rgba($color-black, 0.25);
                 }
             }
         }
@@ -848,6 +773,10 @@ h1, h2, h3 {
 
     @include media-query($normal-width) {
         padding: 2.5rem 3rem 4rem;
+
+        .content-container section#about .introduce .lg-copy:first-child {
+            text-indent: 0;
+        }
     }
 
     @include media-query($mobile-width) {
@@ -873,90 +802,91 @@ h1, h2, h3 {
             }
         }
 
-        .content-container section {
-            padding: 2.25rem 0;
-
-            &#headcopy {
-                margin-top: 5rem;
-                p {
-                    display: none;
-                }
-                h1 {
-                    font-size: 1.5rem;
-                }
+        .content-container {
+            .site-title {
+                display: none;
             }
 
-            header.subtitle h2 {
-                margin-bottom: 1.5rem;
-            }
-
-            &#experiences .callbuslab-summary {                    
-                header h3 {
-                    font-size: 1.5rem;
+            section {
+                padding: 2.25rem 0;
+    
+                &#headcopy {
+                    margin-top: 5rem;
+                    
+                    h1 {
+                        font-size: 1.5rem;
+                    }
                 }
-                
-                article {
-                    display: block;
-                    .product-banner {
-                        margin-top: 1.25rem;
+    
+                header.subtitle {
+                    h2 {
+                        margin-bottom: 1.5rem;
+                        font-size: 1.6rem;
+                    }
+                    h3 {
+                        border-top: 1px solid $color-light-gray;
+                        margin-top: 0.5rem;
+                        margin-bottom: 0.5rem;
+                        padding-top: 1rem;
+                    }
+                }
 
-                        .description {
-                            .icon-app {
-                                width: 2.5rem;
+                .job-list {
+                    h3 {
+                        margin-top: 0.5rem;
+                    }
+
+                    .job-item {
+                        display: block;
+                        padding: 1.25rem 0;
+                        header {
+                            margin-bottom: 1.25rem;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                    align-items: center;
+    
+                            h5 {
+                                margin-bottom: 0;
+                                margin-right: 0.5rem;
                             }
-                            h4 {
-                                font-size: 0.875rem;
-                            }
-                            p {
+        
+                            span {
                                 font-size: 0.75rem;
                             }
                         }
+                        
+                        margin: 0.5rem 0;
+                    }                
+                }
+
+                a.link-block {
+                    margin-bottom: 0;
+                }
+
+                &#about {
+                    > article {
+                        display: block;
+
+                        .introduce {
+                            .lg-copy:last-of-type {
+                                margin-bottom: 1.5rem;
+                            }
+
+                            .job-list .job-item {
+                                margin: 0;
+                            }
+                        }
+
+                        .links article {
+                            margin-top: 1.5rem;
+                        }
                     }
                 }
             }
-
-            &#major-jobs .job-card-container {
-                display: block;
-
-                .job-card {
-                    display: block;
-                    margin-bottom: 1.25rem;
-
-                    .card-thumbnail {
-                        height: 9rem;
-                        img {
-                            height: auto;
-                            width: 100%;
-                        }
-                    }
-                    .card-bottom {
-                        padding: 1rem;
-                        .card-description h4 {
-                            margin-bottom: 0.5rem;
-                        }
-                    }
-                }
-            }
-
-            .sub-job-list .sub-job-item {
-                display: block;
-                padding: 1.25rem 0;
-                header {
-                    margin-bottom: 0.5rem;
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: flex;
-                    -webkit-box-align: center;
-                        -ms-flex-align: center;
-                            align-items: center;
-
-                    span {
-                        font-size: 0.75rem;
-                        margin-left: 0.5rem;
-                    }
-                }
-            }                
-        }
+        }        
     }
 }
 
@@ -971,17 +901,10 @@ footer {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-color: $color-light-gray;
-
-    a, p {
-        @extend %nav-a-style;
-
-        &:last-child {
-            margin-right: 0;
-        }
-    }
+    background-color: $color-lighter-gray;
 
     p {
+        @extend %nav-a-style;
         display: inline-block;
         &:hover {
             opacity: 1;
@@ -1004,21 +927,11 @@ footer {
 
         p, a {
             font-size: 0.875rem;
-            margin-right: 0.75rem;
         }
 
         p {
             margin-bottom: 1.5rem;
             color: $color-gray;
-        }
-
-        a {
-            margin-bottom: 0.5rem;
-            display: inline-block;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
         }
     }
 }
