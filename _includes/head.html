@@ -97,16 +97,13 @@
       {% endif %}
     </script>
     <!-- Links -->
-    <link rel="preload" as="style" href='{{ page.stylecss }}'>
-    <link rel="stylesheet" href='{{ page.stylecss }}'>
+    <link rel="stylesheet preload prefetch" as="style" type="text/css" href='{{ page.stylecss }}'>
     <link rel="canonical" href="{{ site.url }}{{ page.url | remove: 'index.html' }}">
     <link rel="alternate" href="{{ site.url }}/feed.xml" type="application/atom+xml" title="Atom 0.3">
 
     <!-- Fonts -->
-    <link rel="preload" as="style" href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css' />
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
-    <link rel="preload" as="style" href='{{ "assets/fonts/ridibatang.css" | relative_url }}'>
-    <link href='{{ "assets/fonts/ridibatang.css" | relative_url }}' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet preload prefetch" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
+    <link rel="stylesheet preload prefetch" type='text/css' as="style" crossorigin href='{{ "assets/fonts/stylesheet.css" | relative_url }}'>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "assets" | relative_url }}/favicons/apple-touch-icon.png">

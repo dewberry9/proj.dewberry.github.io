@@ -5,12 +5,14 @@ excerpt: '읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의
 thumbnail: /assets/images/ogimage.jpg
 stylecss: /assets/intro.css
 ---
+{% assign dateNow = 'now' | date: '%s' %}
+
 <section class="starting-point" id="nav-set">
     <div class="txt-container">
         <div class="top-section">
             <div class="main-description">
-                <p>매거진 입맛 - <a href="#about">디자이너 이준환</a>의 읽을 만한 취향들.</p>
-                <p><a href="#design">프로덕트 디자인</a> / <a href="#review">입맛리뷰</a> / <a href="#story">소설</a></p>
+                <p><a href="#about">디자이너 이준환</a>의 읽을 만한 취향들.</p>
+                <p><a href="#design">프로덕트 디자인</a> / <a href="#review">입맛리뷰</a></p>
             </div>
             <div class="outer-link">
                 <a href="https://forms.gle/wvj73q8MWBv2j44h7" target="_blank" rel="noopener noreferrer">뉴스레터 구독하기<span class="txt-arrow">→</span></a>
@@ -56,63 +58,25 @@ stylecss: /assets/intro.css
     </div>
     <div class="space-right">
         <div class="post-list two-row">
-            {% for post in site.categories.design-teatime limit:4 %}
-            <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
-                <div class="post-thumbnail">
-                    <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
-                </div>
-                <div class="post-description">
-                    <div class="post-intro">
-                        <h3>{{ post.title }}</h3>
-                        <p class="post-excerpt">{{ post.excerpt }}</p>
-                    </div>
-                </div>
-            </a>
-            {% endfor %}
-            <div class="ads-container ads-container-mobile-feedcard rise-target">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7525347021497850" crossorigin="anonymous"></script>
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-format="fluid"
-                    data-ad-layout-key="-6h+cl+f-1w+d1"
-                    data-ad-client="ca-pub-7525347021497850"
-                    data-ad-slot="9019438848"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            </div>
-        </div>
-    </div>
-    <div class="disable-element sequential-rise-target"></div>
-</section>
-
-<section id="review" class="space-container recent-article one-by-two">
-    <div class="space-left list-category rise-target sequential-rise-target">
-        <div class="category-list-container">
-            <a href="{{ 'review' | relative_url }}" title="입맛리뷰 더보기" class="category-link">
-                <h2 class="category-title">입맛리뷰<br><span class="txt-arrow">→</span></h2>
-            </a>
-            <ul class="category-description">
-                <li>위스키</li>
-                <li>진</li>
-                <li>칵테일</li>
-                <li>도서</li>
-                <li>그외 삶의 즐거움</li>
-            </ul>
-        </div>
-    </div>
-    <div class="space-right">
-        <div class="post-list two-row">
-            {% for post in site.categories.review limit:4 %}
-            <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
-                <div class="post-thumbnail">
-                    <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
-                </div>
-                <div class="post-description">
-                    <div class="post-intro">
-                        <h3>{{ post.title }}</h3>
-                        <p class="post-excerpt">{{ post.excerpt }}</p>
-                    </div>
-                </div>
-            </a>
+            {% assign count = 0 %}
+            {% for post in site.categories.design-teatime %}            
+                {% assign postDate = post.date | date: '%s' %}
+                {% if count > 3 or dateNow < postDate %}
+                    {% break %}
+                {% else %}
+                {% assign count = count | plus: 1 %}
+                    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
+                        <div class="post-thumbnail">
+                            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+                        </div>
+                        <div class="post-description">
+                            <div class="post-intro">
+                                <h3>{{ post.title }}</h3>
+                                <p class="post-excerpt">{{ post.excerpt }}</p>
+                            </div>
+                        </div>
+                    </a>                    
+                {% endif %}
             {% endfor %}
             <div class="ads-container ads-container-mobile-feedcard rise-target">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7525347021497850" crossorigin="anonymous"></script>
@@ -136,7 +100,59 @@ stylecss: /assets/intro.css
     </div>
 </section>
 
-<section id="story" class="space-container recent-article one-by-two">
+<section id="review" class="space-container recent-article one-by-two">
+    <div class="space-left list-category rise-target sequential-rise-target">
+        <div class="category-list-container">
+            <a href="{{ 'review' | relative_url }}" title="입맛리뷰 더보기" class="category-link">
+                <h2 class="category-title">입맛리뷰<br><span class="txt-arrow">→</span></h2>
+            </a>
+            <ul class="category-description">
+                <li>위스키</li>
+                <li>진</li>
+                <li>칵테일</li>
+                <li>도서</li>
+                <li>그외 삶의 즐거움</li>
+            </ul>
+        </div>
+    </div>
+    <div class="space-right">
+        <div class="post-list two-row">
+            {% assign count = 0 %}
+            {% for post in site.categories.review %}
+            {% assign postDate = post.date | date: '%s' %}
+                {% if count > 3 or dateNow < postDate %}
+                    {% break %}
+                {% else %}
+                    {% assign count = count | plus: 1 %}
+                    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
+                        <div class="post-thumbnail">
+                            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+                        </div>
+                        <div class="post-description">
+                            <div class="post-intro">
+                                <h3>{{ post.title }}</h3>
+                                <p class="post-excerpt">{{ post.excerpt }}</p>
+                            </div>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+            <div class="ads-container ads-container-mobile-feedcard rise-target">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7525347021497850" crossorigin="anonymous"></script>
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-format="fluid"
+                    data-ad-layout-key="-6h+cl+f-1w+d1"
+                    data-ad-client="ca-pub-7525347021497850"
+                    data-ad-slot="9019438848"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+        </div>
+    </div>
+    <div class="disable-element sequential-rise-target"></div>
+</section>
+
+<!-- <section id="story" class="space-container recent-article one-by-two">
     <div class="space-left list-category rise-target sequential-rise-target">
         <div class="category-list-container">
             <a href="{{ 'story' | relative_url }}" title="소설 더보기" class="category-link">
@@ -179,7 +195,7 @@ stylecss: /assets/intro.css
         </div>
     </div>
     <div class="disable-element sequential-rise-target"></div>
-</section>
+</section> -->
 
 <section id="about" class="about-author">
     <div class="space-container one-by-two">

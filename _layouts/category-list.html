@@ -2,20 +2,29 @@
 layout: base
 category: category-list
 ---
+{% assign dateNow = 'now' | date: '%s' %}
+
 <section class="post-list three-row recent-article">
+    {% assign count = 0 %}
     {% for post in paginator.posts %}
-    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}"
-        class="post-list-item rise-target sequential-rise-target">
-        <div class="post-thumbnail">
-            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
-        </div>
-        <div class="post-description">
-            <div class="post-intro">
-                <h3>{{ post.title }}</h3>
-                <p class="post-excerpt">{{ post.excerpt }}</p>
-            </div>
-        </div>
-    </a>
+        {% assign postDate = post.date | date: '%s' %}
+        {% if count > 10 or dateNow < postDate %}
+            {% break %}
+        {% else %}
+            {% assign count = count | plus: 1 %}
+            <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}"
+                class="post-list-item rise-target sequential-rise-target">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+                </div>
+                <div class="post-description">
+                    <div class="post-intro">
+                        <h3>{{ post.title }}</h3>
+                        <p class="post-excerpt">{{ post.excerpt }}</p>
+                    </div>
+                </div>
+            </a>
+        {% endif %}
     {% endfor %}
     <div class="ads-container ads-container-relative-feedcard rise-target third-position">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7525347021497850" crossorigin="anonymous"></script>
