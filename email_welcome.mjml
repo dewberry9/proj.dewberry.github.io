@@ -1,0 +1,78 @@
+<mjml>
+    <mj-head>
+        <mj-title>이제부터 매거진 입맛 뉴스레터가 찾아갑니다!</mj-title>
+        <mj-preview>매거진 입맛 뉴스레터 구독이 완료됐습니다. 환영합니다!</mj-preview>
+
+        <mj-font name="Noto Serif KR" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" />
+        <mj-font name="Pretendard" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
+        <mj-attributes>
+            <mj-text padding="0" color="#333333" font-family="Noto Serif KR, -apple-system, BlinkMacSystemFont, system-ui, Roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, serif" />
+            <mj-class name="sans" font-family="Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, serif" />
+            <mj-class name="dark-background" background-color="#1f193b" />
+            <mj-class name="white-background" background-color="#ffffff" />
+            <mj-class name="title-font" font-weight="bold" color="#1f193b" />
+            <mj-section padding="30px 25px" />
+            <mj-class name="font-size-lg" font-size="20px" />
+            <mj-class name="text-content" line-height="1.8" padding-bottom="25px" font-size="17px" />
+            <mj-class name="text-footer" line-height="1" font-size="14px" color="#767378" />
+        </mj-attributes>
+    </mj-head>    
+    <mj-body>
+    <!-- Header -->
+        <mj-section mj-class="dark-background" padding="30px 0 60px">
+            <mj-column>
+                <mj-raw>
+                <a href="https://dewberry9.github.io?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">
+                    <img alt="Logotype" width="160px" src="https://dewberry9.github.io/assets/email/logotype.png" />
+                </a>
+                </mj-raw>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="dark-background" padding-bottom="0">
+            <mj-column>
+                <mj-text mj-class="title-font sans font-size-lg" color="#ffffff" padding-bottom="15px">
+                    <h1 style="text-align: center; word-break: keep-all; margin: 0; line-height:1.25">구독자님, 반갑습니다.</h1>
+                </mj-text>
+                <mj-text mj-class="sans" font-weight="light" color="#a5a3b1" font-size="14px">
+                <p style="text-align: center; margin: 0;">매거진 입맛 뉴스레터를 구독했습니다.</p></mj-text>
+                <mj-image src="https://dewberry9.github.io/assets/email/hero.jpg" alt="Hero" padding="20px 0 0 0" />
+            </mj-column>
+        </mj-section>
+    
+    <!-- Content -->
+        <mj-section mj-class="white-background">
+            <mj-column>
+                <mj-text mj-class="text-content title-font">구독자님, 안녕하세요. 매거진 입맛 이준환입니다. 뉴스레터 구독 감사합니다.😊</mj-text>
+                <mj-text mj-class="text-content">매거진 입맛은 사적인 매체입니다.</mj-text>
+                <mj-text mj-class="text-content">Product Designer로서 당시 국내에선 아직 낯설었던 <a style="color: #555555" href="https://dewberry9.github.io/3step-ab-test?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">A/B 테스트</a>, <a style="color: #555555" href="https://dewberry9.github.io/mlp-for-growing-product?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">MLP</a>, <a style="color: #555555" href="https://dewberry9.github.io/introduce-product-led-growth?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">제품 주도 성장</a>과 같은 개념을 소개하다, 부연을 덧붙인 게 현재의 <a style="color: #555555" href="https://dewberry9.github.io/article?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">프로덕트 디자인 카테고리</a>가 됐습니다.</mj-text>
+                <mj-text mj-class="text-content">위스키와 칵테일에 관심이 생겨 남대문 시장 주류상가에 간 일을 <a style="color: #555555" href="https://dewberry9.github.io/ardbeg-for-the-beginning-of-the-summer?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">쓰고</a>, 인상적이었던 문학 작품 몇 개를 정리한 게 <a style="color: #555555" href="https://dewberry9.github.io/review?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">입맛리뷰 카테고리</a>가 됐습니다.</mj-text>
+                <mj-text mj-class="text-content">디자인과 술이라는 생경한 조합. <a style="color: #555555" href="https://shouk.today/?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">슉 - 인사이트 요약 커뮤니티</a>와 같은 시도…. 일과 여가의 경계를 막론하고 제 생각과 취향을 아카이브하는 것만으로 이토록 다채로운 모습이 탄생했습니다.</mj-text>
+                <mj-text mj-class="text-content">여기에 기회가 있습니다. 앞으로 비정기적으로 발송될 글 중에는 익숙한 것도, 낯선 것도 있을 겁니다. 그중 하나가 어느 독자분께 새로운 시각, 기호의 씨앗이 됩니다. 이것이 제가 매거진 입맛을 발행하는 목적입니다.</mj-text>
+                <mj-text mj-class="text-content">매거진 입맛은 사적입니다. 사적이었습니다.<br>즐겨주세요. 피드백은 환영입니다. 구독 다시 한번 감사드립니다.</mj-text>
+                <mj-text mj-class="text-content" padding-bottom="0"><p style="text-align:right">매거진 입맛 글쓴이<br>이준환 드림.</p></mj-text>
+            </mj-column>
+        </mj-section>
+
+    <!-- Footer -->
+        <mj-section background-color="#f2f2f2">
+            <mj-column width="100%" padding-bottom="10px">
+                <mj-raw>
+                <a href="https://dewberry9.github.io?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">
+                    <img width="20px" src="https://dewberry9.github.io/assets/email/logo.png" alt="Logo" />
+                </a>
+                </mj-raw>
+                <mj-text>
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%" padding-bottom="25px">
+                <mj-text mj-class="sans text-footer">
+                    <a href="https://www.facebook.com/magepmat" style="color: #767378; font-weight: 500; margin-right: 8px" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://www.instagram.com/mag_epmat/" style="color: #767378; font-weight: 500;" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%">
+                <mj-text mj-class="sans text-footer">구독 취소, 피드백, 문의는 <a href="mailto:dewberryneun@gmail.com" style="color: #767378; font-weight: 500;">dewberryneun@gmail.com</a></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
