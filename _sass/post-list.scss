@@ -1,52 +1,39 @@
-.category-list-container {
-    position: -webkit-sticky;
-    position: sticky;
-    top: calc(56px + 3.5rem);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    .category-link,
-    .category-description {
-        -webkit-box-flex: 1;
-            -ms-flex: 1 1 0px;
-                flex: 1 1 0;
-    }
-
+.space-left {    
     .category-link {
-        margin-right: 1rem;
+        position: -webkit-sticky;
+        position: sticky;
+        top: calc(56px + 6rem);
+        @include transition-o-point-three(transform);
+        display: block;
+
         .category-title {
             @include transition-o-point-three(color);
             font-family: $base-font-family;
-            font-size: 2rem;
-            line-height: 1.2;
-
-            .txt-arrow {
-                @include transition-o-point-three(all);
-            }
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 3.5rem;
+            letter-spacing: -0.05rem
         }
 
-        &:hover h2 {
-            color: $base-color-shade;
-
-            .txt-arrow {
-                margin-left: 0.5rem;
-                color: $base-color-shade;
-            }
+        button {
+            @include transition-o-point-three(all);
+            color: $title-color;
+            border-color: $title-color;
         }
-    }
 
-    .category-description {
-        margin-left: 1rem;
-        list-style: none;
-        font-size: 1.1rem;
-        color: #86868a;
-        line-height: 1;
-        font-family: $title-font-family;
-        letter-spacing: -0.01rem;
+        &:hover {
+            -webkit-transform: scale(0.93);
+                -ms-transform: scale(0.93);
+                    transform: scale(0.93);
 
-        li {
-            margin: 1rem 0;
+            h2 {
+                color: $primary-color;
+                text-decoration: underline;
+            }
+            button {
+                color: $background-color;
+                background-color: $primary-color;
+            }
         }
     }
 }
@@ -159,77 +146,37 @@
 }
 
 @include media-query($normal-width) {
-    .space-container .list-category {
-        margin-bottom: 2.5rem;
-
-        .category-list-container {
-            position: static;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-
-            .category-link {
-                margin: 0 0 0.75rem 0;
-
-                .category-title {
-                    font-size: 1.5rem;
-                     
-                    br {
-                        display: none;
-                    }
-                }
-            }
-
-            .category-description {
-                margin-left: 0;
-
-                li {
-                    display: inline-block;
-                    margin: 0;
-
-                    &::after {
-                        content: ' · ';
-                    }
-
-                    &:last-child::after {
-                        content: '';
-                    }
-                }
-            }
-        }
-    }
-
     .post-list {
         &.three-row {
             grid-template-columns: repeat(2, 1fr);
         }
     }
+
+    .space-left .category-link {
+        position: static;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 2rem;
+        
+        .category-title {
+            font-size: 2.5rem;
+            line-height: 1;
+            margin: 0 0.75rem 0 0;
+            br {
+                content: "";
+                &::after {
+                    content: " ";
+                }
+            }
+        }
+    }
 }
 
 @include media-query($mobile-width) {
-    .space-container .list-category {
-        margin-bottom: 1.25rem;
-
-        .category-list-container {
-            .category-link {
-                margin: 0;
-    
-                .category-title {
-                    font-size: 1.25rem;
-                }
-            }
-            
-            .category-description {
-                display: none;
-            }
-        }
-
-        .text-content {
-            line-height: 1.5;
-        }
-    }
-
     .space-right .post-list,
     .post-list.three-row {
         grid-template-columns: repeat(1, 1fr);
@@ -253,5 +200,13 @@
 
     .post-list.three-row {
         margin-top: calc(56px + 1.25rem);
+    }
+
+    .space-left .category-link {
+        margin-bottom: 1.5rem;
+        .category-title {
+            font-size: 1.75rem;
+            margin-right: 0.5rem;
+        }
     }
 }

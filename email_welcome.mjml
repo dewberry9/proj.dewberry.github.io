@@ -23,7 +23,7 @@
             <mj-column>
                 <mj-raw>
                 <a href="https://dewberry9.github.io?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">
-                    <img alt="Logotype" width="160px" src="https://dewberry9.github.io/assets/email/logotype.png" />
+                    <img width="160px" src="https://dewberry9.github.io/assets/email/logotype_animted.gif" />
                 </a>
                 </mj-raw>
             </mj-column>
@@ -49,7 +49,8 @@
                 <mj-text mj-class="text-content">디자인과 술이라는 생경한 조합. <a style="color: #555555" href="https://shouk.today/?utm_source=newsletter&utm_medium=welcome" target="_blank" rel="noopener noreferrer">슉 - 인사이트 요약 커뮤니티</a>와 같은 시도…. 일과 여가의 경계를 막론하고 제 생각과 취향을 아카이브하는 것만으로 이토록 다채로운 모습이 탄생했습니다.</mj-text>
                 <mj-text mj-class="text-content">여기에 기회가 있습니다. 앞으로 비정기적으로 발송될 글 중에는 익숙한 것도, 낯선 것도 있을 겁니다. 그중 하나가 어느 독자분께 새로운 시각, 기호의 씨앗이 됩니다. 이것이 제가 매거진 입맛을 발행하는 목적입니다.</mj-text>
                 <mj-text mj-class="text-content">매거진 입맛은 사적입니다. 사적이었습니다.<br>즐겨주세요. 피드백은 환영입니다. 구독 다시 한번 감사드립니다.</mj-text>
-                <mj-text mj-class="text-content" padding-bottom="0"><p style="text-align:right">매거진 입맛 글쓴이<br>이준환 드림.</p></mj-text>
+                <mj-text mj-class="text-content"><p style="text-align:right">매거진 입맛 글쓴이<br>이준환 드림.</p></mj-text>
+                <mj-button mj-class="sans" background-color="#201a3c" font-size="16px" href="https://dewberry9.github.io?utm_source=newsletter&utm_medium=welcome">매거진 입맛 보러가기</mj-button>
             </mj-column>
         </mj-section>
 

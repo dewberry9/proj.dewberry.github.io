@@ -1,5 +1,6 @@
 .post-content-container {
-    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     border-bottom: 1px solid $base-color-tone;
 
     .space-left {
@@ -9,12 +10,11 @@
             opacity: 0;
             -webkit-animation: 0.4s ease 0.4s forwards fade-in;
                     animation: 0.4s ease 0.4s forwards fade-in;
-            padding-right: 3.5rem;
             position: -webkit-sticky;
             position: sticky;
             top: 8rem;
-            margin-top: 12rem;
-            padding-bottom: 3.5rem;
+            margin-top: 10rem;
+            margin-bottom: 5rem;
 
             .post-share-title {
                 font-family: $base-font-family;
@@ -22,9 +22,8 @@
             }
 
             .post-share-description {
-                word-break: keep-all;
                 line-height: 1.5;
-                margin-bottom: 3.5rem;
+                margin-bottom: 2.5rem;
             }
 
             button#post-share {
@@ -46,6 +45,7 @@
                 padding: 1rem;
                 font-size: 0.875rem;
                 font-weight: 600;
+                margin-bottom: 5rem;
                 cursor: pointer;
                 @include transition-o-point-three(all);
                 -webkit-box-sizing: border-box;
@@ -71,7 +71,7 @@
                 }
             }
 
-            .subscribe-container {
+            .outerlink-container {
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex;
@@ -81,33 +81,23 @@
                 -webkit-box-align: center;
                     -ms-flex-align: center;
                         align-items: center;
-                border-top: 1px solid $base-color-tone;
-                border-bottom: 1px solid $base-color-tone;
-                margin-top: 3.5rem;
-                padding: 2rem 0 2rem 0.25rem;
+                border-bottom: 2px solid $text-color;
+                margin-top: 1rem;
+                padding: 0.5rem 0 0.5rem 0.25rem;
                 @include transition-o-point-three(all);
 
-                .subscribe-text {
-                    .subscribe-title {
-                        font-size: 1.1rem;
-                        line-height: 1;
-                        font-weight: bold;
-                        font-family: $base-font-family;
-                        margin-bottom: 0.75rem;
-                        @include transition-o-point-three(color);
-                    }
-
-                    .subscribe-description {
-                        line-height: 1.25;
-                        font-size: 0.875rem;
-                        @include transition-o-point-three(color);
-                    }
+                h3 {
+                    font-size: 1.1rem;
+                    line-height: 1;
+                    font-weight: bold;
+                    font-family: $base-font-family;
+                    @include transition-o-point-three(color);
                 }
 
                 svg {
                     margin-left: 1.5rem;
                     color: $title-color;
-                    width: 3rem;
+                    width: 2rem;
                     @include transition-o-point-three(color);
                 }
 
@@ -115,10 +105,9 @@
                     -webkit-transform: scale(0.975);
                         -ms-transform: scale(0.975);
                             transform: scale(0.975);
-                    border-top: 1px solid $base-color-tint;
-                    border-bottom: 1px solid $base-color-tint;
+                    border-color: $base-color-shade;
 
-                    .subscribe-text .subscribe-title,
+                    h3,
                     svg {
                         color: $base-color-shade;
                     }
@@ -142,7 +131,7 @@
         .post-content {
             max-width: $mobile-width;
             width: 100%;
-            margin: 12rem 0 5rem;
+            margin: 10rem 0 5rem;
             font-family: $title-font-family;
             letter-spacing: -0.01rem;
 
@@ -276,11 +265,11 @@
 
             h3 {
                 font-family: $base-font-family;
-                margin-bottom: 0.5rem;
+                margin-bottom: 0.75rem;
             }
 
             h3, p {
-                line-height: 1;
+                line-height: 1.2;
             }
 
             .container-right {
@@ -318,26 +307,22 @@
     .post-content-container {
         .space-left {
             .post-content-side-container {
-                padding: 0 3rem 3rem 0;
-
                 .post-share-description {
                     margin-bottom: 3rem;
-                }
-
-                .subscribe-container {
-                    margin-top: 3rem;
-                    padding: 1.5rem 0 1.5rem 0.25rem;
                 }
             }
         }
 
         .space-right .shouk-container {
             padding: 0 1.5rem;
-
+    
             .container-right img {
                 height: 120px;
             }
         }        
+    }
+    .post-list.related-post-list {
+        margin-top: 0;
     }
 }
 
@@ -357,9 +342,8 @@
                 max-width: $mobile-width;
                 position: static;
                 top: 0;
-                margin: 0 auto;
+                margin: 0 auto 1.5rem;
                 padding: 0;
-                border-top: 1px solid $base-color-tone;
 
                 .post-share-title {
                     margin: 3rem 0 0.5rem;
@@ -369,8 +353,16 @@
                     text-align: center;
                 }
 
-                .subscribe-container svg {
-                    width: 2rem;
+                .post-share-description {
+                    margin-bottom: 1.5rem;
+                }
+
+                button#post-share {
+                    margin-bottom: 3.5rem;
+                }
+
+                .outerlink-container svg {
+                    width: 1.5rem;
                 }
             }
         }
@@ -400,17 +392,16 @@
     .post-content-container {
         .space-left .post-content-side-container {
             .post-share-title {
-                margin: 2.5rem 0 0.5rem;
+                margin: 1.5rem 0 0.5rem;
                 font-size: 1.1rem;
             }
 
             .post-share-description {
                 font-size: 0.875rem;
-                margin-bottom: 1.5rem;
             }
 
-            .subscribe-container {
-                margin-top: 2.5rem;
+            .outerlink-container h3 {
+                font-size: 1rem;
             }
         }
 

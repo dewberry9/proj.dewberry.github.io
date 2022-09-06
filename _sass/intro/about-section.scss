@@ -3,9 +3,20 @@
     background-color: $dark-color;
     
     .space-container {
+        .category-link {
+            button,
+            .category-title {
+                color: $background-color;
+            }
 
-        .category-title {
-            color: $background-color;
+            button {
+                border-color: $background-color;
+            }
+
+            &:hover button {
+                background-color: $background-color;
+                color: $dark-color;
+            }
         }
 
         .about-author-description {
@@ -13,7 +24,7 @@
             color: #76728e;
             font-size: 1.75rem;
             line-height: 1.5;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
 
             &:last-child {
                 margin-bottom: 0;
