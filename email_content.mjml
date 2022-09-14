@@ -1,6 +1,6 @@
 <mjml>
     <mj-head>
-        <mj-preview>매거진 입맛 뉴스레터 구독이 완료됐습니다. 환영합니다!</mj-preview>
+        <mj-preview>비싸진 Product/Market Fit 검증, 대안은 Language/Market Fit입니다. LMF 제품 사례, 장점, 프로세스에 대해 이야기합니다. </mj-preview>
 
         <mj-font name="Noto Serif KR" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" />
         <mj-font name="Pretendard" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
@@ -32,7 +32,7 @@
             <mj-column>
                 <mj-text mj-class="title-font sans font-size-lg" padding-bottom="15px">
                     <h1 style="word-break: keep-all; margin: 0; line-height:1.25; font-size: 30px">
-                        위기·성장의 순간, 고객을 잡는 카테고리 디자인. Airbnb, 배달의민족, 쿠팡, 아몬즈 사례 분석
+                        마케팅 채널 적합성, 수익성? 먼저 Language/Market Fit부터 검증하세요.
                     </h1>
                 </mj-text>
                 <mj-text mj-class="sans" font-weight="light" color="#535063" font-size="14px"><p style="margin: 0;">
@@ -47,10 +47,12 @@
     <!-- Content -->
         <mj-section mj-class="white-background">
             <mj-column>
-                <mj-image alt="" src="https://res.cloudinary.com/mag-epmat/image/upload/v1655533540/design/2022-06-20-category-design/01_sq7tze.jpg" />
-                <mj-text mj-class="text-content">매거진 입맛은 사적입니다. 사적이었습니다.<br>즐겨주세요. 피드백은 환영입니다. 구독 다시 한번 감사드립니다.</mj-text>
+                <mj-image alt="Product/Market Fit의 위기" src="https://res.cloudinary.com/mag-epmat/image/upload/v1663160960/design/2022-09-15-start-with-language-market-fit/02_z_jvzbpt.jpg" />
+                <mj-text mj-class="text-content">오랫동안 아이디어 검증에서의 Product/Market Fit의 지위는 굳건했습니다. 시장에 적합한 아이디어만이 살아남습니다. 팀(제품 개발 조직), 비즈니스, 심지어 제품 자체도 시장에 비해서는 중요하지 않습니다.</mj-text>
+                <mj-text mj-class="text-content">그러나 상황이 바뀌었습니다. 성장 비용이 증가함에 따라 단기적인 확장보다 장기적인 생존이 더 중요한 가치로 여겨지면서, 적절한 고객 유입 채널의 확보와 수익성 등 아이디어 검증에 요구되는 영역이 넓어졌습니다. 아이디어 검증은 무겁고 복잡해졌습니다. 해결책은? <b>Language/Market Fit</b>입니다.</mj-text>
+                <mj-text mj-class="text-content">Language/Market Fit란 뭘까요? 작동 원리와 장점, 프로세스를 사례와 함께 알아보겠습니다.</mj-text>
                 <mj-button mj-class="sans" background-color="#201a3c" font-size="16px"
-                    href="https://dewberry9.github.io?utm_source=newsletter&utm_medium=content">
+                    href="https://dewberry9.github.io/start-with-language-market-fit?utm_source=newsletter&utm_medium=content">
                     아티클 보러가기
                 </mj-button>
             </mj-column>

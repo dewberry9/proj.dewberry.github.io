@@ -160,13 +160,20 @@
             ol,
             table {
                 font-size: 1.125rem;
-                line-height: 2.1;
+                line-height: 2;
                 margin: 2rem 0;
             }
 
             ul,
             ol {
                 padding-left: 1.1rem;
+
+                li {
+                    margin-bottom: 0.375rem;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
             }
 
             > p.right-infor {
@@ -241,6 +248,25 @@
                 p:last-child {
                     text-align: right;
                 }
+            }
+
+            .half-margin {
+                margin: 1rem 0;
+            }
+
+            .no-bottom-margin {
+                margin-bottom: 0;
+            }
+
+            .no-top-margin {
+                margin-top: 0;
+            }
+
+            .img-caption {
+                font-size: 0.875rem;
+                text-align: center;
+                line-height: 1;
+                font-family: $base-font-family;
             }
         }
 
@@ -429,6 +455,10 @@
                 h2 {
                     margin: 2.5rem 0 1.25rem;
                     font-size: 1.25rem;
+                }
+
+                .half-margin {
+                    margin: 0.75rem 0;
                 }
             }
 

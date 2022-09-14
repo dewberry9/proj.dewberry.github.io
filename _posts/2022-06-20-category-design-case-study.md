@@ -3,7 +3,6 @@ title: 위기·성장의 순간, 고객을 잡는 카테고리 디자인. Airbnb
 layout: post
 category: design-teatime
 date: 2022-06-19 00:00:00 +0900
-excerpt: AB 테스트의 영향력과 성공률을 동시에 높이면서, 동시에 실험 문화 확산까지 챙기는 전략이 있습니다. 바로 효과적인 가설이죠. 이런 가설은 어떻게 만들까요?
 excerpt: 카테고리는 유용한 탐색 도구입니다. 그런데 카테고리가 제품의 위기를 극복하고 성장 기회를 만든다고 한다면 어떤가요? 제품 사례 분석을 통해 알아보겠습니다.
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1655539468/design/2022-06-20-category-design/00_heuwwr.jpg
 permalink: /category-design-study-case
