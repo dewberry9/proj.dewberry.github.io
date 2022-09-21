@@ -43,10 +43,18 @@ footer {
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
 
-            .link-group:first-child {
-                -ms-flex-preferred-size: 100%;
-                    flex-basis: 100%;
-                margin-bottom: 1rem;
+            .link-group {
+                -ms-flex-preferred-size: 50%;
+                flex-basis: 50%;
+                &:first-child {
+                    -ms-flex-preferred-size: 100%;
+                        flex-basis: 100%;
+                    margin-bottom: 1rem;
+                }
+                &:last-child,
+                &:nth-last-child(2) {
+                    margin-top: 1.5rem;
+                }
             }
         }
     }

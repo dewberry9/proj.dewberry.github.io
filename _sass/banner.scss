@@ -66,5 +66,15 @@
             }
         }
     }
-
+    &.dark .container {
+        background-color: #1a1531;
+        
+        h2 {
+            color: $background-color;
+            font-weight: 700;
+        }
+        .link-btn {
+            background-color: $bright-color;
+        }
+    }
 }

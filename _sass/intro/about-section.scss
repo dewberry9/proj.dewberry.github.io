@@ -1,6 +1,7 @@
 .about-author {
     margin-bottom: 0;
     background-color: $dark-color;
+    display: block;
     
     .space-container {
         .category-link {
@@ -55,5 +56,11 @@
                 line-height: 1.6;
             }
         }
+    }
+
+    .verticle-banner {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
     }
 }

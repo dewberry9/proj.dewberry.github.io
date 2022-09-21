@@ -17,8 +17,8 @@
 
         button {
             @include transition-o-point-three(all);
-            color: $title-color;
-            border-color: $title-color;
+            color: $text-color;
+            border-color: $text-color;
         }
 
         &:hover {

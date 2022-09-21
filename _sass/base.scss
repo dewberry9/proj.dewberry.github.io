@@ -1,26 +1,26 @@
 @charset "utf-8";
 
 $base-font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
-$base-font-weight: 400 !default;
-$base-line-height: 1.8 !default;
-$base-font-size: 1em !default;
-$small-font-size: 0.8em !default;
+$base-font-weight: 400;
+$base-line-height: 1.8;
+$base-font-size: 1em;
+$small-font-size: 0.8em;
 $title-font-family: "Noto Serif KR";
 
-$text-color: #38373d !default;
-$background-color: #fff !default;
-$primary-color: #363059 !default;
-$title-color: #272629 !default;
-$dark-color: #1f193b !default;
+$text-color: #272629;
+$background-color: #fff;
+$primary-color: #363059;
+$dark-color: #1f193b;
+$bright-color: #4a37ad;
 
-$base-color-tint: #f2f2f2 !default;
-$base-color-tone: #e3e3e6 !default;
-$base-color-tone-text: #c3c3c7 !default;
-$base-color-shade: #86868a !default;
+$base-color-tint: #f2f2f2;
+$base-color-tone: #e3e3e6;
+$base-color-tone-text: #c3c3c7;
+$base-color-shade: #86868a;
 
-$wide-width: 1300px !default;
-$normal-width: 1100px !default;
-$mobile-width: 760px !default;
+$wide-width: 1300px;
+$normal-width: 1100px;
+$mobile-width: 760px;
 
 $base-round: 4px;
 
@@ -160,7 +160,7 @@ h1,
 h2,
 h3 {
     font-weight: 800;
-    color: $title-color;
+    color: $text-color;
     font-family: $title-font-family;
 }
 

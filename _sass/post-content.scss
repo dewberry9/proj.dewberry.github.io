@@ -96,7 +96,7 @@
 
                 svg {
                     margin-left: 1.5rem;
-                    color: $title-color;
+                    color: $text-color;
                     width: 2rem;
                     @include transition-o-point-three(color);
                 }
@@ -131,7 +131,7 @@
         .post-content {
             max-width: $mobile-width;
             width: 100%;
-            margin: 10rem 0 5rem;
+            margin: 10rem 0 3.5rem;
             font-family: $title-font-family;
             letter-spacing: -0.01rem;
 
@@ -149,7 +149,7 @@
                 margin-bottom: 3.5rem;
                 position: relative;
                 line-height: 1.4;
-                color: $title-color;
+                color: $text-color;
                 word-break: keep-all;
                 -webkit-animation: 0.4s ease forwards fade-in;
                         animation: 0.4s ease forwards fade-in;
@@ -161,7 +161,7 @@
             table {
                 font-size: 1.125rem;
                 line-height: 2;
-                margin: 2rem 0;
+                margin: 1.75rem 0;
             }
 
             ul,
@@ -208,7 +208,12 @@
             }
 
             a {
-                text-decoration: underline;
+                border-bottom: 2px solid $bright-color;
+                color: $text-color;
+
+                &:hover {
+                    color: $bright-color;
+                }
             }
 
             h2 {
@@ -264,9 +269,61 @@
 
             .img-caption {
                 font-size: 0.875rem;
-                text-align: center;
                 line-height: 1;
                 font-family: $base-font-family;
+            }
+        }
+
+        .post-feedback {
+            border-top: 1px solid $base-color-tone;
+            padding: 3.5rem 0;
+            width: 100%;
+            max-width: $mobile-width;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+
+            p {
+                font-size: 1rem;
+                line-height: 1;
+                margin-bottom: 1rem;
+                text-align: center;
+                font-weight: 600;
+                -ms-flex-preferred-size: 100%;
+                    flex-basis: 100%;
+            }
+
+            a {
+                background-color: $primary-color;
+                color: $background-color;
+                padding: 0.5rem 0.75rem;
+                font-size: 0.875rem;
+                font-weight: 600;
+                border-radius: $base-round;
+                display: block;
+                @include transition-o-point-three(all);
+
+                &:last-child {
+                    margin-left: 0.75rem;
+                }
+                &:hover {
+                    background-color: $dark-color;
+                    color: $base-color-tone;
+                    -webkit-transform: scale(0.95);
+                        -ms-transform: scale(0.95);
+                            transform: scale(0.95);
+                }
+    
+                &:active {
+                    -webkit-transform: scale(0.9);
+                        -ms-transform: scale(0.9);
+                            transform: scale(0.9);
+                }
             }
         }
 
@@ -400,6 +457,10 @@
                 .post-title {
                     font-size: 2rem;
                 }
+            }
+
+            .post-feedback {
+                padding: 2.5rem 0;
             }
 
             .shouk-container {
