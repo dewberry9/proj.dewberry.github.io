@@ -176,6 +176,15 @@
                 }
             }
 
+            a {
+                border-bottom: 2px solid $bright-color;
+                color: $text-color;
+
+                &:hover {
+                    color: $bright-color;
+                }
+            }
+
             > p.right-infor {
                 text-align: right;
             }
@@ -191,6 +200,15 @@
                 em {
                     font-weight: 600;
                 }
+
+                a {
+                    color: $base-color-shade;
+                    border-bottom: 1px solid $base-color-shade;
+                    &:hover {
+                        color: $base-color-tone-text;
+                        border-color: $base-color-tone-text;
+                    }
+                }
             }
 
             > p.infor:first-of-type {
@@ -205,15 +223,6 @@
             > p.full-size,
             > p.normal-size {
                 line-height: 1;
-            }
-
-            a {
-                border-bottom: 2px solid $bright-color;
-                color: $text-color;
-
-                &:hover {
-                    color: $bright-color;
-                }
             }
 
             h2 {

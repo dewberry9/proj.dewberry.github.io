@@ -12,9 +12,10 @@
             <mj-class name="title-font" font-weight="bold" color="#1f193b" />
             <mj-section padding="30px 25px" />
             <mj-class name="font-size-lg" font-size="20px" />
-            <mj-class name="text-content" line-height="1.8" padding-bottom="25px" font-size="17px" />
+            <mj-class name="text-content" line-height="1.8" padding-bottom="25px" font-size="16px" />
             <mj-class name="text-footer" line-height="1" font-size="14px" color="#767378" />
             <mj-image border-radius="4px" padding="0 0 25px" />
+            <mj-class name="btn-primary" background-color="#201a3c" font-size="16px" line-height="1" />
         </mj-attributes>
     </mj-head>    
     <mj-body>
@@ -31,7 +32,7 @@
         <mj-section mj-class="white-background">
             <mj-column>
                 <mj-text mj-class="title-font sans font-size-lg" padding-bottom="15px">
-                    <h1 style="word-break: keep-all; margin: 0; line-height:1.25; font-size: 30px">
+                    <h1 style="word-break: keep-all; margin: 0; line-height:1.25; font-size: 28px">
                         마케팅 채널 적합성, 수익성? 먼저 Language/Market Fit부터 검증하세요.
                     </h1>
                 </mj-text>
@@ -47,11 +48,11 @@
     <!-- Content -->
         <mj-section mj-class="white-background">
             <mj-column>
-                <mj-image alt="Product/Market Fit의 위기" src="https://res.cloudinary.com/mag-epmat/image/upload/v1663160960/design/2022-09-15-start-with-language-market-fit/02_z_jvzbpt.jpg" />
+                <mj-image alt="Product/Market Fit의 위기" src="./test.jpg" />
                 <mj-text mj-class="text-content">오랫동안 아이디어 검증에서의 Product/Market Fit의 지위는 굳건했습니다. 시장에 적합한 아이디어만이 살아남습니다. 팀(제품 개발 조직), 비즈니스, 심지어 제품 자체도 시장에 비해서는 중요하지 않습니다.</mj-text>
                 <mj-text mj-class="text-content">그러나 상황이 바뀌었습니다. 성장 비용이 증가함에 따라 단기적인 확장보다 장기적인 생존이 더 중요한 가치로 여겨지면서, 적절한 고객 유입 채널의 확보와 수익성 등 아이디어 검증에 요구되는 영역이 넓어졌습니다. 아이디어 검증은 무겁고 복잡해졌습니다. 해결책은? <b>Language/Market Fit</b>입니다.</mj-text>
                 <mj-text mj-class="text-content">Language/Market Fit란 뭘까요? 작동 원리와 장점, 프로세스를 사례와 함께 알아보겠습니다.</mj-text>
-                <mj-button mj-class="sans" background-color="#201a3c" font-size="16px"
+                <mj-button mj-class="sans btn-primary"
                     href="https://dewberry9.github.io/start-with-language-market-fit?utm_source=newsletter&utm_medium=content">
                     아티클 보러가기
                 </mj-button>
