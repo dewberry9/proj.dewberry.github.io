@@ -1,7 +1,7 @@
 ---
 title: 봄이 닿지 않는 그곳. 범우문고 <설국>
 layout: post
-category: review
+category: read
 date: 2021-01-18 00:00:00 +0900
 excerpt: 이 소설의 주인공은 아무것도 하지 않는다. 범우문고 <설국> 리뷰.
 thumbnail: /assets/images/daily/the-snow-country/01.jpg

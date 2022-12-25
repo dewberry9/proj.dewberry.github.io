@@ -60,8 +60,8 @@ $base-cubic-bezier: cubic-bezier(0.8, 0, 0.2, 1);
 
 @-webkit-keyframes smooth-rise {
     from {
-        -webkit-transform: translateY(10rem);
-        transform: translateY(10rem);
+        -webkit-transform: translateY(8rem);
+        transform: translateY(8rem);
     }
     to {
         -webkit-transform: translateY(0);
@@ -71,8 +71,8 @@ $base-cubic-bezier: cubic-bezier(0.8, 0, 0.2, 1);
 
 @keyframes smooth-rise {
     from {
-        -webkit-transform: translateY(10rem);
-        transform: translateY(10rem);
+        -webkit-transform: translateY(8rem);
+        transform: translateY(8rem);
     }
     to {
         -webkit-transform: translateY(0);
@@ -98,8 +98,8 @@ a {
 }
 
 .rise-animated {
-    -webkit-animation: smooth-rise 0.3s $base-cubic-bezier forwards;
-    animation: smooth-rise 0.3s $base-cubic-bezier forwards;
+    -webkit-animation: smooth-rise 0.25s $base-cubic-bezier forwards;
+    animation: smooth-rise 0.25s $base-cubic-bezier forwards;
 
     &.second-position {
         -webkit-animation-delay: 0.1s;
