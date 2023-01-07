@@ -5,7 +5,6 @@ excerpt: '한 사람을 구축하는 건 무수히 쌓인 사적 취향이 아�
 thumbnail: /assets/images/ogimages/main.jpg
 stylecss: /assets/intro.css
 ---
-{% assign dateNow = 'now' | date: '%s' %}
 
 <section class="starting-point" id="nav-set">
     <div class="txt-container">
@@ -39,25 +38,19 @@ stylecss: /assets/intro.css
     </div>
     <div class="space-right">        
         <div class="post-list two-row">
-            {% assign count = 0 %}
-            {% for post in site.categories.design-teatime limit: 5 %}            
-                {% assign postDate = post.date | date: '%s' %}
-                {% if count > 3 or dateNow < postDate %}
-                    {% break %}
-                {% else %}
-                    {% assign count = count | plus: 1 %}
-                    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
-                        <div class="post-thumbnail">
-                            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+            {% assign posts = site.product_design | reverse %}
+            {% for post in posts limit: 4 %}            
+                <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+                    </div>
+                    <div class="post-description">
+                        <div class="post-intro">
+                            <h3>{{ post.title }}</h3>
+                            <p class="post-excerpt">{{ post.excerpt }}</p>
                         </div>
-                        <div class="post-description">
-                            <div class="post-intro">
-                                <h3>{{ post.title }}</h3>
-                                <p class="post-excerpt">{{ post.excerpt }}</p>
-                            </div>
-                        </div>
-                    </a>                    
-                {% endif %}
+                    </div>
+                </a>  
             {% endfor %}            
             <div class="ads-container ads-container-mobile-feedcard rise-target sequential-rise-target">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7525347021497850" crossorigin="anonymous"></script>
@@ -82,26 +75,20 @@ stylecss: /assets/intro.css
     </div>
     <div class="space-right">        
         <div class="post-list two-row">
-            {% assign count = 0 %}
-            {% for post in site.categories.review limit: 5 %}            
-                {% assign postDate = post.date | date: '%s' %}
-                {% if count > 3 or dateNow < postDate %}
-                    {% break %}
-                {% else %}
-                    {% assign count = count | plus: 1 %}
-                    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
-                        <div class="post-thumbnail">
-                            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+            {% assign posts = site.drink | reverse %}
+            {% for post in posts limit: 4 %}            
+                <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+                    </div>
+                    <div class="post-description">
+                        <div class="post-intro">
+                            <h3>{{ post.title }}</h3>
+                            <p class="post-excerpt">{{ post.excerpt }}</p>
                         </div>
-                        <div class="post-description">
-                            <div class="post-intro">
-                                <h3>{{ post.title }}</h3>
-                                <p class="post-excerpt">{{ post.excerpt }}</p>
-                            </div>
-                        </div>
-                    </a>                    
-                {% endif %}
-            {% endfor %}            
+                    </div>
+                </a>  
+            {% endfor %}          
             <div class="ads-container ads-container-mobile-feedcard rise-target sequential-rise-target">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7525347021497850" crossorigin="anonymous"></script>
                 <ins class="adsbygoogle"
@@ -135,26 +122,20 @@ stylecss: /assets/intro.css
     </div>
     <div class="space-right">        
         <div class="post-list two-row">
-            {% assign count = 0 %}
-            {% for post in site.categories.read limit: 5 %}            
-                {% assign postDate = post.date | date: '%s' %}
-                {% if count > 3 or dateNow < postDate %}
-                    {% break %}
-                {% else %}
-                    {% assign count = count | plus: 1 %}
-                    <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
-                        <div class="post-thumbnail">
-                            <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+            {% assign posts = site.read | reverse %}
+            {% for post in posts limit: 4 %}            
+                <a title="{{ post.title | prepend: ' - ' | prepend: site.title}}" href="{{ post.url }}" class="post-list-item rise-target sequential-rise-target">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('{{ post.thumbnail }}')"></div>
+                    </div>
+                    <div class="post-description">
+                        <div class="post-intro">
+                            <h3>{{ post.title }}</h3>
+                            <p class="post-excerpt">{{ post.excerpt }}</p>
                         </div>
-                        <div class="post-description">
-                            <div class="post-intro">
-                                <h3>{{ post.title }}</h3>
-                                <p class="post-excerpt">{{ post.excerpt }}</p>
-                            </div>
-                        </div>
-                    </a>                    
-                {% endif %}
-            {% endfor %}            
+                    </div>
+                </a>  
+            {% endfor %}           
             <div class="ads-container ads-container-mobile-feedcard rise-target sequential-rise-target">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7525347021497850" crossorigin="anonymous"></script>
                 <ins class="adsbygoogle"

@@ -3,7 +3,8 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
+  {% assign documents = site.documents | sort: 'date' | reverse %}
+  {% for post in documents %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.lastmod == null %}
@@ -19,18 +20,23 @@ layout: null
     </url>
   {% endfor %}
   <url>
+    <loc>https://dewberry9.github.io/read</loc>
+    <lastmod>{{ site.read[0].date | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://dewberry9.github.io/review</loc>
-    <lastmod>{{ site.categories.review[0].date | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ site.drink[0].date | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://dewberry9.github.io/article</loc>
-    <lastmod>{{ site.categories.design-teatime[0].date | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ site.product_design[0].date | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://dewberry9.github.io/</loc>
-    <lastmod>{{ site.posts[0].date | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ documents[0].date | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
   </url>
 </urlset>

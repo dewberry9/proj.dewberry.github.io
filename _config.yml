@@ -6,10 +6,20 @@ author: "이준환"
 url: "https://dewberry9.github.io"
 cdn_url: "https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io"
 show_excerpts: true
+collections_dir: collections
+collections:
+    product_design:
+        output: true
+    drink:
+        output: true
+    read:
+        output: true
+
 # Build settings
 markdown: kramdown
 pagination:
     enabled: true
+    collection: all
     per_page: 11
     limit: 0
     sort_field: "date"
