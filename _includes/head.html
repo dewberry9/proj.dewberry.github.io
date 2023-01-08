@@ -31,9 +31,19 @@
     <meta name="twitter:title" content="{% if page.title == 'intro' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{ page.excerpt }}">
     <meta name="twitter:image" content='{{ page.thumbnail | absolute_url }}'>
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
     <meta name="twitter:site" content="{{ site.title }}">
+
+    {% if page.collection %}
+      {% assign current_collection = site.data.collection_info | where: "name", page.collection | first %}
+      <meta name="twitter:label1" content="Category">
+      <meta name="twitter:data1" content="{{ current_collection.short }}">
+      {% if page.tag and page.tag != 'ETC' %}
+        <meta name="twitter:label2" content="Topic">
+        <meta name="twitter:data2" content="{{ page.tag }}">
+      {% endif %}
+    {% endif %}
     <!-- Other Basic Meta Tag -->
     <meta name="title" content="{% if page.title == 'intro' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
     <meta name="description" content="{{ page.excerpt }}">
@@ -47,10 +57,10 @@
     <meta property="article:pc_service_home" content="{{ site.url }}">
     <meta property="article:mobile_service_home" content="{{ site.url }}">
     <!-- Post Date Tag -->
-    {% if page.title != 'intro' %}
-    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-    <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}">
-    <meta property="og:regDate" content="{{ page.date | date: '%Y%m%d%H%M%S' }}">
+    {% if page.date %}
+      <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+      <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}">
+      <meta property="og:regDate" content="{{ page.date | date: '%Y%m%d%H%M%S' }}">
     {% endif %}
     <!-- JSON-LD -->
     <script type="application/ld+json">
@@ -100,6 +110,7 @@
     <link rel="stylesheet preload prefetch" as="style" type="text/css" href='{{ page.stylecss }}'>
     <link rel="canonical" href="{{ site.url }}{{ page.url | remove: 'index.html' }}">
     <link rel="alternate" href="{{ site.url }}/feed.xml" type="application/atom+xml" title="Atom 0.3">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
 
     <!-- Fonts -->
     <link rel="stylesheet preload prefetch" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
