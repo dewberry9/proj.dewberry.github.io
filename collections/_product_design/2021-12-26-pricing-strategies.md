@@ -6,7 +6,7 @@ date: 2021-12-26 00:00:00 +0900
 excerpt: 넷플릭스는 가격 책정으로 80만 고객을 잃은 적도, 35%의 수익 성장률을 달성한 적도 있습니다. 구독 서비스 가격 책정, 그 전략에 대해 알아봅니다.
 thumbnail: /assets/images/design/pricing-strategies/00.jpg
 permalink: /pricing-strategies
-topic: Business Model
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

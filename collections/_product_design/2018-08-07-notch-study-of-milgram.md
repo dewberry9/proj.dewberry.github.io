@@ -6,7 +6,7 @@ date: 2018-08-07 00:00:00 +0900
 excerpt: iPhone X의 등장으로 스마트폰 시장에는 반짝 노치 열풍이 불었습니다. 1년이 되어가는 금, 이 바람은 차갑게 식었습니다. 독선적이고 과도기적인 노치가 왜 문제인지 짚어보도록 하겠습니다.
 thumbnail: /assets/images/05-notch-study-of-milgram/01.jpg
 permalink: /notch-study-of-milgram
-topic: UX Design
+tag: 'UX'
 stylecss: /assets/post.css
 ---
 ![Unwanted Blueprint, Notch]({{ site.cdn_url | append: "/assets/images/05-notch-study-of-milgram/01.jpg" }} "바라지 않는 청사진, 노치"){: loading='lazy'}

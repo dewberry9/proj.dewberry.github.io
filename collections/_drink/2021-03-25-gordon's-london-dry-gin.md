@@ -6,7 +6,7 @@ date: 2021-03-25 00:00:00 +0900
 excerpt: 진은 칵테일에 자주 쓰이는 재료입니다. 그런데 진만 따로 마셔본 적 있나요? 좋든 나쁘든 인상만큼은 강할 겁니다. 런던 드라이 진 고든스 리뷰.
 thumbnail: /assets/images/daily/gordons-london-dry-gin/00.jpg
 permalink: /gordons-london-dry-gin
-topic: Gin
+tag: '칵테일/리큐르'
 stylecss: /assets/post.css
 ---
 

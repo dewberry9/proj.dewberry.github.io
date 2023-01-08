@@ -6,7 +6,7 @@ date: 2018-11-30 00:00:00 +0900
 excerpt: 유용한 디자인, 쉬운 디자인을 겨쳐 오늘날의 디지털 프로덕트가 안고 있는 문제점을 편안한 디자인이 해결책이 됩니다.
 thumbnail: /assets/images/12-next-step-the-cozy/01.jpg
 permalink: /next-step-the-cozy
-topic: UX Design
+tag: 'UX'
 stylecss: /assets/post.css
 ---
 

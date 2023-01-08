@@ -6,7 +6,7 @@ date: 2021-11-23 00:00:00 +0900
 excerpt: 커뮤니티 성과 측정은 조직 전체가 커뮤니티 업무를 효과적으로 이해하고 수행하는데 필요합니다. SPACES 모델로 시작해보는 건 어떨까요?
 thumbnail: /assets/images/design/product-community-metrics/00.jpg
 permalink: /product-community-metrics
-topic: UX Design
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

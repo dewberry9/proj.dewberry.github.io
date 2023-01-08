@@ -6,7 +6,7 @@ date: 2022-06-19 00:00:00 +0900
 excerpt: 카테고리는 유용한 탐색 도구입니다. 그런데 카테고리가 제품의 위기를 극복하고 성장 기회를 만든다고 한다면 어떤가요? 제품 사례 분석을 통해 알아보겠습니다.
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1655539468/design/2022-06-20-category-design/00_heuwwr.jpg
 permalink: /category-design-study-case
-topic: Case Study
+tag: 'UX'
 stylecss: /assets/post.css
 ---
 

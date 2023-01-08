@@ -6,7 +6,7 @@ date: 2018-08-29 00:00:00 +0900
 excerpt: 만성적인 영감 부족에 시달리는 오늘날의 디자이너, 어떻게 하면 영감을 얻을 수 있을까요? 디자인 사고를 바탕으로 이를 해결합니다.
 thumbnail: /assets/images/07-how-to-swims-in-inspiration/02.jpg
 permalink: /how-to-swims-in-inspiration
-topic: Design Tip
+tag: 'ETC'
 stylecss: /assets/post.css
 ---
 ![Infinite Loop]({{ site.cdn_url | append: '/assets/images/07-how-to-swims-in-inspiration/01.jpg'}} "무한루프"){: loading='lazy'}

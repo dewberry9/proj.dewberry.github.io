@@ -6,7 +6,7 @@ date: 2022-09-15 06:30:00 +0900
 excerpt: 비싸진 Product/Market Fit 검증, 대안은 Language/Market Fit입니다. LMF 제품 사례, 장점, 프로세스에 대해 이야기합니다. 
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1663161220/design/2022-09-15-start-with-language-market-fit/00_z_x5t0fl.jpg
 permalink: /start-with-language-market-fit
-topic: UX Design
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

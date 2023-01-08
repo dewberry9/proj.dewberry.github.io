@@ -6,7 +6,7 @@ date: 2022-08-03 00:00:00 +0900
 excerpt: 화려한 병 디자인만큼이나 화려한 맛을 자랑하는 디사론노. 이 술을 아몬드 리큐르라고 해야 할까요, 살구씨 리큐르라고 해야 할까요?
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1659443331/review/disaronno-and-godfather/00_ux9xyc.jpg
 permalink: /disaronno-and-godfather
-topic: Amaretto
+tag: '칵테일/리큐르'
 stylecss: /assets/post.css
 ---
 

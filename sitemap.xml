@@ -34,6 +34,14 @@ layout: null
     <lastmod>{{ site.product_design[0].date | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  {% for collection in site.data.collection_info %}
+    {% for tag in collection.tags %}
+      <url>
+        <loc>https://dewberry9.github.io{{ tag.link }}</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    {% endfor %}
+  {% endfor %}
   <url>
     <loc>https://dewberry9.github.io/</loc>
     <lastmod>{{ documents[0].date | date_to_xmlschema }}</lastmod>

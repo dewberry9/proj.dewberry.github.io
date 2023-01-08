@@ -336,9 +336,14 @@ section {
     background-color: transparent;
     font-family: $base-font-family;
     cursor: pointer;
+    @include transition-o-point-three(all);
 
     @include media-query($mobile-width) {
         font-size: 0.875rem;
         padding: 0.375rem 0.5rem;
+    }
+
+    &:hover {
+        border-color: $base-color-tone-text;
     }
 }

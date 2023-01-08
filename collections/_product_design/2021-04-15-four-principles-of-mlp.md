@@ -6,7 +6,7 @@ date: 2021-04-14 00:00:00 +0900
 excerpt: 어떻게 해야 성장하는 제품을 만들 수 있을까요? 뉴욕타임즈, 디스코드, 클래스패스, 채널톡의 사례를 통해 MLP 4원칙에 대해 알아봅니다.
 thumbnail: /assets/images/design/four-principles-of-mlp/00.jpg
 permalink: /four-principles-of-mlp
-topic: UX Design
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

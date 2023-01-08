@@ -6,7 +6,7 @@ date: 2020-11-11 00:00:00 +0900
 excerpt: AB 테스트가 좋은 건 알겠는데 막막하지 않나요? 가설 수립부터 결과 분석까지 3단계로 살펴봅니다.
 thumbnail: /assets/images/design/3step-ab-test/01.jpg
 permalink: /3step-ab-test
-topic: AB Test
+tag: 'A/B 테스트'
 stylecss: /assets/post.css
 ---
 

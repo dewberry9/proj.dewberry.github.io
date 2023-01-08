@@ -6,7 +6,7 @@ date: 2021-05-20 00:00:00 +0900
 excerpt: 좋은 온보딩은 가는 고객을 막을 뿐만 아니라, 돈도 20% 더 쓰게 합니다. 포그 행동 모델과 여러 전략을 살펴보며 좋은 온보딩을 알아봅니다.
 thumbnail: /assets/images/design/product-led-growth-onboarding/00.jpg
 permalink: /product-led-growth-onboarding
-topic: UX Design
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

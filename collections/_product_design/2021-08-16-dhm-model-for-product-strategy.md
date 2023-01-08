@@ -6,7 +6,7 @@ date: 2021-08-15 00:00:00 +0900
 excerpt: 좋은 제품은 좋은 전략으로부터 나옵니다. 그럼 좋은 전략은? 넷플릭스 전 부사장의 제품 전략 수립·평가 방법론 DHM 모델을 알아봅니다.
 thumbnail: /assets/images/design/dhm-model-for-product-strategy/00.jpg
 permalink: /dhm-model-for-product-strategy
-topic: UX Design
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

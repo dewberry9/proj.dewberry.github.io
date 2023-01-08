@@ -6,7 +6,7 @@ date: 2020-09-19 00:00:00 +0900
 excerpt: 푹 익은 과일을 베어무는 듯한 풍부함. 싱글 몰트 위스키 스카치 하이랜드 파크 12년 리뷰.
 thumbnail: /assets/images/daily/03-highland-park-12/01.jpg
 permalink: /highland-park-12
-topic: Whisky
+tag: '싱글 몰트 위스키'
 stylecss: /assets/post.css
 ---
 

@@ -6,7 +6,7 @@ date: 2021-09-26 00:00:00 +0900
 excerpt: 모바일 디바이스만 7개가 나왔던 이번 애플 이벤트. 역시 새로운 건 없었습니다. 그러나 애플의 고객은 큰 폭으로 확장될 것입니다. 왜일까요?
 thumbnail: /assets/images/design/2021-september-apple-special-event-review/00.jpg
 permalink: /2021-september-apple-special-event-review
-topic: Trend
+tag: 'ETC'
 stylecss: /assets/post.css
 ---
 

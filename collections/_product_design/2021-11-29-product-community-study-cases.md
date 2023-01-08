@@ -6,7 +6,7 @@ date: 2021-11-28 00:00:00 +0900
 excerpt: 제품의 만능 성장 동력, 커뮤니티. 실제 제품에서는 어떻게 활용되고 있을까요? 3가지 제품의 커뮤니티 전략을 분석합니다.
 thumbnail: /assets/images/design/product-community-study-cases/00.jpg
 permalink: /product-community-study-cases
-topic: Case Study
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

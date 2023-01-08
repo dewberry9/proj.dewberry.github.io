@@ -6,7 +6,7 @@ date: 2021-04-23 00:00:00 +0900
 excerpt: 듣기만 해도 클래식한 그 이름 마티니. 그런데 마티니라고 큼직하게 이름 붙은 이 초록병은 또 뭘까요? 드라이 베르무트 마티니 엑스트라 드라이 리뷰.
 thumbnail: /assets/images/daily/martini-extra-dry/00.jpg
 permalink: /martini-extra-dry
-topic: Vermouth
+tag: '칵테일/리큐르'
 stylecss: /assets/post.css
 ---
 

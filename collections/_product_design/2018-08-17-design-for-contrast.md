@@ -6,7 +6,7 @@ date: 2018-08-17 00:00:00 +0900
 excerpt: 좋은 디자인은 보기 쉬운 디자인입니다. 이를 위해서는 요소를 불균형하게 채울 필요가 있습니다. 대비를 고려하면 좋은 디자인을 만들 수 있습니다.
 thumbnail: /assets/images/06-design-for-contrast/01.jpg
 permalink: /design-for-contrast
-topic: UI Design
+tag: 'UI'
 stylecss: /assets/post.css
 ---
 ![Garden VS Yard]({{ site.cdn_url | append: '/assets/images/06-design-for-contrast/01.jpg'}} "앞뜰만의 매력이 있지 않을까"){: loading='lazy'}

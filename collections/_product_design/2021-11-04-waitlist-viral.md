@@ -6,7 +6,7 @@ date: 2021-11-04 00:00:00 +0900
 excerpt: 어떻게 하면 고객이 다른 고객을 데려오도록 할 수 있을까요? 대기자 명단 바이럴(Waitlist Viral)의 3가지 핵심을 분석하며 알아봅니다.
 thumbnail: /assets/images/design/waitlist-viral/00.jpg
 permalink: /waitlist-viral
-topic: Marketing
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

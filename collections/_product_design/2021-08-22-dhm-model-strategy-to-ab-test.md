@@ -6,7 +6,7 @@ date: 2021-08-22 00:00:00 +0900
 excerpt: 넷플릭스 DHM 모델은 제품 전략을 세웁니다. 이제 전략을 실무적인 AB 테스트 단계까지 끌어 내려야합니다. 이 과정에서 필요한 것을 살펴봅니다.
 thumbnail: /assets/images/design/dhm-model-strategy-to-ab-test/00.jpg
 permalink: /dhm-model-strategy-to-ab-test
-topic: UX Design
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

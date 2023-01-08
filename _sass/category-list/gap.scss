@@ -1,4 +1,8 @@
 .post-list {
     min-height: 75vh;
-    margin-top: 2.5rem;
+    padding-top: 3rem;
+
+    @include media-query($mobile-width) {
+        padding-top: 1rem;
+    }
 }

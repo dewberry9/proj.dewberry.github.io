@@ -6,7 +6,7 @@ date: 2021-11-18 00:00:00 +0900
 excerpt: 커뮤니티. 만들면 좋다고는 하는데, 정확히 어떻게 제품에 기여하는 걸까요? 세일즈포스, 레딧, 프로덕트 헌트의 사례로 살펴봅니다.
 thumbnail: /assets/images/design/product-community-as-a-growth-engine/00.jpg
 permalink: /product-community-as-a-growth-engine
-topic: UX Design
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

@@ -6,7 +6,7 @@ date: 2018-08-01 00:00:00 +0900
 excerpt: 블러는 아름다운 효과지만 인터랙션 디자인에서 그 쓰임은 매우 조심스럽습니다. 이번 이야기는 블러의 바람직한 사용법에 대한 것입니다.
 thumbnail: /assets/images/04-blur-is-cloudy-after-click/01.jpg
 permalink: /blur-is-cloudy-after-click
-topic: UI Design
+tag: 'UI'
 stylecss: /assets/post.css
 ---
 ![My Glasses T.T]({{ site.cdn_url | append: "/assets/images/04-blur-is-cloudy-after-click/01.jpg" }} "내 안경 T.T"){: loading='lazy'}

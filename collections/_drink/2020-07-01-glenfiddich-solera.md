@@ -6,7 +6,7 @@ date: 2020-07-02 00:00:00 +0900
 excerpt: 여전히 발랄한 향, 한층 느긋해진 맛. 스페이사이드 싱글 몰트 위스키 글렌피딕 15년 리뷰.
 thumbnail: /assets/images/daily/02-glenfiddich-solera/01.jpg
 permalink: /glenfiddich-solera
-topic: Whisky
+tag: '싱글 몰트 위스키'
 stylecss: /assets/post.css
 ---
 

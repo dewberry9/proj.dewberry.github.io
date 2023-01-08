@@ -6,7 +6,7 @@ date: 2022-02-11 00:00:00 +0900
 excerpt: 아쿠타가와, 피츠제럴드, 이언 플레밍. 과연 블랙 앤 화이트는 예술가의 주목을 받은 스카치입니다. 블랙 앤 화이트를 쌀쌀한 날씨에 꼭 맞는 칵테일, 핫토디와 함께 마셔봅니다.
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1644497804/review/black-and-white-with-hot-toddy/00_aotgjl.jpg
 permalink: /black-and-white-with-hot-toddy
-topic: Whisky
+tag: '블렌디드 위스키'
 stylecss: /assets/post.css
 ---
 

@@ -6,7 +6,7 @@ date: 2022-01-09 00:00:00 +0900
 excerpt: 제품이 살아남으려면 비즈니스 모델이 사용료 청구라는 인식에서 벗어나야 합니다. 고객과 윈윈하는 비즈니스 모델의 3가지 조건을 살펴봅니다.
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1641623493/design/win-win-business-model/00_xswbs8.jpg
 permalink: /win-win-business-model
-topic: Business Model
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

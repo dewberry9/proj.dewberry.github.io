@@ -6,7 +6,7 @@ date: 2021-10-07 00:00:00 +0900
 excerpt: 앞으로 디자인 시스템이 가야할 길은 어디일까요? 지원 툴, 코딩, 의사결정 민주화... 트렌드 분석을 통해 얻은 3가지 방향성을 설명하겠습니다.
 thumbnail: /assets/images/design/future-of-design-system/00.jpg
 permalink: /future-of-design-system
-topic: Trend
+tag: 'ETC'
 stylecss: /assets/post.css
 ---
 

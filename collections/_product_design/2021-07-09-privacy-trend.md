@@ -6,7 +6,7 @@ date: 2021-07-08 00:00:00 +0900
 excerpt: Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC... 사용자가, 시장의 규칙이 바뀌고 있습니다. 프라이버시 트렌드에 대해 정리합니다.
 thumbnail: /assets/images/design/privacy-trend/00.jpg
 permalink: /privacy-trend
-topic: Trend
+tag: 'ETC'
 stylecss: /assets/post.css
 ---
 

@@ -6,7 +6,7 @@ date: 2021-08-08 00:00:00 +0900
 excerpt: 디자이너의 오랜 고민거리 폼. 통계 데이터를 바탕으로 폼 전환율을 개선할 수 있는 5가지 팁을 준비했습니다.
 thumbnail: /assets/images/design/5-form-design-tips/00.jpg
 permalink: /5-form-design-tips
-topic: UX Design
+tag: 'UX'
 stylecss: /assets/post.css
 ---
 

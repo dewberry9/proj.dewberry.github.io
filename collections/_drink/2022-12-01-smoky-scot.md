@@ -6,7 +6,7 @@ date: 2022-12-01 00:00:00 +0900
 excerpt: 4만원 대 싱글 몰트 위스키 스모키 스캇. 5년 숙성이지만 피트 위스키라 오히려 좋습니다. 한 잔 기울이며 그 이유를 알아봅니다.
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1669815226/review/smoky-scot/0_pxhqmp.jpg
 permalink: /smoky-scot
-topic: Whisky
+tag: '싱글 몰트 위스키'
 stylecss: /assets/post.css
 ---
 

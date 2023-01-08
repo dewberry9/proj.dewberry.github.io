@@ -6,7 +6,7 @@ date: 2021-10-21 00:00:00 +0900
 excerpt: 어정쩡한 고객 피드백과 프로덕트 마켓 핏 사이에서 갈팡질팡하고 있다면, MVP보다 더 MVP스러운 전략 MVT가 나설 때입니다.
 thumbnail: /assets/images/design/why-mvp-as-a-product-fails-try-mvt/00.jpg
 permalink: /why-mvp-as-a-product-fails-try-mvt
-topic: UX Design
+tag: '프로덕트'
 stylecss: /assets/post.css
 ---
 

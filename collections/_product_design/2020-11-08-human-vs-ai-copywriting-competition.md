@@ -6,7 +6,7 @@ date: 2020-11-08 00:00:00 +0900
 excerpt: 인간의 카피와 GPT-3의 카피라이팅 대결. 누가 승리했을까요?
 thumbnail: /assets/images/design/human-vs-ai-copywriting-competition/01.jpg
 permalink: /human-vs-ai-copywriting-competition
-topic: AB Test
+tag: 'A/B 테스트'
 stylecss: /assets/post.css
 ---
 

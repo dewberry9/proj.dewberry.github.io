@@ -6,7 +6,7 @@ date: 2022-02-06 00:00:00 +0900
 excerpt: AB 테스트의 영향력과 성공률을 동시에 높이면서, 동시에 실험 문화 확산까지 챙기는 전략이 있습니다. 바로 효과적인 가설이죠. 이런 가설은 어떻게 만들까요?
 thumbnail: https://res.cloudinary.com/mag-epmat/image/upload/v1644125703/design/conditions-for-an-effective-ab-test-hypothesis/00_l1xzea.jpg
 permalink: /conditions-for-an-effective-ab-test-hypothesis
-topic: AB Test
+tag: 'A/B 테스트'
 stylecss: /assets/post.css
 ---
 
