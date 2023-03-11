@@ -10,7 +10,7 @@ tag: 'Novel'
 stylecss: /assets/post.css
 ---
 
-&lt;낙원의 이편(This Side of Paradise)&gt;, &lt;밤은 부드러워(Tender Is the Night)&gt;, 그리고 물론 &lt;위대한 개츠비(The Great Gatsby)&gt;. 오늘날까지 피츠제럴드(Francis Scott Key Fitzgerald)의 이름을 밝히고 있는 건 장편 작품입니다. 하지만 44년의 생에 동안 160여 편에 달하는 단편을 쓴 그는 우선 단편 작가입니다.
+&lt;낙원의 이편(This Side of Paradise)&gt;, &lt;밤은 부드러워(Tender Is the Night)&gt;, 그리고 물론 &lt;위대한 개츠비(The Great Gatsby)&gt;. 오늘날까지 피츠제럴드(Francis Scott Key Fitzgerald)의 이름을 밝히고 있는 건 장편 작품입니다. 하지만 44년의 생애 동안 160여 편에 달하는 단편을 쓴 그는 우선 단편 작가입니다.
 
 많은 글이 대중잡지 독자 입맛에 맞춘 통속적 내용으로 쓰였습니다. 돈을 벌기 위해 쓰인 그 작품들에 좋은 평가를 하는 사람은 거의 없습니다. 작가 본인부터 스스럼 없이 그 가치를 깎아내렸습니다.
 
