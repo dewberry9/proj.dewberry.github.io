@@ -1,6 +1,6 @@
 <mjml>
     <mj-head>
-        <mj-preview>비싸진 Product/Market Fit 검증, 대안은 Language/Market Fit입니다. LMF 제품 사례, 장점, 프로세스에 대해 이야기합니다. </mj-preview>
+        <mj-preview>셰리, 버번, 피트까지. 종잡기 어려운 개성의 벤로막 10년</mj-preview>
 
         <mj-font name="Noto Serif KR" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" />
         <mj-font name="Pretendard" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
@@ -33,14 +33,14 @@
             <mj-column>
                 <mj-text mj-class="title-font sans font-size-lg" padding-bottom="15px">
                     <h1 style="word-break: keep-all; margin: 0; line-height:1.25; font-size: 28px">
-                        마케팅 채널 적합성, 수익성? 먼저 Language/Market Fit부터 검증하세요.
+                        셰리, 버번, 피트까지. 종잡기 어려운 개성의 벤로막 10년
                     </h1>
                 </mj-text>
                 <mj-text mj-class="sans" font-weight="light" color="#535063" font-size="14px"><p style="margin: 0;">
-                    <a style="text-decoration: none; color: #535063;" href="https://dewberry9.github.io/article/?utm_source=newsletter&utm_medium=content" target="_blank" rel="noopener noreferrer">
-                        프로덕트 디자인
+                    <a style="text-decoration: none; color: #535063;" href="https://dewberry9.github.io/review/?utm_source=newsletter&utm_medium=content" target="_blank" rel="noopener noreferrer">
+                        마시다
                     </a>
-                    | UX 디자인
+                    | 싱글 몰트 위스키
                 </p></mj-text>
             </mj-column>
         </mj-section>
@@ -48,12 +48,12 @@
     <!-- Content -->
         <mj-section mj-class="white-background">
             <mj-column>
-                <mj-image alt="Product/Market Fit의 위기" src="./test.jpg" />
-                <mj-text mj-class="text-content">오랫동안 아이디어 검증에서의 Product/Market Fit의 지위는 굳건했습니다. 시장에 적합한 아이디어만이 살아남습니다. 팀(제품 개발 조직), 비즈니스, 심지어 제품 자체도 시장에 비해서는 중요하지 않습니다.</mj-text>
-                <mj-text mj-class="text-content">그러나 상황이 바뀌었습니다. 성장 비용이 증가함에 따라 단기적인 확장보다 장기적인 생존이 더 중요한 가치로 여겨지면서, 적절한 고객 유입 채널의 확보와 수익성 등 아이디어 검증에 요구되는 영역이 넓어졌습니다. 아이디어 검증은 무겁고 복잡해졌습니다. 해결책은? <b>Language/Market Fit</b>입니다.</mj-text>
-                <mj-text mj-class="text-content">Language/Market Fit란 뭘까요? 작동 원리와 장점, 프로세스를 사례와 함께 알아보겠습니다.</mj-text>
+                <mj-image alt="Benroach 10y" src="https://res.cloudinary.com/mag-epmat/image/upload/v1684332658/review/benroach-10/13_zycfpy.jpg" />
+                <mj-text mj-class="text-content">100년이 넘는 시간 동안 수 차례 주인이 바뀌고, 제대로 제품 생산도 못 한 증류소가 있습니다. 스코틀랜드 스페이사이드의 벤로막(Benroach).</mj-text>
+                <mj-text mj-class="text-content">이 칠전팔기의 증류소에는 오늘날 개성으로는 손에 꼽을 만한 싱글 몰트 위스키가 나옵니다.</mj-text>
+                <mj-text mj-class="text-content">피트 훈연한 몰트로 만든 스피릿을 퍼스트 필 캐스크에 숙성하여, 피트, 버번, 셰리까지 다양한 풍미가 한 병에 담겨 있는 벤로막 10년. 이 멋들어진 술을 살펴봅니다.</mj-text>
                 <mj-button mj-class="sans btn-primary"
-                    href="https://dewberry9.github.io/start-with-language-market-fit?utm_source=newsletter&utm_medium=content">
+                    href="https://dewberry9.github.io/benroach-10?utm_source=newsletter&utm_medium=content">
                     아티클 보러가기
                 </mj-button>
             </mj-column>
@@ -72,8 +72,7 @@
             </mj-column>
             <mj-column width="100%" padding-bottom="25px">
                 <mj-text mj-class="sans text-footer">
-                    <a href="https://www.facebook.com/magepmat" style="color: #767378; font-weight: 500; margin-right: 8px" target="_blank" rel="noopener noreferrer">Facebook</a>
-                    <a href="https://www.instagram.com/mag_epmat/" style="color: #767378; font-weight: 500;" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.instagram.com/mag_epmat_drink/" style="color: #767378; font-weight: 500;" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </mj-text>
             </mj-column>
             <mj-column width="100%">
