@@ -1,6 +1,6 @@
 <mjml>
     <mj-head>
-        <mj-preview>셰리, 버번, 피트까지. 종잡기 어려운 개성의 벤로막 10년</mj-preview>
+        <mj-preview>그레이 존에서 비극은 현실이 된다. &lt;음향과 분노&gt;</mj-preview>
 
         <mj-font name="Noto Serif KR" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" />
         <mj-font name="Pretendard" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
@@ -33,14 +33,14 @@
             <mj-column>
                 <mj-text mj-class="title-font sans font-size-lg" padding-bottom="15px">
                     <h1 style="word-break: keep-all; margin: 0; line-height:1.25; font-size: 28px">
-                        셰리, 버번, 피트까지. 종잡기 어려운 개성의 벤로막 10년
+                        그레이 존에서 비극은 현실이 된다. &lt;음향과 분노&gt;
                     </h1>
                 </mj-text>
                 <mj-text mj-class="sans" font-weight="light" color="#535063" font-size="14px"><p style="margin: 0;">
-                    <a style="text-decoration: none; color: #535063;" href="https://dewberry9.github.io/review/?utm_source=newsletter&utm_medium=content" target="_blank" rel="noopener noreferrer">
-                        마시다
+                    <a style="text-decoration: none; color: #535063;" href="https://dewberry9.github.io/read/?utm_source=newsletter&utm_medium=content" target="_blank" rel="noopener noreferrer">
+                        읽다
                     </a>
-                    | 싱글 몰트 위스키
+                    | 소설
                 </p></mj-text>
             </mj-column>
         </mj-section>
@@ -48,12 +48,14 @@
     <!-- Content -->
         <mj-section mj-class="white-background">
             <mj-column>
-                <mj-image alt="Benroach 10y" src="https://res.cloudinary.com/mag-epmat/image/upload/v1684332658/review/benroach-10/13_zycfpy.jpg" />
-                <mj-text mj-class="text-content">100년이 넘는 시간 동안 수 차례 주인이 바뀌고, 제대로 제품 생산도 못 한 증류소가 있습니다. 스코틀랜드 스페이사이드의 벤로막(Benroach).</mj-text>
-                <mj-text mj-class="text-content">이 칠전팔기의 증류소에는 오늘날 개성으로는 손에 꼽을 만한 싱글 몰트 위스키가 나옵니다.</mj-text>
-                <mj-text mj-class="text-content">피트 훈연한 몰트로 만든 스피릿을 퍼스트 필 캐스크에 숙성하여, 피트, 버번, 셰리까지 다양한 풍미가 한 병에 담겨 있는 벤로막 10년. 이 멋들어진 술을 살펴봅니다.</mj-text>
+                <mj-text mj-class="text-content">독자는 하소연합니다. 소설을 3번이나 읽었는데도 여전히 이해가 안 된다고. 작가는 간결한 해법을 제시합니다. ‘4번 읽으시오.’</mj-text>
+                <mj-text mj-class="text-content">윌리엄 포크너와 &lt;음향과 분노&gt;에 얽힌 일화입니다. 책을 읽기 전에는 얼마나 대단한 걸 썼길래 저리도 자신만만할 수 있는지 작가의 태도에 우선 의문이 들었습니다. 한번 읽고 나서는 생각이 달라졌습니다. 이걸 세 번이나 읽은 그 독자야말로 대단한 사람입니다.</mj-text>
+                <mj-image alt="Benroach 10y" src="https://res.cloudinary.com/mag-epmat/image/upload/v1687614761/read/2023-06-25-the-sound-and-the-fury/03_wkl9ku.jpg" />
+                <mj-text mj-class="text-content">작품은 난해합니다. 플롯, 사건의 인과, 서술까지… 소설의 거의 모든 부분이 그렇습니다.</mj-text>
+                <mj-text mj-class="text-content">이번 글에서는 작품의 난해함을,<br>피해-가해의 회색 지대<br>의도-우연의 회색 지대<br>사고-문장의 회색 지대<br>라는 3가지 구도를 통해 분석해봅니다.</mj-text>
+                <mj-text mj-class="text-content">읽기 어려운 소설에 불과했던 &lt;음향과 분노&gt; 속에서 황홀한 매력을 발견할 수 있을 겁니다.</mj-text>
                 <mj-button mj-class="sans btn-primary"
-                    href="https://dewberry9.github.io/benroach-10?utm_source=newsletter&utm_medium=content">
+                    href="https://dewberry9.github.io/the-sound-and-the-fury?utm_source=newsletter&utm_medium=content">
                     아티클 보러가기
                 </mj-button>
             </mj-column>
@@ -72,7 +74,7 @@
             </mj-column>
             <mj-column width="100%" padding-bottom="25px">
                 <mj-text mj-class="sans text-footer">
-                    <a href="https://www.instagram.com/mag_epmat_drink/" style="color: #767378; font-weight: 500;" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.instagram.com/mag_epmat_read/" style="color: #767378; font-weight: 500;" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </mj-text>
             </mj-column>
             <mj-column width="100%">
