@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+    {% if page.title == 'intro' or page.layout == 'category-list' %}
+      {
+        "@context":"https://schema.org/",
+        "@type":"WebSite",
+        "url":"{{ site.url }}",
+        "name":"{{ site.title }}"
+      }
+    {% else %}
+      {
+        "@context":"https://schema.org/",
+        "@type":"BlogPosting",
+        "mainEntityOfPage":{
+          "@id":"{{ site.url }}{{ page.url | remove: 'index.html' }}"
+        },
+        "url":"{{ site.url }}{{ page.url | remove: 'index.html' }}",
+        "headline":"{{ page.title }} | {{ site.title }}",
+        "description":"{{ page.excerpt }}",
+        "author":{
+          "@type":"Person",
+          "name":"{{ site.author }}",
+          "url":"{{ site.url }}",
+          "email":"{{ site.email }}"
+        },
+        "publisher":{
+          "@type":"Organization",
+          "name":"{{ site.title }}",
+          "logo":{
+            "@type":"ImageObject",
+            "url":"{{ site.url }}/assets/images/logo.png"
+          },
+          "url":"{{ site.url }}",
+          "email":"{{ site.email }}"
+        },
+        "image":{
+          "@type":"ImageObject",
+          "url":"{{ page.thumbnail | absolute_url }}"
+        },
+        "datePublished":"{{ page.date | date_to_xmlschema }}",
+        "dateModified":"{{ page.date | date_to_xmlschema }}"
+      }
+    {% endif %}
+  </script>
